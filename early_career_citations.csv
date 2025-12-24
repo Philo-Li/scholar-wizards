@@ -1,0 +1,99 @@
+name,institution,first_pub_year,early_career_end,early_works_count,early_career_citations,total_citations,h_index,early_pct,top_paper_1,top_paper_1_citations
+David Marr,Massachusetts Institute of Technology,1969,1973,8,6724,28998,29,23.2,A theory of cerebellar cortex,3291
+Sander Nieuwenhuis,Leiden University,1999,2003,16,4446,23933,65,18.6,Electrophysiological correlates of anterior cingulate function in a go/no-go task: Effects of response conflict and trial type frequency,1222
+Samuel J. Gershman,Harvard University,2007,2011,16,3746,20281,71,18.5,Model-Based Influences on Humans' Choices and Striatal Prediction Errors,1868
+Michael Breakspear,Hunter Medical Research Institute,2001,2005,25,3044,31882,87,9.5,Synchronous Gamma activity: a review and contribution to an integrative neuroscience model of schizophrenia,485
+Davd Warland,Harvard University,1996,2000,1,2886,2886,1,100.0,Spikes: Exploring the Neural Code,2886
+Richard Miles,Collège de France,1983,1987,18,2591,15098,62,17.2,Excitatory synaptic interactions between CA3 neurones in the guinea‐pig hippocampus.,502
+Panayiota Poirazi,FORTH Institute of Molecular Biology and Biotechnology,1999,2003,6,1890,8414,38,22.5,Pyramidal Neuron as Two-Layer Neural Network,802
+Liam Paninski,Columbia University Irving Medical Center,1998,2002,5,1683,22390,67,7.5,Instant neural control of a movement signal,1434
+Jeffrey M. Beck,Duke University,2003,2007,7,1652,5623,22,29.4,Bayesian inference with probabilistic population codes,1509
+David G. Beiser,University of Chicago,1994,1998,16,1599,3702,25,43.2,Models of Information Processing in the Basal Ganglia,1184
+Benjamin Scellier,,2016,2020,16,1591,1642,9,96.9,A deep learning framework for neuroscience,1018
+Adam Marblestone,Massachusetts Institute of Technology,2009,2013,12,1546,5712,24,27.1,Rapid prototyping of 3D DNA-origami shapes with caDNAno,1227
+Anna C. Schapiro,California University of Pennsylvania,2009,2013,11,1448,5594,27,25.9,Neural representations of events arise from temporal community structure,602
+Eric Horvitz,Microsoft (United States),1984,1988,14,1208,40131,94,3.0,Decision theory in expert systems and artificial intelligence,369
+Viktor Jirsa,Inserm,1994,1998,9,1197,25217,78,4.7,Field Theory of Electromagnetic Brain Activity,491
+Claudia Clopath,Imperial College London,2006,2010,8,1188,15010,43,7.9,Connectivity reflects coding: a model of voltage-based STDP with homeostasis,615
+Archy O. de Berker,,2013,2017,13,1136,2672,16,42.5,Computations of uncertainty mediate acute stress responses in humans,348
+Wulfram Gerstner,École Polytechnique Fédérale de Lausanne,1990,1994,18,1130,31962,77,3.5,Why spikes? Hebbian learning and retrieval of time-resolved excitation patterns,286
+Nikolaus Kriegeskorte,Brain (Germany),2001,2005,8,1073,30751,71,3.5,Cortical capacity constraints for visual working memory: dissociation of fMRI load effects in a fronto-parietal network,343
+Friedemann Zenke,Friedrich Miescher Institute,2008,2012,5,953,7035,27,13.5,Inhibitory Plasticity Balances Excitation and Inhibition in Sensory Pathways and Memory Networks,829
+Birte U. Forstmann,University of Amsterdam,2003,2007,12,924,15185,62,6.1,The role of the inferior frontal junction area in cognitive control,442
+Richard Naud,MIND Research Institute,2006,2010,9,874,5911,24,14.8,Firing patterns in the adaptive exponential integrate-and-fire model,321
+Tiago V. Maia,Centro Hospitalar de Lisboa Central,2001,2005,7,785,5368,26,14.6,A reexamination of the evidence for the somatic marker hypothesis: What participants really know in the Iowa gambling task,544
+Christopher C. Pack,Montreal Neurological Institute and Hospital,1997,2001,8,774,6343,40,12.2,Temporal dynamics of a neural solution to the aperture problem in visual area MT of macaque brain,354
+Henry D. I. Abarbanel,,1965,1969,15,702,24494,61,2.9,Relativistic Eikonal Expansion,299
+Werner M. Kistler,European Patent Organisation,1997,2001,11,701,9344,19,7.5,Reduction of the Hodgkin-Huxley Equations to a Single-Variable Threshold Model,328
+Quentin J. M. Huys,University College London,2004,2008,19,601,11169,50,5.4,"Serotonin, Inhibition, and Negative Mood",260
+Grace W. Lindsay,New York University,2014,2018,9,598,2930,13,20.4,Parallel processing by cortical inhibition enables context-dependent behavior,402
+Olaf Sporns,Indiana University School of Medicine,1986,1990,9,581,98866,112,0.6,Reentrant signaling among simulated neuronal groups leads to coherency in their oscillatory activity.,219
+Garrett B. Goh,Pacific Northwest National Laboratory,2010,2014,9,559,2042,18,27.4,Constant pH molecular dynamics of proteins in explicit solvent with proton tautomerism,128
+Andrew Saxe,Universidad de Londres,2006,2010,5,510,5634,27,9.1,Measuring Invariances in Deep Networks,342
+Eric‐Jan Wagenmakers,University of Amsterdam,1999,2003,12,489,73191,111,0.7,Inferring causal networks from observations and interventions,324
+David C. Knill,University of Rochester,1987,1991,10,479,9977,43,4.8,Apparent surface curvature affects lightness perception,233
+Michael Häusser,University of Hong Kong,1988,1992,5,435,27423,81,1.6,Electrophysiology of dopaminergic and non‐dopaminergic neurones of the guinea‐pig substantia nigra pars compacta in vitro.,252
+Abhinav Vishnu,Indian Institute of Technology Gandhinagar,2005,2009,20,423,4311,28,9.8,Building Multirail InfiniBand Clusters: MPI-Level Design and Performance Evaluation,54
+Yoshua Bengio,Centre Universitaire de Mila,1988,1992,20,398,479505,187,0.1,Global optimization of a neural network-hidden Markov model hybrid,200
+Anne‐Lise Giraud,Inserm,1996,2000,3,376,8762,39,4.3,Representation of the Temporal Envelope of Sounds in the Human Brain,356
+Allen I. Selverston,"University of California, San Diego",1965,1969,6,373,9169,51,4.1,Lateral Giant Fibers of Crayfish: Location of Somata by Dye Injection,99
+James J. DiCarlo,McGovern Institute for Brain Research,1991,1995,5,366,31679,67,1.2,"Stimulus configuration, classical conditioning, and hippocampal function.",220
+Gustavo Deco,"Czech Academy of Sciences, Institute of Computer Science",1984,1988,18,278,39283,99,0.7,K-Shell vacancy production in asymmetric collisions,42
+Daniel Yamins,Neurosciences Institute,2002,2006,8,255,12452,36,2.0,Dynamic Task Assignment in Robot Swarms,77
+Rui Ponte Costa,University of Bristol,2007,2011,9,209,2540,23,8.2,EPILAB: A software package for studies on the prediction of epileptic seizures,94
+Rafał Bogacz,MRC Brain Network Dynamics Unit,1997,2001,15,188,12053,48,1.6,Model of Familiarity Discrimination in the Perirhinal Cortex,106
+Denis Thérien,,1979,1983,6,184,3501,29,5.3,Classification of finite monoids: the language approach,112
+Daniel M. Wolpert,Columbia University,1988,1992,3,180,58484,104,0.3,"Earthquakes, influenza and cycles of Indian kala-azar",85
+Surya Ganguli,Stanford University,1972,1976,12,133,17325,61,0.8,Metabolic cost of walking at different speeds with patellar tendon-bearing prosthesis.,31
+Zoubin Ghahramani,University of Cambridge,1965,1969,1,117,56738,99,0.2,Semi-supervised learning : from Gaussian fields to Gaussian processes,117
+James C. Houk,,1963,1967,3,99,13932,59,0.7,A model of adaptation in amphibian spindle receptors,54
+Nicholas T. Carnevale,,1976,1980,4,91,7938,29,1.1,Amphotericin B-Induced Myelopathy,41
+Nathan O. Hodas,,2003,2007,6,87,2800,20,3.1,Asymmetry in RNA pseudoknots: observation and theory,58
+Patricia Smith Churchland,"University of California, San Diego",1974,1978,6,87,10718,45,0.8,Fodor on language learning,56
+Peter Dayan,Max Planck Institute for Biological Cybernetics,1985,1989,11,87,87112,117,0.1,Semiconductor waveguides: analysis of optical propagation in single rib structures and directional couplers,61
+Tomaso Poggio,,1984,1988,1,79,885,6,8.9,A generalized ordering constraint for stereo correspondence,79
+Maximilian Riesenhuber,Center for Neuro-Oncology,1993,1997,9,77,11343,31,0.7,Just One View: Invariances in Inferotemporal Cell Tuning,24
+Ádám Kepecs,Washington University in St. Louis,1996,2000,6,70,12550,46,0.6,Analysis of complex bursting in cortical pyramidal neuron models,64
+Mitsuo Kawato,RIKEN Center for Advanced Intelligence Project,1974,1978,3,55,42669,100,0.1,Biological oscillators can be stopped?Topological study of a phase response curve,45
+Marcel Stimberg,Sorbonne Université,2006,2010,5,47,1876,16,2.5,The Operating Regime of Local Computations in Primary Visual Cortex,39
+Timothy Lillicrap,Google (United States),2001,2005,1,46,64014,58,0.1,"Double-stranded RNA as a Not-self Alarm Signal: to Evade, most Viruses Purine-load their RNAs, but some (HTLV-1, Epstein-Barr) Pyrimidine-load",46
+Pablo Varona,Universidad Autónoma de Madrid,1995,1999,10,46,4325,33,1.1,Origin of coherent structures in a discrete chaotic medium,25
+Joel L. Davis,,1965,1969,5,37,4109,23,0.9,ANTAGONISM OF A BEHAVIORAL EFFECT OF <i>d</i>‐AMPHETAMINE BY CHLORPROMAZINE IN THE PIGEON<sup>1</sup>,17
+Terrence J. Sejnowski,Salk Institute for Biological Studies,1969,1973,4,34,113111,153,0.0,The General Solution of the b_{n} Problem for Gaseous Nebulae,24
+L. F. Abbott,Columbia University,1976,1980,1,32,6665,22,0.5,Massless particles with continuous spin indices,32
+Anne Collins,"University of California, Berkeley",1985,1989,2,32,6237,35,0.5,Macroaggregate Formation in Optimal Additive Red Cells,29
+M. I. Rabinovich,"University of California, San Diego",1966,1970,15,31,11742,56,0.3,One-dimensional waves in disperse nonlinear systems,16
+Rob de Ruyter van Steveninck,Indiana University Bloomington,1983,1987,1,25,4291,10,0.6,Adaptive strategies in fly vision: On their image-processing qualities,25
+João Sacramento,,2010,2014,3,21,1665,15,1.3,Tree-like hierarchical associative memory structures,8
+P. A. Robinson,The University of Sydney,1964,1968,5,15,19362,66,0.1,AN ANAMNESTIC-LIKE REACTION ELICITED BY TUBERCULIN.,8
+Fred Rieke,University of Washington,1959,1963,1,12,15055,61,0.1,Single-Crystal Infrared Detectors Based upon Intrinsic Absorption,12
+Greg Wayne,Google (United Kingdom),1987,1991,1,12,7257,29,0.2,Exclusive production of proton-antiproton pairs in two-photon collisions,12
+Pieter R. Roelfsema,Vrije Universiteit Amsterdam,1985,1989,4,12,23390,72,0.1,"RADIO OBSERVATIONS OF H-I IN UGC-2885, THE LARGEST IDENTIFIED SC GALAXY",5
+Colleen J. Gillon,Imperial College London,2008,2012,1,8,1472,8,0.5,Arthropathy in paediatric inflammatory bowel disease: a cross-sectional observational study,8
+Danijar Hafner,Google (United States),1980,1984,1,6,3189,20,0.2,"Castlereagh, the Balance of Power, and ‘Non‐Intervention’",6
+Dan F. M. Goodman,Imperial College London,1986,1990,1,5,4548,26,0.1,The real time analysis of sport: an overview.,5
+Michael J. Frank,Allen Institute for Brain Science,1966,1970,1,4,37805,97,0.0,Schuldscheindarlehen als Mittel der langfristigen Industriefinanzierung,4
+Eugene M. Izhikevich,,1991,1995,1,4,22482,38,0.0,"Memory, learning and neuromediators",4
+Christopher J. Honey,Johns Hopkins University,1979,1983,1,3,17956,45,0.0,Acts and omissions.,3
+Romain Brette,Centre National de la Recherche Scientifique,1947,1951,21,2,7415,37,0.0,[Vitamin D2 and gynecomastia].,2
+Joshua B. Tenenbaum,Institute of Cognitive and Brain Sciences,1988,1992,1,2,73138,114,0.0,A Three-dimensional Multiplication Table Inspires Mathematical Discovery,2
+Amelia J. Christensen,,2002,2006,1,2,1697,8,0.1,The Paradoxical Vocabularies of Topography-Based and Selection-Based Verbal Behavior,2
+William Bialek,Rockefeller University,1938,1942,1,2,30357,73,0.0,Thermal Noise and Active Processes in the Inner Ear: Relating Theory to Experiment,2
+Alexandre Pouget,University College London,1966,1970,1,1,22879,67,0.0,[Preparation and testing of galactomannans from Gleditshia triacanthos L. seeds].,1
+Danielle S. Bassett,Emory University,1960,1964,1,0,48809,106,0.0,Computed confidence for aero-space transportation,0
+Michael London,Hebrew University of Jerusalem,1916,1920,1,0,4813,26,0.0,Masthead,0
+Michael L. Hines,,1963,1967,1,0,13718,43,0.0,PROGRESSIVE DETERIORATION OF MUSCLE FINE STRUCTURE IN RINGER SOLUTION.,0
+Hae‐Jeong Park,Yonsei University,1994,1998,2,0,11610,52,0.0,A Study on the Nonlinear Characteristics of EEG Using Bispectral Analysis,0
+Karl Friston,King's College London,1970,1974,1,0,296123,259,0.0,The role of striatal prediction errors in modulating cortical coupling,0
+Christof Koch,Ohio Northern University,1955,1959,2,0,137783,160,0.0,[Microscopic findings of bubble structures of high molecular fluids].,0
+Luc H. Arnal,Assistance Publique – Hôpitaux de Paris,2001,2005,1,0,4464,20,0.0,Traité de neurolinguistique,0
+Blake A. Richards,McGill University,1970,1974,2,0,6696,33,0.0,Book Review: Computer Programming in ALGOL,0
+Philippe Beaudoin,University of British Columbia,1965,1969,1,0,2265,18,0.0,Automatic Camera System for Solar Corona Photography,0
+Walter Senn,University of Bern,1955,1959,1,0,7242,41,0.0,Musik und Theater am Hof zu Innsbruck; Geschichte der Hofkapelle vom 15. Jahrhundert bis zu deren Auflosung im Januar 1748,0
+Kenneth D. Miller,Center for Theoretical Physics,1981,1985,2,0,12315,45,0.0,nCJrs This microfiche was produced from documents received for,0
+Peter E. Latham,University College London,1936,1940,1,0,14300,45,0.0,Indian Music,0
+Konrad P. Körding,California University of Pennsylvania,1970,1974,1,0,23538,73,0.0,How does the human brain deal with uncertainty?,0
+Roger D. Traub,University of Pennsylvania,1938,1942,1,0,24929,83,0.0,Le controle des changes (exposé théorique et pratique),0
+Joel Zylberberg,Canadian Institute for Advanced Research,1991,1995,1,0,2981,21,0.0,Socialization and Socialization Dogmatics .1. Canonics - Introduction,0
+Robert C. Wilson,Royal Brompton Hospital,1936,1940,4,0,17748,65,0.0,The department of the American Association of Colleges of Pharmacy. The Publication Board,0
+Jean‐Philippe Thivierge,University of Ottawa,1980,1984,1,0,1768,16,0.0,[Birth of a research division (author's transl)].,0

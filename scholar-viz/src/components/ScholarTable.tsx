@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { Scholar } from '@/data/scholars';
 
 interface ScholarTableProps {
@@ -143,7 +144,12 @@ export function ScholarTable({ scholars }: ScholarTableProps) {
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center">
                     <div>
-                      <div className="text-sm font-medium text-gray-900">{scholar.name}</div>
+                      <Link
+                        href={`/scholar/${scholar.id.split('/').pop()}`}
+                        className="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                      >
+                        {scholar.name}
+                      </Link>
                       <div className="text-sm text-gray-500">{scholar.country}</div>
                     </div>
                   </div>

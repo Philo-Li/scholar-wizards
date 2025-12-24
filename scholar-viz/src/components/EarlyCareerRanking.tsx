@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import {
   BarChart,
   Bar,
@@ -11,6 +12,13 @@ import {
   Cell,
   TooltipProps
 } from 'recharts';
+import scholarDetails from '@/data/scholarDetails.json';
+
+// Create name to ID mapping
+const nameToIdMap: Record<string, string> = {};
+(scholarDetails as { id: string; name: string }[]).forEach(s => {
+  nameToIdMap[s.name] = s.id;
+});
 
 export interface EarlyCareerScholar {
   name: string;
@@ -134,7 +142,12 @@ export function EarlyCareerTable({ data }: { data: EarlyCareerScholar[] }) {
                   )}
                 </td>
                 <td className="px-4 py-3">
-                  <div className="font-medium text-gray-900">{scholar.name}</div>
+                  <Link
+                    href={`/scholar/${nameToIdMap[scholar.name] || ''}`}
+                    className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                  >
+                    {scholar.name}
+                  </Link>
                   <div className="text-xs text-gray-500 mt-0.5 truncate max-w-[200px]" title={scholar.topPaper}>
                     {scholar.topPaper}
                   </div>

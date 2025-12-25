@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:api.openalex.org)",
-      "Bash(python fetch_scholar_details.py:*)"
+      "Bash(python fetch_scholar_details.py:*)",
+      "Bash(cat:*)",
+      "Bash(xargs:*)"
     ]
   }
 }

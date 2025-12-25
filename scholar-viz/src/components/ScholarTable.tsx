@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Scholar } from '@/data/scholars';
+import { useLanguage } from '@/i18n/LanguageContext';
 
 interface ScholarTableProps {
   scholars: Scholar[];
@@ -12,6 +13,7 @@ type SortKey = 'name' | 'cited_by_count' | 'h_index' | 'works_count' | 'institut
 type SortOrder = 'asc' | 'desc';
 
 export function ScholarTable({ scholars }: ScholarTableProps) {
+  const { t } = useLanguage();
   const [sortKey, setSortKey] = useState<SortKey>('cited_by_count');
   const [sortOrder, setSortOrder] = useState<SortOrder>('desc');
   const [searchTerm, setSearchTerm] = useState('');
@@ -82,10 +84,10 @@ export function ScholarTable({ scholars }: ScholarTableProps) {
     <div className="bg-white rounded-xl shadow-lg overflow-hidden">
       <div className="p-6 border-b">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <h3 className="text-xl font-semibold text-gray-800">Scholar Directory</h3>
+          <h3 className="text-xl font-semibold text-gray-800">{t.scholarTable.title}</h3>
           <input
             type="text"
-            placeholder="Search by name, institution, or country..."
+            placeholder={t.scholarTable.searchPlaceholder}
             value={searchTerm}
             onChange={(e) => { setSearchTerm(e.target.value); setCurrentPage(1); }}
             className="px-4 py-2 border rounded-lg w-full md:w-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -98,40 +100,40 @@ export function ScholarTable({ scholars }: ScholarTableProps) {
           <thead className="bg-gray-50">
             <tr>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Rank
+                {t.scholarTable.rank}
               </th>
               <th
                 className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                 onClick={() => handleSort('name')}
               >
-                Name <SortIcon active={sortKey === 'name'} order={sortOrder} />
+                {t.scholarTable.name} <SortIcon active={sortKey === 'name'} order={sortOrder} />
               </th>
               <th
                 className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                 onClick={() => handleSort('cited_by_count')}
               >
-                Citations <SortIcon active={sortKey === 'cited_by_count'} order={sortOrder} />
+                {t.common.citations} <SortIcon active={sortKey === 'cited_by_count'} order={sortOrder} />
               </th>
               <th
                 className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                 onClick={() => handleSort('h_index')}
               >
-                H-index <SortIcon active={sortKey === 'h_index'} order={sortOrder} />
+                {t.common.hIndex} <SortIcon active={sortKey === 'h_index'} order={sortOrder} />
               </th>
               <th
                 className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                 onClick={() => handleSort('works_count')}
               >
-                Publications <SortIcon active={sortKey === 'works_count'} order={sortOrder} />
+                {t.common.publications} <SortIcon active={sortKey === 'works_count'} order={sortOrder} />
               </th>
               <th
                 className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                 onClick={() => handleSort('institution')}
               >
-                Institution <SortIcon active={sortKey === 'institution'} order={sortOrder} />
+                {t.common.institution} <SortIcon active={sortKey === 'institution'} order={sortOrder} />
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Category
+                {t.common.category}
               </th>
             </tr>
           </thead>
@@ -182,7 +184,7 @@ export function ScholarTable({ scholars }: ScholarTableProps) {
       {/* Pagination */}
       <div className="px-6 py-4 border-t flex items-center justify-between">
         <div className="text-sm text-gray-500">
-          Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(currentPage * itemsPerPage, sortedScholars.length)} of {sortedScholars.length} scholars
+          {t.common.showing} {(currentPage - 1) * itemsPerPage + 1} {t.common.to} {Math.min(currentPage * itemsPerPage, sortedScholars.length)} {t.common.of} {sortedScholars.length} {t.common.scholars}
         </div>
         <div className="flex gap-2">
           <button
@@ -190,17 +192,17 @@ export function ScholarTable({ scholars }: ScholarTableProps) {
             disabled={currentPage === 1}
             className="px-3 py-1 border rounded-md text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
           >
-            Previous
+            {t.common.previous}
           </button>
           <span className="px-3 py-1 text-sm">
-            Page {currentPage} of {totalPages}
+            {t.common.page} {currentPage} {t.common.of} {totalPages}
           </span>
           <button
             onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
             disabled={currentPage === totalPages}
             className="px-3 py-1 border rounded-md text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
           >
-            Next
+            {t.common.next}
           </button>
         </div>
       </div>

@@ -10,6 +10,8 @@ import {
   Tooltip
 } from 'recharts';
 import scholarDetails from '@/data/scholarDetails.json';
+import { useLanguage } from '@/i18n/LanguageContext';
+import type { Translations } from '@/i18n/LanguageContext';
 
 // Icons for each dimension (using inline SVGs for consistency)
 const DimensionIcons = {
@@ -72,7 +74,7 @@ interface ScholarDetail {
 
 interface DimensionScore {
   dimension: string;
-  dimensionCN: string;
+  dimensionKey: string;  // key for translation lookup
   score: number;        // 0-100 percentile
   rawValue: number;
   description: string;
@@ -80,10 +82,8 @@ interface DimensionScore {
 }
 
 interface ScholarTag {
-  label: string;
-  labelCN: string;
+  key: string;  // key for translation lookup
   color: string;
-  description: string;
 }
 
 // Calculate percentile rank
@@ -146,94 +146,98 @@ function computeAllMetrics(scholars: ScholarDetail[]) {
 }
 
 // Compute dimension scores for a scholar
-export function computeDimensionScores(scholar: ScholarDetail): DimensionScore[] {
+export function computeDimensionScores(scholar: ScholarDetail, t: Translations): DimensionScore[] {
   const allScholars = scholarDetails as ScholarDetail[];
   const metrics = computeAllMetrics(allScholars);
   const academicAge = getAcademicAge(scholar.earlyCareer?.firstPubYear ?? null);
 
   const scores: DimensionScore[] = [];
 
-  // 1. Impact (影响力) - citations, h-index weighted
+  // 1. Impact - citations, h-index weighted
   const impactRaw = (scholar.citedByCount * 0.5) + (scholar.hIndex * 1000 * 0.5);
   const impactValues = metrics.citations.map((c, i) => c * 0.5 + metrics.hIndex[i] * 1000 * 0.5);
   scores.push({
-    dimension: 'Impact',
-    dimensionCN: '影响力',
+    dimension: t.dimensions.impact,
+    dimensionKey: 'impact',
     score: getPercentile(impactRaw, impactValues),
     rawValue: scholar.citedByCount,
-    description: `${scholar.citedByCount.toLocaleString()} citations, h=${scholar.hIndex}`,
+    description: t.dimensions.impactDesc
+      .replace('{citations}', scholar.citedByCount.toLocaleString())
+      .replace('{hIndex}', String(scholar.hIndex)),
     icon: 'impact'
   });
 
-  // 2. Momentum (动量) - recent activity and citation trend
+  // 2. Momentum - recent activity and citation trend
   const momentumRaw = scholar.twoYearMeanCitedness > 0
     ? scholar.twoYearMeanCitedness
     : getRecentMomentum(scholar.yearlyData) * 10;
   scores.push({
-    dimension: 'Momentum',
-    dimensionCN: '动量',
+    dimension: t.dimensions.momentum,
+    dimensionKey: 'momentum',
     score: scholar.twoYearMeanCitedness > 0
       ? getPercentile(scholar.twoYearMeanCitedness, metrics.twoYearMean)
       : getPercentile(getRecentMomentum(scholar.yearlyData), metrics.recentMomentum),
     rawValue: momentumRaw,
     description: scholar.twoYearMeanCitedness > 0
-      ? `2yr mean: ${scholar.twoYearMeanCitedness.toFixed(1)}`
-      : 'Based on publication trend',
+      ? t.dimensions.momentumDesc2yr.replace('{value}', scholar.twoYearMeanCitedness.toFixed(1))
+      : t.dimensions.momentumDescTrend,
     icon: 'momentum'
   });
 
-  // 3. Output (产出) - total works, works per year
+  // 3. Output - total works, works per year
   const worksPerYear = academicAge > 0 ? scholar.worksCount / academicAge : scholar.worksCount;
   scores.push({
-    dimension: 'Output',
-    dimensionCN: '产出',
+    dimension: t.dimensions.output,
+    dimensionKey: 'output',
     score: getPercentile(scholar.worksCount, metrics.worksCount),
     rawValue: scholar.worksCount,
-    description: `${scholar.worksCount} papers (${worksPerYear.toFixed(1)}/year)`,
+    description: t.dimensions.outputDesc
+      .replace('{works}', String(scholar.worksCount))
+      .replace('{perYear}', worksPerYear.toFixed(1)),
     icon: 'output'
   });
 
-  // 4. Efficiency (效率) - citations per paper
+  // 4. Efficiency - citations per paper
   const citesPerPaper = scholar.worksCount > 0 ? scholar.citedByCount / scholar.worksCount : 0;
   scores.push({
-    dimension: 'Efficiency',
-    dimensionCN: '效率',
+    dimension: t.dimensions.efficiency,
+    dimensionKey: 'efficiency',
     score: getPercentile(citesPerPaper, metrics.citationsPerPaper),
     rawValue: citesPerPaper,
-    description: `${Math.round(citesPerPaper)} cites/paper`,
+    description: t.dimensions.efficiencyDesc.replace('{value}', String(Math.round(citesPerPaper))),
     icon: 'efficiency'
   });
 
-  // 5. Novelty (创新) - topic diversity
+  // 5. Novelty - topic diversity
   const topicDiv = getTopicDiversity(scholar.topics);
   scores.push({
-    dimension: 'Novelty',
-    dimensionCN: '创新',
+    dimension: t.dimensions.novelty,
+    dimensionKey: 'novelty',
     score: getPercentile(topicDiv, metrics.topicDiversity),
     rawValue: topicDiv,
-    description: `${topicDiv} unique research topics`,
+    description: t.dimensions.noveltyDesc.replace('{count}', String(topicDiv)),
     icon: 'novelty'
   });
 
-  // 6. Breadth (广度) - topic count and variety
+  // 6. Breadth - topic count and variety
   const breadthScore = scholar.topics?.length || 0;
   scores.push({
-    dimension: 'Breadth',
-    dimensionCN: '广度',
+    dimension: t.dimensions.breadth,
+    dimensionKey: 'breadth',
     score: Math.min(breadthScore * 10, 100), // Normalized
     rawValue: breadthScore,
-    description: `${breadthScore} topic areas`,
+    description: t.dimensions.breadthDesc.replace('{count}', String(breadthScore)),
     icon: 'breadth'
   });
 
-  // 7. Peak Power (爆发力) - top paper concentration
+  // 7. Peak Power - top paper concentration
   const peakConc = getTopPaperConcentration(scholar.topWorks, scholar.citedByCount);
   scores.push({
-    dimension: 'Peak Power',
-    dimensionCN: '爆发力',
+    dimension: t.dimensions.peakPower,
+    dimensionKey: 'peakPower',
     score: getPercentile(peakConc, metrics.topPaperConc),
     rawValue: peakConc * 100,
-    description: `Top 3 papers: ${(peakConc * 100).toFixed(0)}% of citations`,
+    description: t.dimensions.peakPowerDesc.replace('{pct}', (peakConc * 100).toFixed(0)),
     icon: 'peakPower'
   });
 
@@ -244,121 +248,76 @@ export function computeDimensionScores(scholar: ScholarDetail): DimensionScore[]
 export function computeScholarTags(scholar: ScholarDetail, scores: DimensionScore[]): ScholarTag[] {
   const tags: ScholarTag[] = [];
 
-  const getScore = (dim: string) => scores.find(s => s.dimension === dim)?.score || 0;
-  const getRaw = (dim: string) => scores.find(s => s.dimension === dim)?.rawValue || 0;
+  const getScore = (key: string) => scores.find(s => s.dimensionKey === key)?.score || 0;
+  const getRaw = (key: string) => scores.find(s => s.dimensionKey === key)?.rawValue || 0;
 
-  const impact = getScore('Impact');
-  const momentum = getScore('Momentum');
-  const output = getScore('Output');
-  const efficiency = getScore('Efficiency');
-  const novelty = getScore('Novelty');
-  const peakPower = getScore('Peak Power');
+  const impact = getScore('impact');
+  const momentum = getScore('momentum');
+  const output = getScore('output');
+  const efficiency = getScore('efficiency');
+  const novelty = getScore('novelty');
+  const peakPower = getScore('peakPower');
 
   const academicAge = getAcademicAge(scholar.earlyCareer?.firstPubYear ?? null);
   const earlyPct = scholar.earlyCareer?.earlyPct || 0;
 
-  // Tag: 卷王 (High Output + Consistent Momentum)
+  // Tag: Prolific (High Output + Consistent Momentum)
   if (output >= 80 && momentum >= 50) {
-    tags.push({
-      label: 'Prolific',
-      labelCN: '卷王',
-      color: 'bg-orange-500',
-      description: 'Extremely high output with sustained momentum'
-    });
+    tags.push({ key: 'prolific', color: 'bg-orange-500' });
   }
 
-  // Tag: 天赋怪 (High Efficiency + High Impact but Medium Output)
+  // Tag: Genius (High Efficiency + High Impact but Medium Output)
   if (efficiency >= 80 && impact >= 70 && output < 70) {
-    tags.push({
-      label: 'Genius',
-      labelCN: '天赋怪',
-      color: 'bg-purple-500',
-      description: 'High impact with exceptional efficiency, quality over quantity'
-    });
+    tags.push({ key: 'genius', color: 'bg-purple-500' });
   }
 
-  // Tag: 厚积薄发 (Late bloomer - low early%, high recent momentum)
+  // Tag: Late Bloomer (low early%, high recent momentum)
   if (academicAge > 15 && earlyPct < 15 && momentum >= 60) {
-    tags.push({
-      label: 'Late Bloomer',
-      labelCN: '厚积薄发',
-      color: 'bg-green-500',
-      description: 'Academic influence grew significantly over time'
-    });
+    tags.push({ key: 'lateBlocker', color: 'bg-green-500' });
   }
 
-  // Tag: 早期爆发 (High early career impact)
+  // Tag: Early Burst (High early career impact)
   if (earlyPct >= 30 && impact >= 60) {
-    tags.push({
-      label: 'Early Burst',
-      labelCN: '早期爆发',
-      color: 'bg-amber-500',
-      description: 'Major early career impact, possibly seminal work'
-    });
+    tags.push({ key: 'earlyBurst', color: 'bg-amber-500' });
   }
 
-  // Tag: 黑马 (Rising star - high recent momentum but lower base)
+  // Tag: Dark Horse (Rising star - high recent momentum but lower base)
   if (momentum >= 80 && impact < 60 && academicAge < 15) {
-    tags.push({
-      label: 'Dark Horse',
-      labelCN: '黑马',
-      color: 'bg-blue-500',
-      description: 'Rapidly rising influence in the field'
-    });
+    tags.push({ key: 'darkHorse', color: 'bg-blue-500' });
   }
 
-  // Tag: 全能型 (Well-rounded across all dimensions)
+  // Tag: All-Rounder (Well-rounded across all dimensions)
   const avgScore = scores.reduce((sum, s) => sum + s.score, 0) / scores.length;
   const minScore = Math.min(...scores.map(s => s.score));
   if (avgScore >= 60 && minScore >= 40) {
-    tags.push({
-      label: 'All-Rounder',
-      labelCN: '全能型',
-      color: 'bg-cyan-500',
-      description: 'Strong and balanced across all dimensions'
-    });
+    tags.push({ key: 'allRounder', color: 'bg-cyan-500' });
   }
 
-  // Tag: 代表作驱动 (Peak power dominant)
-  if (peakPower >= 80 && getRaw('Peak Power') >= 50) {
-    tags.push({
-      label: 'Landmark Paper',
-      labelCN: '代表作驱动',
-      color: 'bg-rose-500',
-      description: 'Impact driven by iconic publications'
-    });
+  // Tag: Landmark Paper (Peak power dominant)
+  if (peakPower >= 80 && getRaw('peakPower') >= 50) {
+    tags.push({ key: 'landmarkPaper', color: 'bg-rose-500' });
   }
 
-  // Tag: 开拓者 (High novelty + breadth)
+  // Tag: Pioneer (High novelty + breadth)
   if (novelty >= 75) {
-    tags.push({
-      label: 'Pioneer',
-      labelCN: '开拓者',
-      color: 'bg-indigo-500',
-      description: 'Exploring diverse research frontiers'
-    });
+    tags.push({ key: 'pioneer', color: 'bg-indigo-500' });
   }
 
-  // Tag: 传奇 (Legendary status)
+  // Tag: Legend (Legendary status)
   if (impact >= 95 && scholar.citedByCount >= 100000) {
-    tags.push({
-      label: 'Legend',
-      labelCN: '传奇',
-      color: 'bg-gradient-to-r from-yellow-400 to-amber-500',
-      description: 'One of the most influential figures in the field'
-    });
+    tags.push({ key: 'legend', color: 'bg-gradient-to-r from-yellow-400 to-amber-500' });
   }
 
   return tags;
 }
 
 // Custom radar chart tooltip
-function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<{ payload: { dimension: string; dimensionCN: string; score: number; description: string } }> }) {
+function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<{ payload: { dimension: string; score: number; description: string } }> }) {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
     return (
       <div className="bg-white p-3 rounded-lg shadow-lg border border-gray-200">
-        <p className="font-semibold text-gray-800">{data.dimensionCN} ({data.dimension})</p>
+        <p className="font-semibold text-gray-800">{data.dimension}</p>
         <p className="text-2xl font-bold text-blue-600">{data.score}%</p>
         <p className="text-sm text-gray-500">{data.description}</p>
       </div>
@@ -372,13 +331,13 @@ interface ScholarDimensionsProps {
 }
 
 export default function ScholarDimensions({ scholar }: ScholarDimensionsProps) {
-  const scores = computeDimensionScores(scholar);
+  const { t } = useLanguage();
+  const scores = computeDimensionScores(scholar, t);
   const tags = computeScholarTags(scholar, scores);
 
   // Prepare data for radar chart
   const radarData = scores.map(s => ({
     dimension: s.dimension,
-    dimensionCN: s.dimensionCN,
     score: s.score,
     description: s.description,
     fullMark: 100
@@ -387,12 +346,22 @@ export default function ScholarDimensions({ scholar }: ScholarDimensionsProps) {
   // Calculate overall score (weighted average)
   const overallScore = Math.round(scores.reduce((sum, s) => sum + s.score, 0) / scores.length);
 
+  // Helper to get tag label and description from translations
+  const getTagLabel = (key: string) => {
+    const tagKey = key as keyof typeof t.dimensions.tags;
+    return t.dimensions.tags[tagKey] || key;
+  };
+  const getTagDesc = (key: string) => {
+    const descKey = `${key}Desc` as keyof typeof t.dimensions.tags;
+    return t.dimensions.tags[descKey] || '';
+  };
+
   return (
     <section className="bg-white rounded-xl shadow-lg p-6">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-xl font-bold text-gray-800">Ability Dimensions / 能力维度分析</h2>
+        <h2 className="text-xl font-bold text-gray-800">{t.dimensions.title}</h2>
         <div className="flex items-center gap-2">
-          <span className="text-sm text-gray-500">Overall Score</span>
+          <span className="text-sm text-gray-500">{t.dimensions.overallScore}</span>
           <span className={`text-2xl font-bold ${
             overallScore >= 80 ? 'text-green-600' :
             overallScore >= 60 ? 'text-blue-600' :
@@ -408,9 +377,9 @@ export default function ScholarDimensions({ scholar }: ScholarDimensionsProps) {
             <div
               key={idx}
               className={`px-3 py-1.5 rounded-full text-white text-sm font-medium ${tag.color}`}
-              title={tag.description}
+              title={getTagDesc(tag.key)}
             >
-              {tag.labelCN} / {tag.label}
+              {getTagLabel(tag.key)}
             </div>
           ))}
         </div>
@@ -423,7 +392,7 @@ export default function ScholarDimensions({ scholar }: ScholarDimensionsProps) {
             <RadarChart data={radarData} margin={{ top: 20, right: 30, bottom: 20, left: 30 }}>
               <PolarGrid stroke="#e5e7eb" />
               <PolarAngleAxis
-                dataKey="dimensionCN"
+                dataKey="dimension"
                 tick={{ fill: '#374151', fontSize: 12 }}
               />
               <PolarRadiusAxis
@@ -465,7 +434,7 @@ export default function ScholarDimensions({ scholar }: ScholarDimensionsProps) {
                 <div className="flex-1">
                   <div className="flex justify-between items-center mb-1">
                     <span className="font-medium text-gray-800 text-sm">
-                      {score.dimensionCN} <span className="text-gray-400">/ {score.dimension}</span>
+                      {score.dimension}
                     </span>
                     <span className="font-bold text-gray-700">{score.score}%</span>
                   </div>
@@ -486,8 +455,7 @@ export default function ScholarDimensions({ scholar }: ScholarDimensionsProps) {
       {/* Legend / Explanation */}
       <div className="mt-6 pt-4 border-t border-gray-200">
         <p className="text-xs text-gray-500">
-          * Percentile scores are calculated relative to all scholars in the computational neuroscience dataset.
-          Tags are assigned based on dimension combinations. Hover over the radar chart for details.
+          {t.dimensions.percentileNote}
         </p>
       </div>
     </section>

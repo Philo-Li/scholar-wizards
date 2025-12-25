@@ -16,6 +16,8 @@ import {
 } from 'recharts';
 import scholarDetails from '@/data/scholarDetails.json';
 import ScholarDimensions from '@/components/ScholarDimensions';
+import { useLanguage } from '@/i18n/LanguageContext';
+import type { Translations } from '@/i18n/LanguageContext';
 
 interface ScholarDetail {
   id: string;
@@ -64,75 +66,87 @@ function StatCard({ label, value, subtext, color = 'blue' }: { label: string; va
   );
 }
 
-function getImpactLevel(citations: number): { level: string; color: string; description: string } {
-  if (citations >= 100000) return { level: 'Legendary', color: 'from-yellow-400 to-amber-500', description: 'Legendary figure in the field with 100k+ citations' };
-  if (citations >= 50000) return { level: 'Elite', color: 'from-purple-500 to-pink-500', description: 'Elite scholar with 50k+ citations' };
-  if (citations >= 20000) return { level: 'Distinguished', color: 'from-blue-500 to-cyan-500', description: 'Distinguished scholar with 20k+ citations' };
-  if (citations >= 10000) return { level: 'Established', color: 'from-green-500 to-emerald-500', description: 'Established scholar with 10k+ citations' };
-  if (citations >= 5000) return { level: 'Rising', color: 'from-orange-400 to-red-400', description: 'Rising scholar with 5k+ citations' };
-  return { level: 'Emerging', color: 'from-gray-400 to-gray-500', description: 'Emerging scholar' };
+function getImpactLevel(citations: number, t: Translations): { level: string; color: string; description: string } {
+  if (citations >= 100000) return { level: t.scholar.impactLevels.legendary, color: 'from-yellow-400 to-amber-500', description: t.scholar.impactLevels.legendaryDesc };
+  if (citations >= 50000) return { level: t.scholar.impactLevels.elite, color: 'from-purple-500 to-pink-500', description: t.scholar.impactLevels.eliteDesc };
+  if (citations >= 20000) return { level: t.scholar.impactLevels.distinguished, color: 'from-blue-500 to-cyan-500', description: t.scholar.impactLevels.distinguishedDesc };
+  if (citations >= 10000) return { level: t.scholar.impactLevels.established, color: 'from-green-500 to-emerald-500', description: t.scholar.impactLevels.establishedDesc };
+  if (citations >= 5000) return { level: t.scholar.impactLevels.rising, color: 'from-orange-400 to-red-400', description: t.scholar.impactLevels.risingDesc };
+  return { level: t.scholar.impactLevels.emerging, color: 'from-gray-400 to-gray-500', description: t.scholar.impactLevels.emergingDesc };
 }
 
-function getCareerStage(firstYear: number | null): { stage: string; years: number; description: string } {
-  if (!firstYear) return { stage: 'Unknown', years: 0, description: 'Unknown' };
+function getCareerStage(firstYear: number | null, t: Translations): { stage: string; years: number; description: string } {
+  if (!firstYear) return { stage: t.scholar.careerStages.unknown, years: 0, description: t.scholar.careerStages.unknown };
   const currentYear = new Date().getFullYear();
   const years = currentYear - firstYear;
 
-  if (years >= 30) return { stage: 'Senior', years, description: 'Senior Scholar (30+ years)' };
-  if (years >= 20) return { stage: 'Established', years, description: 'Established Scholar (20-30 years)' };
-  if (years >= 10) return { stage: 'Mid-Career', years, description: 'Mid-Career Scholar (10-20 years)' };
-  return { stage: 'Early-Career', years, description: 'Early-Career Scholar (<10 years)' };
+  if (years >= 30) return { stage: 'Senior', years, description: t.scholar.careerStages.senior };
+  if (years >= 20) return { stage: 'Established', years, description: t.scholar.careerStages.established };
+  if (years >= 10) return { stage: 'Mid-Career', years, description: t.scholar.careerStages.midCareer };
+  return { stage: 'Early-Career', years, description: t.scholar.careerStages.earlyCareer };
 }
 
-function generateAnalysis(scholar: ScholarDetail): string[] {
+function generateAnalysis(scholar: ScholarDetail, t: Translations): string[] {
   const analyses: string[] = [];
-  const impact = getImpactLevel(scholar.citedByCount);
-  const career = getCareerStage(scholar.earlyCareer?.firstPubYear || null);
+  const impact = getImpactLevel(scholar.citedByCount, t);
+  const career = getCareerStage(scholar.earlyCareer?.firstPubYear || null, t);
 
   // Impact analysis
-  analyses.push(`${scholar.name} is a ${impact.description.toLowerCase()} in computational neuroscience, currently affiliated with ${scholar.institution || 'Independent Research'}.`);
+  analyses.push(t.scholar.analysis.intro
+    .replace('{name}', scholar.name)
+    .replace('{impact}', impact.description.toLowerCase())
+    .replace('{institution}', scholar.institution || t.scholar.analysis.independentResearch));
 
   // Productivity analysis
-  const worksPerYear = career.years > 0 ? (scholar.worksCount / career.years).toFixed(1) : 0;
-  analyses.push(`Over a ${career.years}-year academic career, published ${scholar.worksCount} papers (averaging ${worksPerYear} per year), with ${scholar.citedByCount.toLocaleString()} citations.`);
+  const worksPerYear = career.years > 0 ? (scholar.worksCount / career.years).toFixed(1) : '0';
+  analyses.push(t.scholar.analysis.productivity
+    .replace('{years}', String(career.years))
+    .replace('{works}', String(scholar.worksCount))
+    .replace('{perYear}', worksPerYear)
+    .replace('{citations}', scholar.citedByCount.toLocaleString()));
 
   // H-index analysis
   if (scholar.hIndex >= 100) {
-    analyses.push(`With an h-index of ${scholar.hIndex}, one of the rare scholars to reach this level, indicating lasting and broad research impact.`);
+    analyses.push(t.scholar.analysis.hIndexHigh.replace('{hIndex}', String(scholar.hIndex)));
   } else if (scholar.hIndex >= 50) {
-    analyses.push(`An h-index of ${scholar.hIndex}, well above field average, indicates a substantial body of highly-cited work.`);
+    analyses.push(t.scholar.analysis.hIndexMedium.replace('{hIndex}', String(scholar.hIndex)));
   } else if (scholar.hIndex >= 30) {
-    analyses.push(`An h-index of ${scholar.hIndex} reflects an active and influential researcher.`);
+    analyses.push(t.scholar.analysis.hIndexLow.replace('{hIndex}', String(scholar.hIndex)));
   }
 
   // Early career analysis
   if (scholar.earlyCareer && scholar.earlyCareer.earlyCareerCitations > 0) {
     const earlyPct = scholar.earlyCareer.earlyPct;
     if (earlyPct >= 30) {
-      analyses.push(`Outstanding early career performance: first 5 years account for ${earlyPct}% of total citations (${scholar.earlyCareer.earlyCareerCitations.toLocaleString()}), showing strong early impact.`);
+      analyses.push(t.scholar.analysis.earlyCareerStrong
+        .replace('{pct}', String(earlyPct))
+        .replace('{count}', scholar.earlyCareer.earlyCareerCitations.toLocaleString()));
     } else if (earlyPct <= 10) {
-      analyses.push(`Academic impact accumulated gradually: first 5 years account for only ${earlyPct}%, indicating later works are more influential.`);
+      analyses.push(t.scholar.analysis.earlyCareerGradual.replace('{pct}', String(earlyPct)));
     }
   }
 
   // Research direction analysis
   if (scholar.topics && scholar.topics.length > 0) {
-    const topTopics = scholar.topics.slice(0, 3).map(t => t.name).join(', ');
-    analyses.push(`Primary research areas include ${topTopics}.`);
+    const topTopics = scholar.topics.slice(0, 3).map(topic => topic.name).join(', ');
+    analyses.push(t.scholar.analysis.researchAreas.replace('{topics}', topTopics));
   }
 
   return analyses;
 }
 
-function generateKeyFindings(scholar: ScholarDetail): { title: string; content: string; type: 'success' | 'info' | 'warning' | 'highlight' }[] {
+function generateKeyFindings(scholar: ScholarDetail, t: Translations): { title: string; content: string; type: 'success' | 'info' | 'warning' | 'highlight' }[] {
   const findings: { title: string; content: string; type: 'success' | 'info' | 'warning' | 'highlight' }[] = [];
 
   // Top publication analysis
   if (scholar.topWorks && scholar.topWorks.length > 0) {
     const topWork = scholar.topWorks[0];
     findings.push({
-      title: 'Signature Work',
-      content: `"${topWork.title}" is the most influential work, with ${topWork.citations.toLocaleString()} citations, published in ${topWork.year}.`,
+      title: t.scholar.findings.signatureWork,
+      content: t.scholar.findings.signatureWorkContent
+        .replace('{title}', topWork.title)
+        .replace('{citations}', topWork.citations.toLocaleString())
+        .replace('{year}', String(topWork.year)),
       type: 'highlight'
     });
   }
@@ -142,14 +156,14 @@ function generateKeyFindings(scholar: ScholarDetail): { title: string; content: 
     const citesPerWork = Math.round(scholar.citedByCount / scholar.worksCount);
     if (citesPerWork >= 500) {
       findings.push({
-        title: 'High Citation Efficiency',
-        content: `Averaging ${citesPerWork} citations per paper, indicating exceptional quality over quantity.`,
+        title: t.scholar.findings.highEfficiency,
+        content: t.scholar.findings.highEfficiencyContent.replace('{count}', String(citesPerWork)),
         type: 'success'
       });
     } else if (citesPerWork >= 100) {
       findings.push({
-        title: 'Consistent Output',
-        content: `Averaging ${citesPerWork} citations per paper, maintaining steady high-quality output.`,
+        title: t.scholar.findings.consistentOutput,
+        content: t.scholar.findings.consistentOutputContent.replace('{count}', String(citesPerWork)),
         type: 'info'
       });
     }
@@ -158,14 +172,14 @@ function generateKeyFindings(scholar: ScholarDetail): { title: string; content: 
   // Recent activity
   if (scholar.twoYearMeanCitedness > 10) {
     findings.push({
-      title: 'Sustained Impact',
-      content: `Two-year mean citedness of ${scholar.twoYearMeanCitedness.toFixed(1)} indicates research continues to generate significant impact.`,
+      title: t.scholar.findings.sustainedImpact,
+      content: t.scholar.findings.sustainedImpactContent.replace('{value}', scholar.twoYearMeanCitedness.toFixed(1)),
       type: 'success'
     });
   } else if (scholar.twoYearMeanCitedness < 1 && scholar.citedByCount > 10000) {
     findings.push({
-      title: 'Classic Scholar',
-      content: `Despite lower recent citations, the substantial total citations suggest impact comes primarily from classic works.`,
+      title: t.scholar.findings.classicScholar,
+      content: t.scholar.findings.classicScholarContent,
       type: 'info'
     });
   }
@@ -174,14 +188,14 @@ function generateKeyFindings(scholar: ScholarDetail): { title: string; content: 
   if (scholar.earlyCareer) {
     if (scholar.earlyCareer.earlyPct >= 50) {
       findings.push({
-        title: 'Early Breakthrough',
-        content: `Over half of citations come from the first 5 years, possibly from pioneering work or classic textbooks.`,
+        title: t.scholar.findings.earlyBreakthrough,
+        content: t.scholar.findings.earlyBreakthroughContent,
         type: 'warning'
       });
     } else if (scholar.earlyCareer.earlyPct <= 5 && scholar.citedByCount > 20000) {
       findings.push({
-        title: 'Sustained Growth',
-        content: `Very low early citation share indicates influence built through long-term accumulation, with later works being more impactful.`,
+        title: t.scholar.findings.sustainedGrowth,
+        content: t.scholar.findings.sustainedGrowthContent,
         type: 'info'
       });
     }
@@ -193,6 +207,7 @@ function generateKeyFindings(scholar: ScholarDetail): { title: string; content: 
 export default function ScholarPage() {
   const params = useParams();
   const id = params.id as string;
+  const { t } = useLanguage();
 
   const scholar = (scholarDetails as ScholarDetail[]).find(s => s.id === id);
 
@@ -200,19 +215,19 @@ export default function ScholarPage() {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-800 mb-4">Scholar Not Found</h1>
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">{t.scholar.scholarNotFound}</h1>
           <Link href="/" className="text-blue-600 hover:underline">
-            Return to Home
+            {t.common.backToDirectory}
           </Link>
         </div>
       </div>
     );
   }
 
-  const impact = getImpactLevel(scholar.citedByCount);
-  const career = getCareerStage(scholar.earlyCareer?.firstPubYear || null);
-  const analyses = generateAnalysis(scholar);
-  const keyFindings = generateKeyFindings(scholar);
+  const impact = getImpactLevel(scholar.citedByCount, t);
+  const career = getCareerStage(scholar.earlyCareer?.firstPubYear || null, t);
+  const analyses = generateAnalysis(scholar, t);
+  const keyFindings = generateKeyFindings(scholar, t);
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -223,7 +238,7 @@ export default function ScholarPage() {
             <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back to Directory
+            {t.common.backToDirectory}
           </Link>
 
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
@@ -237,7 +252,7 @@ export default function ScholarPage() {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-2">{scholar.name}</h1>
-              <p className="text-xl text-white/90">{scholar.institution || 'Independent Researcher'}</p>
+              <p className="text-xl text-white/90">{scholar.institution || t.common.independent}</p>
               {scholar.country && (
                 <p className="text-white/70 mt-1">{scholar.country}</p>
               )}
@@ -270,16 +285,16 @@ export default function ScholarPage() {
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-8">
         {/* Stats Grid */}
         <section>
-          <h2 className="text-xl font-bold text-gray-800 mb-4">Core Metrics</h2>
+          <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.coreMetrics}</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            <StatCard label="Total Citations" value={scholar.citedByCount} color="blue" />
-            <StatCard label="H-Index" value={scholar.hIndex} color="green" />
-            <StatCard label="Publications" value={scholar.worksCount} color="purple" />
-            <StatCard label="i10-Index" value={scholar.i10Index} color="amber" />
+            <StatCard label={t.scholar.totalCitations} value={scholar.citedByCount} color="blue" />
+            <StatCard label={t.common.hIndex} value={scholar.hIndex} color="green" />
+            <StatCard label={t.common.publications} value={scholar.worksCount} color="purple" />
+            <StatCard label={t.common.i10Index} value={scholar.i10Index} color="amber" />
             <StatCard
-              label="2-Year Citedness"
+              label={t.scholar.twoYearCitedness}
               value={scholar.twoYearMeanCitedness.toFixed(1)}
-              subtext="avg citations per work"
+              subtext={t.scholar.avgCitationsPerWork}
               color="red"
             />
           </div>
@@ -290,7 +305,7 @@ export default function ScholarPage() {
 
         {/* Summary & Analysis */}
         <section className="bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-xl font-bold text-gray-800 mb-4">Scholar Profile Analysis</h2>
+          <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.profileAnalysis}</h2>
           <div className="prose max-w-none text-gray-700">
             {analyses.map((para, idx) => (
               <p key={idx} className="mb-3">{para}</p>
@@ -300,7 +315,7 @@ export default function ScholarPage() {
 
         {/* Key Findings */}
         <section>
-          <h2 className="text-xl font-bold text-gray-800 mb-4">Key Findings</h2>
+          <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.keyFindings}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {keyFindings.map((finding, idx) => {
               const bgColors = {
@@ -328,28 +343,28 @@ export default function ScholarPage() {
         {/* Early Career Analysis */}
         {scholar.earlyCareer && scholar.earlyCareer.firstPubYear && (
           <section className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Early Career Analysis (First 5 Years)</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.earlyCareerAnalysis}</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
               <div className="bg-white rounded-lg p-4 shadow-sm">
-                <p className="text-sm text-gray-500">Career Start</p>
+                <p className="text-sm text-gray-500">{t.scholar.careerStart}</p>
                 <p className="text-xl font-bold text-amber-600">
                   {scholar.earlyCareer.firstPubYear} - {scholar.earlyCareer.earlyCareerEnd}
                 </p>
               </div>
               <div className="bg-white rounded-lg p-4 shadow-sm">
-                <p className="text-sm text-gray-500">Early Citations</p>
+                <p className="text-sm text-gray-500">{t.scholar.earlyCitations}</p>
                 <p className="text-xl font-bold text-amber-600">
                   {scholar.earlyCareer.earlyCareerCitations.toLocaleString()}
                 </p>
               </div>
               <div className="bg-white rounded-lg p-4 shadow-sm">
-                <p className="text-sm text-gray-500">Early Works</p>
+                <p className="text-sm text-gray-500">{t.scholar.earlyWorks}</p>
                 <p className="text-xl font-bold text-amber-600">
                   {scholar.earlyCareer.earlyWorksCount}
                 </p>
               </div>
               <div className="bg-white rounded-lg p-4 shadow-sm">
-                <p className="text-sm text-gray-500">Early Impact %</p>
+                <p className="text-sm text-gray-500">{t.scholar.earlyImpactPct}</p>
                 <p className="text-xl font-bold text-amber-600">
                   {scholar.earlyCareer.earlyPct}%
                 </p>
@@ -357,7 +372,7 @@ export default function ScholarPage() {
             </div>
             {scholar.earlyCareer.topPaper && (
               <div className="bg-white rounded-lg p-4">
-                <p className="text-sm text-gray-500 mb-1">Top Early Career Paper</p>
+                <p className="text-sm text-gray-500 mb-1">{t.scholar.topEarlyPaper}</p>
                 <p className="font-medium text-gray-800">{scholar.earlyCareer.topPaper}</p>
               </div>
             )}
@@ -367,7 +382,7 @@ export default function ScholarPage() {
         {/* Publication Timeline */}
         {scholar.yearlyData && scholar.yearlyData.length > 0 && (
           <section className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Publication Timeline</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.publicationTimeline}</h2>
             <ResponsiveContainer width="100%" height={300}>
               <AreaChart data={scholar.yearlyData.filter(d => d.year >= 1980)}>
                 <CartesianGrid strokeDasharray="3 3" />
@@ -389,7 +404,7 @@ export default function ScholarPage() {
         {/* Research Topics */}
         {scholar.topics && scholar.topics.length > 0 && (
           <section className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Research Topics</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.researchTopics}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ResponsiveContainer width="100%" height={300}>
                 <PieChart>
@@ -441,7 +456,7 @@ export default function ScholarPage() {
         {/* Top Publications */}
         {scholar.topWorks && scholar.topWorks.length > 0 && (
           <section className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Top Publications</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.topPublications}</h2>
             <div className="space-y-4">
               {scholar.topWorks.slice(0, 10).map((work, idx) => (
                 <div
@@ -465,7 +480,7 @@ export default function ScholarPage() {
                     </div>
                     <div className="text-right ml-4">
                       <p className="text-lg font-bold text-blue-600">{work.citations.toLocaleString()}</p>
-                      <p className="text-xs text-gray-500">citations</p>
+                      <p className="text-xs text-gray-500">{t.common.citations}</p>
                     </div>
                   </div>
                 </div>
@@ -477,7 +492,7 @@ export default function ScholarPage() {
         {/* Impact Categories */}
         {scholar.impactCategories && scholar.impactCategories.length > 0 && (
           <section className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Impact Classification</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">{t.scholar.impactClassification}</h2>
             <div className="flex flex-wrap gap-3">
               {scholar.impactCategories.map((cat, idx) => (
                 <div key={idx} className="px-4 py-2 bg-gray-100 border border-gray-200 rounded-lg">
@@ -493,8 +508,8 @@ export default function ScholarPage() {
       {/* Footer */}
       <footer className="bg-gray-800 text-gray-400 py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 text-center text-sm">
-          <p>Computational Neuroscience Scholar Analysis</p>
-          <p className="mt-2">Data: OpenAlex API | Built with Next.js & Recharts</p>
+          <p>{t.scholar.footerTitle}</p>
+          <p className="mt-2">{t.scholar.footerSubtitle}</p>
         </div>
       </footer>
     </main>

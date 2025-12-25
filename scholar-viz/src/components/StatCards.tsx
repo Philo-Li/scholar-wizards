@@ -1,5 +1,7 @@
 'use client';
 
+import { useLanguage } from '@/i18n/LanguageContext';
+
 interface StatCardProps {
   title: string;
   value: string | number;
@@ -40,33 +42,35 @@ interface StatsGridProps {
 }
 
 export function StatsGrid({ stats }: StatsGridProps) {
+  const { t } = useLanguage();
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       <StatCard
-        title="Total Scholars"
+        title={t.home.totalScholars}
         value={stats.totalScholars}
-        subtitle="In computational neuroscience"
+        subtitle={t.home.inComputationalNeuroscience}
         icon="👨‍🔬"
         color="blue"
       />
       <StatCard
-        title="Avg Citations"
+        title={t.home.avgCitations}
         value={stats.citations.mean.toLocaleString()}
-        subtitle={`Median: ${stats.citations.median.toLocaleString()}`}
+        subtitle={`${t.home.median}: ${stats.citations.median.toLocaleString()}`}
         icon="📚"
         color="green"
       />
       <StatCard
-        title="Avg H-index"
+        title={t.home.avgHIndex}
         value={stats.hIndex.mean}
-        subtitle={`Max: ${stats.hIndex.max}`}
+        subtitle={`${t.home.max}: ${stats.hIndex.max}`}
         icon="📊"
         color="purple"
       />
       <StatCard
-        title="Avg Publications"
+        title={t.home.avgPublications}
         value={stats.worksCount.mean}
-        subtitle={`Median: ${stats.worksCount.median}`}
+        subtitle={`${t.home.median}: ${stats.worksCount.median}`}
         icon="📝"
         color="orange"
       />

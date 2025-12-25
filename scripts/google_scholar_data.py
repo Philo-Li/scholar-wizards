@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-合并Google Scholar数据到现有记录
+Merge Google Scholar data into existing records.
 """
 
 import json
 import pandas as pd
 
-# Google Scholar 数据 (从用户提供的页面提取)
+# Google Scholar data (extracted from user-provided page)
 google_scholar_data = [
     {"name": "Stephen M. Smith", "institution": "WIN (FMRIB), Oxford University", "cited_by_count": 263905, "fields": "Brain imaging MRI Computational Neuroscience Connectomics Medical Image Analysis"},
     {"name": "Anders M. Dale", "institution": "President, J Craig Venter Institute", "cited_by_count": 224519, "fields": "Neuroimaging MRI Computational Neuroscience Statistical Genetics Biomedical Optics"},
@@ -111,10 +111,10 @@ google_scholar_data = [
 ]
 
 def normalize_name(name):
-    """标准化名字以便比较"""
-    # 移除多余空格，统一大小写
+    """Normalize name for comparison."""
+    # Remove extra spaces, normalize case
     name = ' '.join(name.split())
-    # 处理一些常见变体
+    # Handle common variants
     replacements = {
         "Terrence J. Sejnowski": "Terrence Sejnowski",
         "Terrence J Sejnowski": "Terrence Sejnowski",
@@ -130,20 +130,20 @@ def normalize_name(name):
     }
     for old, new in replacements.items():
         if name == old or name == new:
-            return old  # 返回第一个作为标准形式
+            return old  # Return first as standard form
     return name
 
 def main():
-    # 读取现有数据
-    existing_df = pd.read_csv("comp_neuro_scholars_raw.csv")
-    print(f"现有记录: {len(existing_df)} 位学者")
+    # Load existing data
+    existing_df = pd.read_csv("../data/comp_neuro_scholars_raw.csv")
+    print(f"Existing records: {len(existing_df)} scholars")
 
-    # 创建名字到记录的映射 (用于检测重复)
+    # Create name mapping (for duplicate detection)
     existing_names = set()
     for name in existing_df['name']:
         existing_names.add(normalize_name(name))
 
-    # 处理Google Scholar数据
+    # Process Google Scholar data
     new_scholars = []
     updated_count = 0
 
@@ -151,29 +151,29 @@ def main():
         gs_name = gs['name']
         normalized = normalize_name(gs_name)
 
-        # 检查是否已存在
+        # Check if already exists
         found = False
         for idx, row in existing_df.iterrows():
             if normalize_name(row['name']) == normalized or \
                gs_name.lower() in row['name'].lower() or \
                row['name'].lower() in gs_name.lower():
-                # 更新现有记录
+                # Update existing record
                 existing_df.at[idx, 'cited_by_count'] = gs['cited_by_count']
                 existing_df.at[idx, 'institution'] = gs['institution'].split(',')[0] if gs['institution'] else row['institution']
                 updated_count += 1
                 found = True
-                print(f"更新: {gs_name} -> {gs['cited_by_count']:,} 引用")
+                print(f"Updated: {gs_name} -> {gs['cited_by_count']:,} citations")
                 break
 
         if not found:
-            # 新学者
+            # New scholar
             new_scholars.append({
                 'id': f"https://openalex.org/GS_{gs_name.replace(' ', '_')}",
                 'name': gs_name,
                 'orcid': '',
                 'works_count': 0,
                 'cited_by_count': gs['cited_by_count'],
-                'h_index': 0,  # Google Scholar页面没有直接显示
+                'h_index': 0,  # Not directly shown on Google Scholar page
                 'i10_index': 0,
                 '2yr_mean_citedness': 0,
                 'institution': gs['institution'].split(',')[0] if gs['institution'] else '',
@@ -181,29 +181,29 @@ def main():
                 'top_concepts': gs['fields'],
                 'works_api_url': '',
             })
-            print(f"新增: {gs_name} ({gs['cited_by_count']:,} 引用)")
+            print(f"Added: {gs_name} ({gs['cited_by_count']:,} citations)")
 
-    print(f"\n更新了 {updated_count} 条现有记录")
-    print(f"新增 {len(new_scholars)} 位学者")
+    print(f"\nUpdated {updated_count} existing records")
+    print(f"Added {len(new_scholars)} new scholars")
 
-    # 合并数据
+    # Merge data
     if new_scholars:
         new_df = pd.DataFrame(new_scholars)
         combined_df = pd.concat([existing_df, new_df], ignore_index=True)
     else:
         combined_df = existing_df
 
-    # 按引用数排序
+    # Sort by citations
     combined_df = combined_df.sort_values('cited_by_count', ascending=False)
 
-    # 保存
-    combined_df.to_csv("comp_neuro_scholars_raw.csv", index=False, encoding='utf-8')
-    print(f"\n合并后共 {len(combined_df)} 位学者，已保存到 comp_neuro_scholars_raw.csv")
+    # Save
+    combined_df.to_csv("../data/comp_neuro_scholars_raw.csv", index=False, encoding='utf-8')
+    print(f"\nTotal {len(combined_df)} scholars saved to ../data/comp_neuro_scholars_raw.csv")
 
-    # 显示前20
-    print("\n=== TOP 20 学者 (按引用数) ===")
+    # Display top 20
+    print("\n=== TOP 20 Scholars (by citations) ===")
     for i, (_, row) in enumerate(combined_df.head(20).iterrows(), 1):
-        print(f"{i:2d}. {row['name']}: {row['cited_by_count']:,} 引用")
+        print(f"{i:2d}. {row['name']}: {row['cited_by_count']:,} citations")
 
 if __name__ == "__main__":
     main()

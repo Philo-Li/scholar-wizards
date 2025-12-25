@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-职业生涯前五年引用数量分析
+Early Career Citations Analysis
 
-获取计算神经科学领域学者职业生涯前五年的引用数量，
-用于评估学者的早期学术爆发力。
+Analyze first 5 years citations for computational neuroscience scholars
+to evaluate early academic impact.
 """
 
 import requests
@@ -16,7 +16,7 @@ EMAIL = "researcher@example.com"
 
 
 def get_author_first_year(author_id, email=None):
-    """获取作者的首篇论文年份"""
+    """Get author's first publication year."""
     author_short_id = author_id.split("/")[-1]
     url = f"{OPENALEX_BASE}/works"
     params = {
@@ -35,12 +35,12 @@ def get_author_first_year(author_id, email=None):
             if results:
                 return results[0].get("publication_year")
     except Exception as e:
-        print(f"  获取首篇论文年份出错: {e}")
+        print(f"  Error fetching first pub year: {e}")
     return None
 
 
 def get_early_career_citations(author_id, first_year, years=5, email=None):
-    """获取作者职业生涯前N年发表论文的总引用数"""
+    """Get total citations for papers published in first N years."""
     if not first_year:
         return None, 0, []
 
@@ -75,23 +75,23 @@ def get_early_career_citations(author_id, first_year, years=5, email=None):
                     "citations": cited,
                 })
 
-            # 按引用排序，取前3篇
+            # Sort by citations, take top 3
             top_papers = sorted(top_papers, key=lambda x: x["citations"], reverse=True)[:3]
 
     except Exception as e:
-        print(f"  获取早期论文出错: {e}")
+        print(f"  Error fetching early papers: {e}")
 
     return total_citations, works_count, top_papers
 
 
 def main():
     print("=" * 70)
-    print("职业生涯前五年引用数量分析")
+    print("Early Career Citations Analysis (First 5 Years)")
     print("=" * 70)
 
-    # 读取原始数据
-    df = pd.read_csv("comp_neuro_scholars_raw.csv")
-    print(f"\n读取到 {len(df)} 位学者数据")
+    # Load raw data
+    df = pd.read_csv("../data/comp_neuro_scholars_raw.csv")
+    print(f"\nLoaded {len(df)} scholars")
 
     results = []
 
@@ -102,20 +102,20 @@ def main():
         h_index = row["h_index"]
         institution = row["institution"]
 
-        print(f"\n[{i+1}/{len(df)}] 处理: {name}")
+        print(f"\n[{i+1}/{len(df)}] Processing: {name}")
 
-        # 获取首篇论文年份
+        # Get first publication year
         first_year = get_author_first_year(author_id, EMAIL)
 
         if first_year:
-            print(f"  首篇论文年份: {first_year}")
+            print(f"  First pub year: {first_year}")
 
-            # 获取前五年引用
+            # Get first 5 years citations
             early_citations, early_works, top_papers = get_early_career_citations(
                 author_id, first_year, years=5, email=EMAIL
             )
 
-            print(f"  前五年论文数: {early_works}, 引用总数: {early_citations:,}")
+            print(f"  First 5 years: {early_works} works, {early_citations:,} citations")
 
             results.append({
                 "name": name,
@@ -131,51 +131,51 @@ def main():
                 "top_paper_1_citations": top_papers[0]["citations"] if len(top_papers) > 0 else 0,
             })
         else:
-            print(f"  无法获取首篇论文年份")
+            print(f"  Cannot fetch first pub year")
 
-        time.sleep(0.15)  # API礼貌延迟
+        time.sleep(0.15)  # API rate limit
 
-    # 转换为DataFrame
+    # Convert to DataFrame
     results_df = pd.DataFrame(results)
 
-    # 按前五年引用排序
+    # Sort by early career citations
     results_df = results_df.sort_values("early_career_citations", ascending=False)
 
-    # 保存结果
-    results_df.to_csv("early_career_citations.csv", index=False, encoding="utf-8")
-    print(f"\n\n结果已保存到 early_career_citations.csv")
+    # Save results
+    results_df.to_csv("../data/early_career_citations.csv", index=False, encoding="utf-8")
+    print(f"\n\nResults saved to ../data/early_career_citations.csv")
 
-    # 打印排行榜
+    # Print leaderboard
     print("\n" + "=" * 70)
-    print("  职业生涯前五年最高引用数量排行榜 TOP 20")
+    print("  Top 20 Early Career Citations Ranking")
     print("=" * 70)
 
     top20 = results_df.head(20)
     for i, (_, row) in enumerate(top20.iterrows(), 1):
         print(f"\n{i:2d}. {row['name']}")
-        print(f"    机构: {row['institution']}")
-        print(f"    学术生涯起始: {int(row['first_pub_year'])} - {int(row['early_career_end'])}")
-        print(f"    前五年引用: {row['early_career_citations']:,} (占总引用 {row['early_pct']}%)")
-        print(f"    前五年论文数: {row['early_works_count']}")
+        print(f"    Institution: {row['institution']}")
+        print(f"    Career start: {int(row['first_pub_year'])} - {int(row['early_career_end'])}")
+        print(f"    First 5 years: {row['early_career_citations']:,} citations ({row['early_pct']}% of total)")
+        print(f"    First 5 years works: {row['early_works_count']}")
         if row['top_paper_1']:
             title = row['top_paper_1'][:60] + "..." if len(row['top_paper_1']) > 60 else row['top_paper_1']
-            print(f"    代表作: {title}")
+            print(f"    Top work: {title}")
 
-    # 额外统计
+    # Additional stats
     print("\n\n" + "=" * 70)
-    print("  早期爆发力分析")
+    print("  Early Impact Analysis")
     print("=" * 70)
 
-    print(f"\n前五年引用统计:")
-    print(f"  平均值: {results_df['early_career_citations'].mean():,.0f}")
-    print(f"  中位数: {results_df['early_career_citations'].median():,.0f}")
-    print(f"  最大值: {results_df['early_career_citations'].max():,.0f}")
+    print(f"\nFirst 5 years citation stats:")
+    print(f"  Mean: {results_df['early_career_citations'].mean():,.0f}")
+    print(f"  Median: {results_df['early_career_citations'].median():,.0f}")
+    print(f"  Max: {results_df['early_career_citations'].max():,.0f}")
 
-    # 早期引用占比最高的学者
-    print(f"\n早期引用占比最高的学者 (前五年引用/总引用):")
+    # Highest early citation percentage
+    print(f"\nHighest early citation percentage (first 5 years / total):")
     early_pct_top = results_df.nlargest(10, "early_pct")
     for i, (_, row) in enumerate(early_pct_top.iterrows(), 1):
-        print(f"  {i}. {row['name']}: {row['early_pct']}% (前五年 {row['early_career_citations']:,} / 总计 {row['total_citations']:,})")
+        print(f"  {i}. {row['name']}: {row['early_pct']}% (first 5y {row['early_career_citations']:,} / total {row['total_citations']:,})")
 
 
 if __name__ == "__main__":

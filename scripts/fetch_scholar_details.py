@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-获取每位学者的详细信息，用于生成个人页面
+Fetch detailed information for each scholar to generate profile pages.
 """
 
 import requests
@@ -14,7 +14,7 @@ EMAIL = "researcher@example.com"
 
 
 def get_author_details(author_id, email=None):
-    """获取作者的完整详细信息"""
+    """Get complete author details."""
     author_short_id = author_id.split("/")[-1]
     url = f"{OPENALEX_BASE}/authors/{author_short_id}"
 
@@ -27,12 +27,12 @@ def get_author_details(author_id, email=None):
         if resp.status_code == 200:
             return resp.json()
     except Exception as e:
-        print(f"  获取作者详情出错: {e}")
+        print(f"  Error fetching author details: {e}")
     return None
 
 
 def get_author_works(author_id, email=None, limit=50):
-    """获取作者的主要论文"""
+    """Get author's top publications."""
     author_short_id = author_id.split("/")[-1]
     url = f"{OPENALEX_BASE}/works"
     params = {
@@ -58,12 +58,12 @@ def get_author_works(author_id, email=None, limit=50):
                     "venue": work.get("primary_location", {}).get("source", {}).get("display_name", "") if work.get("primary_location") else "",
                 })
     except Exception as e:
-        print(f"  获取论文列表出错: {e}")
+        print(f"  Error fetching works: {e}")
     return works
 
 
 def get_yearly_citations(author_id, email=None):
-    """获取作者每年的论文发表和引用情况"""
+    """Get author's yearly publication and citation data."""
     author_short_id = author_id.split("/")[-1]
     url = f"{OPENALEX_BASE}/works"
     params = {
@@ -87,12 +87,12 @@ def get_yearly_citations(author_id, email=None):
                     })
             yearly_data.sort(key=lambda x: x["year"])
     except Exception as e:
-        print(f"  获取年度数据出错: {e}")
+        print(f"  Error fetching yearly data: {e}")
     return yearly_data
 
 
 def get_coauthors(author_id, email=None, limit=10):
-    """获取主要合作者"""
+    """Get main collaborators."""
     author_short_id = author_id.split("/")[-1]
     url = f"{OPENALEX_BASE}/authors"
     params = {
@@ -102,13 +102,13 @@ def get_coauthors(author_id, email=None, limit=10):
     if email:
         params["mailto"] = email
 
-    # 这里简化处理，从论文中提取合作者会更准确
-    # 但为了性能，我们跳过这一步
+    # Simplified: extracting from papers would be more accurate
+    # but skipped for performance
     return []
 
 
 def analyze_research_topics(concepts):
-    """分析研究主题"""
+    """Analyze research topics."""
     if not concepts:
         return []
 
@@ -123,84 +123,84 @@ def analyze_research_topics(concepts):
 
 
 def generate_scholar_summary(name, details, works, early_career_data):
-    """生成学者的文字总结"""
+    """Generate text summary for scholar."""
     summary = []
 
     if not details:
-        return "暂无详细信息。"
+        return "No detailed information available."
 
-    # 基本信息
+    # Basic info
     cited_by = details.get("cited_by_count", 0)
     works_count = details.get("works_count", 0)
     h_index = details.get("summary_stats", {}).get("h_index", 0)
 
-    # 机构信息
+    # Institution info
     institutions = details.get("last_known_institutions", [])
     inst_name = institutions[0].get("display_name", "") if institutions else ""
     country = institutions[0].get("country_code", "") if institutions else ""
 
-    # 研究方向
+    # Research areas
     concepts = details.get("x_concepts", [])
     top_concepts = [c.get("display_name", "") for c in concepts[:5]]
 
-    # 生成总结段落
+    # Generate summary
     if inst_name:
-        summary.append(f"{name} 目前任职于 {inst_name}，")
+        summary.append(f"{name} is currently affiliated with {inst_name}.")
 
-    summary.append(f"累计发表 {works_count} 篇学术论文，被引用 {cited_by:,} 次，h-index 为 {h_index}。")
+    summary.append(f"Published {works_count} academic papers with {cited_by:,} citations and h-index of {h_index}.")
 
     if top_concepts:
-        summary.append(f"主要研究方向包括 {', '.join(top_concepts[:3])} 等领域。")
+        summary.append(f"Main research areas include {', '.join(top_concepts[:3])}.")
 
-    # 代表作
+    # Top work
     if works and len(works) > 0:
         top_work = works[0]
-        summary.append(f"代表作《{top_work['title'][:50]}...》被引用 {top_work['citations']:,} 次。")
+        summary.append(f"Top cited work \"{top_work['title'][:50]}...\" has {top_work['citations']:,} citations.")
 
-    # 早期职业分析
+    # Early career analysis
     if early_career_data:
         early_pct = early_career_data.get("earlyPct", 0)
         early_citations = early_career_data.get("earlyCareerCitations", 0)
         if early_pct >= 20:
-            summary.append(f"职业生涯前五年引用占总引用的 {early_pct}%（{early_citations:,} 次），显示出较强的早期爆发力。")
+            summary.append(f"First 5 years citations account for {early_pct}% ({early_citations:,}) of total, showing strong early impact.")
         elif early_pct <= 5:
-            summary.append(f"职业生涯前五年引用仅占 {early_pct}%，说明其学术影响力是逐步积累而成。")
+            summary.append(f"First 5 years citations only {early_pct}%, indicating gradual accumulation of academic influence.")
 
     return " ".join(summary)
 
 
 def categorize_impact(cited_by, h_index, works_count):
-    """评估学者的影响力类型"""
+    """Evaluate scholar's impact type."""
     categories = []
 
     if cited_by > 50000:
-        categories.append({"type": "顶级影响力", "description": "总引用超过5万次，属于领域顶级学者"})
+        categories.append({"type": "Top Impact", "description": "Over 50k citations, top scholar in the field"})
     elif cited_by > 20000:
-        categories.append({"type": "高影响力", "description": "总引用超过2万次，是领域内公认的重要人物"})
+        categories.append({"type": "High Impact", "description": "Over 20k citations, recognized leader in the field"})
     elif cited_by > 10000:
-        categories.append({"type": "中高影响力", "description": "总引用超过1万次，在特定方向具有显著影响"})
+        categories.append({"type": "Medium-High Impact", "description": "Over 10k citations, significant influence in specific areas"})
 
     if h_index > 100:
-        categories.append({"type": "持续产出", "description": "h-index超过100，表明长期高质量产出"})
+        categories.append({"type": "Sustained Output", "description": "h-index over 100, long-term high-quality output"})
     elif h_index > 50:
-        categories.append({"type": "稳定产出", "description": "h-index超过50，具有持续的学术产出能力"})
+        categories.append({"type": "Stable Output", "description": "h-index over 50, consistent academic output"})
 
     if works_count > 500:
-        categories.append({"type": "高产学者", "description": f"发表超过{works_count}篇论文，产出极为丰富"})
+        categories.append({"type": "Prolific Scholar", "description": f"Over {works_count} publications, extremely productive"})
 
     return categories
 
 
 def main():
     print("=" * 70)
-    print("获取学者详细信息")
+    print("Fetching Scholar Details")
     print("=" * 70)
 
-    # 读取原始数据
-    df = pd.read_csv("comp_neuro_scholars_raw.csv")
+    # Load raw data
+    df = pd.read_csv("../data/comp_neuro_scholars_raw.csv")
 
-    # 读取早期职业数据
-    early_career_df = pd.read_csv("early_career_citations.csv")
+    # Load early career data
+    early_career_df = pd.read_csv("../data/early_career_citations.csv")
     early_career_dict = {row["name"]: row.to_dict() for _, row in early_career_df.iterrows()}
 
     scholars_details = []
@@ -209,45 +209,45 @@ def main():
         name = row["name"]
         author_id = row["id"]
 
-        print(f"\n[{i+1}/{len(df)}] 处理: {name}")
+        print(f"\n[{i+1}/{len(df)}] Processing: {name}")
 
-        # 获取详细信息
+        # Get details
         details = get_author_details(author_id, EMAIL)
         if not details:
-            print(f"  跳过: 无法获取详情")
+            print(f"  Skipped: cannot fetch details")
             continue
 
         time.sleep(0.1)
 
-        # 获取论文列表
+        # Get works
         works = get_author_works(author_id, EMAIL, limit=30)
-        print(f"  获取到 {len(works)} 篇论文")
+        print(f"  Fetched {len(works)} works")
 
         time.sleep(0.1)
 
-        # 获取年度数据
+        # Get yearly data
         yearly = get_yearly_citations(author_id, EMAIL)
-        print(f"  获取到 {len(yearly)} 年的数据")
+        print(f"  Fetched {len(yearly)} years of data")
 
         time.sleep(0.1)
 
-        # 分析研究主题
+        # Analyze topics
         topics = analyze_research_topics(details.get("x_concepts", []))
 
-        # 获取早期职业数据
+        # Get early career data
         early_data = early_career_dict.get(name, {})
 
-        # 生成摘要
+        # Generate summary
         summary = generate_scholar_summary(name, details, works, early_data)
 
-        # 影响力分类
+        # Impact categories
         impact_categories = categorize_impact(
             details.get("cited_by_count", 0),
             details.get("summary_stats", {}).get("h_index", 0),
             details.get("works_count", 0)
         )
 
-        # 构建完整记录
+        # Build complete record
         scholar_detail = {
             "id": author_id.split("/")[-1],
             "name": name,
@@ -277,10 +277,10 @@ def main():
 
         scholars_details.append(scholar_detail)
 
-    # 保存结果 (处理NaN值)
-    output_path = "scholar-viz/src/data/scholarDetails.json"
+    # Save results (handle NaN values)
+    output_path = "../scholar-viz/src/data/scholarDetails.json"
 
-    # 将NaN转换为None以确保有效JSON
+    # Convert NaN to None for valid JSON
     def clean_nan(obj):
         if isinstance(obj, float) and (obj != obj):  # NaN check
             return None
@@ -295,7 +295,7 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(scholars_details, f, ensure_ascii=False, indent=2)
 
-    print(f"\n\n已保存 {len(scholars_details)} 位学者的详细信息到 {output_path}")
+    print(f"\n\nSaved {len(scholars_details)} scholar details to {output_path}")
 
 
 if __name__ == "__main__":

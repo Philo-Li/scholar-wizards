@@ -15,6 +15,7 @@ import {
   AreaChart
 } from 'recharts';
 import scholarDetails from '@/data/scholarDetails.json';
+import ScholarDimensions from '@/components/ScholarDimensions';
 
 interface ScholarDetail {
   id: string;
@@ -64,23 +65,23 @@ function StatCard({ label, value, subtext, color = 'blue' }: { label: string; va
 }
 
 function getImpactLevel(citations: number): { level: string; color: string; description: string } {
-  if (citations >= 100000) return { level: 'Legendary', color: 'from-yellow-400 to-amber-500', description: '领域传奇人物，引用超10万' };
-  if (citations >= 50000) return { level: 'Elite', color: 'from-purple-500 to-pink-500', description: '顶级学者，引用超5万' };
-  if (citations >= 20000) return { level: 'Distinguished', color: 'from-blue-500 to-cyan-500', description: '杰出学者，引用超2万' };
-  if (citations >= 10000) return { level: 'Established', color: 'from-green-500 to-emerald-500', description: '知名学者，引用超1万' };
-  if (citations >= 5000) return { level: 'Rising', color: 'from-orange-400 to-red-400', description: '新锐学者，引用超5千' };
-  return { level: 'Emerging', color: 'from-gray-400 to-gray-500', description: '新兴学者' };
+  if (citations >= 100000) return { level: 'Legendary', color: 'from-yellow-400 to-amber-500', description: 'Legendary figure in the field with 100k+ citations' };
+  if (citations >= 50000) return { level: 'Elite', color: 'from-purple-500 to-pink-500', description: 'Elite scholar with 50k+ citations' };
+  if (citations >= 20000) return { level: 'Distinguished', color: 'from-blue-500 to-cyan-500', description: 'Distinguished scholar with 20k+ citations' };
+  if (citations >= 10000) return { level: 'Established', color: 'from-green-500 to-emerald-500', description: 'Established scholar with 10k+ citations' };
+  if (citations >= 5000) return { level: 'Rising', color: 'from-orange-400 to-red-400', description: 'Rising scholar with 5k+ citations' };
+  return { level: 'Emerging', color: 'from-gray-400 to-gray-500', description: 'Emerging scholar' };
 }
 
 function getCareerStage(firstYear: number | null): { stage: string; years: number; description: string } {
-  if (!firstYear) return { stage: 'Unknown', years: 0, description: '未知' };
+  if (!firstYear) return { stage: 'Unknown', years: 0, description: 'Unknown' };
   const currentYear = new Date().getFullYear();
   const years = currentYear - firstYear;
 
-  if (years >= 30) return { stage: 'Senior', years, description: '资深学者（30年+）' };
-  if (years >= 20) return { stage: 'Established', years, description: '成熟学者（20-30年）' };
-  if (years >= 10) return { stage: 'Mid-Career', years, description: '中期学者（10-20年）' };
-  return { stage: 'Early-Career', years, description: '早期学者（<10年）' };
+  if (years >= 30) return { stage: 'Senior', years, description: 'Senior Scholar (30+ years)' };
+  if (years >= 20) return { stage: 'Established', years, description: 'Established Scholar (20-30 years)' };
+  if (years >= 10) return { stage: 'Mid-Career', years, description: 'Mid-Career Scholar (10-20 years)' };
+  return { stage: 'Early-Career', years, description: 'Early-Career Scholar (<10 years)' };
 }
 
 function generateAnalysis(scholar: ScholarDetail): string[] {
@@ -88,36 +89,36 @@ function generateAnalysis(scholar: ScholarDetail): string[] {
   const impact = getImpactLevel(scholar.citedByCount);
   const career = getCareerStage(scholar.earlyCareer?.firstPubYear || null);
 
-  // 影响力分析
-  analyses.push(`${scholar.name} 是计算神经科学领域的${impact.description}，目前任职于 ${scholar.institution || '独立研究'}。`);
+  // Impact analysis
+  analyses.push(`${scholar.name} is a ${impact.description.toLowerCase()} in computational neuroscience, currently affiliated with ${scholar.institution || 'Independent Research'}.`);
 
-  // 产出分析
+  // Productivity analysis
   const worksPerYear = career.years > 0 ? (scholar.worksCount / career.years).toFixed(1) : 0;
-  analyses.push(`在 ${career.years} 年的学术生涯中，共发表 ${scholar.worksCount} 篇论文（年均 ${worksPerYear} 篇），被引用 ${scholar.citedByCount.toLocaleString()} 次。`);
+  analyses.push(`Over a ${career.years}-year academic career, published ${scholar.worksCount} papers (averaging ${worksPerYear} per year), with ${scholar.citedByCount.toLocaleString()} citations.`);
 
-  // H-index分析
+  // H-index analysis
   if (scholar.hIndex >= 100) {
-    analyses.push(`h-index 达到 ${scholar.hIndex}，是极少数能达到此高度的学者，表明其研究具有持久且广泛的影响力。`);
+    analyses.push(`With an h-index of ${scholar.hIndex}, one of the rare scholars to reach this level, indicating lasting and broad research impact.`);
   } else if (scholar.hIndex >= 50) {
-    analyses.push(`h-index 为 ${scholar.hIndex}，远高于领域平均水平，表明其有大量高引用论文。`);
+    analyses.push(`An h-index of ${scholar.hIndex}, well above field average, indicates a substantial body of highly-cited work.`);
   } else if (scholar.hIndex >= 30) {
-    analyses.push(`h-index 为 ${scholar.hIndex}，是一个活跃且有影响力的研究者。`);
+    analyses.push(`An h-index of ${scholar.hIndex} reflects an active and influential researcher.`);
   }
 
-  // 早期职业分析
+  // Early career analysis
   if (scholar.earlyCareer && scholar.earlyCareer.earlyCareerCitations > 0) {
     const earlyPct = scholar.earlyCareer.earlyPct;
     if (earlyPct >= 30) {
-      analyses.push(`早期职业表现突出：前5年引用占总引用的 ${earlyPct}%（${scholar.earlyCareer.earlyCareerCitations.toLocaleString()} 次），显示出极强的早期爆发力。`);
+      analyses.push(`Outstanding early career performance: first 5 years account for ${earlyPct}% of total citations (${scholar.earlyCareer.earlyCareerCitations.toLocaleString()}), showing strong early impact.`);
     } else if (earlyPct <= 10) {
-      analyses.push(`其学术影响力是逐步积累的：前5年引用仅占 ${earlyPct}%，说明后期作品更具影响力。`);
+      analyses.push(`Academic impact accumulated gradually: first 5 years account for only ${earlyPct}%, indicating later works are more influential.`);
     }
   }
 
-  // 研究方向分析
+  // Research direction analysis
   if (scholar.topics && scholar.topics.length > 0) {
-    const topTopics = scholar.topics.slice(0, 3).map(t => t.name).join('、');
-    analyses.push(`主要研究方向包括 ${topTopics} 等领域。`);
+    const topTopics = scholar.topics.slice(0, 3).map(t => t.name).join(', ');
+    analyses.push(`Primary research areas include ${topTopics}.`);
   }
 
   return analyses;
@@ -126,61 +127,61 @@ function generateAnalysis(scholar: ScholarDetail): string[] {
 function generateKeyFindings(scholar: ScholarDetail): { title: string; content: string; type: 'success' | 'info' | 'warning' | 'highlight' }[] {
   const findings: { title: string; content: string; type: 'success' | 'info' | 'warning' | 'highlight' }[] = [];
 
-  // 顶级论文分析
+  // Top publication analysis
   if (scholar.topWorks && scholar.topWorks.length > 0) {
     const topWork = scholar.topWorks[0];
     findings.push({
-      title: '代表作品',
-      content: `《${topWork.title}》是其最具影响力的作品，被引用 ${topWork.citations.toLocaleString()} 次，发表于 ${topWork.year} 年。`,
+      title: 'Signature Work',
+      content: `"${topWork.title}" is the most influential work, with ${topWork.citations.toLocaleString()} citations, published in ${topWork.year}.`,
       type: 'highlight'
     });
   }
 
-  // 引用效率
+  // Citation efficiency
   if (scholar.worksCount > 0) {
     const citesPerWork = Math.round(scholar.citedByCount / scholar.worksCount);
     if (citesPerWork >= 500) {
       findings.push({
-        title: '高引用效率',
-        content: `平均每篇论文被引用 ${citesPerWork} 次，表明其作品质量极高，而非依靠数量取胜。`,
+        title: 'High Citation Efficiency',
+        content: `Averaging ${citesPerWork} citations per paper, indicating exceptional quality over quantity.`,
         type: 'success'
       });
     } else if (citesPerWork >= 100) {
       findings.push({
-        title: '稳定产出',
-        content: `平均每篇论文被引用 ${citesPerWork} 次，维持着稳定的高质量产出。`,
+        title: 'Consistent Output',
+        content: `Averaging ${citesPerWork} citations per paper, maintaining steady high-quality output.`,
         type: 'info'
       });
     }
   }
 
-  // 近期活跃度
+  // Recent activity
   if (scholar.twoYearMeanCitedness > 10) {
     findings.push({
-      title: '持续影响力',
-      content: `近两年平均引用率为 ${scholar.twoYearMeanCitedness.toFixed(1)}，表明其研究仍在持续产生影响。`,
+      title: 'Sustained Impact',
+      content: `Two-year mean citedness of ${scholar.twoYearMeanCitedness.toFixed(1)} indicates research continues to generate significant impact.`,
       type: 'success'
     });
   } else if (scholar.twoYearMeanCitedness < 1 && scholar.citedByCount > 10000) {
     findings.push({
-      title: '经典型学者',
-      content: `虽然近两年引用率较低，但总引用量巨大，说明其影响主要来自经典作品。`,
+      title: 'Classic Scholar',
+      content: `Despite lower recent citations, the substantial total citations suggest impact comes primarily from classic works.`,
       type: 'info'
     });
   }
 
-  // 职业生涯模式
+  // Career pattern
   if (scholar.earlyCareer) {
     if (scholar.earlyCareer.earlyPct >= 50) {
       findings.push({
-        title: '早期爆发型',
-        content: `超过一半的引用来自职业生涯前5年，可能是开创性工作或经典教材的作者。`,
+        title: 'Early Breakthrough',
+        content: `Over half of citations come from the first 5 years, possibly from pioneering work or classic textbooks.`,
         type: 'warning'
       });
     } else if (scholar.earlyCareer.earlyPct <= 5 && scholar.citedByCount > 20000) {
       findings.push({
-        title: '持续增长型',
-        content: `早期引用占比极低，说明其影响力是通过长期积累建立的，后期作品更具影响力。`,
+        title: 'Sustained Growth',
+        content: `Very low early citation share indicates influence built through long-term accumulation, with later works being more impactful.`,
         type: 'info'
       });
     }
@@ -283,6 +284,9 @@ export default function ScholarPage() {
             />
           </div>
         </section>
+
+        {/* Ability Dimensions */}
+        <ScholarDimensions scholar={scholar} />
 
         {/* Summary & Analysis */}
         <section className="bg-white rounded-xl shadow-lg p-6">

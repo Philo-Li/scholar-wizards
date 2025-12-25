@@ -5,6 +5,7 @@ import { Histogram, SimplePieChart, CitationScatterPlot, SimpleBarChart } from '
 import { ScholarTable } from '@/components/ScholarTable';
 import { EarlyCareerBarChart, EarlyCareerTable, EarlyCareerInsights } from '@/components/EarlyCareerRanking';
 import { YoungestScholarsChart, YoungestScholarsBubble, YoungestScholarsTable, YoungestScholarsInsights } from '@/components/YoungestScholars';
+import { RankingMatrix } from '@/components/RankingMatrix';
 import {
   scholars,
   earlyCareerScholars,
@@ -32,12 +33,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+      <header className="bg-[#7C9CB5] text-white">
         <div className="max-w-7xl mx-auto px-4 py-12">
           <h1 className="text-4xl font-bold mb-4">
             Computational Neuroscience Scholar Analysis
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl">
+          <p className="text-xl text-white/80 max-w-3xl">
             Comprehensive analysis of top researchers in computational neuroscience,
             including citation metrics, h-index distribution, institutional affiliations, and research categories.
           </p>
@@ -169,7 +170,7 @@ export default function Home() {
         </section>
 
         {/* Early Career Citations Ranking */}
-        <section className="bg-gradient-to-r from-amber-50 to-orange-50 -mx-4 px-4 py-8 rounded-2xl">
+        <section id="early-career" className="bg-gradient-to-r from-amber-50 to-orange-50 -mx-4 px-4 py-8 rounded-2xl scroll-mt-20">
           <div className="flex items-center gap-3 mb-2">
             <span className="text-3xl">🏆</span>
             <h2 className="text-2xl font-bold text-gray-800">Early Career Impact Rankings</h2>
@@ -241,7 +242,7 @@ export default function Home() {
         </section>
 
         {/* Youngest Scholars Section */}
-        <section className="bg-gradient-to-r from-cyan-50 to-blue-50 -mx-4 px-4 py-8 rounded-2xl">
+        <section id="youngest" className="bg-gradient-to-r from-cyan-50 to-blue-50 -mx-4 px-4 py-8 rounded-2xl scroll-mt-20">
           <div className="flex items-center gap-3 mb-2">
             <span className="text-3xl">🌟</span>
             <h2 className="text-2xl font-bold text-gray-800">Rising Stars: Youngest Scholars</h2>
@@ -288,6 +289,19 @@ export default function Home() {
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Complete Youngest Scholars Rankings</h3>
             <YoungestScholarsTable data={youngestScholarsData} />
           </div>
+        </section>
+
+        {/* Ranking Matrix */}
+        <section id="ranking-matrix" className="bg-gradient-to-r from-indigo-50 to-purple-50 -mx-4 px-4 py-8 rounded-2xl scroll-mt-20">
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-3xl">📊</span>
+            <h2 className="text-2xl font-bold text-gray-800">Multi-Metric Ranking Matrix</h2>
+          </div>
+          <p className="text-gray-600 mb-6 max-w-3xl">
+            Compare scholars across all metrics simultaneously. Each cell shows the scholar's rank
+            for that specific metric. Hover over names for detailed profiles.
+          </p>
+          <RankingMatrix scholars={scholars} />
         </section>
 
         {/* Scholar Table */}

@@ -4,6 +4,7 @@ import { StatsGrid } from '@/components/StatCards';
 import { Histogram, SimplePieChart, CitationScatterPlot, SimpleBarChart } from '@/components/Charts';
 import { ScholarTable } from '@/components/ScholarTable';
 import { EarlyCareerBarChart, EarlyCareerTable, EarlyCareerInsights } from '@/components/EarlyCareerRanking';
+import { YoungestScholarsChart, YoungestScholarsBubble, YoungestScholarsTable, YoungestScholarsInsights } from '@/components/YoungestScholars';
 import {
   scholars,
   earlyCareerScholars,
@@ -16,6 +17,7 @@ import {
   getScatterData,
   getEarlyCareerStatistics
 } from '@/data/scholars';
+import youngestScholarsData from '@/data/youngestScholars.json';
 
 export default function Home() {
   const stats = getStatistics();
@@ -235,6 +237,56 @@ export default function Home() {
           <div className="mt-8">
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Complete Early Career Rankings (Top 20)</h3>
             <EarlyCareerTable data={earlyCareerScholars} />
+          </div>
+        </section>
+
+        {/* Youngest Scholars Section */}
+        <section className="bg-gradient-to-r from-cyan-50 to-blue-50 -mx-4 px-4 py-8 rounded-2xl">
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-3xl">🌟</span>
+            <h2 className="text-2xl font-bold text-gray-800">Rising Stars: Youngest Scholars</h2>
+          </div>
+          <p className="text-gray-600 mb-6 max-w-3xl">
+            The 10 youngest computational neuroscientists by academic career start date.
+            These emerging researchers represent the future of the field.
+          </p>
+
+          {/* Insights Cards */}
+          <YoungestScholarsInsights data={youngestScholarsData} />
+
+          {/* Charts */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
+            <YoungestScholarsChart data={youngestScholarsData} />
+            <YoungestScholarsBubble data={youngestScholarsData} />
+          </div>
+
+          {/* Analysis Box */}
+          <div className="bg-white rounded-xl shadow-lg p-6 mt-8">
+            <h3 className="text-lg font-semibold text-gray-800 mb-4">Key Findings: The New Generation</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+              <div className="p-4 bg-cyan-50 rounded-lg border-l-4 border-cyan-500">
+                <p className="font-semibold text-cyan-800">Samuel Gershman Leads Efficiency</p>
+                <p className="mt-1 text-gray-700">With 1,127 citations per year, Gershman demonstrates exceptional research productivity. His work on computational cognitive science has rapidly gained influence.</p>
+              </div>
+              <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                <p className="font-semibold text-blue-800">AI-Neuro Convergence</p>
+                <p className="mt-1 text-gray-700">70% of the youngest scholars focus on the intersection of AI and neuroscience, including Scellier (equilibrium propagation), Zenke (spiking networks), and Marblestone (neural engineering).</p>
+              </div>
+              <div className="p-4 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+                <p className="font-semibold text-purple-800">Rapid H-Index Growth</p>
+                <p className="mt-1 text-gray-700">Gershman achieved H-index 71 in just 18 years, while Schapiro and Zenke both reached 27 in under 17 years - indicating accelerating impact in modern academia.</p>
+              </div>
+              <div className="p-4 bg-pink-50 rounded-lg border-l-4 border-pink-500">
+                <p className="font-semibold text-pink-800">Institutional Diversity</p>
+                <p className="mt-1 text-gray-700">Young scholars are distributed across top institutions: Harvard, MIT, NYU, Imperial College, and research institutes like Friedrich Miescher - showing field-wide talent development.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Table */}
+          <div className="mt-8">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Complete Youngest Scholars Rankings</h3>
+            <YoungestScholarsTable data={youngestScholarsData} />
           </div>
         </section>
 

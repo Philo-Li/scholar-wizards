@@ -277,8 +277,21 @@ def main():
 
         scholars_details.append(scholar_detail)
 
-    # 保存结果
+    # 保存结果 (处理NaN值)
     output_path = "scholar-viz/src/data/scholarDetails.json"
+
+    # 将NaN转换为None以确保有效JSON
+    def clean_nan(obj):
+        if isinstance(obj, float) and (obj != obj):  # NaN check
+            return None
+        elif isinstance(obj, dict):
+            return {k: clean_nan(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [clean_nan(v) for v in obj]
+        return obj
+
+    scholars_details = clean_nan(scholars_details)
+
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(scholars_details, f, ensure_ascii=False, indent=2)
 

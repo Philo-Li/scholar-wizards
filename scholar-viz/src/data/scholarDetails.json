@@ -151,8 +151,8 @@
     "hIndex": 38,
     "i10Index": 42,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Saddle-node bifurcation",
@@ -3288,7 +3288,7 @@
     "i10Index": 292,
     "twoYearMeanCitedness": 14.06,
     "institution": "Indiana University School of Medicine",
-    "country": NaN,
+    "country": null,
     "topics": [
       {
         "name": "Environmental science",
@@ -6549,8 +6549,8 @@
     "hIndex": 59,
     "i10Index": 105,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "H-reflex",
@@ -6916,8 +6916,8 @@
     "hIndex": 23,
     "i10Index": 39,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Anabolism",
@@ -7689,8 +7689,8 @@
     "hIndex": 29,
     "i10Index": 36,
     "twoYearMeanCitedness": 1.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Voltage clamp",
@@ -7903,8 +7903,8 @@
     "hIndex": 43,
     "i10Index": 80,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Computational neuroscience",
@@ -11311,8 +11311,8 @@
     "hIndex": 8,
     "i10Index": 8,
     "twoYearMeanCitedness": 1.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Statistics",
@@ -11984,8 +11984,8 @@
     "hIndex": 16,
     "i10Index": 16,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Dissociation (chemistry)",
@@ -14774,8 +14774,8 @@
     "hIndex": 15,
     "i10Index": 19,
     "twoYearMeanCitedness": 2.29,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Recall",
@@ -15160,8 +15160,8 @@
     "hIndex": 9,
     "i10Index": 9,
     "twoYearMeanCitedness": 2.88,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Statistics",
@@ -16668,8 +16668,8 @@
     "hIndex": 29,
     "i10Index": 61,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "First-order logic",
@@ -20342,8 +20342,8 @@
     "hIndex": 61,
     "i10Index": 174,
     "twoYearMeanCitedness": 2.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Collective behavior",
@@ -20906,8 +20906,8 @@
     "hIndex": 20,
     "i10Index": 31,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "User-generated content",
@@ -24133,8 +24133,8 @@
     "hIndex": 6,
     "i10Index": 6,
     "twoYearMeanCitedness": 0.0,
-    "institution": NaN,
-    "country": NaN,
+    "institution": null,
+    "country": null,
     "topics": [
       {
         "name": "Finance",

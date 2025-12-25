@@ -1,0 +1,12 @@
+[
+  {"name": "Benjamin Scellier", "institution": "Independent", "firstPubYear": 2016, "academicAge": 9, "totalCitations": 1642, "hIndex": 9, "earlyCareerCitations": 1591, "topPaper": "A deep learning framework for neuroscience"},
+  {"name": "Grace W. Lindsay", "institution": "New York University", "firstPubYear": 2014, "academicAge": 11, "totalCitations": 2930, "hIndex": 13, "earlyCareerCitations": 598, "topPaper": "Parallel processing by cortical inhibition enables context-dependent behavior"},
+  {"name": "Archy O. de Berker", "institution": "Independent", "firstPubYear": 2013, "academicAge": 12, "totalCitations": 2672, "hIndex": 16, "earlyCareerCitations": 1136, "topPaper": "Computations of uncertainty mediate acute stress responses in humans"},
+  {"name": "Garrett B. Goh", "institution": "Pacific Northwest National Laboratory", "firstPubYear": 2010, "academicAge": 15, "totalCitations": 2042, "hIndex": 18, "earlyCareerCitations": 559, "topPaper": "Constant pH molecular dynamics of proteins"},
+  {"name": "João Sacramento", "institution": "ETH Zurich", "firstPubYear": 2010, "academicAge": 15, "totalCitations": 1665, "hIndex": 15, "earlyCareerCitations": 21, "topPaper": "Dendritic cortical microcircuits"},
+  {"name": "Adam Marblestone", "institution": "Massachusetts Institute of Technology", "firstPubYear": 2009, "academicAge": 16, "totalCitations": 5712, "hIndex": 24, "earlyCareerCitations": 1546, "topPaper": "Rapid prototyping of 3D DNA-origami shapes with caDNAno"},
+  {"name": "Anna C. Schapiro", "institution": "University of Pennsylvania", "firstPubYear": 2009, "academicAge": 16, "totalCitations": 5594, "hIndex": 27, "earlyCareerCitations": 1448, "topPaper": "Neural representations of events arise from temporal community structure"},
+  {"name": "Friedemann Zenke", "institution": "Friedrich Miescher Institute", "firstPubYear": 2008, "academicAge": 17, "totalCitations": 7035, "hIndex": 27, "earlyCareerCitations": 953, "topPaper": "Inhibitory Plasticity Balances Excitation and Inhibition"},
+  {"name": "Colleen J. Gillon", "institution": "Imperial College London", "firstPubYear": 2008, "academicAge": 17, "totalCitations": 1472, "hIndex": 8, "earlyCareerCitations": 8, "topPaper": "Learning from unexpected events in the neocortical microcircuit"},
+  {"name": "Samuel J. Gershman", "institution": "Harvard University", "firstPubYear": 2007, "academicAge": 18, "totalCitations": 20281, "hIndex": 71, "earlyCareerCitations": 3746, "topPaper": "Model-Based Influences on Humans' Choices and Striatal Prediction Errors"}
+]

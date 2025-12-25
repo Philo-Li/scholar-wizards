@@ -217,7 +217,7 @@ export default function ScholarPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
-      <header className={`bg-gradient-to-r ${impact.color} text-white`}>
+      <header className="bg-[#7C9CB5] text-white">
         <div className="max-w-7xl mx-auto px-4 py-8">
           <Link href="/" className="inline-flex items-center text-white/80 hover:text-white mb-4 text-sm">
             <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -480,9 +480,9 @@ export default function ScholarPage() {
             <h2 className="text-xl font-bold text-gray-800 mb-4">Impact Classification</h2>
             <div className="flex flex-wrap gap-3">
               {scholar.impactCategories.map((cat, idx) => (
-                <div key={idx} className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg">
-                  <p className="font-semibold">{cat.type}</p>
-                  <p className="text-sm text-white/80">{cat.description}</p>
+                <div key={idx} className="px-4 py-2 bg-gray-100 border border-gray-200 rounded-lg">
+                  <p className="font-semibold text-gray-800">{cat.type}</p>
+                  <p className="text-sm text-gray-500">{cat.description}</p>
                 </div>
               ))}
             </div>

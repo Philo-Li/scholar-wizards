@@ -9,8 +9,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Cell,
-  TooltipProps
+  Cell
 } from 'recharts';
 import scholarDetails from '@/data/scholarDetails.json';
 
@@ -47,7 +46,7 @@ const GRADIENT_COLORS = [
 ];
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const CustomTooltip = ({ active, payload }: TooltipProps<any, any>) => {
+const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: any[] }) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload as EarlyCareerScholar;
     return (

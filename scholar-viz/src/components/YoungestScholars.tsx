@@ -10,16 +10,9 @@ import {
   Tooltip,
   ResponsiveContainer,
   Cell,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis,
-  Radar,
-  Legend,
   ScatterChart,
   Scatter,
-  ZAxis,
-  TooltipProps
+  ZAxis
 } from 'recharts';
 import scholarDetails from '@/data/scholarDetails.json';
 
@@ -43,7 +36,7 @@ const nameToIdMap: Record<string, string> = {};
 const COLORS = ['#06b6d4', '#0ea5e9', '#3b82f6', '#6366f1', '#8b5cf6', '#a855f7', '#d946ef', '#ec4899', '#f43f5e', '#ef4444'];
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const CustomTooltip = ({ active, payload }: TooltipProps<any, any>) => {
+const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: any[] }) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload as YoungScholar;
     return (

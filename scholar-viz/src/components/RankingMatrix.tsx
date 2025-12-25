@@ -197,7 +197,6 @@ interface ExtendedScholar extends Scholar {
 function ScholarTooltip({
   scholar,
   rankings,
-  total,
   compositeRank
 }: {
   scholar: ExtendedScholar;

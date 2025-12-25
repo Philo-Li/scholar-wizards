@@ -3,15 +3,11 @@
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import {
-  BarChart,
-  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  LineChart,
-  Line,
   PieChart,
   Pie,
   Cell,
@@ -400,7 +396,7 @@ export default function ScholarPage() {
                     outerRadius={100}
                     dataKey="score"
                     nameKey="name"
-                    label={({ name, percent }) => `${name.slice(0, 15)}: ${(percent * 100).toFixed(0)}%`}
+                    label={({ name, percent }) => `${(name ?? '').slice(0, 15)}: ${((percent ?? 0) * 100).toFixed(0)}%`}
                   >
                     {scholar.topics.slice(0, 8).map((_, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

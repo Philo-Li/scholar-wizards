@@ -1,55 +1,41 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { en } from './locales/en';
-import { zh } from './locales/zh';
+import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { en, zh, type Strings } from './strings';
+import type { Lang } from '@/lib/disciplines';
 
-export type Language = 'en' | 'zh';
-export type Translations = typeof en;
+export type Language = Lang;
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: Translations;
+  t: Strings;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
-
-const translations: Record<Language, Translations> = {
-  en,
-  zh,
-};
+const translations: Record<Language, Strings> = { en, zh };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
+  // Static export renders English; the saved or browser language applies after mount.
   const [language, setLanguageState] = useState<Language>('en');
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
-    const saved = localStorage.getItem('language') as Language | null;
-    if (saved && (saved === 'en' || saved === 'zh')) {
-      setLanguageState(saved);
-    }
+    const saved = localStorage.getItem('language');
+    if (saved === 'en' || saved === 'zh') setLanguageState(saved);
+    else if (navigator.language?.toLowerCase().startsWith('zh')) setLanguageState('zh');
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
+  }, [language]);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     localStorage.setItem('language', lang);
   };
 
-  const t = translations[language];
-
-  // Prevent hydration mismatch by using default language on server
-  if (!mounted) {
-    return (
-      <LanguageContext.Provider value={{ language: 'en', setLanguage, t: translations.en }}>
-        {children}
-      </LanguageContext.Provider>
-    );
-  }
-
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage, t: translations[language] }}>
       {children}
     </LanguageContext.Provider>
   );
@@ -57,8 +43,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
 export function useLanguage() {
   const context = useContext(LanguageContext);
-  if (context === undefined) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
-  }
+  if (!context) throw new Error('useLanguage must be used within a LanguageProvider');
   return context;
 }

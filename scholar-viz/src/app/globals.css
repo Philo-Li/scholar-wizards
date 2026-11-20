@@ -2,32 +2,124 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Tokens. The site reads like a typeset paper: serif text, figures with
+ * numbered captions, booktabs tables. Chart series use the validated
+ * categorical palette (slot 1 blue, slot 2 orange) with gray context marks.
+ */
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  color-scheme: light;
+  --paper: #ffffff;
+  --paper-sunk: #f4f6f8;
+  --ink: #15191e;
+  --ink-2: #4f5660;
+  --ink-3: #79808a;
+  --rule: #dfe3e8;
+  --rule-strong: #15191e;
+  --link: #1d4f91;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --context: #c3c9d1;
+  --guide: #9aa1ab;
+  --mark: #fff3bf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) {
+    color-scheme: dark;
+    --paper: #16181b;
+    --paper-sunk: #1f2226;
+    --ink: #eceef0;
+    --ink-2: #b4bac2;
+    --ink-3: #8a919b;
+    --rule: #33373d;
+    --rule-strong: #eceef0;
+    --link: #8db8f0;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --context: #4a5058;
+    --guide: #6b727c;
+    --mark: #3d3418;
+  }
+}
+
+html {
+  background: var(--paper);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-serif), 'Noto Serif SC', 'Songti SC', SimSun, serif;
+  font-feature-settings: 'kern', 'liga', 'onum';
+  text-rendering: optimizeLegibility;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/* Numbers in tables, axes and stats line up. */
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum', 'lnum';
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
+a.link,
+.prose-academic a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent);
+}
+a.link:hover,
+.prose-academic a:hover {
+  text-decoration-color: var(--link);
 }
 
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
+:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+/* Booktabs: heavy top and bottom rules, a light rule under the header, no verticals. */
+table.booktabs {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1.5px solid var(--rule-strong);
+  border-bottom: 1.5px solid var(--rule-strong);
+}
+table.booktabs thead th {
+  border-bottom: 0.75px solid var(--rule-strong);
+  font-weight: 500;
+  color: var(--ink-2);
+  text-align: left;
+  padding: 0.55rem 0.75rem;
+  white-space: nowrap;
+}
+table.booktabs td {
+  padding: 0.5rem 0.75rem;
+  vertical-align: baseline;
+}
+table.booktabs tbody tr + tr td {
+  border-top: 1px solid var(--rule);
+}
+table.booktabs tbody tr:hover td {
+  background: var(--paper-sunk);
+}
+table.booktabs th.num,
+table.booktabs td.num {
+  text-align: right;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

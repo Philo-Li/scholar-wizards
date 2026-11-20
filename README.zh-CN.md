@@ -1,209 +1,79 @@
-# Scholar Wizards Atlas
+# Scholar Wizards
 
-> 多维度学者分析与领域地图 — 基于 OpenAlex 数据驱动。
+> 基于 OpenAlex，为十个学科中被引最多的研究者绘制按领域归一的学术画像。
 
-[English](./README.md) | [在线演示](https://scholarwizards.com)
+[English](./README.md) | [在线访问](https://scholarwizards.com)
 
-**Scholar Wizards Atlas** 是一个"学术领域影响力全景仪表盘"，面向任意学科/标签，提供多维指标的学者排名矩阵、分布统计、机构与地域版图、研究方向聚类，以及"早期爆发 / 新星"视角的职业轨迹分析。
+Scholar Wizards 不做成仪表盘，而是把每个学科写成一篇短论文。每页都有带编号和图注的图、三线表、每张图背后可展开的数据表，以及该领域里数字容易误导之处的说明。
 
-- 数据源：OpenAlex（可扩展为其他来源）
-- 定位：**像 Market Wizards 一样**，但不是采访，而是用数据把"学术 Wizards"可视化出来
+## 学科
 
----
+数学、物理学、化学、生物学、计算机科学、医学、神经科学、心理学、经济学、地球科学，各自对应 OpenAlex 中的一个领域（field）。
 
-## 功能特性
+每个学科页列出约 100–200 位资深学者，从全领域和最大的若干子领域中抽取；另列 40 位 2012 年及以后开始发表的新锐学者。页面内容如下：
 
-### 1) 多指标排名矩阵
-- 同屏对比多个指标（例如 Total Citations / H-index / 2Yr / Efficiency / M-index / Pubs / i10）
-- 支持排序、Top N 过滤、颜色分位（Top 5% / 10% / 25% / 50%）
-- 支持自定义综合评分权重（适配不同评估目标：历史地位 / 当前动量 / 早期潜力）
+- **排行榜**：可按 h 指数、引用、m 商、2023–2025 年引用或首篇论文年份排序，也可按子领域筛选。
+- **图 1　学术生涯散点**：h 指数对学术年龄，带 m = 1、2、3 参考线。资深学者为蓝色，新锐学者为橙色。
+- **图 2　引用集中度**：洛伦兹曲线，标注基尼系数和前 10% 学者所占份额。
+- **图 3　子领域常模**：各子领域 h 指数的四分位距与中位数。
+- **图 4–5　国家与机构**。
+- **图 6　引用轨迹**：被引最多的 12 位学者的逐年引用，以小多图呈现。
+- **该学科专属的阅读注意事项**。
 
-### 2) 概览与分布
-- 引用量、h-index、发表量等概览统计（均值/中位数/最大值）
-- 分布直方图（citation / h-index 等）
+学者页内容包括：与同学科同行相比的百分位条、逐年发文与引用、主要研究主题，以及同一子领域中指标最接近的同行。
 
-### 3) 关系分析
-- Citations vs H-index 散点图（支持按研究类别着色）
-- 可用于发现异常点：工具型论文、综述型作者、跨领域"引用放大器"
+原有的计算神经科学名单（从 Marr 到当代）保留为精选合集，位于 `/collections/computational-neuroscience`，其中也包含早期职业影响力分析。
 
-### 4) 地理与机构版图
-- 国家/地区分布
-- Top Institutions（机构/单位聚合）
+## 指标
 
-### 5) 研究方向分类
-- 领域/方向占比（饼图 + 列表）
-- 支持多个方向并存（AI×Neuro 等交叉标签）
+| 指标 | 定义 |
+|---|---|
+| h 指数 | 最大的 h，使得有 h 篇论文各被引至少 h 次 |
+| 学术年龄 A | 2026 − 首篇论文年份 + 1 |
+| m 商 | h / A（Hirsch 2005） |
+| 近期引用 | 2023–2025 年获得的引用 |
+| 基尼系数 | 引用在该学科入选学者中的集中程度 |
 
-### 6) 早期职业与新星
-- Early Career Impact：职业前 N 年累计引用、Early%（早期引用占职业总引用比例）
-- Youngest / Rising Stars：按学术年龄（首篇论文年份）筛选的潜力榜单
-- Citations per Academic Year、Academic Age vs H-index 等图表
+**†　超大规模合作。** 平均每个活跃年份发表 40 篇以上作品的学者标记为 †。在物理学、生物学、医学、神经科学和地球科学中，至少四分之一作品作者超过 100 人的学者也标记为 †。被标记的学者保留在名单中，但默认不计入排名和汇总统计。
 
-### 7) 洞察卡片（可选）
-- 自动生成"洞察卡片"：Power law、地域集中度、跨学科趋势、one-hit vs sustained 等
-
----
-
-## 指标说明（默认口径）
-
-> 指标不是"真理"，只是不同侧面的信号。建议同时看长期 + 近期 + 归一化指标。
-
-- **Total Citations**：职业累计影响力（易偏向综述/工具/跨领域）
-- **H-index**：持续产出的综合影响力（强依赖资历）
-- **2Yr**：近 2 年动量（反映当前活跃度/前沿度）
-- **Efficiency (Eff)**：影响力/产出效率（识别"少而精"）
-- **Academic Age**：学术年龄 = 当前年 - 首篇论文年（代理变量）
-- **M-index**：H-index / Academic Age（更公平比较不同资历）
-- **Pubs / i10**：辅助解释项（通常信息增量较小）
-
-> **免责声明**：此项目用于探索与可视化，不应作为唯一决策依据（招聘/晋升/评审等高风险场景请结合同行评议与学术贡献本身）。
-
----
+完整的入选规则、局限和参考文献（含莱顿宣言、DORA）见 `/methods` 页。这些指标反映的是学者在本领域内的可见度，不宜用于跨学科比较，也不应作为招聘或评审的唯一依据。
 
 ## 项目结构
 
 ```
 scholar-wizards/
-├── scripts/           # Python 数据获取脚本
-│   ├── fetch_comp_neuro_scholars.py
-│   ├── google_scholar_data.py
-│   ├── early_career_citations.py
-│   └── fetch_scholar_details.py
-├── data/              # CSV 原始数据
-├── docs/              # 分析文档
-└── scholar-viz/       # Next.js 前端应用
+├── scripts/fetch_disciplines.mjs   # OpenAlex → 全部学科与合集的 JSON
+├── data/                           # 旧 CSV、计算神经科学作者 ID、API 缓存（已忽略）
+└── scholar-viz/                    # Next.js 15 静态站点
     └── src/
-        ├── app/       # Next.js app router
-        ├── components/
-        └── data/      # 前端 JSON 数据
+        ├── app/                    # /、/field/[slug]、/scholar/[id]、/methods、/collections/…
+        ├── components/             # 图表（自绘 SVG）、页面视图、排行榜
+        ├── data/disciplines/       # 每个学科一个 JSON
+        ├── i18n/strings.ts         # 中英文文案
+        └── lib/                    # 数据访问、统计、学科注册表
 ```
-
----
 
 ## 快速开始
 
-### 1) 安装依赖
-
 ```bash
-# 前端
+# 更新数据（Node 18+），响应缓存在 data/openalex_cache/
+node scripts/fetch_disciplines.mjs              # 全部
+node scripts/fetch_disciplines.mjs physics      # 单个学科
+node scripts/fetch_disciplines.mjs collection   # 仅精选合集
+# 可选：设置 OPENALEX_API_KEY=... 以提高每日请求额度
+
 cd scholar-viz
 npm install
-
-# Python 脚本
-pip install requests pandas
+npm run dev        # http://localhost:3000
+npm run build      # 静态导出到 scholar-viz/out
 ```
 
-### 2) 获取数据
-
-```bash
-cd scripts
-python fetch_comp_neuro_scholars.py    # 从 OpenAlex 获取学者
-python early_career_citations.py       # 分析早期职业影响
-python fetch_scholar_details.py        # 获取详细资料
-```
-
-### 3) 运行开发环境
-
-```bash
-cd scholar-viz
-npm run dev
-```
-
-访问：`http://localhost:3000`
-
----
-
-## 数据管线
-
-项目通常分三层：
-
-1. **Fetch**：从 OpenAlex 拉取作者/作品/机构等原始数据
-2. **Enrich**：计算指标、分类、学术年龄、2yr 动量、效率等
-3. **Serve**：前端可视化 + 可选缓存（JSON / Redis / DB）
-
----
-
-## 配置
-
-### 权重配置（示例）
-
-你可以把"综合评分视角"做成可配置的 JSON，例如：
-
-```json
-{
-  "stature_balanced": {
-    "h_index": 0.40,
-    "two_year": 0.35,
-    "efficiency": 0.15,
-    "citations": 0.10
-  },
-  "mentor_hiring_mode": {
-    "two_year": 0.50,
-    "m_index": 0.25,
-    "efficiency": 0.20,
-    "citations": 0.05
-  }
-}
-```
-
----
-
-## 路线图 / TODO
-
-- [ ] 作者消歧增强：同名合并/拆分提示
-- [ ] 更稳健的领域分类：基于 concepts / topics / venue 的混合策略
-- [ ] 自定义时间窗：2yr → 1/3/5 年可切换
-- [ ] 个人页：代表作、时间序列引用、合作网络
-- [ ] 导出报告：PDF / PNG / shareable link
-
----
-
-## 贡献指南
-
-欢迎 PR / Issue！
-
-建议的贡献流程：
-
-1. Fork 本仓库
-2. 创建分支：`feat/xxx` or `fix/xxx`
-3. 提交前运行：
-   ```bash
-   npm run lint
-   npm run build
-   ```
-4. 提交 PR，说明改动、截图（若有 UI）
-
----
-
-## 伦理与负责任使用
-
-- 指标天然有偏差（学科差异、合作规模、综述/工具放大效应等）
-- 本项目**不鼓励**将排名作为单一评价标准
-- 建议 UI 中持续展示：指标解释、局限性提示、以及"贡献类型"标签（方法/工具/理论/实验/综述）
-
----
+推送到 `main` 后，`.github/workflows/deploy-pages.yml` 会自动部署到 Cloudflare Pages。
 
 ## 数据来源
 
-- [OpenAlex](https://openalex.org/) — 开放学术元数据
-- Google Scholar — 引用量与排名
+[OpenAlex](https://openalex.org/)（CC0）。作者消歧并不完美，档案被错误合并或拆分时，个人的数字可能偏高或偏低。
 
----
-
-## 许可证
+## 许可
 
 MIT
-
----
-
-## 致谢
-
-- OpenAlex — 开放学术元数据
-- 灵感来源：交易界的 "Wizards" 概念（Market Wizards）
-
----
-
-## 联系方式
-
-- 演示：[scholarwizards.com](https://scholarwizards.com)
-- Issues：欢迎提需求与 bug 报告

@@ -1,209 +1,79 @@
-# Scholar Wizards Atlas
+# Scholar Wizards
 
-> Multi-metric scholar analytics & field maps — powered by OpenAlex.
+> Field-normalised portraits of the most cited researchers in ten disciplines, built from OpenAlex.
 
-[中文文档](./README.zh-CN.md) | [Live Demo](https://scholarwizards.com)
+[中文文档](./README.zh-CN.md) | [Live site](https://scholarwizards.com)
 
-**Scholar Wizards Atlas** is an "academic field influence dashboard" that provides multi-dimensional scholar ranking matrices, distribution statistics, institutional & geographic maps, research direction clustering, and "early career / rising star" trajectory analysis for any discipline or tag.
+Scholar Wizards reads like a short paper for each discipline rather than a dashboard. Every page has numbered figures with captions, booktabs tables, a data-table view behind each chart, and notes on where the numbers mislead in that field.
 
-- Data Source: OpenAlex (extensible to other sources)
-- Positioning: **Like Market Wizards**, but instead of interviews, we visualize "Academic Wizards" through data
+## Disciplines
 
----
+Mathematics, Physics, Chemistry, Biology, Computer Science, Medicine, Neuroscience, Psychology, Economics, and Earth Sciences. Each uses the corresponding OpenAlex field.
 
-## Features
+Each discipline page lists about 100–200 established scholars, sampled from the whole field and from its largest subfields, plus 40 rising scholars who started publishing in 2012 or later. It also contains:
 
-### 1) Multi-Metric Ranking Matrix
-- Compare multiple metrics side-by-side (Total Citations / H-index / 2Yr / Efficiency / M-index / Pubs / i10)
-- Support sorting, Top N filtering, color quantiles (Top 5% / 10% / 25% / 50%)
-- Customizable composite score weights (adaptable to different evaluation goals: historical standing / current momentum / early potential)
+- **Leaderboard**: sort by h-index, citations, m-quotient, citations from 2023–2025, or first-paper year; filter by subfield.
+- **Fig. 1, career scatter**: h-index against academic age, with m = 1, 2 and 3 reference lines. Established scholars are shown in blue and rising scholars in orange.
+- **Fig. 2, concentration of citations**: a Lorenz curve with the Gini coefficient and the share held by the top 10%.
+- **Fig. 3, subfield norms**: interquartile range and median of h for each subfield.
+- **Figs. 4–5, countries and institutions**.
+- **Fig. 6, trajectories**: citations per year for the 12 most cited scholars, shown as small multiples.
+- **Field-specific reading notes**.
 
-### 2) Overview & Distributions
-- Overview statistics for citations, h-index, publication count (mean/median/max)
-- Distribution histograms (citation / h-index etc.)
+Scholar pages show percentile strips against peers in the same discipline, works and citations per year, main topics, and the nearest peers in the same subfield.
 
-### 3) Relationship Analysis
-- Citations vs H-index scatter plot (supports coloring by research category)
-- Useful for discovering outliers: tool papers, review-type authors, cross-disciplinary "citation amplifiers"
+The original computational neuroscience list, which runs from Marr to the current generation, is kept as a curated collection at `/collections/computational-neuroscience`. It also includes the early-career impact analysis.
 
-### 4) Geographic & Institutional Map
-- Country/region distribution
-- Top Institutions (aggregated by institution/organization)
+## Indicators
 
-### 5) Research Categories
-- Field/direction proportions (pie chart + list)
-- Supports multiple co-existing directions (AI×Neuro and other cross-disciplinary tags)
+| Indicator | Definition |
+|---|---|
+| h-index | the largest h such that h papers have at least h citations each |
+| Academic age A | 2026 − first-paper year + 1 |
+| m-quotient | h / A (Hirsch 2005) |
+| Recent citations | citations received in 2023–2025 |
+| Gini | concentration of citations across a field's listed scholars |
 
-### 6) Early Career & Rising Stars
-- Early Career Impact: cumulative citations in first N years, Early% (early citations as percentage of career total)
-- Youngest / Rising Stars: potential rankings filtered by academic age (first publication year)
-- Citations per Academic Year, Academic Age vs H-index charts
+**†, hyper-authorship.** A scholar is marked † if they average 40 or more works per active year. In physics, biology, medicine, neuroscience and earth sciences, a scholar is also marked † if at least a quarter of their works list more than 100 authors. Marked scholars stay in the lists, but they are excluded from rankings and summary statistics by default.
 
-### 7) Narrative Insights (Optional)
-- Auto-generated "insight cards": Power law, geographic concentration, cross-disciplinary trends, one-hit vs sustained, etc.
+The `/methods` page gives the full selection rules, limitations and references, including the Leiden Manifesto and DORA. These indicators describe visibility within a field. Do not use them to compare fields, or as the sole basis for hiring and evaluation.
 
----
-
-## Metrics (Default Definitions)
-
-> Metrics are not "truth", just signals from different perspectives. Recommend viewing long-term + recent + normalized metrics together.
-
-- **Total Citations**: Career cumulative impact (tends to favor reviews/tools/cross-disciplinary)
-- **H-index**: Comprehensive impact of sustained output (strongly dependent on seniority)
-- **2Yr**: Recent 2-year momentum (reflects current activity/frontier relevance)
-- **Efficiency (Eff)**: Impact/output efficiency (identifies "few but excellent")
-- **Academic Age**: Academic age = Current year - First publication year (proxy variable)
-- **M-index**: H-index / Academic Age (fairer comparison across different seniority levels)
-- **Pubs / i10**: Auxiliary explanatory items (usually lower information gain)
-
-> **Disclaimer**: This project is for exploration and visualization purposes. It should not be used as the sole decision-making basis (for high-stakes scenarios like hiring/promotion/review, please combine with peer review and the academic contributions themselves).
-
----
-
-## Project Structure
+## Project structure
 
 ```
 scholar-wizards/
-├── scripts/           # Python data fetching scripts
-│   ├── fetch_comp_neuro_scholars.py
-│   ├── google_scholar_data.py
-│   ├── early_career_citations.py
-│   └── fetch_scholar_details.py
-├── data/              # Raw CSV data files
-├── docs/              # Analysis documents
-└── scholar-viz/       # Next.js frontend application
+├── scripts/fetch_disciplines.mjs   # OpenAlex → JSON for all disciplines + collection
+├── data/                           # legacy CSVs, comp-neuro author ids, API cache (ignored)
+└── scholar-viz/                    # Next.js 15 static site
     └── src/
-        ├── app/       # Next.js app router
-        ├── components/
-        └── data/      # JSON data for frontend
+        ├── app/                    # /, /field/[slug], /scholar/[id], /methods, /collections/…
+        ├── components/             # charts (custom SVG), views, leaderboard
+        ├── data/disciplines/       # one JSON per discipline
+        ├── i18n/strings.ts         # English and Chinese strings
+        └── lib/                    # data access, statistics, discipline registry
 ```
 
----
-
-## Quick Start
-
-### 1) Install Dependencies
+## Getting started
 
 ```bash
-# Frontend
+# Refresh data (Node 18+). Responses are cached in data/openalex_cache/.
+node scripts/fetch_disciplines.mjs              # everything
+node scripts/fetch_disciplines.mjs physics      # one discipline
+node scripts/fetch_disciplines.mjs collection   # curated collection only
+# Optional: OPENALEX_API_KEY=... raises the daily request budget.
+
 cd scholar-viz
 npm install
-
-# Python scripts
-pip install requests pandas
+npm run dev        # http://localhost:3000
+npm run build      # static export to scholar-viz/out
 ```
 
-### 2) Fetch Data
+Pushes to `main` deploy to Cloudflare Pages through `.github/workflows/deploy-pages.yml`.
 
-```bash
-cd scripts
-python fetch_comp_neuro_scholars.py    # Fetch scholars from OpenAlex
-python early_career_citations.py       # Analyze early career impact
-python fetch_scholar_details.py        # Fetch detailed profiles
-```
+## Data source
 
-### 3) Run Development Server
-
-```bash
-cd scholar-viz
-npm run dev
-```
-
-Visit: `http://localhost:3000`
-
----
-
-## Data Pipeline
-
-The project is typically divided into three layers:
-
-1. **Fetch**: Pull raw data from OpenAlex (authors/works/institutions)
-2. **Enrich**: Calculate metrics, categories, academic age, 2yr momentum, efficiency, etc.
-3. **Serve**: Frontend visualization + optional caching (JSON / Redis / DB)
-
----
-
-## Configuration
-
-### Weight Configuration (Example)
-
-You can make "composite score perspectives" configurable via JSON:
-
-```json
-{
-  "stature_balanced": {
-    "h_index": 0.40,
-    "two_year": 0.35,
-    "efficiency": 0.15,
-    "citations": 0.10
-  },
-  "mentor_hiring_mode": {
-    "two_year": 0.50,
-    "m_index": 0.25,
-    "efficiency": 0.20,
-    "citations": 0.05
-  }
-}
-```
-
----
-
-## Roadmap / TODO
-
-- [ ] Author disambiguation enhancement: same-name merge/split prompts
-- [ ] More robust field classification: hybrid strategy based on concepts / topics / venue
-- [ ] Custom time windows: 2yr → 1/3/5 year switchable
-- [ ] Personal pages: representative works, time-series citations, collaboration networks
-- [ ] Export reports: PDF / PNG / shareable link
-
----
-
-## Contributing
-
-PRs and Issues are welcome!
-
-Suggested contribution workflow:
-
-1. Fork this repository
-2. Create a branch: `feat/xxx` or `fix/xxx`
-3. Before committing, run:
-   ```bash
-   npm run lint
-   npm run build
-   ```
-4. Submit PR with description of changes and screenshots (if UI-related)
-
----
-
-## Ethics & Responsible Use
-
-- Metrics inherently have biases (disciplinary differences, collaboration scale, review/tool amplification effects, etc.)
-- This project **does not encourage** using rankings as the sole evaluation criterion
-- Recommend UI to continuously display: metric explanations, limitation notes, and "contribution type" labels (method/tool/theory/experiment/review)
-
----
-
-## Data Sources
-
-- [OpenAlex](https://openalex.org/) — Open scholarly metadata
-- Google Scholar — Citation counts and rankings
-
----
+[OpenAlex](https://openalex.org/) (CC0). Author disambiguation is imperfect. Merged or split profiles can inflate or deflate any individual's numbers.
 
 ## License
 
 MIT
-
----
-
-## Acknowledgements
-
-- OpenAlex — open scholarly metadata
-- Inspiration: the "Wizards" framing from the trading world (Market Wizards)
-
----
-
-## Contact
-
-- Demo: [scholarwizards.com](https://scholarwizards.com)
-- Issues: Welcome to submit feature requests and bug reports

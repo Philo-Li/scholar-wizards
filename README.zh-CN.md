@@ -1,12 +1,24 @@
 # Scholar Wizards
 
-> 基于 OpenAlex，为十个学科中被引最多的研究者绘制按领域归一的学术画像。
+> 一群不平庸的研究者的人物志，以及十个学科高被引研究者的 OpenAlex 数据。
 
 [English](./README.md) | [在线访问](https://scholarwizards.com)
 
-Scholar Wizards 不做成仪表盘，而是把每个学科写成一篇短论文。每页都有带编号和图注的图、三线表、每张图背后可展开的数据表，以及该领域里数字容易误导之处的说明。
+Scholar Wizards 仿照 Jack Schwager 的《金融怪杰》（*Market Wizards*）系列。那套书访谈了一批顶尖交易者，发现没有两个人的做法是一样的。本站用同样的方式写研究者：他们的背景、年龄、性格、学科和方法各不相同，共同点是都不平庸。引用数是衡量这一点的一种标准，但只是其中一种。
 
-## 学科
+内容规范见 [docs/concept.md](./docs/concept.md)。
+
+## 人物志
+
+- **人物**（`/people/<slug>`）：每人一章。开头写为什么入选，然后是生平和年表、性格与工作方式、代表作、核实过原文的引语、真实访谈、口述史和报道的链接，以及读者可以借鉴的地方。生卒年、奖项和肖像来自 Wikidata 和 Wikimedia Commons。
+- **专题**（`/themes/<slug>`）：把在同一方面与众不同的人放在一起，包括少年成名、大器晚成、体制之外、跨界者、被时间证明、一个想法、按自己的规则、开路的女性、伟大的合作、华人科学家。另有"数据里的新星"一章，由 OpenAlex 数据自动挑选。
+- **共同点**（`/lessons`）：全书人物身上反复出现的特点，每条都链接到最能体现它的人。对应《金融怪杰》最后的经验总结一章。
+
+## 学科数据
+
+学科报告不做成仪表盘，而是把每个学科写成一篇短论文。每页都有带编号和图注的图、三线表、每张图背后可展开的数据表，以及该领域里数字容易误导之处的说明。每个学者页都会说明他为什么入选：在哪份名单里、按什么规则进入、排第几。
+
+### 学科
 
 数学、物理学、化学、生物学、计算机科学、医学、神经科学、心理学、经济学、地球科学，各自对应 OpenAlex 中的一个领域（field）。
 
@@ -24,7 +36,7 @@ Scholar Wizards 不做成仪表盘，而是把每个学科写成一篇短论文�
 
 原有的计算神经科学名单（从 Marr 到当代）保留为精选合集，位于 `/collections/computational-neuroscience`，其中也包含早期职业影响力分析。
 
-## 指标
+### 指标
 
 | 指标 | 定义 |
 |---|---|
@@ -42,11 +54,14 @@ Scholar Wizards 不做成仪表盘，而是把每个学科写成一篇短论文�
 
 ```
 scholar-wizards/
+├── docs/concept.md                 # 内容规范：入选标准、专题、人物页结构
 ├── scripts/fetch_disciplines.mjs   # OpenAlex → 全部学科与合集的 JSON
+├── scripts/fetch_people.mjs        # Wikidata/Commons → 生卒年、奖项、肖像
 ├── data/                           # 旧 CSV、计算神经科学作者 ID、API 缓存（已忽略）
 └── scholar-viz/                    # Next.js 15 静态站点
     └── src/
-        ├── app/                    # /、/field/[slug]、/scholar/[id]、/methods、/collections/…
+        ├── app/                    # /、/people、/themes、/lessons、/disciplines、/field、/scholar、/methods
+        ├── content/                # people/*.json（手写）、themes.ts、lessons.ts
         ├── components/             # 图表（自绘 SVG）、页面视图、排行榜
         ├── data/disciplines/       # 每个学科一个 JSON
         ├── i18n/strings.ts         # 中英文文案
@@ -60,6 +75,7 @@ scholar-wizards/
 node scripts/fetch_disciplines.mjs              # 全部
 node scripts/fetch_disciplines.mjs physics      # 单个学科
 node scripts/fetch_disciplines.mjs collection   # 仅精选合集
+node scripts/fetch_people.mjs                   # 人物的结构化信息（缓存在 data/wiki_cache/）
 # 可选：设置 OPENALEX_API_KEY=... 以提高每日请求额度
 
 cd scholar-viz
@@ -73,6 +89,8 @@ npm run build      # 静态导出到 scholar-viz/out
 ## 数据来源
 
 [OpenAlex](https://openalex.org/)（CC0）。作者消歧并不完美，档案被错误合并或拆分时，个人的数字可能偏高或偏低。
+
+人物的结构化信息来自 [Wikidata](https://www.wikidata.org/)（CC0），肖像来自 [Wikimedia Commons](https://commons.wikimedia.org/)，每页都注明作者和许可。访谈和报道都链接到原发布方，不是 Scholar Wizards 做的。
 
 ## 许可
 

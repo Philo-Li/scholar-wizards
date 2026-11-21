@@ -1,0 +1,61 @@
+{
+  "slug": "maryam-mirzakhani",
+  "name": { "en": "Maryam Mirzakhani", "zh": "玛丽安·米尔札哈尼" },
+  "wiki": { "en": "Maryam_Mirzakhani", "zh": "瑪麗安·米爾札哈尼" },
+  "disciplines": ["mathematics"],
+  "themes": ["women"],
+  "reasons": ["opening", "pioneer"],
+  "born": 1977,
+  "keyWork": { "year": 2004, "en": "PhD thesis computing Weil–Petersson volumes of moduli spaces of Riemann surfaces", "zh": "博士论文：计算黎曼曲面模空间的韦伊–彼得松体积" },
+  "why": {
+    "en": "In 2014 she became the first woman, and the first Iranian, to win the Fields Medal. Her Harvard thesis counted simple closed geodesics on hyperbolic surfaces and, along the way, gave a new proof of Witten's conjecture from string theory.",
+    "zh": "2014 年，她成为第一位获得菲尔兹奖的女性，也是第一位获奖的伊朗人。她在哈佛的博士论文研究双曲曲面上简单闭测地线的数目，顺带给出了弦论中威滕猜想的一个新证明。"
+  },
+  "summary": {
+    "en": "Mirzakhani grew up in Tehran during the Iran–Iraq war and wanted to be a writer until her last years of high school. She won gold medals at the International Mathematical Olympiad in 1994 and 1995, the second with a perfect score, then studied at Sharif University. At Harvard she worked with Curtis McMullen and finished her PhD in 2004. After a Clay fellowship spent mostly at Princeton she moved to Stanford, where she worked on the geometry and dynamics of moduli spaces, including the 'magic wand' theorem with Alex Eskin. She died of breast cancer in 2017, aged 40.",
+    "zh": "米尔札哈尼在两伊战争期间的德黑兰长大，直到高中后期都想当作家。1994 年和 1995 年她两次获得国际数学奥林匹克金牌，第二次是满分，之后进入谢里夫理工大学。她在哈佛跟随柯蒂斯·麦克马伦，2004 年获博士学位。在克雷研究员任期内，她大部分时间待在普林斯顿，之后到斯坦福任教，研究模空间的几何与动力学，包括和亚历克斯·埃斯金合作的“魔杖定理”。2017 年她因乳腺癌去世，年仅 40 岁。"
+  },
+  "style": [
+    { "en": "She thought in pictures and doodled on huge sheets of paper spread on the floor, drawing surfaces for hours.", "zh": "她用图像思考，常把巨大的纸铺在地上，一连几个小时画各种曲面。" },
+    { "en": "She called herself a slow thinker and chose deep problems she could chew on for years, saying that months or years later you see very different aspects of a problem.", "zh": "她说自己想得慢，偏爱那种可以啃好几年的难题。她说，过了几个月或几年，你会看到问题完全不同的一面。" },
+    { "en": "She did poorly in mathematics for a couple of years in middle school, and only began to take it seriously near the end of high school.", "zh": "她初中有两年数学成绩很差，直到高中快毕业才真正把心思放在数学上。" }
+  ],
+  "timeline": [
+    { "year": 1977, "en": "Born in Tehran, Iran.", "zh": "生于伊朗德黑兰。" },
+    { "year": 1995, "en": "Wins her second IMO gold medal, with a perfect score.", "zh": "第二次获得国际数学奥林匹克金牌，满分。" },
+    { "year": 1999, "en": "Graduates from Sharif University of Technology.", "zh": "毕业于谢里夫理工大学。" },
+    { "year": 2004, "en": "PhD at Harvard under Curtis McMullen; becomes a Clay Research Fellow.", "zh": "在哈佛随麦克马伦获博士学位，成为克雷研究员。" },
+    { "year": 2008, "en": "Moves to Stanford as a professor.", "zh": "到斯坦福大学任教授。" },
+    { "year": 2014, "en": "First woman to receive the Fields Medal.", "zh": "成为第一位获得菲尔兹奖的女性。" },
+    { "year": 2017, "en": "Dies of breast cancer at Stanford, aged 40.", "zh": "因乳腺癌在斯坦福去世，终年 40 岁。" }
+  ],
+  "works": [
+    { "year": 2007, "title": "Simple geodesics and Weil–Petersson volumes of moduli spaces of bordered Riemann surfaces", "en": "Found a recursion for the volumes of moduli spaces, which also yielded a new proof of Witten's conjecture.", "zh": "给出模空间体积的递推公式，由此也得到威滕猜想的新证明。" },
+    { "year": 2008, "title": "Growth of the number of simple closed geodesics on hyperbolic surfaces", "en": "Showed that the number of simple closed geodesics of length at most L grows like a constant times L to the power 6g−6.", "zh": "证明双曲曲面上长度不超过 L 的简单闭测地线的数目按 L 的 6g−6 次方增长。" },
+    { "year": 2018, "title": "Invariant and stationary measures for the SL(2,R) action on moduli space (with Alex Eskin)", "en": "The 'magic wand' theorem: orbit closures in moduli space are far more regular than expected, with consequences for billiards in polygons.", "zh": "即“魔杖定理”：模空间中轨道的闭包远比预想的规整，对多边形台球问题有直接推论。" }
+  ],
+  "quotes": [
+    {
+      "text": "I am a slow thinker, and have to spend a lot of time before I can clean up my ideas and make progress.",
+      "zh": "我想事情很慢，得花很多时间把想法理清楚，才能往前推进。",
+      "source": "Interview, Clay Mathematics Institute Annual Report, 2008",
+      "url": "https://www.claymath.org/library/annual_report/ar2008/08Interview.pdf"
+    },
+    {
+      "text": "But most of the time, doing mathematics for me is like being on a long hike with no trail and no end in sight!",
+      "zh": "不过大多数时候，做数学对我来说就像一次没有路、也看不到终点的长途跋涉。",
+      "source": "Interview, Clay Mathematics Institute Annual Report, 2008",
+      "url": "https://www.claymath.org/library/annual_report/ar2008/08Interview.pdf"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Interview with Research Fellow Maryam Mirzakhani", "publisher": "Clay Mathematics Institute", "year": 2008, "url": "https://www.claymath.org/library/annual_report/ar2008/08Interview.pdf", "lang": "en" },
+    { "kind": "profile", "title": "A Tenacious Explorer of Abstract Surfaces", "publisher": "Quanta Magazine", "year": 2014, "url": "https://www.quantamagazine.org/maryam-mirzakhani-is-first-woman-fields-medalist-20140812/", "lang": "en" },
+    { "kind": "obituary", "title": "Maryam Mirzakhani, mathematician and Fields Medal winner, dies at Stanford", "publisher": "Stanford Report", "year": 2017, "url": "https://news.stanford.edu/stories/2017/07/maryam-mirzakhani-stanford-mathematician-and-fields-medal-winner-dies", "lang": "en" },
+    { "kind": "archive", "title": "Maryam Mirzakhani – Biography", "publisher": "MacTutor History of Mathematics", "year": 2017, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mirzakhani/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "long-focus", "en": "Mirzakhani accepted that she was slow and picked problems worth years of work, returning to them until new aspects appeared.", "zh": "米尔札哈尼接受自己“慢”，专挑值得花几年的问题，一次次回头看，直到看出新的东西。" },
+    { "key": "first-principles", "en": "She drew her way into problems, sketching surfaces by hand until the geometry became clear.", "zh": "她靠手画来进入问题，一遍遍画曲面，直到几何结构变得清楚。" }
+  ]
+}

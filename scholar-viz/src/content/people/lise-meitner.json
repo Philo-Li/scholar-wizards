@@ -1,0 +1,87 @@
+{
+  "slug": "lise-meitner",
+  "name": { "en": "Lise Meitner", "zh": "莉泽·迈特纳" },
+  "wiki": { "en": "Lise_Meitner", "zh": "莉泽·迈特纳" },
+  "disciplines": ["physics"],
+  "themes": ["women", "late", "partnerships"],
+  "reasons": ["opening", "integrity"],
+  "born": 1878,
+  "keyWork": { "year": 1939, "en": "Physical explanation of nuclear fission, with Otto Frisch", "zh": "与弗里施一起给出核裂变的物理解释" },
+  "why": {
+    "en": "When she arrived in Berlin in 1907, women were not admitted to Prussian universities, so she worked with Otto Hahn in a wood shop with its own outside entrance. Thirty-one years later, a refugee in Sweden at 60, she and her nephew Otto Frisch explained what Hahn's barium meant: the uranium nucleus had split. Hahn alone received the Nobel Prize.",
+    "zh": "1907 年她到柏林时，普鲁士的大学还不收女性，她只能和哈恩在一间单独开门的木工房里做实验。31 年后，60 岁的她流亡瑞典，和外甥弗里施一起解释了哈恩实验里出现的钡：铀原子核分裂了。诺贝尔奖只发给了哈恩一人。"
+  },
+  "summary": {
+    "en": "Meitner was born in Vienna and in 1906 became the second woman to earn a physics doctorate at the University of Vienna, where she studied under Ludwig Boltzmann. In 1907 she went to Berlin; Max Planck, who opposed women at university in general, let her attend his lectures. She worked with the chemist Otto Hahn for some thirty years, co-discovering protactinium and becoming in 1926 the first woman physics professor in Germany. Of Jewish descent, she fled Germany in July 1938. That December, Hahn wrote to her that bombarded uranium produced barium; over Christmas she and Frisch worked out the physics, and their letter to Nature in February 1939 named the process fission. She declined to work on the atomic bomb, and died in Cambridge in 1968.",
+    "zh": "迈特纳生于维也纳，1906 年成为维也纳大学第二位获得物理学博士学位的女性，曾受教于玻尔兹曼。1907 年她到柏林，普朗克一向反对女性上大学，却破例让她旁听自己的课。她和化学家哈恩合作了约三十年，共同发现镤，1926 年成为德国第一位女物理学教授。她有犹太血统，1938 年 7 月逃离德国。同年 12 月，哈恩写信告诉她，中子轰击铀后出现了钡。圣诞期间，她和弗里施把其中的物理想清楚了，1939 年 2 月在《自然》发表短文，把这一过程命名为“裂变”。她拒绝参与原子弹研制，1968 年在剑桥去世。"
+  },
+  "style": [
+    {
+      "en": "For her first years in Berlin she was allowed only into the wood shop, which had its own external entrance; she could not enter the rest of the institute.",
+      "zh": "在柏林的头几年，她只被允许进那间单独开门的木工房，研究所的其他地方都不能去。"
+    },
+    {
+      "en": "She found the Auger effect in 1922, a year before Pierre Auger, whose name it carried for decades; it is now often called the Auger-Meitner effect.",
+      "zh": "1922 年她发现了俄歇效应，比俄歇本人早一年，但这个效应几十年里只挂着俄歇的名字，如今常被称为“俄歇-迈特纳效应”。"
+    },
+    {
+      "en": "Asked to join Frisch on the British contribution to the Manhattan Project, she refused: \"I will have nothing to do with a bomb!\"",
+      "zh": "有人请她随弗里施参加曼哈顿计划的英国团队，她回绝说：“我和炸弹不会有任何关系！”"
+    },
+    {
+      "en": "From mid-1915 to autumn 1917 she worked as a radiologist in Austrian army hospitals at the front, taking leave often enough to keep the search for protactinium going with Hahn in Berlin.",
+      "zh": "1915 年年中到 1917 年秋，她在奥地利前线的军医院做放射科工作，一有假期就回柏林，和哈恩继续寻找镤。"
+    }
+  ],
+  "timeline": [
+    { "year": 1878, "en": "Born in Vienna", "zh": "生于维也纳" },
+    { "year": 1906, "en": "Doctorate in physics from the University of Vienna", "zh": "获维也纳大学物理学博士学位" },
+    { "year": 1907, "en": "Moves to Berlin; begins working with Otto Hahn", "zh": "到柏林，开始与哈恩合作" },
+    { "year": 1926, "en": "Becomes the first woman physics professor in Germany", "zh": "成为德国第一位女物理学教授" },
+    { "year": 1938, "en": "Flees Nazi Germany in July; settles in Sweden", "zh": "7 月逃离纳粹德国，定居瑞典" },
+    { "year": 1939, "en": "Publishes the explanation of nuclear fission with Otto Frisch", "zh": "与弗里施发表核裂变的解释" },
+    { "year": 1944, "en": "The Nobel Prize in Chemistry for fission goes to Hahn alone", "zh": "核裂变的诺贝尔化学奖只授予哈恩一人" },
+    { "year": 1968, "en": "Dies in Cambridge, England", "zh": "在英国剑桥去世" }
+  ],
+  "works": [
+    {
+      "year": 1918,
+      "title": "Die Muttersubstanz des Actiniums, ein neues radioaktives Element von langer Lebensdauer (with Otto Hahn)",
+      "en": "Reported protactinium, the long-lived parent of actinium, after years of searching.",
+      "zh": "报告了镤，即锕的长寿命母体元素，是多年寻找的结果。"
+    },
+    {
+      "year": 1922,
+      "title": "Über die Entstehung der β-Strahl-Spektren radioaktiver Substanzen",
+      "en": "Described electrons emitted from atoms with characteristic energies, the effect later named after Auger.",
+      "zh": "描述了原子以特征能量放出电子的现象，这一效应后来以俄歇命名。"
+    },
+    {
+      "year": 1939,
+      "title": "Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction (with O. R. Frisch)",
+      "en": "Explained Hahn and Strassmann's barium as the uranium nucleus splitting in two, estimated the energy released, and introduced the word fission.",
+      "zh": "把哈恩和斯特拉斯曼发现的钡解释为铀核一分为二，估算了释放的能量，并提出“裂变”一词。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "interview", "title": "Oral history interview with Lise Meitner (by Otto Robert Frisch and Thomas S. Kuhn)", "publisher": "American Institute of Physics, Niels Bohr Library & Archives", "year": 1963, "url": "https://history.aip.org/catalog/icos/4776.html", "lang": "en" },
+    { "kind": "lecture", "title": "Lise Meitner looks back (lecture in Vienna, 20 September 1963)", "publisher": "IAEA Bulletin", "year": 1964, "url": "https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull6-1/06101400412.pdf", "lang": "en" },
+    { "kind": "profile", "title": "Lise Meitner and the Discovery of Nuclear Fission: Politics, Persecution, and the Prize", "publisher": "ACS Axial (Ruth Lewin Sime)", "year": 2019, "url": "https://axial.acs.org/multidisciplinary/lise-meitner-and-the-discovery-of-nuclear-fission-politics-persecution-and-the-prize", "lang": "en" },
+    { "kind": "profile", "title": "Overlooked for the Nobel: Lise Meitner", "publisher": "Physics World", "year": 2020, "url": "https://physicsworld.com/a/overlooked-for-the-nobel-lise-meitner/", "lang": "en" },
+    { "kind": "profile", "title": "She Cracked the Mystery of How to Split the Atom, but Someone Else Got the Nobel Prize for the Discovery", "publisher": "Scientific American", "year": 2023, "url": "https://www.scientificamerican.com/article/she-cracked-the-mystery-of-how-to-split-the-atom-but-someone-else-got-the-nobel-prize-for-the-discovery/", "lang": "en" },
+    { "kind": "archive", "title": "1939: Meitner/Frisch paper on nuclear fission", "publisher": "APS News", "year": 2015, "url": "https://www.aps.org/publications/apsnews/201502/physicshistory.cfm", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "She was the physicist, Hahn the chemist. Even across a border in exile, their letters let her read his chemistry as physics.",
+      "zh": "她是物理学家，哈恩是化学家。即使她流亡国外，两人靠书信往来，她仍能从他的化学结果里读出物理。"
+    },
+    {
+      "key": "first-principles",
+      "en": "Faced with barium where none should be, she and Frisch reasoned from the liquid-drop picture of the nucleus and a quick energy estimate, and saw that it had split.",
+      "zh": "面对本不该出现的钡，她和弗里施从原子核的液滴模型和一笔简单的能量估算出发，看出原子核分裂了。"
+    }
+  ]
+}

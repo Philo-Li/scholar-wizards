@@ -1,0 +1,159 @@
+{
+  "slug": "john-fenn",
+  "name": {
+    "en": "John B. Fenn",
+    "zh": "约翰·贝内特·芬恩"
+  },
+  "wiki": {
+    "en": "John_B._Fenn",
+    "zh": "约翰·贝内特·芬恩"
+  },
+  "disciplines": [
+    "chemistry"
+  ],
+  "themes": [
+    "late",
+    "outsiders"
+  ],
+  "reasons": [
+    "timing",
+    "path"
+  ],
+  "born": 1917,
+  "keyWork": {
+    "year": 1989,
+    "en": "Electrospray ionisation for mass spectrometry of large biomolecules",
+    "zh": "用于大分子生物质谱的电喷雾电离"
+  },
+  "why": {
+    "en": "He spent his first 12 working years in industry and did his Nobel work after he turned 65. Yale made him emeritus at 70 and took away most of his lab space; he applied, in vain, for an open assistant professorship, and the electrospray method he had just built now weighs proteins in labs everywhere.",
+    "zh": "他工作的头十二年在企业里度过，获诺贝尔奖的工作是 65 岁以后做的。70 岁时耶鲁让他退为荣休教授，收走了大部分实验室；他去申请一个空缺的助理教授职位，没有成功。而他刚做出来的电喷雾方法，如今是全世界实验室称量蛋白质的标准工具。"
+  },
+  "summary": {
+    "en": "Fenn was born in New York City and grew up in Kentucky, where he attended Berea College. After a Yale PhD in chemistry in 1940 he worked in industry, including Monsanto and Experiment, Incorporated, a small Richmond firm that built early ramjets. From 1952 he directed Project SQUID, a Navy jet-propulsion research programme at Princeton, and only joined the Princeton faculty in his forties. Back at Yale from 1967, he worked on supersonic molecular beams, and in the 1980s, with Masamichi Yamashita and others, turned that work into electrospray ionisation, which lets mass spectrometers measure large, fragile molecules such as proteins. Forced out of most of his Yale space after mandatory retirement, he moved to Virginia Commonwealth University in 1994, shared the 2002 Nobel Prize in Chemistry, and died in Richmond in 2010.",
+    "zh": "芬恩生于纽约，在肯塔基州长大，在伯里亚学院读大学。1940 年在耶鲁拿到化学博士后，他在企业里工作，包括孟山都和里士满一家做早期冲压发动机的小公司 Experiment, Incorporated。1952 年起他在普林斯顿主持海军的喷气推进研究项目 SQUID，四十多岁才成为普林斯顿的教员。1967 年他回到耶鲁研究超声速分子束，八十年代他和课题组把这项工作发展成电喷雾电离，让质谱仪能测量蛋白质这样又大又易碎的分子。强制退休后他在耶鲁失去了大部分实验空间，1994 年转到弗吉尼亚联邦大学，2002 年分享诺贝尔化学奖，2010 年在里士满去世。"
+  },
+  "style": [
+    {
+      "en": "He called himself \"a journeyman chemist\" and titled his autobiographical essay \"Research in retrospect: some biograffiti of a journeyman chemist\".",
+      "zh": "他自称“一名普通的化学匠人”，自传文章的标题就叫《回望研究：一位化学匠人的涂鸦式自传》。"
+    },
+    {
+      "en": "He titled his Nobel lecture \"Electrospray Wings for Molecular Elephants\"; his NAS memoirists say they quoted him liberally to convey the cheerful tone of his writing.",
+      "zh": "他的诺贝尔演讲题为《给分子大象装上电喷雾翅膀》；为他写美国科学院传记回忆录的作者说，他们大量引用他的原话，是为了传达他文字里的那股乐呵劲儿。"
+    },
+    {
+      "en": "When Yale asked him to give up most of his lab after he reached 70, his response was to apply for an open assistant professor slot.",
+      "zh": "70 岁后耶鲁要他交出大部分实验室，他的回应是去申请一个空缺的助理教授职位。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1917,
+      "en": "Born in New York City",
+      "zh": "生于纽约"
+    },
+    {
+      "year": 1940,
+      "en": "PhD in chemistry, Yale; goes to work for Monsanto",
+      "zh": "获耶鲁大学化学博士，进入孟山都工作"
+    },
+    {
+      "year": 1952,
+      "en": "Becomes director of Project SQUID at Princeton",
+      "zh": "出任普林斯顿 SQUID 项目主任"
+    },
+    {
+      "year": 1967,
+      "en": "Returns to Yale as professor",
+      "zh": "回到耶鲁任教授"
+    },
+    {
+      "year": 1987,
+      "en": "Reaches Yale's mandatory retirement age of 70",
+      "zh": "到达耶鲁 70 岁的强制退休年龄"
+    },
+    {
+      "year": 1994,
+      "en": "Moves to Virginia Commonwealth University",
+      "zh": "转到弗吉尼亚联邦大学"
+    },
+    {
+      "year": 2002,
+      "en": "Shares the Nobel Prize in Chemistry",
+      "zh": "分享诺贝尔化学奖"
+    },
+    {
+      "year": 2010,
+      "en": "Dies in Richmond, Virginia",
+      "zh": "在弗吉尼亚州里士满去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1984,
+      "title": "Electrospray ion source. Another variation on the free-jet theme",
+      "en": "Joined his molecular-beam work to electrospraying, producing gas-phase ions straight from a liquid.",
+      "zh": "把他的分子束研究和电喷雾结合起来，直接从液体中得到气相离子。"
+    },
+    {
+      "year": 1988,
+      "title": "Multiple charging in electrospray ionization",
+      "en": "Showed that large molecules pick up many charges, which brings even big proteins within range of an ordinary mass spectrometer.",
+      "zh": "发现大分子会带上很多电荷，这样即使是大蛋白质，普通质谱仪也能测。"
+    },
+    {
+      "year": 1989,
+      "title": "Electrospray ionization for mass spectrometry of large biomolecules",
+      "en": "The Science paper that brought the method to biologists and made protein mass spectrometry routine.",
+      "zh": "这篇《科学》论文把方法带给了生物学家，让蛋白质质谱成为常规手段。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "memoir",
+      "title": "John B. Fenn 1917–2010: A Biographical Memoir, by Dudley R. Herschbach and Charles E. Kolb",
+      "publisher": "National Academy of Sciences",
+      "year": 2014,
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/fenn-john.pdf",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "John B. Fenn: Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 2002,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2002/fenn/biographical/",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "John Bennett Fenn, 1917–2010",
+      "publisher": "Journal of the American Society for Mass Spectrometry",
+      "year": 2011,
+      "url": "https://link.springer.com/article/10.1007/s13361-011-0098-8",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "John B. Fenn, Chemistry Nobelist, 93",
+      "publisher": "The Philadelphia Inquirer",
+      "year": 2010,
+      "url": "https://www.inquirer.com/philly/obituaries/20101217_John_B__Fenn___Chemistry_Nobelist__93.html",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "cross-field",
+      "en": "Electrospray came out of jet-propulsion research and supersonic molecular beams, tools he had built for aerospace work decades earlier.",
+      "zh": "电喷雾来自喷气推进研究和超声速分子束，这些是他几十年前为航空航天研究打造的工具。"
+    },
+    {
+      "key": "long-focus",
+      "en": "He stayed with free jets for some 30 years, and the payoff came after most people would have retired.",
+      "zh": "他在自由射流上钻了三十来年，回报来的时候，大多数人早已退休。"
+    }
+  ]
+}

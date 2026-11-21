@@ -1,0 +1,63 @@
+{
+  "slug": "geoffrey-hinton",
+  "name": { "en": "Geoffrey Hinton", "zh": "杰弗里·辛顿" },
+  "wiki": { "en": "Geoffrey_Hinton", "zh": "杰弗里·辛顿" },
+  "disciplines": ["computer-science", "psychology", "neuroscience"],
+  "themes": ["vindicated", "late"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1947,
+  "keyWork": { "year": 1986, "en": "Learning representations by back-propagating errors (with Rumelhart and Williams)", "zh": "《通过反向传播误差学习表示》（与鲁梅尔哈特、威廉斯合作）" },
+  "why": {
+    "en": "He kept working on neural networks through the 1970s and 1980s, when most AI researchers believed intelligence had to be built from symbols and rules. In 2012 his group's network won the ImageNet contest by a wide margin, the field turned to deep learning, and in 2024 a man who calls himself a psychologist received the Nobel Prize in Physics.",
+    "zh": "上世纪七八十年代，大多数人工智能研究者认为智能必须由符号和规则搭成，他却一直在做神经网络。2012 年，他的团队用神经网络大幅领先赢下 ImageNet 比赛，整个领域随之转向深度学习。2024 年，这位自称“心理学家”的人获得了诺贝尔物理学奖。"
+  },
+  "summary": {
+    "en": "Hinton was born in London into a family of scientists that includes George Boole. At Cambridge he moved between subjects, left for a time to do odd jobs, and graduated in experimental psychology in 1970. He took a PhD in artificial intelligence at Edinburgh in 1978, when neural networks were out of favour. In 1986, with David Rumelhart and Ronald Williams, he showed that backpropagation lets multilayer networks learn useful internal representations. He moved to the University of Toronto in 1987, and in 2012 his students Alex Krizhevsky and Ilya Sutskever built AlexNet with him. He shared the 2018 Turing Award and the 2024 Nobel Prize in Physics, and in 2023 left Google so that he could speak freely about the risks of AI.",
+    "zh": "辛顿生于伦敦一个科学世家，乔治·布尔是他的先人。在剑桥他换过几个专业，中途还离校去打零工，1970 年以实验心理学学位毕业。1978 年他在爱丁堡大学获得人工智能博士学位，那时神经网络正遭冷落。1986 年，他与戴维·鲁梅尔哈特、罗纳德·威廉斯证明，反向传播能让多层网络学到有用的内部表示。1987 年他到多伦多大学任教，2012 年和学生亚历克斯·克里热夫斯基、伊利亚·苏茨克维一起做出 AlexNet。他分享了 2018 年图灵奖和 2024 年诺贝尔物理学奖；2023 年他离开谷歌，以便公开谈论人工智能的风险。"
+  },
+  "style": [
+    { "en": "Back pain for most of his life grew so severe that he gave up sitting; he has not sat down for more than an hour since 2005.", "zh": "他大半辈子受背痛折磨，后来严重到干脆不坐了。自 2005 年起，他从没连续坐过一个小时以上。" },
+    { "en": "He grew up under heavy pressure to succeed. He recalls his father telling him that if he worked twice as hard, by twice his father's age he might be half as good.", "zh": "他从小背负着很大的压力。他记得父亲对他说：如果你比我用功一倍，到我两倍年纪时，也许能有我一半好。" },
+    { "en": "His interest in the brain began at 16 or 17, when a school friend told him memories might be spread across the brain like a hologram.", "zh": "他对大脑的兴趣始于十六七岁：一位中学同学告诉他，记忆可能像全息图一样分布在整个大脑里。" }
+  ],
+  "timeline": [
+    { "year": 1947, "en": "Born in Wimbledon, London.", "zh": "生于伦敦温布尔登。" },
+    { "year": 1970, "en": "BA in experimental psychology from Cambridge.", "zh": "获剑桥大学实验心理学学士学位。" },
+    { "year": 1978, "en": "PhD in artificial intelligence from Edinburgh.", "zh": "获爱丁堡大学人工智能博士学位。" },
+    { "year": 1986, "en": "Publishes the backpropagation paper in Nature with Rumelhart and Williams.", "zh": "与鲁梅尔哈特、威廉斯在《自然》发表反向传播论文。" },
+    { "year": 1987, "en": "Joins the University of Toronto.", "zh": "加入多伦多大学。" },
+    { "year": 2012, "en": "AlexNet, built with his students, wins the ImageNet challenge.", "zh": "他和学生做的 AlexNet 赢得 ImageNet 挑战赛。" },
+    { "year": 2018, "en": "Shares the Turing Award with Yoshua Bengio and Yann LeCun.", "zh": "与约书亚·本吉奥、杨立昆分享图灵奖。" },
+    { "year": 2024, "en": "Shares the Nobel Prize in Physics with John Hopfield.", "zh": "与约翰·霍普菲尔德分享诺贝尔物理学奖。" }
+  ],
+  "works": [
+    { "year": 1985, "title": "A learning algorithm for Boltzmann machines (with Ackley and Sejnowski)", "en": "Gave networks of stochastic units a way to learn from data using ideas from statistical physics, work cited by the Nobel committee.", "zh": "借用统计物理的思想，让由随机单元组成的网络能从数据中学习，这是诺贝尔委员会引用的工作。" },
+    { "year": 1986, "title": "Learning representations by back-propagating errors", "en": "Showed that backpropagation lets hidden layers learn their own features, the training method behind modern deep learning.", "zh": "证明反向传播能让隐藏层自己学出特征，这是现代深度学习的训练方法。" },
+    { "year": 2012, "title": "ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky, Sutskever and Hinton)", "en": "Cut the ImageNet error rate far below every rival and convinced the field to switch to deep learning.", "zh": "把 ImageNet 错误率降到远低于所有对手的水平，让整个领域转向深度学习。" }
+  ],
+  "quotes": [
+    {
+      "text": "What's the chance that someone who's really a psychologist trying to understand how the brain works will get the Nobel Prize in Physics?",
+      "zh": "一个其实是心理学家、只想弄明白大脑怎么工作的人，拿到诺贝尔物理学奖的可能性有多大？",
+      "source": "Nobel Prize interview, Stockholm, December 2024",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/1925103-interview-transcript/"
+    },
+    {
+      "text": "I kind of knew from a very early age that I had to be a successful academic or a failure.",
+      "zh": "我很小就隐约知道，自己要么成为一个成功的学者，要么就是个失败者。",
+      "source": "Nobel Prize interview, Stockholm, December 2024",
+      "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/1925103-interview-transcript/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Transcript from an interview with Geoffrey Hinton", "publisher": "NobelPrize.org", "year": 2024, "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/1925103-interview-transcript/", "lang": "en" },
+    { "kind": "profile", "title": "Why the Godfather of A.I. Fears What He's Built", "publisher": "The New Yorker", "year": 2023, "url": "https://www.newyorker.com/magazine/2023/11/20/geoffrey-hinton-profile-ai", "lang": "en" },
+    { "kind": "lecture", "title": "Geoffrey Hinton – Banquet speech", "publisher": "NobelPrize.org", "year": 2024, "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/speech/", "lang": "en" },
+    { "kind": "interview", "title": "In his words: Geoffrey Hinton reflects on his Nobel Prize win", "publisher": "University of Toronto", "year": 2024, "url": "https://utoronto.ca/news/his-words-geoffrey-hinton-reflects-his-nobel-prize-win", "lang": "en" },
+    { "kind": "archive", "title": "Geoffrey E Hinton – A.M. Turing Award Laureate", "publisher": "ACM", "year": 2018, "url": "https://amturing.acm.org/award_winners/hinton_4791679.cfm", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "persist-evidence", "en": "Hinton stayed with neural networks for three decades while they were unfashionable, because he believed the brain was the evidence that they could work.", "zh": "神经网络被冷落的三十年里，辛顿一直没有放弃，因为在他看来，大脑本身就是神经网络可行的证据。" },
+    { "key": "cross-field", "en": "He came to computing from psychology and borrowed from statistical physics, and asked how the brain learns rather than how to program intelligence.", "zh": "他从心理学走进计算机，又借用统计物理的方法；他问的是大脑如何学习，而不是如何把智能编出来。" }
+  ]
+}

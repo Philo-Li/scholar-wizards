@@ -1,0 +1,93 @@
+{
+  "slug": "lawrence-bragg",
+  "name": { "en": "William Lawrence Bragg", "zh": "威廉·劳伦斯·布拉格" },
+  "wiki": { "en": "Lawrence_Bragg", "zh": "威廉·劳伦斯·布拉格" },
+  "disciplines": ["physics"],
+  "themes": ["early", "partnerships"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1890,
+  "keyWork": { "year": 1912, "en": "Bragg's law of X-ray diffraction by crystals", "zh": "晶体 X 射线衍射的布拉格定律" },
+  "why": {
+    "en": "In 1912, as a 22-year-old first-year research student at Cambridge, he saw while walking by the river that X-ray diffraction could be treated as reflection from planes of atoms. Within a year he and his father were solving crystal structures with it, and in 1915, at 25, he shared the Nobel Prize with his father; he is still the youngest science laureate.",
+    "zh": "1912 年，22 岁的他在剑桥读研究生一年级，在河边散步时想到：X 射线衍射可以看作晶体里一层层原子平面的反射。不到一年，他和父亲就用这个办法解出了晶体结构。1915 年，25 岁的他与父亲分享诺贝尔物理学奖，至今仍是最年轻的科学类诺贝尔奖得主。"
+  },
+  "summary": {
+    "en": "Bragg was born in Adelaide, where his father William Henry Bragg was professor of mathematics and physics, and took a first-class degree in mathematics at the University of Adelaide in 1908. The family moved to England, and he entered Trinity College, Cambridge, in 1909. From 1912 to 1914 he and his father founded X-ray crystallography. During the First World War he developed sound ranging to locate enemy guns, and learned of the Nobel Prize while serving in France. He led physics at Manchester from 1919, then the Cavendish Laboratory from 1938 to 1953, where he backed the protein work of Perutz and Kendrew and was director when Watson and Crick found the structure of DNA. From 1954 he directed the Royal Institution in London. He died in 1971.",
+    "zh": "布拉格生于阿德莱德，父亲威廉·亨利·布拉格在当地大学任数学和物理学教授。1908 年他以一等荣誉从阿德莱德大学数学专业毕业，随全家迁居英国，1909 年进入剑桥大学三一学院。1912 至 1914 年，他和父亲一起开创了 X 射线晶体学。第一次世界大战期间他研究用声音测定敌方火炮位置的方法，在法国服役时得知自己获得诺贝尔奖。1919 年起他主持曼彻斯特大学物理系，1938 至 1953 年领导卡文迪许实验室，支持佩鲁茨和肯德鲁研究蛋白质，沃森和克里克发现 DNA 结构时他正是实验室主任。1954 年起他主持伦敦的英国皇家研究院。1971 年去世。"
+  },
+  "style": [
+    {
+      "en": "The idea behind Bragg's law came to him while strolling by the river in Cambridge in 1912, when he realised that crystals made of parallel sheets of atoms would reflect X-rays only at certain angles.",
+      "zh": "布拉格定律的想法是 1912 年他在剑桥河边散步时想到的：由平行原子层构成的晶体，只在特定角度上反射 X 射线。"
+    },
+    {
+      "en": "His father presented their early results at meetings and in a paper, crediting \"his son\" without naming him as co-author. This gave Lawrence \"some heartaches\" that he never fully overcame.",
+      "zh": "父亲在学术会议和论文里介绍两人的早期成果时，只提到“我儿子”，没有把他列为合作者。这让他“心里有些难受”，一直没能完全释怀。"
+    },
+    {
+      "en": "A keen shell collector from boyhood, he gathered specimens from some 500 species in South Australia and found a new cuttlefish, named Sepia braggi after him.",
+      "zh": "他从小喜欢收集贝壳，在南澳大利亚亲手采集了约 500 个物种的标本，还发现了一种新的乌贼，后来以他命名为 Sepia braggi。"
+    },
+    {
+      "en": "When he took over at Manchester he felt his own knowledge of physics was weak and he had no classroom experience; he recruited strong colleagues, including former sound rangers from the war.",
+      "zh": "接手曼彻斯特大学物理系时，他觉得自己的物理底子不够，也没有讲课经验，于是招来一批得力的同事，其中有战时搞声测的老战友。"
+    }
+  ],
+  "timeline": [
+    { "year": 1890, "en": "Born in Adelaide, South Australia", "zh": "生于南澳大利亚阿德莱德" },
+    { "year": 1909, "en": "Enters Trinity College, Cambridge", "zh": "进入剑桥大学三一学院" },
+    { "year": 1912, "en": "Formulates Bragg's law; publishes his first paper on X-ray diffraction in November", "zh": "提出布拉格定律，11 月发表第一篇 X 射线衍射论文" },
+    { "year": 1915, "en": "Shares the Nobel Prize in Physics with his father while serving in the army", "zh": "在军中服役时与父亲分享诺贝尔物理学奖" },
+    { "year": 1919, "en": "Succeeds Rutherford as Langworthy Professor of Physics at Manchester", "zh": "接替卢瑟福任曼彻斯特大学兰沃西物理学教授" },
+    { "year": 1938, "en": "Becomes Cavendish Professor of Experimental Physics at Cambridge", "zh": "出任剑桥大学卡文迪许实验物理学教授" },
+    { "year": 1954, "en": "Moves to the Royal Institution, London", "zh": "转到伦敦英国皇家研究院" },
+    { "year": 1971, "en": "Dies in England", "zh": "在英国去世" }
+  ],
+  "works": [
+    {
+      "year": 1912,
+      "title": "The Diffraction of Short Electromagnetic Waves by a Crystal",
+      "en": "Introduced the relation nλ = 2d sin θ, which turned X-ray diffraction patterns into a way to measure atomic spacings.",
+      "zh": "提出 nλ = 2d sin θ，把 X 射线衍射图样变成测量原子间距的工具。"
+    },
+    {
+      "year": 1913,
+      "title": "The Structure of Some Crystals as Indicated by Their Diffraction of X-rays",
+      "en": "Solved the structures of sodium chloride and other alkali halides, the first atomic structures ever determined.",
+      "zh": "解出氯化钠等碱金属卤化物的结构，这是人类第一次测定出原子排列。"
+    },
+    {
+      "year": 1915,
+      "title": "X Rays and Crystal Structure (with W. H. Bragg)",
+      "en": "The book summarising the joint work that earned father and son the 1915 Nobel Prize.",
+      "zh": "这本书总结了父子二人的合作成果，正是这项工作让他们获得 1915 年诺贝尔奖。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "That you should have given me, at the very outset of my scientific career, even the most humble place amongst their ranks, is an honour of which I cannot but be very proud.",
+      "zh": "在我科学生涯刚刚起步的时候，你们就让我在他们中间有了一席之地，哪怕是最末的位置，这份荣誉也让我不能不深感自豪。",
+      "source": "Nobel Lecture, \"The diffraction of X-rays by crystals\", Stockholm, 6 September 1922",
+      "url": "https://www.nobelprize.org/uploads/2018/06/wl-bragg-lecture.pdf"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Oral history interview with Sir William Lawrence Bragg (by David O. Edge)", "publisher": "American Institute of Physics, Niels Bohr Library & Archives", "year": 1969, "url": "https://history.aip.org/catalog/icos/28531.html", "lang": "en" },
+    { "kind": "profile", "title": "A genius who knew nothing (review of Light is a Messenger)", "publisher": "Physics World", "year": 2005, "url": "https://physicsworld.com/a/a-genius-who-knew-nothing/", "lang": "en" },
+    { "kind": "profile", "title": "William Lawrence Bragg (1890-1971)", "publisher": "Royal Institution", "year": null, "url": "https://www.rigb.org/node/2686", "lang": "en" },
+    { "kind": "lecture", "title": "The Diffraction of X-Rays by Crystals (Nobel Lecture)", "publisher": "NobelPrize.org", "year": 1922, "url": "https://www.nobelprize.org/prizes/physics/1915/wl-bragg/lecture/", "lang": "en" },
+    { "kind": "memoir", "title": "Lawrence Bragg: Biographical", "publisher": "NobelPrize.org", "year": 1915, "url": "https://www.nobelprize.org/prizes/physics/1915/wl-bragg/biographical/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "He supplied the geometric idea, his father the X-ray spectrometer; neither could have solved the first structures as quickly alone.",
+      "zh": "他想到了几何上的关键，父亲有 X 射线光谱仪。两人单干，谁都不可能那么快解出第一批晶体结构。"
+    },
+    {
+      "key": "important-problem",
+      "en": "A physicist running a physics lab, he set up a Medical Research Council unit for the structure of biological molecules at the Cavendish. That bet on a new problem produced DNA, myoglobin and haemoglobin.",
+      "zh": "身为物理实验室的主任，他在卡文迪许设立了由医学研究理事会资助的生物分子结构研究组。押注这个新问题，换来了 DNA、肌红蛋白和血红蛋白的结构。"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "santiago-ramon-y-cajal",
+  "name": {
+    "en": "Santiago Ramón y Cajal",
+    "zh": "圣地亚哥·拉蒙-卡哈尔"
+  },
+  "wiki": {
+    "en": "Santiago_Ramón_y_Cajal",
+    "zh": "圣地亚哥·拉蒙-卡哈尔"
+  },
+  "disciplines": [
+    "neuroscience",
+    "medicine"
+  ],
+  "themes": [
+    "vindicated"
+  ],
+  "reasons": [
+    "pioneer",
+    "path"
+  ],
+  "born": 1852,
+  "keyWork": {
+    "year": 1888,
+    "en": "Golgi-stain studies of the bird cerebellum and retina showing nerve cells as separate units",
+    "zh": "用高尔基染色研究鸟类小脑和视网膜，证明神经细胞是彼此独立的单位"
+  },
+  "why": {
+    "en": "A boy his father apprenticed to a barber and a cobbler, working in provincial Spain with a microscope bought from his army pay, took another man's staining method and used it to show that the nervous system is made of separate cells. He shared the 1906 Nobel Prize with Camillo Golgi, who used his own Nobel lecture to argue the opposite.",
+    "zh": "他少年时被父亲送去给理发匠和鞋匠当学徒，后来在西班牙外省，用军饷买的显微镜，拿别人发明的染色法证明了神经系统是由一个个独立细胞组成的。1906 年他和卡米洛·高尔基分享诺贝尔奖，而高尔基在自己的诺贝尔演讲里坚持相反的观点。"
+  },
+  "summary": {
+    "en": "Cajal was born in Petilla de Aragón and wanted to be an artist, but his father, an anatomy teacher, steered him into medicine at Zaragoza, where he qualified in 1873. As an army doctor in Cuba in 1874–75 he caught malaria and tuberculosis; back home he bought a microscope with his savings and taught himself histology. In 1887 in Madrid he saw slides prepared with Golgi's silver stain, which blackens a few whole neurons at a time, and the next year, working in Barcelona, he used an improved version to trace nerve cells and their branches and argue that they touch but do not fuse. He showed his slides at the German Anatomical Society in Berlin in 1889 and won over leading histologists, and his textbook on the nervous system of man and vertebrates became the foundation of modern neuroanatomy. He held the chair of histology in Madrid from 1892 and worked there until his death in 1934.",
+    "zh": "卡哈尔生于佩蒂利亚-德阿拉贡，从小想当画家，但教解剖学的父亲让他去萨拉戈萨学医，1873 年取得行医资格。1874 至 1875 年他在古巴当军医，染上疟疾和肺结核；回国后用积蓄买了一台显微镜，自学组织学。1887 年他在马德里看到用高尔基银染法做的切片，这种方法每次只把少数几个神经元整个染黑。第二年他在巴塞罗那改进了这种方法，追踪神经细胞和它们的分支，提出神经细胞彼此接触而不融合。1889 年他带着切片去柏林参加德国解剖学会大会，说服了一批权威组织学家。他论人类和脊椎动物神经系统的巨著成了现代神经解剖学的基础。他从 1892 年起任马德里大学组织学教授，在那里工作到 1934 年去世。"
+  },
+  "style": [
+    {
+      "en": "He wanted to be an artist, and drawing stayed central to his science: he recorded what he saw under the microscope in drawings, many of which are still reproduced in neuroscience textbooks.",
+      "zh": "他原本想当画家，绘画也一直是他做科学的核心手段。他把显微镜下看到的东西一张张画下来，其中许多至今还印在神经科学教科书里。"
+    },
+    {
+      "en": "In 1877 he bought an old-fashioned microscope with his own money, 'using every peseta saved from the service in Cuba', and began research on his own.",
+      "zh": "1877 年他自己掏钱买了一台老式显微镜，用的是“在古巴服役攒下的每一个比塞塔”，从此开始独立做研究。"
+    },
+    {
+      "en": "After seeing Golgi's slides he worked in what he called a fever for publication, turning out papers on the retina, cerebellum and spinal cord, many in a journal he started in 1888.",
+      "zh": "看到高尔基的切片后，他自称陷入“发表的狂热”，接连写出关于视网膜、小脑和脊髓的论文，很多发表在他 1888 年创办的刊物上。"
+    },
+    {
+      "en": "He was also an accomplished photographer, and wrote for general readers, including an autobiography and a book of aphorisms, Charlas de café.",
+      "zh": "他还是出色的摄影师，也给普通读者写书，包括一本自传和一本格言集《咖啡馆闲谈》。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1852,
+      "en": "Born in Petilla de Aragón, Spain.",
+      "zh": "生于西班牙佩蒂利亚-德阿拉贡。"
+    },
+    {
+      "year": 1873,
+      "en": "Qualifies in medicine at Zaragoza; becomes an army doctor.",
+      "zh": "在萨拉戈萨取得行医资格，入伍当军医。"
+    },
+    {
+      "year": 1874,
+      "en": "Sent to Cuba, where he contracts malaria and tuberculosis.",
+      "zh": "被派往古巴，染上疟疾和肺结核。"
+    },
+    {
+      "year": 1887,
+      "en": "Sees Golgi-stained slides in Madrid; moves to a chair in Barcelona.",
+      "zh": "在马德里看到高尔基染色切片；赴巴塞罗那任教授。"
+    },
+    {
+      "year": 1888,
+      "en": "Publishes his first studies showing nerve cells as independent units.",
+      "zh": "发表首批论文，证明神经细胞是独立的单位。"
+    },
+    {
+      "year": 1889,
+      "en": "Presents his slides at the German Anatomical Society in Berlin.",
+      "zh": "在柏林德国解剖学会大会上展示切片。"
+    },
+    {
+      "year": 1892,
+      "en": "Appointed professor of histology in Madrid.",
+      "zh": "任马德里大学组织学教授。"
+    },
+    {
+      "year": 1906,
+      "en": "Nobel Prize in Physiology or Medicine, shared with Golgi.",
+      "zh": "与高尔基共获诺贝尔生理学或医学奖。"
+    },
+    {
+      "year": 1934,
+      "en": "Dies in Madrid.",
+      "zh": "在马德里去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1888,
+      "title": "Estructura de los centros nerviosos de las aves",
+      "en": "His first clear evidence, from the bird cerebellum, that nerve fibres end freely instead of joining a continuous network.",
+      "zh": "他从鸟类小脑得到的第一份清晰证据：神经纤维末端是游离的，并不连成一张连续的网。"
+    },
+    {
+      "year": 1899,
+      "title": "Textura del sistema nervioso del hombre y de los vertebrados",
+      "en": "A detailed, illustrated survey of nerve cells across the nervous system that became the foundation of modern neuroanatomy.",
+      "zh": "一部配有大量插图、详细描述整个神经系统神经细胞的巨著，成为现代神经解剖学的基础。"
+    },
+    {
+      "year": 1897,
+      "title": "Reglas y consejos sobre investigación científica",
+      "en": "His practical advice to young researchers, reprinted for over a century and known in English as Advice for a Young Investigator.",
+      "zh": "他写给年轻研究者的实用建议，一百多年来不断重印，英译本名为《给青年研究者的建议》。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "Life and discoveries of Santiago Ramón y Cajal",
+      "publisher": "NobelPrize.org",
+      "year": 1998,
+      "url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/article/",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Santiago Ramón y Cajal – Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 1906,
+      "url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/biographical/",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "Santiago Ramón y Cajal – Nobel Lecture",
+      "publisher": "NobelPrize.org",
+      "year": 1906,
+      "url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/lecture/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Santiago Ramón y Cajal, the Young Artist Who Grew Up to Invent Neuroscience",
+      "publisher": "Scientific American",
+      "year": 2018,
+      "url": "https://www.scientificamerican.com/blog/illusion-chasers/santiago-ramon-y-cajal-the-young-artist-who-grew-up-to-invent-neuroscience/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "Cajal did not invent his key tool; he improved Golgi's stain, looked harder than anyone, and drew what he saw. Patient hands-on work was the discovery.",
+      "zh": "卡哈尔的关键工具不是他发明的。他改进了高尔基的染色法，看得比谁都仔细，再把看到的画下来。耐心的手上功夫本身就是发现。"
+    },
+    {
+      "key": "communicate",
+      "en": "Far from the German centres, he carried his slides to Berlin and showed them in person, and he published fast in his own journal so his results could not be ignored.",
+      "zh": "他远离德国的学术中心，就亲自带着切片去柏林给人看；又在自己创办的刊物上快速发表，让别人没法忽视他的结果。"
+    }
+  ]
+}

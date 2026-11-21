@@ -1,0 +1,55 @@
+{
+  "slug": "demis-hassabis",
+  "name": { "en": "Demis Hassabis", "zh": "杰米斯·哈萨比斯" },
+  "wiki": { "en": "Demis_Hassabis", "zh": "杰米斯·哈萨比斯" },
+  "disciplines": ["computer-science", "neuroscience", "chemistry"],
+  "themes": ["polymaths", "outsiders"],
+  "reasons": ["crossing", "path"],
+  "born": 1976,
+  "keyWork": { "year": 2020, "en": "AlphaFold 2 predicts protein structures at near-experimental accuracy", "zh": "AlphaFold 2 以接近实验的精度预测蛋白质结构" },
+  "why": {
+    "en": "A chess master at 13 and, at 17, co-designer and lead programmer of a best-selling video game, he later took a PhD in neuroscience to learn how the brain remembers and imagines. The AI lab he co-founded built AlphaGo and then AlphaFold, which solved a 50-year-old problem in protein structure prediction and won him a share of the 2024 Nobel Prize in Chemistry.",
+    "zh": "他 13 岁达到国际象棋大师水平，17 岁参与设计了一款畅销游戏并担任主程序员，后来又去读神经科学博士，研究大脑如何记忆和想象。他参与创办的人工智能实验室做出了 AlphaGo，又做出 AlphaFold，解决了困扰生物学界五十年的蛋白质结构预测问题，他因此分享了 2024 年诺贝尔化学奖。"
+  },
+  "summary": {
+    "en": "Hassabis was born in London and learned chess at four, later captaining England junior teams. At 17 he co-designed and programmed the simulation game Theme Park at Bullfrog Productions. He then read computer science at Cambridge and in 1998 founded his own games studio, Elixir. In 2005 he began a PhD in cognitive neuroscience at University College London, and a 2007 study showing that amnesic patients struggle to imagine the future was named one of Science's breakthroughs of the year. He co-founded DeepMind in 2010; Google bought it in 2014, AlphaGo beat Lee Sedol in 2016, and AlphaFold 2 transformed structural biology in 2020.",
+    "zh": "哈萨比斯生于伦敦，四岁学国际象棋，后来担任英格兰少年国际象棋队队长。17 岁时，他在牛蛙公司参与设计并编写了模拟经营游戏《主题公园》。之后他在剑桥大学读计算机，1998 年创办自己的游戏公司 Elixir。2005 年他到伦敦大学学院攻读认知神经科学博士；2007 年他发现失忆症患者难以想象未来，这项研究入选《科学》杂志年度突破。2010 年他参与创办 DeepMind，2014 年公司被谷歌收购，2016 年 AlphaGo 战胜李世石，2020 年 AlphaFold 2 改变了结构生物学。"
+  },
+  "style": [
+    { "en": "He says chess shaped how he thinks, and he still plays online late at night, 'like going to the gym for the mind'.", "zh": "他说国际象棋塑造了他思考问题的方式。如今他仍会在深夜上网下几盘，说这“像是给大脑去健身房”。" },
+    { "en": "At chess training camps he was supposed to study openings, but he became more interested in how someone had programmed the chess computer.", "zh": "在国际象棋集训营里，他本该练开局，却对那台下棋电脑的程序更感兴趣。" },
+    { "en": "He chose to study the hippocampus because it handled functions, memory and imagination, for which AI had no good algorithms; he joked that the only thing he knew about the brain was that it was in the skull.", "zh": "他选择研究海马体，是因为它负责的记忆和想象，正是人工智能还没有好算法的功能。他自嘲当时对大脑的了解只有一条：它在头骨里。" }
+  ],
+  "timeline": [
+    { "year": 1976, "en": "Born in London.", "zh": "生于伦敦。" },
+    { "year": 1994, "en": "Theme Park, which he co-designed at 17, is released.", "zh": "他 17 岁参与设计的《主题公园》发售。" },
+    { "year": 1997, "en": "Graduates in computer science from Cambridge.", "zh": "从剑桥大学计算机专业毕业。" },
+    { "year": 2009, "en": "PhD in cognitive neuroscience from University College London.", "zh": "获伦敦大学学院认知神经科学博士学位。" },
+    { "year": 2010, "en": "Co-founds DeepMind with Shane Legg and Mustafa Suleyman.", "zh": "与谢恩·莱格、穆斯塔法·苏莱曼共同创办 DeepMind。" },
+    { "year": 2016, "en": "AlphaGo defeats Lee Sedol.", "zh": "AlphaGo 战胜李世石。" },
+    { "year": 2020, "en": "AlphaFold 2 wins the CASP14 protein-structure assessment.", "zh": "AlphaFold 2 在第十四届蛋白质结构预测评估（CASP14）中胜出。" },
+    { "year": 2024, "en": "Shares the Nobel Prize in Chemistry with John Jumper and David Baker.", "zh": "与约翰·江珀、戴维·贝克分享诺贝尔化学奖。" }
+  ],
+  "works": [
+    { "year": 2007, "title": "Patients with hippocampal amnesia cannot imagine new experiences", "en": "Showed that the brain region for remembering the past is also needed to imagine the future.", "zh": "证明负责回忆过去的脑区，也是想象未来所必需的。" },
+    { "year": 2016, "title": "Mastering the game of Go with deep neural networks and tree search", "en": "AlphaGo combined learning and search to beat top human players at Go, a decade earlier than many expected.", "zh": "AlphaGo 把学习和搜索结合起来，在围棋上击败人类顶尖棋手，比很多人的预期早了十年。" },
+    { "year": 2021, "title": "Highly accurate protein structure prediction with AlphaFold", "en": "Predicted protein structures from sequence with near-experimental accuracy; DeepMind then released predictions for almost every known protein.", "zh": "仅凭氨基酸序列，以接近实验的精度预测蛋白质结构；DeepMind 随后公开了几乎所有已知蛋白质的预测结构。" }
+  ],
+  "quotes": [
+    {
+      "text": "I came across protein folding problem as an undergraduate at Cambridge for the first time in the nineties. I thought it was a fascinating problem, kind of like a puzzle really.",
+      "zh": "九十年代在剑桥读本科时，我第一次接触到蛋白质折叠问题。我觉得它非常迷人，说到底就像一个谜题。",
+      "source": "Nobel Prize interview, Stockholm, December 2024",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/1924974-transcript-from-an-interview-with-demis-hassabis/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Transcript from an interview with Demis Hassabis", "publisher": "NobelPrize.org", "year": 2024, "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/1924974-transcript-from-an-interview-with-demis-hassabis/", "lang": "en" },
+    { "kind": "profile", "title": "Google's Intelligence Designer", "publisher": "MIT Technology Review", "year": 2014, "url": "https://www.technologyreview.com/2014/12/02/170236/googles-intelligence-designer/", "lang": "en" },
+    { "kind": "archive", "title": "Demis Hassabis – Facts – 2024", "publisher": "NobelPrize.org", "year": 2024, "url": "https://www.nobelprize.org/prizes/chemistry/2024/hassabis/facts/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "cross-field", "en": "Hassabis went from games to neuroscience to AI on purpose, studying the brain to find algorithms that AI lacked.", "zh": "哈萨比斯有意从游戏走到神经科学再走到人工智能：研究大脑，是为了找人工智能缺少的算法。" },
+    { "key": "important-problem", "en": "He kept a puzzle he met as an undergraduate, protein folding, in mind for two decades until he had the tools to attack it.", "zh": "本科时遇到的蛋白质折叠问题，他记了二十年，直到手里有了合适的工具才动手。" }
+  ]
+}

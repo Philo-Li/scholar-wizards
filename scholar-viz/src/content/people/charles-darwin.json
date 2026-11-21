@@ -1,0 +1,176 @@
+{
+  "slug": "charles-darwin",
+  "name": {
+    "en": "Charles Darwin",
+    "zh": "查尔斯·达尔文"
+  },
+  "wiki": {
+    "en": "Charles_Darwin",
+    "zh": "查尔斯·达尔文"
+  },
+  "disciplines": [
+    "biology",
+    "earth-sciences"
+  ],
+  "themes": [
+    "outsiders",
+    "polymaths"
+  ],
+  "reasons": [
+    "pioneer",
+    "path"
+  ],
+  "born": 1809,
+  "keyWork": {
+    "year": 1859,
+    "en": "On the Origin of Species",
+    "zh": "《物种起源》"
+  },
+  "why": {
+    "en": "A medical-school dropout who never held a university post, he worked out natural selection in 1838 and then spent 20 years gathering evidence, including eight years on barnacles, before publishing. He did most of it from his house in Kent, by experiment, reading and letters.",
+    "zh": "他医学院没读完，一辈子没在大学任职。1838 年他想通了自然选择，之后花了二十年收集证据才发表，其中八年在研究藤壶。这些工作大多是在肯特郡的家中完成的，靠实验、阅读和通信。"
+  },
+  "summary": {
+    "en": "Darwin was born in Shrewsbury into a wealthy family of doctors. He left medical studies at Edinburgh, then studied at Christ's College, Cambridge, intending to become a clergyman, and spent much of his time collecting beetles and learning natural history. From 1831 to 1836 he sailed around the world on HMS Beagle as a naturalist, and his geology made his name first. In October 1838, reading Malthus on population, he saw how natural selection could work. He settled at Down House in Kent in 1842, published on coral reefs, barnacles, orchids, earthworms and more, and was pushed into publishing his theory in 1858 when Alfred Russel Wallace sent him the same idea; On the Origin of Species followed in 1859.",
+    "zh": "达尔文生于什鲁斯伯里一个富裕的医生家庭。他在爱丁堡学医没有读完，又到剑桥大学基督学院读书，原打算当牧师，大部分时间却花在采集甲虫和学习博物学上。1831 到 1836 年，他以博物学家身份随“小猎犬号”环游世界，最先让他出名的是地质学。1838 年 10 月，他读到马尔萨斯的人口论，想通了自然选择怎样起作用。1842 年他定居肯特郡唐恩宅，先后研究并发表了珊瑚礁、藤壶、兰花、蚯蚓等成果。1858 年华莱士寄来了同样的想法，他这才被迫公开自己的理论，次年出版《物种起源》。"
+  },
+  "style": [
+    {
+      "en": "He kept a \"golden rule\": whenever he met a fact or thought opposed to his general results, he wrote a memorandum of it at once, because he found that unfavourable facts slipped from memory far more easily than favourable ones.",
+      "zh": "他有一条“金科玉律”：凡是碰到与自己结论相反的事实或想法，立即记下来，因为他发现，不利的事实远比有利的事实容易忘掉。"
+    },
+    {
+      "en": "To understand one odd barnacle he dissected the common forms, and ended up working on the whole group for eight years, publishing two thick volumes on living species and two on fossils.",
+      "zh": "为了弄懂一种古怪的藤壶，他解剖了许多常见种类，结果在整个类群上干了八年，出了两大本现生种专著和两本化石种专著。"
+    },
+    {
+      "en": "He wrote that in later life his mind had become \"a kind of machine for grinding general laws out of large collections of facts\", and that he had lost his old taste for poetry and music.",
+      "zh": "他在晚年写道，自己的头脑变成了“一台从大量事实中碾磨出一般规律的机器”，年轻时对诗歌和音乐的兴趣也没了。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1809,
+      "en": "Born in Shrewsbury, England",
+      "zh": "生于英格兰什鲁斯伯里"
+    },
+    {
+      "year": 1831,
+      "en": "Graduates from Cambridge and sails on HMS Beagle",
+      "zh": "从剑桥毕业，登上“小猎犬号”"
+    },
+    {
+      "year": 1838,
+      "en": "Reads Malthus and conceives natural selection",
+      "zh": "读马尔萨斯，想到自然选择"
+    },
+    {
+      "year": 1842,
+      "en": "Moves to Down House, Kent",
+      "zh": "迁居肯特郡唐恩宅"
+    },
+    {
+      "year": 1858,
+      "en": "His and Wallace's papers are read at the Linnean Society",
+      "zh": "他和华莱士的论文在林奈学会宣读"
+    },
+    {
+      "year": 1859,
+      "en": "Publishes On the Origin of Species",
+      "zh": "出版《物种起源》"
+    },
+    {
+      "year": 1871,
+      "en": "Publishes The Descent of Man",
+      "zh": "出版《人类的由来》"
+    },
+    {
+      "year": 1882,
+      "en": "Dies at Down House; buried in Westminster Abbey",
+      "zh": "在唐恩宅去世，葬于威斯敏斯特教堂"
+    }
+  ],
+  "works": [
+    {
+      "year": 1842,
+      "title": "The Structure and Distribution of Coral Reefs",
+      "en": "Explained atolls as reefs left behind on slowly sinking islands, an idea later confirmed by deep drilling.",
+      "zh": "用岛屿缓慢下沉来解释环礁的形成，后来被深钻证实。"
+    },
+    {
+      "year": 1859,
+      "title": "On the Origin of Species by Means of Natural Selection",
+      "en": "Argued from a mass of evidence that species descend from common ancestors and are shaped by natural selection.",
+      "zh": "用大量证据论证物种出自共同祖先，并由自然选择塑造。"
+    },
+    {
+      "year": 1871,
+      "title": "The Descent of Man, and Selection in Relation to Sex",
+      "en": "Applied evolution to humans and set out the theory of sexual selection.",
+      "zh": "把演化论用到人类身上，并提出性选择理论。"
+    },
+    {
+      "year": 1881,
+      "title": "The Formation of Vegetable Mould through the Action of Worms",
+      "en": "His last book, decades of patient measurement showing how earthworms reshape the soil.",
+      "zh": "他的最后一本书，几十年耐心测量的结果，说明蚯蚓怎样改造土壤。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I have steadily endeavoured to keep my mind free, so as to give up any hypothesis, however much beloved (and I cannot resist forming one on every subject), as soon as facts are shown to be opposed to it.",
+      "zh": "我一直努力让头脑保持自由，一旦事实证明某个假说站不住，不管我多么钟爱它，都愿意放弃（而我对每个问题都忍不住要提出一个假说）。",
+      "source": "The Autobiography of Charles Darwin, ed. Nora Barlow, 1958 (written 1876)",
+      "url": "https://darwin-online.org.uk/converted/published/1958_Autobiography_F1497/1958_Autobiography_F1497.html"
+    },
+    {
+      "text": "My mind seems to have become a kind of machine for grinding general laws out of large collections of facts.",
+      "zh": "我的头脑似乎变成了一台机器，专门从大量事实中碾磨出一般规律。",
+      "source": "The Autobiography of Charles Darwin, ed. Nora Barlow, 1958 (written 1876)",
+      "url": "https://darwin-online.org.uk/converted/published/1958_Autobiography_F1497/1958_Autobiography_F1497.html"
+    }
+  ],
+  "links": [
+    {
+      "kind": "memoir",
+      "title": "The Autobiography of Charles Darwin 1809–1882, with the original omissions restored",
+      "publisher": "Darwin Online",
+      "year": 1958,
+      "url": "https://darwin-online.org.uk/converted/published/1958_Autobiography_F1497/1958_Autobiography_F1497.html",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "The Complete Work of Charles Darwin Online",
+      "publisher": "Darwin Online",
+      "url": "https://darwin-online.org.uk/",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "About Darwin",
+      "publisher": "Darwin Correspondence Project, Cambridge University Library",
+      "url": "https://www.darwinproject.ac.uk/about-darwin",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Charles Darwin: History's most famous biologist",
+      "publisher": "Natural History Museum, London",
+      "url": "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "He wrote down every fact against his theory the moment he met it, so his book had already answered most objections before critics raised them.",
+      "zh": "每遇到一个对自己理论不利的事实，他当场记下，所以书出版时，大多数反对意见他已经回答过了。"
+    },
+    {
+      "key": "long-focus",
+      "en": "He held one idea for 20 years and built its case piece by piece, from pigeons to barnacles, before going public.",
+      "zh": "他守着一个想法二十年，从鸽子到藤壶，一块一块地攒证据，然后才公之于众。"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "daniel-kahneman",
+  "name": { "en": "Daniel Kahneman", "zh": "丹尼尔·卡尼曼" },
+  "wiki": { "en": "Daniel_Kahneman", "zh": "丹尼尔·卡尼曼" },
+  "disciplines": ["psychology", "economics"],
+  "themes": ["partnerships"],
+  "reasons": ["pioneer", "crossing"],
+  "born": 1934,
+  "keyWork": { "year": 1979, "en": "Prospect theory, with Amos Tversky", "zh": "与特沃斯基提出前景理论" },
+  "why": {
+    "en": "A psychologist won the 2002 Nobel Prize in economics for work done mostly in daily conversation with one friend, Amos Tversky: their prospect theory showed that people judge outcomes as gains and losses from a reference point, and feel losses more than equal gains. At 21, as an Israeli army lieutenant, he had already designed a recruit interview system the army kept using for decades.",
+    "zh": "一位心理学家拿了 2002 年诺贝尔经济学奖，而获奖的工作大多是他和朋友特沃斯基每天聊出来的：两人的前景理论指出，人是相对于某个参照点来判断得失的，同样大小的损失比收益更让人难受。早在 21 岁当以色列军队中尉时，他设计的新兵面试制度就被军方沿用了几十年。"
+  },
+  "summary": {
+    "en": "Kahneman was born in Tel Aviv while his mother was visiting family, grew up in Paris, and spent the Second World War fleeing from place to place in occupied France. After the war his family moved to Palestine; he studied psychology and mathematics at the Hebrew University, served as a psychologist in the Israeli army, and earned a PhD at Berkeley in 1961. Back at the Hebrew University he began working with Amos Tversky in 1969, and over the next decade they wrote the papers on heuristics, biases and prospect theory that founded behavioural economics. He later taught at the University of British Columbia, Berkeley and Princeton, won the Nobel in 2002, six years after Tversky's death, and in 2011 published Thinking, Fast and Slow. He died in 2024.",
+    "zh": "卡尼曼生于特拉维夫，当时母亲正回乡探亲；他在巴黎长大，二战期间一家人在被占领的法国东躲西藏。战后全家移居巴勒斯坦。他在希伯来大学读心理学和数学，在以色列国防军当过心理学军官，1961 年在伯克利拿到博士学位。回到希伯来大学后，他从 1969 年起与特沃斯基合作，此后十年里两人写出了关于启发法、认知偏差和前景理论的一系列论文，奠定了行为经济学。他后来先后任教于不列颠哥伦比亚大学、伯克利和普林斯顿，2002 年获诺贝尔经济学奖，那时特沃斯基已去世六年。2011 年他出版《思考，快与慢》，2024 年去世。"
+  },
+  "style": [
+    {
+      "en": "He was a morning person and Tversky a night person, so they met for lunch and a long afternoon, spending hours each day just talking; Tversky's toddler son summed up his father's job as \"Aba talk Danny.\"",
+      "zh": "他习惯早起，特沃斯基是夜猫子，两人就约在午饭时见面，接着谈一整个下午，每天光说话就是好几个小时。特沃斯基一岁多的儿子总结父亲的工作是“爸爸跟丹尼说话”。"
+    },
+    {
+      "en": "He and Tversky practised what he called a \"psychology of single questions\": short problems quoted verbatim in their papers, so readers could feel the error in their own minds.",
+      "zh": "他和特沃斯基做的是他所谓“单个问题的心理学”：论文里直接引用一道道小题，让读者在自己脑子里亲身体会那个错误。"
+    },
+    {
+      "en": "Appalled by the critique-reply-rejoinder format of academic debate, he championed \"adversarial collaboration\": opponents design and run a joint study, sometimes with an agreed arbiter.",
+      "zh": "他厌恶学术争论里“批评、回应、再反驳”的套路，提倡“对抗性合作”：争论双方一起设计并完成研究，必要时请一位双方都认可的仲裁人。"
+    },
+    {
+      "en": "As a 21-year-old lieutenant he set up the Israeli army's interview system for recruits, which remained in use with little change for decades; the work there also gave him his first cognitive illusion, which he called \"the illusion of validity\".",
+      "zh": "21 岁当中尉时，他为以色列军队建立了新兵面试制度，此后几十年几乎没改。也是在那里，他发现了自己的第一个认知错觉，并起名为“效度错觉”。"
+    }
+  ],
+  "timeline": [
+    { "year": 1934, "en": "Born in Tel Aviv; grows up in Paris.", "zh": "生于特拉维夫，在巴黎长大。" },
+    { "year": 1955, "en": "As a young lieutenant, sets up the Israeli army's interview system for recruits.", "zh": "以中尉身份为以色列军队建立新兵面试制度。" },
+    { "year": 1961, "en": "Earns a PhD in psychology at Berkeley and returns to teach at the Hebrew University.", "zh": "在伯克利获心理学博士学位，回希伯来大学任教。" },
+    { "year": 1969, "en": "Begins working with Amos Tversky.", "zh": "开始与特沃斯基合作。" },
+    { "year": 1979, "en": "Publishes prospect theory with Tversky in Econometrica.", "zh": "与特沃斯基在《计量经济学》上发表前景理论。" },
+    { "year": 1993, "en": "Moves to Princeton.", "zh": "转到普林斯顿大学。" },
+    { "year": 2002, "en": "Receives the Nobel Memorial Prize in Economic Sciences.", "zh": "获诺贝尔经济学奖。" },
+    { "year": 2024, "en": "Dies at 90.", "zh": "去世，享年 90 岁。" }
+  ],
+  "works": [
+    { "year": 1974, "title": "Judgment under Uncertainty: Heuristics and Biases", "en": "The Science paper with Tversky describing representativeness, availability and anchoring, shortcuts that produce predictable errors.", "zh": "与特沃斯基发表在《科学》上的论文，描述代表性、可得性和锚定这几种思维捷径以及它们带来的可预测的错误。" },
+    { "year": 1979, "title": "Prospect Theory: An Analysis of Decision under Risk", "en": "Replaced expected utility with a model built on reference points and loss aversion; one of the most cited papers in economics.", "zh": "用参照点和损失厌恶取代期望效用，是经济学中被引用最多的论文之一。" },
+    { "year": 2011, "title": "Thinking, Fast and Slow", "en": "His account for general readers of fast intuitive and slow deliberate thinking, which made the field widely known.", "zh": "他写给大众的书，讲快速直觉和缓慢思考两套系统，让这门学问广为人知。" }
+  ],
+  "quotes": [
+    {
+      "text": "I have probably shared more than half of the laughs of my life with Amos.",
+      "zh": "我这辈子的笑声，大概有一半以上是和阿莫斯一起笑出来的。",
+      "source": "Nobel autobiography, 2002",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/"
+    },
+    {
+      "text": "We spent hours each day, just talking.",
+      "zh": "我们每天花好几个小时，就是说话。",
+      "source": "Nobel autobiography, 2002",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "memoir", "title": "Daniel Kahneman – Biographical", "publisher": "NobelPrize.org", "year": 2002, "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/", "lang": "en" },
+    { "kind": "interview", "title": "Interview with the 2002 Laureates in Economics", "publisher": "NobelPrize.org", "year": 2002, "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/interview/", "lang": "en" },
+    { "kind": "profile", "title": "How Two Trailblazing Psychologists Turned the World of Decision Science Upside Down", "publisher": "Vanity Fair", "year": 2016, "url": "https://www.vanityfair.com/news/2016/11/decision-science-daniel-kahneman-amos-tversky", "lang": "en" },
+    { "kind": "obituary", "title": "Daniel Kahneman obituary: psychologist who revolutionized the way we think about thinking", "publisher": "Nature", "year": 2024, "url": "https://www.nature.com/articles/d41586-024-01344-6", "lang": "en" },
+    { "kind": "obituary", "title": "Daniel Kahneman, pioneering behavioral psychologist, Nobel laureate and 'giant in the field,' dies at 90", "publisher": "Princeton University", "year": 2024, "url": "https://www.princeton.edu/news/2024/03/28/daniel-kahneman-pioneering-behavioral-psychologist-nobel-laureate-and-giant-field", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "right-partner", "en": "Kahneman built his best work in a partnership with someone whose temperament complemented his own, and protected daily time for open conversation.", "zh": "卡尼曼最好的工作出自和一个性情互补的人的合作，他们每天留出大段时间随意交谈。" },
+    { "key": "first-principles", "en": "He started from his own recurring mistakes and turned each into a short question anyone could answer, and get wrong.", "zh": "他从自己反复犯的错出发，把每个错误变成一道谁都能答、也谁都会答错的小题。" },
+    { "key": "cross-field", "en": "He took experimental psychology into economics and tested its core assumption of rationality directly.", "zh": "他把实验心理学带进经济学，直接检验经济学关于理性的核心假设。" }
+  ]
+}

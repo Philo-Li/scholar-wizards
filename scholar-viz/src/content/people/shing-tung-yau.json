@@ -1,0 +1,61 @@
+{
+  "slug": "shing-tung-yau",
+  "name": { "en": "Shing-Tung Yau", "zh": "丘成桐" },
+  "wiki": { "en": "Shing-Tung_Yau", "zh": "丘成桐" },
+  "disciplines": ["mathematics", "physics"],
+  "themes": ["chinese", "early"],
+  "reasons": ["pioneer", "crossing"],
+  "born": 1949,
+  "keyWork": { "year": 1976, "en": "Proof of the Calabi conjecture", "zh": "证明卡拉比猜想" },
+  "why": {
+    "en": "He first set out to disprove the Calabi conjecture, failed, concluded it must be true, and proved it at 27. The spaces his proof guarantees, Calabi–Yau manifolds, became the standard shape for the hidden dimensions of string theory.",
+    "zh": "他起初想推翻卡拉比猜想，没有成功，于是反过来相信它是对的，27 岁时把它证了出来。他的证明保证存在的那类空间——卡拉比–丘流形——后来成了弦理论中隐藏维度的标准模型。"
+  },
+  "summary": {
+    "en": "Yau was born in Shantou, Guangdong, and grew up poor in Hong Kong; his father, a philosophy professor, died when he was 14. He studied mathematics at the Chinese University of Hong Kong and left for Berkeley in 1969, where he finished a PhD under Shiing-Shen Chern in two years. He proved the Calabi conjecture in 1976 and, with Richard Schoen, the positive mass theorem of general relativity. He received the Fields Medal in 1982, the first awarded to a Chinese-born mathematician. After decades at Harvard he moved to Tsinghua University in 2022, and he has spent much of his later career building mathematics institutes and student competitions in China.",
+    "zh": "丘成桐生于广东汕头，在香港的清贫环境中长大。父亲是哲学教授，在他 14 岁时去世。他在香港中文大学读数学，1969 年赴伯克利，两年后在陈省身指导下拿到博士学位。1976 年他证明了卡拉比猜想，又与理查德·舍恩合作证明了广义相对论中的正质量定理。1982 年他获菲尔兹奖，是第一位获得此奖的华人。在哈佛任教数十年后，他于 2022 年转到清华大学，后半生的大量精力用在中国建数学研究机构、办中学生科学奖上。"
+  },
+  "style": [
+    { "en": "At Berkeley he enrolled in many courses at once because he felt he knew too little of modern mathematics; he lived on a $300 monthly scholarship and sent half of it home to his family.", "zh": "在伯克利，他觉得自己对现代数学了解太少，一口气选了很多课。他每月只有 300 美元奖学金，还寄一半回香港养家。" },
+    { "en": "John Coates, who knew him at Stanford, recalled that whenever he came into the department near midnight he found Yau still there, working or talking with graduate students.", "zh": "斯坦福时期的同事约翰·科茨回忆，他几次在将近午夜时走进数学系，每次都看到丘成桐还在，不是在做自己的研究，就是在和研究生讨论。" },
+    { "en": "He has said reading the Shiji and other Chinese histories taught him how to make decisions at important moments.", "zh": "他自称从小爱读《史记》，说历史教他如何在关键时刻做决断。" }
+  ],
+  "timeline": [
+    { "year": 1949, "en": "Born in Shantou, Guangdong; the family soon moves to Hong Kong.", "zh": "生于广东汕头，不久随家人移居香港。" },
+    { "year": 1963, "en": "His father dies; Yau is 14.", "zh": "父亲去世，丘成桐时年 14 岁。" },
+    { "year": 1969, "en": "Leaves the Chinese University of Hong Kong for graduate study at Berkeley.", "zh": "离开香港中文大学，赴伯克利读研究生。" },
+    { "year": 1971, "en": "PhD under Shiing-Shen Chern.", "zh": "在陈省身指导下获博士学位。" },
+    { "year": 1976, "en": "Proves the Calabi conjecture.", "zh": "证明卡拉比猜想。" },
+    { "year": 1982, "en": "Awarded the Fields Medal.", "zh": "获菲尔兹奖。" },
+    { "year": 2022, "en": "Retires from Harvard and moves to Tsinghua University.", "zh": "从哈佛退休，转往清华大学。" }
+  ],
+  "works": [
+    { "year": 1978, "title": "On the Ricci curvature of a compact Kähler manifold and the complex Monge–Ampère equation, I", "en": "Solved a highly nonlinear equation by a priori estimates, proving that Ricci-flat Kähler metrics exist, the basis of Calabi–Yau geometry.", "zh": "用先验估计解出一个高度非线性的方程，证明里奇平坦的凯勒度量存在，这是卡拉比–丘几何的基础。" },
+    { "year": 1979, "title": "On the proof of the positive mass conjecture in general relativity (with Richard Schoen)", "en": "Proved that the total mass of an isolated gravitating system cannot be negative, using minimal-surface methods from geometry.", "zh": "用几何中的极小曲面方法，证明孤立引力系统的总质量不能为负。" }
+  ],
+  "quotes": [
+    {
+      "text": "I couldn't produce an answer [that proved the Calabi conjecture wrong], so eventually I had to believe the opposite is true.",
+      "zh": "我找不出推翻卡拉比猜想的答案，最后只好相信它反面才是对的。",
+      "source": "Harvard Gazette, 2010",
+      "url": "https://news.harvard.edu/gazette/story/2010/10/simple-beauties-of-math-yes-math/"
+    },
+    {
+      "text": "快没什么用，做好的学问需要时间。",
+      "zh": "快没什么用，做好的学问需要时间。",
+      "source": "澎湃新闻专访，2016",
+      "url": "https://www.thepaper.cn/newsDetail_forward_1418181"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "专访数学家丘成桐：如果我没得过菲尔兹奖，早就被打垮了", "publisher": "澎湃新闻", "year": 2016, "url": "https://www.thepaper.cn/newsDetail_forward_1418181", "lang": "zh" },
+    { "kind": "interview", "title": "Discover Interview: The Math Behind the Physics Behind the Universe", "publisher": "Discover", "year": 2010, "url": "https://discovermagazine.com/the-sciences/discover-interview-the-math-behind-the-physics-behind-the-universe", "lang": "en" },
+    { "kind": "profile", "title": "Simple beauties of math (yes, math)", "publisher": "Harvard Gazette", "year": 2010, "url": "https://news.harvard.edu/gazette/story/2010/10/simple-beauties-of-math-yes-math/", "lang": "en" },
+    { "kind": "interview", "title": "对谈｜数学家丘成桐的人生经历与励志故事", "publisher": "澎湃新闻（清华新闻网转载）", "year": 2021, "url": "https://www.tsinghua.edu.cn/info/1182/82173.htm", "lang": "zh" },
+    { "kind": "archive", "title": "Shing-Tung Yau – Biography", "publisher": "MacTutor History of Mathematics", "year": 2023, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Yau/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "persist-evidence", "en": "Yau spent years trying to disprove the Calabi conjecture; when his counterexamples kept failing, he took that as evidence and turned around to prove it.", "zh": "丘成桐花了几年想推翻卡拉比猜想，反例一次次失败，他就把失败当作证据，掉头去证明它。" },
+    { "key": "cross-field", "en": "He used the hard analysis of nonlinear PDEs to answer questions in geometry and general relativity.", "zh": "他用非线性偏微分方程的硬分析去回答几何和广义相对论里的问题。" }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "brenda-milner",
+  "name": {
+    "en": "Brenda Milner",
+    "zh": "布伦达·米尔纳"
+  },
+  "wiki": {
+    "en": "Brenda_Milner",
+    "zh": "布倫達·米爾納"
+  },
+  "disciplines": [
+    "neuroscience",
+    "psychology"
+  ],
+  "themes": [
+    "women"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1918,
+  "keyWork": {
+    "year": 1957,
+    "en": "Report on patient H.M.: loss of recent memory after bilateral hippocampal removal",
+    "zh": "关于病人 H.M. 的报告：双侧海马切除后近期记忆丧失"
+  },
+  "why": {
+    "en": "Testing a man who could not form new memories, she found that he still got better at a mirror-drawing task day after day without remembering having done it, the first strong evidence that the brain has more than one memory system. She was still doing research at the Montreal Neurological Institute past her 100th birthday.",
+    "zh": "她测试一个无法形成新记忆的病人，发现：他根本不记得做过镜像描画，成绩却一天比一天好。这是大脑有不止一个记忆系统的第一份有力证据。过了一百岁，她还在蒙特利尔神经病学研究所做研究。"
+  },
+  "summary": {
+    "en": "Brenda Langford was born in Manchester in 1918, won a scholarship to Cambridge and took a degree in experimental psychology in 1939. In 1944 she married Peter Milner and moved to Montreal, taught psychology at the Université de Montréal, and earned her PhD at McGill under Donald Hebb in 1952 while studying Wilder Penfield's epilepsy patients at the Montreal Neurological Institute. After two of Penfield's patients lost their memory following temporal-lobe surgery, the neurosurgeon William Scoville invited her to Hartford to test his patient Henry Molaison, known as H.M.; their 1957 paper tied memory to the hippocampus. Her later studies of H.M. and others showed that motor-skill learning survives this damage, and she went on to work on the frontal lobes, language and the two hemispheres. She received the Kavli Prize in Neuroscience in 2014.",
+    "zh": "布伦达·兰福德 1918 年生于曼彻斯特，拿奖学金进了剑桥，1939 年获实验心理学学位。1944 年她嫁给彼得·米尔纳，随他到了蒙特利尔，先在蒙特利尔大学教心理学，又在蒙特利尔神经病学研究所研究怀尔德·彭菲尔德的癫痫病人，1952 年在麦吉尔大学师从唐纳德·赫布获博士学位。彭菲尔德有两名病人在颞叶手术后失去记忆，神经外科医生威廉·斯科维尔得知后，请她去哈特福德测试他的病人亨利·莫莱森，也就是 H.M.。两人 1957 年的论文把记忆和海马联系起来。她后来对 H.M. 等人的研究表明，这类损伤不影响运动技能的学习。之后她又研究额叶、语言和左右脑的差异。2014 年她获卡夫利神经科学奖。"
+  },
+  "style": [
+    {
+      "en": "She carried portable tests from the McGill psychology department with her on the train to Hartford, among them the mirror-drawing task that revealed H.M.'s intact skill learning.",
+      "zh": "她坐火车去哈特福德时，随身带着麦吉尔心理系的便携测验，其中就有那个揭示 H.M. 技能学习完好的镜像描画任务。"
+    },
+    {
+      "en": "Her students called her the 'Manchester Filter' because she let no mistake through; one recalls drafts returned with entire pages covered in red lines.",
+      "zh": "学生们叫她“曼彻斯特过滤器”，因为任何错误都逃不过她。一位学生回忆，交上去的稿子退回来，整页整页都是红线。"
+    },
+    {
+      "en": "A long-time collaborator describes her as strictly data-driven: she never had specific ideas she wanted to prove and worked with what the results showed.",
+      "zh": "一位长期合作者说她完全由数据驱动：她从不预设想要证明什么，结果显示什么，她就跟着什么走。"
+    },
+    {
+      "en": "At 100 she still walked to her office a few days a week and was supervising a postdoc.",
+      "zh": "一百岁时，她每周还有几天步行去办公室，手下还带着一名博士后。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1918,
+      "en": "Born in Manchester, England.",
+      "zh": "生于英格兰曼彻斯特。"
+    },
+    {
+      "year": 1939,
+      "en": "Degree in experimental psychology, University of Cambridge.",
+      "zh": "获剑桥大学实验心理学学位。"
+    },
+    {
+      "year": 1944,
+      "en": "Marries Peter Milner and moves to Montreal.",
+      "zh": "与彼得·米尔纳结婚，移居蒙特利尔。"
+    },
+    {
+      "year": 1952,
+      "en": "PhD at McGill University under Donald Hebb.",
+      "zh": "在麦吉尔大学师从赫布获博士学位。"
+    },
+    {
+      "year": 1957,
+      "en": "Publishes the H.M. case with William Scoville.",
+      "zh": "与斯科维尔发表 H.M. 病例。"
+    },
+    {
+      "year": 1962,
+      "en": "Reports that H.M. learns mirror drawing without remembering the practice.",
+      "zh": "报告 H.M. 能学会镜像描画，却不记得练习过。"
+    },
+    {
+      "year": 2014,
+      "en": "Kavli Prize in Neuroscience.",
+      "zh": "获卡夫利神经科学奖。"
+    },
+    {
+      "year": 2018,
+      "en": "Turns 100, still doing research at the Montreal Neurological Institute.",
+      "zh": "年满一百岁，仍在蒙特利尔神经病学研究所做研究。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1957,
+      "title": "Loss of recent memory after bilateral hippocampal lesions",
+      "en": "With Scoville, the case report that located the formation of new memories in the medial temporal lobe.",
+      "zh": "与斯科维尔合写的病例报告，把新记忆的形成定位到内侧颞叶。"
+    },
+    {
+      "year": 1962,
+      "title": "Les troubles de la mémoire accompagnant des lésions hippocampiques bilatérales",
+      "en": "Showed that H.M. improved at mirror drawing across days with no memory of practising, separating skill learning from conscious memory.",
+      "zh": "证明 H.M. 的镜像描画一天天进步，却不记得练习过，从而把技能学习和有意识的记忆区分开来。"
+    },
+    {
+      "year": 1963,
+      "title": "Effects of different brain lesions on card sorting",
+      "en": "Showed that frontal-lobe damage leaves patients unable to switch strategies on a card-sorting test, a standard tool ever since.",
+      "zh": "发现额叶损伤的病人在卡片分类测验中无法转换策略，这个测验此后成了标准工具。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I think part of my longevity just comes from stubbornness. It has nothing to do with talent. Some people get put off by the first little difficulty. I’m just not easily deterred.",
+      "zh": "我想，我能活这么久，一部分就是因为固执，跟天赋没关系。有些人遇到第一个小困难就打退堂鼓，我只是不那么容易被吓退。",
+      "source": "McGill News, 2019",
+      "url": "https://mcgillnews.mcgill.ca/the-sensational-centenarian/"
+    },
+    {
+      "text": "Of course, surgeons were very contentious of the results, but if you get a bad result you’re supposed to report it, not suppress it!",
+      "zh": "外科医生们当然对这些结果很有意见，可是如果你得到了不好的结果，就应该报告出来，而不是压下去！",
+      "source": "Interview with Rackeb Tesfaye, Aeon, 2016",
+      "url": "https://aeon.co/opinions/what-amnesiacs-tell-us-about-memory-q-a-with-brenda-milner"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "What amnesiacs tell us about memory: Q&A with Brenda Milner",
+      "publisher": "Aeon",
+      "year": 2016,
+      "url": "https://aeon.co/opinions/what-amnesiacs-tell-us-about-memory-q-a-with-brenda-milner",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "If you're neuroscientist Brenda Milner, this is how you turn 100",
+      "publisher": "STAT",
+      "year": 2018,
+      "url": "https://www.statnews.com/2018/07/15/brenda-milner-neuroscientist-100-years-old/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "The sensational centenarian",
+      "publisher": "McGill News",
+      "year": 2019,
+      "url": "https://mcgillnews.mcgill.ca/the-sensational-centenarian/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Brenda Milner",
+      "publisher": "The Canadian Encyclopedia",
+      "year": 2020,
+      "url": "https://www.thecanadianencyclopedia.ca/en/article/brenda-milner",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "Milner reported the memory losses after temporal-lobe surgery even though surgeons disliked the results; reporting bad outcomes is what opened the study of memory.",
+      "zh": "颞叶手术后的记忆丧失，外科医生不愿听，米尔纳还是报告了出来。正是这些“坏结果”打开了记忆研究的大门。"
+    },
+    {
+      "key": "first-principles",
+      "en": "Her decisive experiment used a pencil, a mirror and a star drawn on paper. A simple task, chosen well, separated two memory systems.",
+      "zh": "她那个决定性的实验只用了一支铅笔、一面镜子和纸上画的一颗星。一个选得好的简单任务，就把两套记忆系统分开了。"
+    },
+    {
+      "key": "long-focus",
+      "en": "She studied H.M. for decades and kept working into her second century, following the same questions about how brain regions divide the work.",
+      "zh": "她研究 H.M. 几十年，过了一百岁还在工作，追问的始终是同一类问题：大脑的不同区域如何分工。"
+    }
+  ]
+}

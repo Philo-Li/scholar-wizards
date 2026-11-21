@@ -1,0 +1,76 @@
+{
+  "slug": "jim-simons",
+  "name": { "en": "James Simons", "zh": "詹姆斯·西蒙斯" },
+  "wiki": { "en": "Jim_Simons", "zh": "詹姆斯·西蒙斯" },
+  "disciplines": ["mathematics"],
+  "themes": ["outsiders"],
+  "reasons": ["crossing", "path"],
+  "born": 1938,
+  "keyWork": { "year": 1974, "en": "Characteristic forms and geometric invariants, with Shiing-Shen Chern (the Chern–Simons forms)", "zh": "与陈省身合写《特征形式与几何不变量》，提出陈–西蒙斯形式" },
+  "why": {
+    "en": "He was fired as a government codebreaker after publicly opposing the Vietnam War, then developed with Shiing-Shen Chern the invariants that physicists later applied in string theory and condensed-matter physics. At 40 he left mathematics to start a trading firm, Renaissance Technologies, staffed with scientists rather than traders, and used the proceeds to fund basic science.",
+    "zh": "他做政府密码破译员时因公开反对越战被解雇，随后与陈省身提出了一组不变量，后来被物理学家用到弦论和凝聚态物理中。40 岁时他离开数学，创办了一家不招交易员、只招科学家的交易公司文艺复兴科技，再用赚来的钱资助基础科学。"
+  },
+  "summary": {
+    "en": "Simons grew up in Brookline, Massachusetts, entered MIT in 1955 and earned a Berkeley PhD in 1961. In 1964 he joined the code-breaking division of the Institute for Defense Analyses in Princeton, where half his time was his own; there he did prize-winning work on minimal surfaces and learned to build mathematical models of data. In 1968 he became chair of mathematics at Stony Brook and, with Chern, developed the Chern–Simons invariants. In 1978 he left academia to found the firm that became Renaissance Technologies, which set up its Medallion fund in 1988 and became one of the most profitable investment firms in history. With his wife Marilyn he founded the Simons Foundation in 1994, and he died in New York in 2024.",
+    "zh": "西蒙斯在马萨诸塞州布鲁克莱恩长大，1955 年进入麻省理工学院，1961 年在伯克利获博士学位。1964 年他进入普林斯顿的国防分析研究所密码破译部门，那里允许研究员拿一半时间做自己的研究，他在这段时间做出了关于极小曲面的获奖工作，也学会了给数据建数学模型。1968 年他出任石溪大学数学系主任，与陈省身一起提出陈–西蒙斯不变量。1978 年他离开学术界，创办了后来的文艺复兴科技公司，公司于 1988 年设立大奖章基金，成为史上最赚钱的投资公司之一。1994 年他与妻子玛丽莲创立西蒙斯基金会，2024 年在纽约去世。"
+  },
+  "style": [
+    {
+      "en": "At 14 he was demoted from stockroom clerk to floor sweeper at a garden supply store because he could not remember where things went, and amused his supervisors by saying he wanted to study mathematics at MIT.",
+      "zh": "14 岁在一家园艺用品店打工时，他因为记不住东西该放哪儿，从库房管理员被降成扫地工。临别时他说自己想去麻省理工学院读数学，把主管们逗乐了。"
+    },
+    {
+      "en": "He said the decisive moment for choosing mathematics was watching Isadore Singer and Warren Ambrose argue mathematics in a café at 2 a.m.: \"It seemed like the world's greatest career.\"",
+      "zh": "他说让他下定决心做数学的，是看到辛格和安布罗斯凌晨两点在咖啡馆里讨论数学：“那看起来是世上最好的职业。”"
+    },
+    {
+      "en": "When IDA's head published a magazine cover story backing the Vietnam War, Simons wrote a letter to The New York Times disagreeing, then told a Newsweek stringer his views and reported the interview to his boss; he was fired soon after.",
+      "zh": "国防分析研究所的最高负责人在《纽约时报》杂志上发表封面文章支持越战，西蒙斯写信给《纽约时报》表示反对，后来又向《新闻周刊》的特约记者谈了自己的看法，并主动把这次采访告诉了上司，不久就被解雇。"
+    },
+    {
+      "en": "At Renaissance he hired mathematicians and scientists, many from IDA and Stony Brook, rather than traders, saying he did not know how to hire people to do fundamental trading but did know how to hire scientists.",
+      "zh": "在文艺复兴公司，他招的是数学家和科学家，很多来自国防分析研究所和石溪，而不是交易员。他说自己不知道怎么招做基本面交易的人，但知道怎么招科学家。"
+    }
+  ],
+  "timeline": [
+    { "year": 1938, "en": "Born in Massachusetts; grows up in Brookline.", "zh": "生于马萨诸塞州，在布鲁克莱恩长大。" },
+    { "year": 1961, "en": "Earns a PhD in mathematics at Berkeley.", "zh": "在伯克利获数学博士学位。" },
+    { "year": 1964, "en": "Joins the code-breaking division of the Institute for Defense Analyses in Princeton.", "zh": "进入普林斯顿国防分析研究所的密码破译部门。" },
+    { "year": 1968, "en": "Becomes chair of the mathematics department at Stony Brook.", "zh": "出任石溪大学数学系主任。" },
+    { "year": 1976, "en": "Receives the American Mathematical Society's Oswald Veblen Prize in Geometry.", "zh": "获美国数学会维布伦几何奖。" },
+    { "year": 1978, "en": "Leaves academia and starts the firm that becomes Renaissance Technologies.", "zh": "离开学术界，创办后来的文艺复兴科技公司。" },
+    { "year": 1994, "en": "Founds the Simons Foundation with Marilyn Simons.", "zh": "与玛丽莲·西蒙斯创立西蒙斯基金会。" },
+    { "year": 2024, "en": "Dies in New York City.", "zh": "在纽约去世。" }
+  ],
+  "works": [
+    { "year": 1968, "title": "Minimal Varieties in Riemannian Manifolds", "en": "Work on area-minimizing surfaces and their higher-dimensional analogues, done in his own half of his IDA time; it won the Veblen Prize.", "zh": "研究面积极小曲面及其高维推广，是他在国防分析研究所用属于自己的那一半时间做的，后获维布伦奖。" },
+    { "year": 1974, "title": "Characteristic Forms and Geometric Invariants", "en": "With Chern, introduced the Chern–Simons forms; about a decade later Edward Witten and others applied them in physics.", "zh": "与陈省身合作提出陈–西蒙斯形式；大约十年后，威滕等人把它用到了物理学中。" },
+    { "year": 1988, "title": "Medallion Fund", "en": "Renaissance's fund built on mathematical models of market data, the clearest proof that his approach to markets worked.", "zh": "文艺复兴公司基于市场数据数学模型的基金，最直接地证明了他的市场研究方法行得通。" }
+  ],
+  "quotes": [
+    {
+      "text": "But I did know how to hire scientists, because I have some taste in that department.",
+      "zh": "但我知道怎么招科学家，在这方面我还算有点眼光。",
+      "source": "Interview with Chris Anderson, TED2015",
+      "url": "https://www.ted.com/talks/jim_simons_a_rare_interview_with_the_mathematician_who_cracked_wall_street/transcript?language=en"
+    },
+    {
+      "text": "I think there’s a quality of just being able to get lost in thought that is pretty good for math.",
+      "zh": "我觉得，能一下子沉进思考里出不来，这种特质对做数学挺有好处。",
+      "source": "Science Lives, Simons Foundation, 2012",
+      "url": "https://www.simonsfoundation.org/2012/09/28/simons-foundation-chair-jim-simons-on-his-career-in-mathematics/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Science Lives: Mathematician Jim Simons", "publisher": "Simons Foundation", "year": 2012, "url": "https://www.simonsfoundation.org/2012/09/28/simons-foundation-chair-jim-simons-on-his-career-in-mathematics/", "lang": "en" },
+    { "kind": "video", "title": "The mathematician who cracked Wall Street", "publisher": "TED", "year": 2015, "url": "https://www.ted.com/talks/jim_simons_a_rare_interview_with_the_mathematician_who_cracked_wall_street", "lang": "en" },
+    { "kind": "video", "title": "Billionaire Mathematician", "publisher": "Numberphile", "year": 2015, "url": "https://www.numberphile.com/videos/billionaire-mathematician", "lang": "en" },
+    { "kind": "profile", "title": "The Polymath Philanthropist", "publisher": "MIT Technology Review", "year": 2016, "url": "https://www.technologyreview.com/2016/10/18/156740/the-polymath-philanthropist/", "lang": "en" },
+    { "kind": "obituary", "title": "Simons Foundation Co-Founder, Mathematician and Investor Jim Simons Dies at 86", "publisher": "Simons Foundation", "year": 2024, "url": "https://www.simonsfoundation.org/2024/05/10/simons-foundation-co-founder-mathematician-and-investor-jim-simons-dies-at-86/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "cross-field", "en": "Simons carried the habit he learned breaking codes, design an algorithm, test it on data, keep what works, from cryptography into markets.", "zh": "西蒙斯把破译密码时养成的习惯带到了市场上：设计算法，用数据检验，留下管用的。" },
+    { "key": "right-partner", "en": "He knew his own edge was judging scientists, so he built his firm and his foundation around hiring them and letting them work.", "zh": "他清楚自己的长处是识别科学家，于是公司和基金会都围绕着招科学家、放手让他们干来搭建。" }
+  ]
+}

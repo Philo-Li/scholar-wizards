@@ -1,0 +1,87 @@
+{
+  "slug": "grigori-perelman",
+  "name": { "en": "Grigori Perelman", "zh": "格里戈里·佩雷尔曼" },
+  "wiki": { "en": "Grigori_Perelman", "zh": "格里戈里·佩雷尔曼" },
+  "disciplines": ["mathematics"],
+  "themes": ["own-terms"],
+  "reasons": ["integrity", "path"],
+  "born": 1966,
+  "keyWork": { "year": 2002, "en": "Proof of the Poincaré and geometrization conjectures via Ricci flow", "zh": "用里奇流证明庞加莱猜想和几何化猜想" },
+  "why": {
+    "en": "He settled the Poincaré conjecture, a century-old problem, in three preprints posted to arXiv in 2002–03 and never submitted them to a journal. He then declined the Fields Medal in 2006 and the Clay Institute's $1 million prize in 2010.",
+    "zh": "他用 2002 到 2003 年发在 arXiv 上的三篇预印本解决了悬置百年的庞加莱猜想，却从未把它们投给期刊。之后，他拒绝了 2006 年的菲尔兹奖和 2010 年克雷研究所的 100 万美元奖金。"
+  },
+  "summary": {
+    "en": "Perelman grew up in Leningrad, where his mother was a mathematics teacher, and won the International Mathematical Olympiad in 1982 with a perfect score. After a doctorate at Leningrad State University he worked at the Steklov Institute, then spent 1992–95 in the United States at NYU, Stony Brook and Berkeley, where he proved the Soul Conjecture. He turned down several American job offers and went back to the Steklov in 1995 on less than a hundred dollars a month. For seven years he worked largely alone on Richard Hamilton's Ricci flow programme, then posted his first paper in November 2002. He left the Steklov in late 2005 and has lived quietly in St Petersburg since.",
+    "zh": "佩雷尔曼在列宁格勒长大，母亲是数学老师。1982 年他以满分拿下国际数学奥林匹克金牌。在列宁格勒国立大学读完博士后，他进入斯捷克洛夫数学研究所，1992 至 1995 年先后在纽约大学、石溪大学和伯克利访问，期间证明了灵魂猜想。他回绝了几所美国大学的聘书，1995 年回到斯捷克洛夫，月薪不到一百美元。此后七年，他基本独自推进汉密尔顿的里奇流纲领，2002 年 11 月贴出第一篇论文。2005 年底他离开斯捷克洛夫，此后一直在圣彼得堡深居简出。"
+  },
+  "style": [
+    {
+      "en": "In the United States he wore the same brown corduroy jacket every day and told friends he lived on bread, cheese and milk.",
+      "zh": "在美国期间，他每天穿同一件棕色灯芯绒外套，对朋友说自己靠面包、奶酪和牛奶过日子。"
+    },
+    {
+      "en": "When Stanford asked for a CV to request recommendation letters, he refused: 'If they know my work, they don't need my C.V. If they need my C.V., they don't know my work.'",
+      "zh": "斯坦福请他提供简历以便约推荐信，他拒绝了：“他们要是了解我的工作，就不需要我的简历；要是需要简历，说明他们不了解我的工作。”"
+    },
+    {
+      "en": "After posting his first Ricci flow paper he simply e-mailed its abstract to about a dozen mathematicians, then toured US universities in 2003 to explain the work.",
+      "zh": "第一篇里奇流论文贴出后，他只是把摘要发给了十来位数学家；2003 年他到美国几所大学巡回讲解这项工作。"
+    }
+  ],
+  "timeline": [
+    { "year": 1966, "en": "Born in Leningrad on 13 June.", "zh": "6 月 13 日生于列宁格勒。" },
+    { "year": 1982, "en": "Wins a gold medal with a perfect score at the International Mathematical Olympiad in Budapest.", "zh": "在布达佩斯国际数学奥林匹克上以满分获得金牌。" },
+    { "year": 1992, "en": "Begins three years of postdoctoral visits at NYU, Stony Brook and Berkeley.", "zh": "开始在纽约大学、石溪大学和伯克利为期三年的访问研究。" },
+    { "year": 1995, "en": "Declines US job offers and returns to the Steklov Institute in St Petersburg.", "zh": "回绝美国的聘书，回到圣彼得堡斯捷克洛夫研究所。" },
+    { "year": 2002, "en": "Posts 'The entropy formula for the Ricci flow and its geometric applications' on arXiv on 11 November.", "zh": "11 月 11 日在 arXiv 贴出《里奇流的熵公式及其几何应用》。" },
+    { "year": 2006, "en": "Awarded the Fields Medal; declines it and does not attend the congress in Madrid.", "zh": "获菲尔兹奖，拒绝领奖，也没有出席马德里的大会。" },
+    { "year": 2010, "en": "Declines the Clay Millennium Prize, saying Richard Hamilton's contribution was no less than his.", "zh": "拒绝克雷千禧年奖，理由是汉密尔顿的贡献不比他小。" }
+  ],
+  "works": [
+    {
+      "year": 1994,
+      "title": "Proof of the soul conjecture of Cheeger and Gromoll",
+      "en": "A short proof of a long-standing conjecture in Riemannian geometry that made his name among geometers.",
+      "zh": "以很短的篇幅证明了黎曼几何中一个悬置多年的猜想，在几何学界一举成名。"
+    },
+    {
+      "year": 2002,
+      "title": "The entropy formula for the Ricci flow and its geometric applications",
+      "en": "Introduced the entropy functional and the no-local-collapsing theorem that made Hamilton's Ricci flow programme workable.",
+      "zh": "引入熵泛函和非局部坍缩定理，让汉密尔顿的里奇流纲领真正走得通。"
+    },
+    {
+      "year": 2003,
+      "title": "Ricci flow with surgery on three-manifolds",
+      "en": "Controlled the singularities of Ricci flow by surgery, completing the proof of the geometrization and Poincaré conjectures.",
+      "zh": "用“手术”控制里奇流的奇点，完成了几何化猜想和庞加莱猜想的证明。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Everybody understood that if the proof is correct then no other recognition is needed.",
+      "zh": "大家都明白，证明如果是对的，就不需要别的认可了。",
+      "source": "Interview with Sylvia Nasar and David Gruber, The New Yorker, 2006",
+      "url": "https://www.newyorker.com/magazine/2006/08/28/manifold-destiny"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Manifold Destiny", "publisher": "The New Yorker", "year": 2006, "url": "https://www.newyorker.com/magazine/2006/08/28/manifold-destiny", "lang": "en" },
+    { "kind": "profile", "title": "Purest of the Purists: The Puzzling Case of Grigori Perelman", "publisher": "Nautilus", "year": 2013, "url": "https://nautil.us/purest-of-the-purists-the-puzzling-case-of-grigori-perelman-234570/", "lang": "en" },
+    { "kind": "profile", "title": "Grigori Perelman", "publisher": "MacTutor History of Mathematics", "year": 2011, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Perelman/", "lang": "en" },
+    { "kind": "lecture", "title": "John Lott on Perelman's work leading to the 2006 Fields Medal", "publisher": "MacTutor History of Mathematics", "year": 2006, "url": "https://mathshistory.st-andrews.ac.uk/Extras/Perelman_Medal/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "long-focus",
+      "en": "Perelman spent about seven years on one programme, mostly without publishing. If the problem is worth it, be willing to go quiet for years.",
+      "zh": "佩雷尔曼在一个纲领上花了大约七年，期间几乎不发表。问题值得的话，就准备好沉寂几年。"
+    },
+    {
+      "key": "right-partner",
+      "en": "He built directly on Hamilton's Ricci flow, learned from Hamilton's talks, and later insisted Hamilton deserved equal credit. Credit the people whose work you stand on.",
+      "zh": "他的工作直接建立在汉密尔顿的里奇流之上，早年还专门去听汉密尔顿的报告，后来坚持认为汉密尔顿应得同等的功劳。站在谁的肩上，就要把功劳记给谁。"
+    }
+  ]
+}

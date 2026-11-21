@@ -1,0 +1,61 @@
+{
+  "slug": "yitang-zhang",
+  "name": { "en": "Yitang Zhang", "zh": "张益唐" },
+  "wiki": { "en": "Yitang_Zhang", "zh": "张益唐" },
+  "disciplines": ["mathematics"],
+  "themes": ["late", "outsiders", "chinese"],
+  "reasons": ["timing", "path"],
+  "born": 1955,
+  "keyWork": { "year": 2013, "en": "Bounded gaps between primes: infinitely many prime pairs differ by less than 70 million", "zh": "素数间有界间隔：存在无穷多对相差小于七千万的素数" },
+  "why": {
+    "en": "After his Purdue PhD he could not find an academic job and spent years doing odd jobs, including keeping the books for a Subway franchise. At 58, as a little-known lecturer at the University of New Hampshire, he sent the Annals of Mathematics a proof that infinitely many pairs of primes lie within 70 million of each other, the first finite bound ever found.",
+    "zh": "在普渡大学拿到博士后，他找不到教职，打了好几年零工，其中一份是给一家赛百味快餐店记账。58 岁时，他还是新罕布什尔大学一名不起眼的讲师，却向《数学年刊》投去了一篇论文：存在无穷多对相差不到七千万的素数。这是人类第一次给素数间隔找到一个有限的上界。"
+  },
+  "summary": {
+    "en": "Zhang was born in Shanghai and could not attend high school during the Cultural Revolution, working instead as a laborer. He entered Peking University in 1978 and went to Purdue for a PhD, which he received in 1991 after parting badly with his adviser. With no papers and without his adviser's support, he left academia and lived for years on odd jobs in Kentucky and New York. In 1999 he became a lecturer at the University of New Hampshire, and in 2013 his paper on bounded prime gaps made him famous almost overnight. He later moved to UC Santa Barbara and, in 2025, returned to China to join Sun Yat-sen University.",
+    "zh": "张益唐生于上海，文革期间没能上高中，做过体力劳动。1978 年他考入北京大学，后来赴普渡大学读博，1991 年拿到学位，但与导师关系破裂。没有论文，也没有导师的支持，他离开学术界，在肯塔基和纽约靠零工过了好几年。1999 年他到新罕布什尔大学当讲师，2013 年关于素数有界间隔的论文让他几乎一夜成名。之后他转到加州大学圣塔芭芭拉分校，2025 年回国，全职加入中山大学。"
+  },
+  "style": [
+    { "en": "The key idea came on 3 July 2012 in a friend's back yard in Colorado. He had brought no notes, and was smoking and watching for deer. 'No deer came,' he said. 'Just walking and thinking, this is my way.'", "zh": "关键的想法出现在 2012 年 7 月 3 日，在科罗拉多一位朋友家的后院。他没带任何笔记，一边抽烟一边等鹿出来。他说：“鹿没来。就是走走、想想，这是我的方式。”" },
+    { "en": "After the idea he spent months checking each step of the proof, work he called 'very boring', then sent it to the Annals without telling anyone.", "zh": "想通之后，他又花了几个月逐步核对证明，他说这“非常无聊”。然后他谁也没告诉，就把论文投给了《数学年刊》。" },
+    { "en": "Friends recall that he kept no numbers in his phone book; he memorized them all.", "zh": "朋友回忆，他的电话本里一个号码也没有，全都记在脑子里。" }
+  ],
+  "timeline": [
+    { "year": 1955, "en": "Born in Shanghai.", "zh": "生于上海。" },
+    { "year": 1978, "en": "Enters Peking University to study mathematics.", "zh": "考入北京大学数学系。" },
+    { "year": 1991, "en": "PhD from Purdue; fails to find an academic job.", "zh": "获普渡大学博士学位，此后找不到教职。" },
+    { "year": 1999, "en": "Hired as a lecturer at the University of New Hampshire.", "zh": "受聘为新罕布什尔大学讲师。" },
+    { "year": 2013, "en": "Submits 'Bounded gaps between primes' to the Annals of Mathematics.", "zh": "向《数学年刊》投出《素数间的有界间隔》。" },
+    { "year": 2014, "en": "Receives a MacArthur Fellowship.", "zh": "获麦克阿瑟奖。" },
+    { "year": 2025, "en": "Returns to China to join Sun Yat-sen University.", "zh": "回国全职加入中山大学。" }
+  ],
+  "works": [
+    { "year": 2014, "title": "Bounded gaps between primes", "en": "Proved that some fixed gap, below 70 million, occurs between primes infinitely often, opening a rush of work that soon cut the bound to 246.", "zh": "证明存在一个小于七千万的固定间隔，在素数之间无穷多次出现。随后各国数学家接力，很快把上界压到 246。" }
+  ],
+  "quotes": [
+    {
+      "text": "No deer came. Just walking and thinking, this is my way.",
+      "zh": "鹿没来。就是走走、想想，这是我的方式。",
+      "source": "Alec Wilkinson, \"The Pursuit of Beauty\", The New Yorker, 2015",
+      "url": "https://www.newyorker.com/magazine/2015/02/02/pursuit-beauty"
+    },
+    {
+      "text": "最好盯着一个大目标，找一个大东西。",
+      "zh": "最好盯着一个大目标，找一个大东西。",
+      "source": "新华每日电讯专访，2025",
+      "url": "https://www.news.cn/politics/20250912/6e08cecaa73b433ca60ce8ccf4eeae7f/c.html"
+    }
+  ],
+  "links": [
+    { "kind": "profile", "title": "The Pursuit of Beauty", "publisher": "The New Yorker", "year": 2015, "url": "https://www.newyorker.com/magazine/2015/02/02/pursuit-beauty", "lang": "en" },
+    { "kind": "profile", "title": "Unheralded Mathematician Bridges the Prime Gap", "publisher": "Quanta Magazine", "year": 2013, "url": "https://www.quantamagazine.org/yitang-zhang-proves-landmark-theorem-in-distribution-of-prime-numbers-20130519/", "lang": "en" },
+    { "kind": "profile", "title": "After Prime Proof, an Unlikely Star Rises", "publisher": "Quanta Magazine", "year": 2015, "url": "https://www.quantamagazine.org/yitang-zhang-and-the-mystery-of-numbers-20150402/", "lang": "en" },
+    { "kind": "video", "title": "Counting from Infinity: Yitang Zhang and the Twin Prime Conjecture", "publisher": "PBS / Zala Films", "year": 2015, "url": "https://www.pbs.org/show/counting-infinity-yitang-zhang-and-twin-prime-conjecture/", "lang": "en" },
+    { "kind": "interview", "title": "Mathematician Yitang Zhang: why did I return to China at 70?", "publisher": "National Science Review", "year": 2025, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12527331/", "lang": "en" },
+    { "kind": "interview", "title": "再次成为“新人”，依然为“无用的问题”着迷——专访知名数学家张益唐", "publisher": "新华每日电讯", "year": 2025, "url": "https://www.news.cn/politics/20250912/6e08cecaa73b433ca60ce8ccf4eeae7f/c.html", "lang": "zh" }
+  ],
+  "lessons": [
+    { "key": "important-problem", "en": "With no job security and no reputation to protect, Zhang went after one of the oldest problems in number theory rather than something safe.", "zh": "没有稳定的职位，也没有名声要顾，张益唐选的不是稳妥的小题目，而是数论里最古老的问题之一。" },
+    { "key": "long-focus", "en": "He kept thinking about primes through years of odd jobs, so that when the idea came he was ready to use it.", "zh": "打零工的那些年里他一直在想素数，所以想法出现时，他已经准备好了。" }
+  ]
+}

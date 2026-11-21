@@ -1,0 +1,174 @@
+{
+  "slug": "srinivasa-ramanujan",
+  "name": {
+    "en": "Srinivasa Ramanujan",
+    "zh": "斯里尼瓦瑟·拉马努金"
+  },
+  "wiki": {
+    "en": "Srinivasa_Ramanujan",
+    "zh": "斯里尼瓦瑟·拉马努金"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "themes": [
+    "outsiders",
+    "partnerships"
+  ],
+  "reasons": [
+    "path",
+    "pioneer"
+  ],
+  "born": 1887,
+  "keyWork": {
+    "year": 1913,
+    "en": "Letter to G. H. Hardy with some 120 theorems",
+    "zh": "寄给哈代的信，附约 120 条定理"
+  },
+  "why": {
+    "en": "A clerk at the Madras Port Trust with no university degree mailed G. H. Hardy pages of formulas in 1913; some of them Hardy had never seen and could not at first prove. Five years later he was a Fellow of the Royal Society.",
+    "zh": "1913 年，马德拉斯港务局一个没有大学学位的小职员把一沓公式寄给哈代，其中有些哈代从没见过，一时也证不出来。五年后，他当选英国皇家学会会士。"
+  },
+  "summary": {
+    "en": "Ramanujan grew up in Kumbakonam in southern India and taught himself from G. S. Carr's Synopsis, a dense list of results with little proof. He lost his college scholarship because he neglected every subject but mathematics. In 1913, while working as an accounts clerk, he wrote to Hardy at Cambridge, who brought him to Trinity College in 1914. In five years in England he published more than 30 papers, several with Hardy, and in 1918 became a Fellow of the Royal Society and of Trinity. Ill, he went home in 1919 and died in 1920 at 32, leaving notebooks that mathematicians are still working through.",
+    "zh": "拉马努金在印度南部的贡伯戈讷姆长大，靠卡尔的《纯粹数学基本结果概要》自学。这本书只罗列结论，几乎不给证明。他除了数学什么都不管，因此丢掉了大学奖学金。1913 年，他在港务局当会计职员时写信给剑桥的哈代，次年被哈代接到三一学院。在英国的五年里，他发表了三十多篇论文，其中几篇与哈代合写；1918 年当选皇家学会会士和三一学院院士。1919 年他带病回国，次年去世，年仅 32 岁。他留下的笔记本，数学家至今还在整理和证明。"
+  },
+  "style": [
+    {
+      "en": "He did his calculations with chalk on a slate, and later with pencil on paper, writing down mostly results rather than proofs.",
+      "zh": "他用粉笔在石板上演算，后来才改用纸笔，记下来的多是结论，很少有证明。"
+    },
+    {
+      "en": "Carr's Synopsis was the only model of written mathematics he had, and it shaped his habit of stating theorems tersely without arguments.",
+      "zh": "卡尔那本《概要》是他唯一见过的数学写作范本，他由此养成了只写定理、不写论证的习惯。"
+    },
+    {
+      "en": "Hardy recalled telling him that the number of his taxi, 1729, seemed dull; Ramanujan replied at once that it is the smallest number expressible as a sum of two cubes in two different ways.",
+      "zh": "哈代回忆，他探病时说自己坐的出租车号码 1729 很无趣，拉马努金马上回答：这是能用两种方式写成两个立方数之和的最小的数。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1887,
+      "en": "Born in Erode, southern India, on 22 December.",
+      "zh": "12 月 22 日生于印度南部的埃罗德。"
+    },
+    {
+      "year": 1903,
+      "en": "Comes across Carr's Synopsis of Elementary Results in Pure Mathematics and starts teaching himself from it.",
+      "zh": "读到卡尔的《纯粹数学基本结果概要》，开始自学。"
+    },
+    {
+      "year": 1912,
+      "en": "Takes a job as a clerk in the accounts section of the Madras Port Trust.",
+      "zh": "进入马德拉斯港务局会计部当职员。"
+    },
+    {
+      "year": 1913,
+      "en": "Writes to G. H. Hardy in January, enclosing a long list of theorems.",
+      "zh": "1 月写信给哈代，附上一长串定理。"
+    },
+    {
+      "year": 1914,
+      "en": "Sails for England and joins Trinity College, Cambridge.",
+      "zh": "乘船赴英，进入剑桥大学三一学院。"
+    },
+    {
+      "year": 1916,
+      "en": "Receives a Cambridge BA by research for his work on highly composite numbers.",
+      "zh": "凭高合成数研究获剑桥研究型学士学位（后改称博士）。"
+    },
+    {
+      "year": 1918,
+      "en": "Elected Fellow of the Royal Society and Fellow of Trinity College.",
+      "zh": "当选英国皇家学会会士和三一学院院士。"
+    },
+    {
+      "year": 1920,
+      "en": "Dies in Kumbakonam on 26 April, a year after returning to India.",
+      "zh": "回国一年后，4 月 26 日在贡伯戈讷姆去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1914,
+      "title": "Modular equations and approximations to π",
+      "en": "Gave series for 1/π that converge extremely fast; decades later, computer calculations of π were built directly on them.",
+      "zh": "给出收敛极快的 1/π 级数，几十年后，计算机算 π 的方法就直接建立在它们之上。"
+    },
+    {
+      "year": 1915,
+      "title": "Highly composite numbers",
+      "en": "A long study of numbers with more divisors than any smaller number, which became his Cambridge dissertation.",
+      "zh": "系统研究约数个数超过所有更小整数的数，后来成为他在剑桥的学位论文。"
+    },
+    {
+      "year": 1918,
+      "title": "Asymptotic formulae in combinatory analysis (with G. H. Hardy)",
+      "en": "Found a formula for the number of partitions of an integer, and with it the start of the circle method.",
+      "zh": "与哈代合作给出整数分拆数的渐近公式，圆法由此发端。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I have not trodden through the conventional regular course which is followed in a university course, but I am striking out a new path for myself.",
+      "zh": "我没有走大学里那套常规的课程，而是在为自己开一条新路。",
+      "source": "Letter to G. H. Hardy, 16 January 1913, quoted in the MacTutor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "Who Was Ramanujan?",
+      "publisher": "Stephen Wolfram Writings",
+      "year": 2016,
+      "url": "https://writings.stephenwolfram.com/2016/04/who-was-ramanujan/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "In the Jungle of the Infinite",
+      "publisher": "The New York Review of Books",
+      "year": 1991,
+      "url": "https://www.nybooks.com/articles/1991/12/05/in-the-jungle-of-the-infinite/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "The man who taught infinity: how GH Hardy tamed Srinivasa Ramanujan's genius",
+      "publisher": "University of Cambridge",
+      "year": 2016,
+      "url": "https://www.cam.ac.uk/research/news/opinion-the-man-who-taught-infinity-how-gh-hardy-tamed-srinivasa-ramanujans-genius",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "S. Ramanujan to G. H. Hardy, 17 April 1913",
+      "publisher": "Institute of Mathematical Sciences, Chennai",
+      "year": 1913,
+      "url": "https://www.imsc.res.in/~rao/ramanujan/newnow/ramtohardy1741913.htm",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Srinivasa Aiyangar Ramanujan",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 1998,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "Ramanujan first wrote to E. W. Hobson and H. F. Baker, who did not reply; Hardy did. Send your best work to the people most able to judge it, and keep sending when the first ones stay silent.",
+      "zh": "拉马努金先写信给霍布森和贝克，都没有回音；哈代回了信。把最好的东西寄给最有能力判断它的人，没人回就接着寄。"
+    },
+    {
+      "key": "curiosity",
+      "en": "With one outdated book and a slate, he kept generating and testing formulas by hand. Play with concrete examples long before you have the theory.",
+      "zh": "一本过时的书、一块石板，他就不停地手算、猜公式、验证公式。在理论成形之前，先大量把玩具体的例子。"
+    }
+  ]
+}

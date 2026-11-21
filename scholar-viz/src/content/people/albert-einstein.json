@@ -1,0 +1,86 @@
+{
+  "slug": "albert-einstein",
+  "name": { "en": "Albert Einstein", "zh": "阿尔伯特·爱因斯坦" },
+  "wiki": { "en": "Albert_Einstein", "zh": "阿尔伯特·爱因斯坦" },
+  "disciplines": ["physics"],
+  "themes": ["early", "outsiders"],
+  "reasons": ["pioneer", "path"],
+  "born": 1879,
+  "keyWork": { "year": 1905, "en": "Special relativity, one of four papers he published in 1905", "zh": "狭义相对论，1905 年他发表的四篇论文之一" },
+  "why": {
+    "en": "In 1905, aged 26 and with no university post, he was examining patent applications in Bern. That year he published four papers: on light quanta, on Brownian motion, on special relativity and on the equivalence of mass and energy.",
+    "zh": "1905 年，26 岁的他在伯尔尼专利局审查专利申请，没有任何大学职位。这一年他发表了四篇论文，分别讲光量子、布朗运动、狭义相对论和质能等价。"
+  },
+  "summary": {
+    "en": "Einstein was born in Ulm and grew up in Munich. He trained as a mathematics and physics teacher at the Federal Polytechnic School in Zurich, graduated in 1900 and failed to find an academic job. From 1902 he worked at the Swiss Patent Office in Bern, and in 1905 he published four papers and earned his doctorate from the University of Zurich. In 1915 he completed general relativity, which an eclipse expedition led by Arthur Eddington supported in 1919. He moved to Berlin in 1914, left Germany in 1933 for the Institute for Advanced Study in Princeton, and died there in 1955.",
+    "zh": "爱因斯坦生于乌尔姆，在慕尼黑长大。他在苏黎世联邦理工学院读数学和物理师范专业，1900 年毕业后找不到学术职位。1902 年起他在伯尔尼的瑞士专利局工作，1905 年发表了四篇论文，并拿到苏黎世大学的博士学位。1915 年他完成广义相对论，1919 年爱丁顿领导的日食观测给出了支持它的结果。他 1914 年迁居柏林，1933 年离开德国，去了普林斯顿高等研究院，1955 年在普林斯顿去世。"
+  },
+  "style": [
+    {
+      "en": "In Bern in 1902 he and two friends, Conrad Habicht and Maurice Solovine, started a reading group they called the Olympia Academy, where they argued over Poincaré, Mach and Hume.",
+      "zh": "1902 年在伯尔尼，他和两位朋友哈比希特、索洛文组织了一个读书会，自嘲叫“奥林匹亚科学院”，一起争论庞加莱、马赫和休谟。"
+    },
+    {
+      "en": "He reached relativity through thought experiments about sending signals and synchronising clocks, the same kind of problem that came up in the patent applications he assessed.",
+      "zh": "他是靠思想实验走到相对论的：怎样传递信号，怎样让两地的钟对准。这类问题正好也出现在他审查的专利申请里。"
+    },
+    {
+      "en": "He was no strong mathematician by training. For general relativity he leaned on his student friend Marcel Grossmann to supply the mathematics his physical ideas needed.",
+      "zh": "他的数学训练并不突出。做广义相对论时，他靠大学时的朋友格罗斯曼帮他找到物理想法所需要的数学工具。"
+    },
+    {
+      "en": "He played the violin from the age of five and kept playing all his life; he said he got most joy in life out of music.",
+      "zh": "他五岁开始拉小提琴，一辈子没放下，说自己生活中最大的快乐来自音乐。"
+    }
+  ],
+  "timeline": [
+    { "year": 1879, "en": "Born in Ulm, Germany", "zh": "生于德国乌尔姆" },
+    { "year": 1900, "en": "Graduates from the Federal Polytechnic School in Zurich; finds no academic post", "zh": "从苏黎世联邦理工学院毕业，找不到学术职位" },
+    { "year": 1902, "en": "Starts work at the Swiss Patent Office in Bern", "zh": "进入伯尔尼的瑞士专利局工作" },
+    { "year": 1905, "en": "Publishes papers on light quanta, Brownian motion, special relativity and E = mc²", "zh": "发表光量子、布朗运动、狭义相对论和质能关系的论文" },
+    { "year": 1915, "en": "Completes the general theory of relativity", "zh": "完成广义相对论" },
+    { "year": 1921, "en": "Nobel Prize in Physics, for the law of the photoelectric effect", "zh": "因光电效应定律获诺贝尔物理学奖" },
+    { "year": 1933, "en": "Leaves Germany for the Institute for Advanced Study in Princeton", "zh": "离开德国，到普林斯顿高等研究院" },
+    { "year": 1955, "en": "Dies in Princeton, New Jersey", "zh": "在新泽西州普林斯顿去世" }
+  ],
+  "works": [
+    {
+      "year": 1905,
+      "title": "Zur Elektrodynamik bewegter Körper",
+      "en": "Special relativity: by taking the speed of light as the same for every observer, it redefined space and time.",
+      "zh": "狭义相对论：把光速对所有观察者都相同当作出发点，重新定义了时间和空间。"
+    },
+    {
+      "year": 1905,
+      "title": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "en": "Proposed that light comes in quanta and used this to explain the photoelectric effect; it was the work cited for his Nobel Prize.",
+      "zh": "提出光以量子的形式存在，并据此解释光电效应，是他获诺贝尔奖时被引用的工作。"
+    },
+    {
+      "year": 1915,
+      "title": "Die Feldgleichungen der Gravitation",
+      "en": "The field equations of general relativity, which treat gravity as the curvature of spacetime.",
+      "zh": "广义相对论的场方程，把引力看作时空的弯曲。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "obituary", "title": "Dr. Albert Einstein Dies in Sleep at 76; World Mourns Loss of Great Scientist", "publisher": "The New York Times (via MacTutor)", "year": 1955, "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Einstein_NY_Times/", "lang": "en" },
+    { "kind": "archive", "title": "Einstein: Image and Impact", "publisher": "American Institute of Physics, Center for History of Physics", "year": 1996, "url": "https://history.aip.org/exhibits/einstein/", "lang": "en" },
+    { "kind": "archive", "title": "The Collected Papers of Albert Einstein (Digital Einstein)", "publisher": "Princeton University Press", "year": null, "url": "https://einsteinpapers.press.princeton.edu/", "lang": "other" },
+    { "kind": "profile", "title": "Albert Einstein", "publisher": "MacTutor History of Mathematics", "year": 1997, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/", "lang": "en" },
+    { "kind": "memoir", "title": "Albert Einstein: Biographical", "publisher": "NobelPrize.org", "year": 1921, "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "He questioned what everyone took for granted, such as what it means for two clocks to agree, and followed the answer with simple thought experiments.",
+      "zh": "他追问大家习以为常的东西，比如两只钟“同时”到底是什么意思，再用简单的思想实验把答案推到底。"
+    },
+    {
+      "key": "leave-mainstream",
+      "en": "Shut out of academia, he did his best work in a day job and an informal reading group. A side door can be enough if you keep thinking about the problem.",
+      "zh": "进不了学术圈，他的代表作是在一份普通工作和一个业余读书会里做出来的。只要一直想着问题，旁门也能走通。"
+    }
+  ]
+}

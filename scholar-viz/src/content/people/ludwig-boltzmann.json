@@ -1,0 +1,85 @@
+{
+  "slug": "ludwig-boltzmann",
+  "name": { "en": "Ludwig Boltzmann", "zh": "路德维希·玻尔兹曼" },
+  "wiki": { "en": "Ludwig_Boltzmann", "zh": "路德维希·玻尔兹曼" },
+  "disciplines": ["physics"],
+  "themes": ["vindicated"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1844,
+  "keyWork": { "year": 1877, "en": "Entropy as a measure of the number of microstates, S = k log W", "zh": "把熵定义为微观状态数的度量，S = k log W" },
+  "why": {
+    "en": "In 1877 he tied entropy to the number of ways atoms can be arranged, explaining the second law of thermodynamics as a matter of probability. He spent his last years defending atoms against Ernst Mach and the energeticists, and died in 1906, two years before Jean Perrin's experiments on Brownian motion settled that atoms are real.",
+    "zh": "1877 年，他把熵和原子可能的排列方式数联系起来，用概率解释了热力学第二定律。晚年他一直在和马赫以及“唯能论”者争论原子是否存在。他于 1906 年去世，两年后佩兰的布朗运动实验证实了原子的存在。"
+  },
+  "summary": {
+    "en": "Boltzmann was born in Vienna and studied mathematics and physics at the University of Vienna, earning his doctorate in 1866 under Josef Stefan, who introduced him to Maxwell's work. At 25 he became full professor of mathematical physics at Graz. Over the next three decades he moved between Graz, Vienna, Munich and Leipzig, and in the 1870s produced the H-theorem and the statistical definition of entropy. In 1894 he succeeded Stefan in Vienna, where his students included Paul Ehrenfest and Lise Meitner. He suffered from what may have been bipolar disorder, and on 5 September 1906 he took his own life while on holiday in Duino, near Trieste. His tombstone in Vienna carries the formula S = k log W.",
+    "zh": "玻尔兹曼生于维也纳，在维也纳大学读数学和物理，1866 年在斯特藩门下获得博士学位，也是斯特藩把麦克斯韦的工作介绍给了他。25 岁时他成为格拉茨大学数学物理学正教授。此后三十年他在格拉茨、维也纳、慕尼黑和莱比锡之间辗转，并在 19 世纪 70 年代提出 H 定理和熵的统计定义。1894 年他回维也纳接替斯特藩，学生中有埃伦费斯特和迈特纳。他可能患有双相情感障碍，1906 年 9 月 5 日在的里雅斯特附近的杜伊诺度假时自杀。他在维也纳的墓碑上刻着 S = k log W。"
+  },
+  "style": [
+    {
+      "en": "Lise Meitner, his student, recalled that he lectured on three blackboards, main calculations in the middle and side calculations on either side, so that one could almost reconstruct the whole lecture from them.",
+      "zh": "他的学生迈特纳回忆，他讲课用三块黑板，中间写主要推导，两边写辅助计算，几乎可以照着黑板把整堂课复原出来。"
+    },
+    {
+      "en": "Meitner also remembered that he had no inhibitions about showing his enthusiasm for his subject, which carried his listeners along.",
+      "zh": "迈特纳还记得，他讲到自己的学科时毫不掩饰热情，听的人也跟着投入进去。"
+    },
+    {
+      "en": "On returning to Vienna in 1902, he opened his lecture by saying there was no need to pay the usual compliments to his predecessor, since he was his own predecessor.",
+      "zh": "1902 年重回维也纳时，他在第一堂课上说，不必照例恭维前任了，因为前任就是他自己。"
+    },
+    {
+      "en": "After teaching a summer course at Berkeley in 1905, he wrote a popular travel essay about it, A German Professor's Trip to El Dorado.",
+      "zh": "1905 年他到伯克利讲了一个夏季课程，回来写了一篇通俗游记《一位德国教授的黄金国之旅》。"
+    }
+  ],
+  "timeline": [
+    { "year": 1844, "en": "Born in Vienna", "zh": "生于维也纳" },
+    { "year": 1866, "en": "Doctorate at the University of Vienna under Josef Stefan", "zh": "在维也纳大学获博士学位，导师斯特藩" },
+    { "year": 1869, "en": "Becomes full professor of mathematical physics at Graz", "zh": "成为格拉茨大学数学物理学正教授" },
+    { "year": 1872, "en": "Publishes the H-theorem", "zh": "发表 H 定理" },
+    { "year": 1877, "en": "Relates entropy to probability", "zh": "建立熵与概率的关系" },
+    { "year": 1894, "en": "Succeeds Stefan as professor of theoretical physics in Vienna", "zh": "接替斯特藩任维也纳大学理论物理学教授" },
+    { "year": 1900, "en": "Moves to Leipzig at Wilhelm Ostwald's invitation", "zh": "应奥斯特瓦尔德之邀转到莱比锡" },
+    { "year": 1906, "en": "Dies by suicide in Duino, near Trieste", "zh": "在的里雅斯特附近的杜伊诺自杀身亡" }
+  ],
+  "works": [
+    {
+      "year": 1872,
+      "title": "Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen",
+      "en": "Introduced the Boltzmann equation and the H-theorem, showing how collisions drive a gas toward equilibrium.",
+      "zh": "提出玻尔兹曼方程和 H 定理，说明分子碰撞如何让气体趋向平衡。"
+    },
+    {
+      "year": 1877,
+      "title": "Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung respektive den Sätzen über das Wärmegleichgewicht",
+      "en": "Linked entropy to the count of microscopic states, the basis of statistical mechanics.",
+      "zh": "把熵和微观状态的数目联系起来，奠定了统计力学的基础。"
+    },
+    {
+      "year": 1884,
+      "title": "Derivation of the Stefan law of thermal radiation",
+      "en": "Derived his teacher Stefan's empirical fourth-power law from thermodynamics and Maxwell's theory of light; it is now the Stefan–Boltzmann law.",
+      "zh": "从热力学和麦克斯韦的光理论推导出老师斯特藩的四次方经验定律，即今天的斯特藩-玻尔兹曼定律。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "memoir", "title": "Lise Meitner looks back (recollections including Boltzmann's lectures)", "publisher": "IAEA Bulletin", "year": 1964, "url": "https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull6-1/06101400412.pdf", "lang": "en" },
+    { "kind": "profile", "title": "Boltzmann's Work in Statistical Physics", "publisher": "Stanford Encyclopedia of Philosophy", "year": 2004, "url": "https://plato.stanford.edu/entries/statphys-Boltzmann/", "lang": "en" },
+    { "kind": "profile", "title": "Science as drama", "publisher": "Physics World (Robert P. Crease)", "year": 2006, "url": "https://physicsworld.com/a/science-as-drama/", "lang": "en" },
+    { "kind": "profile", "title": "Ludwig Boltzmann", "publisher": "MacTutor History of Mathematics", "year": 1998, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "He kept building on the atomic hypothesis through decades when leading figures rejected it, and the statistical method he made from it outlasted the objections.",
+      "zh": "几十年里，权威人物一直否认原子的存在，他却坚持在原子假说上做下去。他由此建立的统计方法，比那些反对意见活得更久。"
+    },
+    {
+      "key": "communicate",
+      "en": "His blackboard method, main line in the middle and side calculations at the edges, is a simple way to make a long derivation easy to follow.",
+      "zh": "他的板书方法是中间写主线、两边写辅助计算。这个简单的办法能让一段很长的推导容易跟上。"
+    }
+  ]
+}

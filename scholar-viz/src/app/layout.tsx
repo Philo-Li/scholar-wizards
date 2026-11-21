@@ -22,7 +22,7 @@ const sans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://scholarwizards.com'),
   title: {
-    default: 'Scholar Wizards: the most-cited researchers in ten disciplines',
+    default: 'Scholar Wizards: researchers who were not ordinary',
     template: '%s | Scholar Wizards',
   },
   description:

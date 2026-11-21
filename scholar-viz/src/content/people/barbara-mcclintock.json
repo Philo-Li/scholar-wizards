@@ -1,0 +1,166 @@
+{
+  "slug": "barbara-mcclintock",
+  "name": {
+    "en": "Barbara McClintock",
+    "zh": "巴巴拉·麦克林托克"
+  },
+  "wiki": {
+    "en": "Barbara_McClintock",
+    "zh": "巴巴拉·麦克林托克"
+  },
+  "disciplines": [
+    "biology"
+  ],
+  "themes": [
+    "women",
+    "vindicated",
+    "late"
+  ],
+  "reasons": [
+    "pioneer",
+    "timing",
+    "integrity"
+  ],
+  "born": 1902,
+  "keyWork": {
+    "year": 1950,
+    "en": "Transposable elements: genes that move, found in maize",
+    "zh": "在玉米中发现会移动的基因，即转座因子"
+  },
+  "why": {
+    "en": "Working alone with maize at Cold Spring Harbor, she showed in the late 1940s that some genetic elements jump from place to place and switch other genes on and off. The 1951 audience reaction ran from perplexed to hostile, so she largely stopped publishing in journals and filed her results; the Nobel Prize came in 1983, when she was 81.",
+    "zh": "她在冷泉港独自研究玉米，四十年代末证明有些遗传因子会在染色体上跳来跳去，还能开关其他基因。1951 年她报告时，听众的反应从困惑到敌视都有，于是她基本不再向期刊投稿，把结果写好归档。诺贝尔奖到 1983 年才来，那年她 81 岁。"
+  },
+  "summary": {
+    "en": "McClintock was born in Hartford, Connecticut, and took the only undergraduate genetics course at Cornell in 1921, after which she was invited into the graduate course and never left the field. With Harriet Creighton in 1931 she gave the first proof that genetic crossing-over is a physical exchange between chromosomes. Few universities would give a woman a suitable post; at the University of Missouri she was excluded from faculty meetings and left in 1941. At Cold Spring Harbor from 1942 she found the Ac and Ds elements and worked out how they control other genes. In 1944 she became the third woman elected to the National Academy of Sciences; she won the 1983 Nobel Prize in Physiology or Medicine unshared and died in 1992.",
+    "zh": "麦克林托克生于康涅狄格州哈特福德。1921 年她在康奈尔大学修了学校唯一一门本科遗传学课，之后被邀请去上研究生课，从此再没离开这个领域。1931 年她和克莱顿第一次证明，遗传上的交换就是染色体之间的物理交换。当时肯给女性合适职位的大学很少；在密苏里大学，她连系务会都不能参加，1941 年离开。1942 年起她在冷泉港发现了 Ac 和 Ds 因子，弄清了它们如何控制其他基因。1944 年她成为第三位入选美国国家科学院的女性；1983 年她独得诺贝尔生理学或医学奖，1992 年去世。"
+  },
+  "style": [
+    {
+      "en": "After the cool reception of her 1951 symposium talk and later papers, she wrote up her results as if for publication and filed them, publishing little more than short summaries in the Carnegie Institution's yearbook.",
+      "zh": "1951 年那次报告和后来几篇论文反响冷淡之后，她照样把结果写成可以发表的样子，然后归档，只在卡内基研究所年报上登些简短摘要。"
+    },
+    {
+      "en": "She traced her career to a phone call: in January 1922 her undergraduate genetics teacher, C. B. Hutchison, invited her into the graduate course. \"Obviously, this telephone call cast the die for my future.\"",
+      "zh": "她说自己的道路始于一个电话：1922 年 1 月，本科遗传学老师哈奇森打电话邀请她去上研究生课。“显然，这个电话决定了我的未来。”"
+    },
+    {
+      "en": "At Cornell in the late 1920s she, George Beadle and Marcus Rhoades formed a self-sustaining group that argued about all of genetics; she gave the credit to their professor, R. A. Emerson, \"who quietly ignored some of our seemingly strange behaviors\".",
+      "zh": "二十年代末在康奈尔，她和比德尔、罗兹组成了一个自给自足的小圈子，什么遗传学问题都争。她说功劳在导师埃默森，他“默默容忍了我们一些看似古怪的举动”。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1902,
+      "en": "Born in Hartford, Connecticut",
+      "zh": "生于康涅狄格州哈特福德"
+    },
+    {
+      "year": 1927,
+      "en": "PhD in botany, Cornell University",
+      "zh": "获康奈尔大学植物学博士"
+    },
+    {
+      "year": 1931,
+      "en": "With Harriet Creighton, proves crossing-over is physical exchange",
+      "zh": "与克莱顿证明遗传交换是染色体的物理交换"
+    },
+    {
+      "year": 1942,
+      "en": "Joins the Carnegie Institution at Cold Spring Harbor",
+      "zh": "加入冷泉港的卡内基研究所"
+    },
+    {
+      "year": 1944,
+      "en": "Elected to the National Academy of Sciences; starts the experiment that reveals transposition",
+      "zh": "当选美国国家科学院院士；开始揭示转座现象的实验"
+    },
+    {
+      "year": 1951,
+      "en": "Presents transposition at the Cold Spring Harbor Symposium",
+      "zh": "在冷泉港研讨会上报告转座"
+    },
+    {
+      "year": 1983,
+      "en": "Sole winner of the Nobel Prize in Physiology or Medicine",
+      "zh": "独得诺贝尔生理学或医学奖"
+    },
+    {
+      "year": 1992,
+      "en": "Dies in Huntington, New York",
+      "zh": "在纽约州亨廷顿去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1931,
+      "title": "A Correlation of Cytological and Genetical Crossing-Over in Zea Mays",
+      "en": "With Harriet Creighton, the first direct proof that genetic recombination is a physical swap of chromosome pieces.",
+      "zh": "与克莱顿合作，首次直接证明遗传重组就是染色体片段的物理交换。"
+    },
+    {
+      "year": 1950,
+      "title": "The origin and behavior of mutable loci in maize",
+      "en": "Described elements that move within the genome and control when other genes are expressed.",
+      "zh": "描述了能在基因组中移动、并控制其他基因何时表达的遗传因子。"
+    },
+    {
+      "year": 1983,
+      "title": "The significance of responses of the genome to challenge (Nobel Lecture)",
+      "en": "Her account of the 1944 experiment and her view of the genome as a system that responds to stress.",
+      "zh": "她讲述 1944 年的实验，以及她把基因组看作一个会对压力作出反应的系统的观点。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I doubt if this could have been anticipated before the 1944 experiment. It had to be discovered accidently.",
+      "zh": "我怀疑在 1944 年那个实验之前，有谁能预料到这一点。它只能是偶然发现的。",
+      "source": "Nobel Lecture, 8 December 1983",
+      "url": "https://www.nobelprize.org/uploads/2018/06/mcclintock-lecture.pdf"
+    },
+    {
+      "text": "Obviously, this telephone call cast the die for my future. I remained with genetics thereafter.",
+      "zh": "显然，这个电话决定了我的未来。从那以后我一直留在遗传学里。",
+      "source": "Nobel Prize autobiography, 1983",
+      "url": "https://www.nobelprize.org/prizes/medicine/1983/mcclintock/biographical/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "memoir",
+      "title": "Barbara McClintock 1902–1992: A Biographical Memoir, by Nina V. Fedoroff",
+      "publisher": "National Academy of Sciences",
+      "year": 1995,
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/mcclintock-barbara.pdf",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "Barbara McClintock: Nobel Lecture",
+      "publisher": "NobelPrize.org",
+      "year": 1983,
+      "url": "https://www.nobelprize.org/prizes/medicine/1983/mcclintock/lecture/",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Barbara McClintock: Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 1983,
+      "url": "https://www.nobelprize.org/prizes/medicine/1983/mcclintock/biographical/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "When colleagues could not follow her, she kept doing the experiments and recording the results for three decades until molecular biology caught up.",
+      "zh": "同行跟不上她时，她照样做实验、记结果，坚持了三十年，直到分子生物学追上来。"
+    },
+    {
+      "key": "craft",
+      "en": "Her discoveries came from looking at maize chromosomes under the microscope and kernels in the field herself, plant by plant.",
+      "zh": "她的发现来自亲手看显微镜下的玉米染色体和田里的玉米粒，一株一株地看。"
+    }
+  ]
+}

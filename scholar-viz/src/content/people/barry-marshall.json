@@ -1,0 +1,97 @@
+{
+  "slug": "barry-marshall",
+  "name": { "en": "Barry Marshall", "zh": "巴里·马歇尔" },
+  "wiki": { "en": "Barry_Marshall", "zh": "巴里·马歇尔" },
+  "disciplines": ["medicine"],
+  "themes": ["vindicated", "partnerships"],
+  "reasons": ["pioneer", "integrity"],
+  "born": 1951,
+  "keyWork": { "year": 1984, "en": "Linking Helicobacter pylori to gastritis and peptic ulcers, and infecting himself to prove it", "zh": "把幽门螺杆菌与胃炎、消化性溃疡联系起来，并喝下细菌自证" },
+  "why": {
+    "en": "A physician in training in Perth with no research post, he argued that a bacterium, not stress or acid, caused most stomach ulcers. When his papers were rejected and no animal model worked, he drank a culture of Helicobacter pylori in 1984, developed gastritis, and later shared the 2005 Nobel Prize with pathologist Robin Warren.",
+    "zh": "他当时只是珀斯一名在培训中的内科医生，没有研究职位，却主张多数胃溃疡的病因是一种细菌，而不是压力或胃酸。论文屡被拒稿，动物实验也做不出来，1984 年他喝下一杯幽门螺杆菌培养液，自己得了胃炎。2005 年他和病理学家罗宾·沃伦共获诺贝尔奖。"
+  },
+  "summary": {
+    "en": "Marshall was born in the gold-mining town of Kalgoorlie, Western Australia, and graduated in medicine from the University of Western Australia in 1975. In 1981, during a gastroenterology rotation at Royal Perth Hospital, he took up pathologist Robin Warren's observation of curved bacteria in inflamed stomachs. The two cultured the organism, reported it in The Lancet, and found it in most ulcer patients, but meetings and journals met the claim with disbelief. At Fremantle Hospital, still unfunded, he worked out early treatments and infected himself to show the bacterium could cause gastritis. He spent ten years at the University of Virginia pushing for antibiotic treatment before returning to Perth; antibiotics are now the standard cure for ulcers.",
+    "zh": "马歇尔生于西澳大利亚的金矿小镇卡尔古利，1975 年从西澳大学医学院毕业。1981 年他在皇家珀斯医院消化科轮转，接手了病理学家罗宾·沃伦的发现：发炎的胃黏膜上有弯曲的细菌。两人培养出这种细菌，在《柳叶刀》上发表，并发现多数溃疡患者胃里都有它，但学术会议和期刊几乎没人相信。他转到弗里曼特尔医院，仍然没有经费，在那里摸索出最早的疗法，又用自己做实验，证明这种细菌能引起胃炎。之后他在弗吉尼亚大学待了十年，推动用抗生素治疗溃疡，后来回到珀斯。如今抗生素已是治愈溃疡的标准疗法。"
+  },
+  "style": [
+    {
+      "en": "He grew up dismantling and rebuilding things in his father's shed, and chose medicine partly because he felt his maths was too weak for electrical engineering.",
+      "zh": "他从小在父亲的工具棚里拆东西、装东西；选医学，部分原因是觉得自己数学不够好，读不了电气工程。"
+    },
+    {
+      "en": "In 1981 he built his own home computer, which he used to type grant proposals, consent forms and protocols.",
+      "zh": "1981 年他自己组装了一台家用电脑，用来打经费申请、知情同意书和实验方案。"
+    },
+    {
+      "en": "With his attempts to infect an animal model failing through 1984, he used himself as the subject and recorded the results, the first documented confirmation of infection.",
+      "zh": "1984 年他一直没能让实验动物感染，于是拿自己当受试者，并把结果记录下来，这是第一次有记录地证实这种感染。"
+    },
+    {
+      "en": "At Virginia, by his own account, he became an advocate for antibiotic treatment that many called a zealot.",
+      "zh": "他自述，在弗吉尼亚那些年，他到处宣传抗生素疗法，很多人说他是狂热分子。"
+    }
+  ],
+  "timeline": [
+    { "year": 1951, "en": "Born in Kalgoorlie, Western Australia.", "zh": "生于西澳大利亚卡尔古利。" },
+    { "year": 1975, "en": "Graduates MBBS, University of Western Australia.", "zh": "从西澳大学医学院毕业。" },
+    { "year": 1981, "en": "Meets Robin Warren and begins studying his curved gastric bacteria.", "zh": "结识罗宾·沃伦，开始研究他发现的胃内弯曲细菌。" },
+    { "year": 1983, "en": "Moves to Fremantle Hospital after his Royal Perth contract is not renewed.", "zh": "皇家珀斯医院不再续约，转到弗里曼特尔医院。" },
+    { "year": 1984, "en": "Publishes the ulcer link in The Lancet with Warren; drinks a culture of the bacterium.", "zh": "与沃伦在《柳叶刀》发表细菌与溃疡的关联；喝下细菌培养液。" },
+    { "year": 1986, "en": "Moves to the University of Virginia, where he works for ten years.", "zh": "前往弗吉尼亚大学，在那里工作十年。" },
+    { "year": 2005, "en": "Nobel Prize in Physiology or Medicine, shared with Warren.", "zh": "与沃伦共获诺贝尔生理学或医学奖。" }
+  ],
+  "works": [
+    {
+      "year": 1984,
+      "title": "Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration",
+      "en": "The Lancet paper with Warren that tied the bacterium to gastritis and ulcers in a series of patients.",
+      "zh": "与沃伦合写的《柳叶刀》论文，用一批病例把这种细菌与胃炎、溃疡联系起来。"
+    },
+    {
+      "year": 1985,
+      "title": "Attempt to fulfil Koch's postulates for pyloric Campylobacter",
+      "en": "His report of the self-infection, the first documented evidence that the organism causes gastritis in a healthy person.",
+      "zh": "他自体感染实验的报告，首次有记录地证明这种细菌能让健康人得胃炎。"
+    },
+    {
+      "year": 2005,
+      "title": "Helicobacter Connections",
+      "en": "His Nobel lecture, a first-hand account of the discovery and the resistance it met.",
+      "zh": "他的诺贝尔演讲，亲口讲述这项发现和它遭遇的阻力。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When the work was presented, my results were disputed and disbelieved, not on the basis of science but because they simply could not be true.",
+      "zh": "每次报告这项工作，我的结果都遭到质疑、没人相信。理由不是科学上的，而只是因为它们根本不可能是真的。",
+      "source": "Autobiography, nobelprize.org, 2005",
+      "url": "https://www.nobelprize.org/prizes/medicine/2005/marshall/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "memoir", "title": "Barry J. Marshall – Biographical", "publisher": "NobelPrize.org", "year": 2005, "url": "https://www.nobelprize.org/prizes/medicine/2005/marshall/biographical/", "lang": "en" },
+    { "kind": "interview", "title": "Barry J. Marshall – Interview", "publisher": "NobelPrize.org", "year": 2005, "url": "https://www.nobelprize.org/prizes/medicine/2005/marshall/interview/", "lang": "en" },
+    { "kind": "interview", "title": "Professor Barry Marshall, gastroenterologist", "publisher": "Australian Academy of Science", "year": 2008, "url": "https://www.science.org.au/learning/general-audience/history/interviews-australian-scientists/professor-barry-marshall", "lang": "en" },
+    { "kind": "profile", "title": "The Doctor Who Drank Infectious Broth, Gave Himself an Ulcer, and Solved a Medical Mystery", "publisher": "Discover", "year": 2010, "url": "https://www.discovermagazine.com/the-doctor-who-drank-infectious-broth-gave-himself-an-ulcer-and-solved-a-medical-mystery-16746", "lang": "en" },
+    { "kind": "lecture", "title": "Helicobacter Connections", "publisher": "NobelPrize.org", "year": 2005, "url": "https://www.nobelprize.org/prizes/medicine/2005/marshall/lecture/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "When reviewers said his results could not be true, Marshall did not argue louder; he designed a test on himself that no one could dismiss.",
+      "zh": "审稿人说他的结果不可能是真的，马歇尔没有跟人争，而是设计了一个谁也驳不倒的实验，用在自己身上。"
+    },
+    {
+      "key": "right-partner",
+      "en": "Warren had the observation and Marshall had the clinical patients and the drive to culture the bug; the discovery needed both.",
+      "zh": "沃伦有病理观察，马歇尔有临床病人，也有把细菌培养出来的劲头。这项发现两样都缺不了。"
+    },
+    {
+      "key": "leave-mainstream",
+      "en": "A trainee physician, he took seriously an idea that gastroenterology had ruled out for decades.",
+      "zh": "一个还在培训的内科医生，认真对待了消化科几十年来早已否定的想法。"
+    }
+  ]
+}

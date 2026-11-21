@@ -1,12 +1,18 @@
 // UI strings. Discipline-specific prose lives in src/lib/disciplines.ts.
 // Placeholders in braces are filled with fmt().
 
+import { frontEn, frontZh, peopleEn, peopleZh } from './people-strings';
+
 export const en = {
   nav: {
     site: 'Scholar Wizards',
     disciplines: 'Disciplines',
     methods: 'Methods',
     collection: 'Collection',
+    themes: 'Chapters',
+    people: 'People',
+    lessons: 'Lessons',
+    data: 'Data',
     language: '中文',
     languageLabel: 'Switch to Chinese',
   },
@@ -47,7 +53,7 @@ export const en = {
     backTo: 'Back to {name}',
   },
   home: {
-    title: 'Scholar Wizards',
+    title: 'Ten disciplines in the data',
     lede: 'An atlas of the most-cited researchers in ten disciplines, built from open bibliographic data. Each discipline has its own leaderboard, its own figures and its own reading notes, because a citation count means something different in algebra than in oncology.',
     stats: '{scholars} scholars across {disciplines} disciplines, drawn from OpenAlex in {date}.',
     heroTitle: 'Citation norms across ten disciplines',
@@ -121,6 +127,13 @@ export const en = {
     listedIn: 'Listed in',
     flagged: 'This scholar is marked †: they average 40 or more papers per active year, or at least a quarter of their papers list more than 100 co-authors. Their h-index and citation totals reflect collaboration size as much as individual work.',
     collectionMember: 'Part of the curated computational neuroscience collection.',
+    whyTitle: 'Why this scholar is listed',
+    whyCore: 'Listed among the established scholars of {field}. The list takes the most cited authors in the field as a whole and in each of its largest subfields, keeping only authors with at least 40% of their work inside the field. By total citations, {name} ranks {rank} of {n} in the list{sub}.',
+    whySub: ' and {rank} of {n} in {subfield}',
+    whyRising: 'Listed among the rising scholars of {field}: a first or last author of one of the field’s most cited papers of the past ten years, with a first paper in {first}. Their m-quotient of {m} ranks {rank} of {n} rising scholars.',
+    whyCollection: 'Part of the hand-picked computational neuroscience collection, which follows the field from David Marr to the current generation.',
+    whyHyper: 'Because this profile is marked †, it is excluded from the rankings above.',
+    chapterLink: 'Read the chapter on {name}',
     careerSpan: 'Active {first}–{last}',
   },
   methods: {
@@ -162,6 +175,8 @@ export const en = {
     youngTitle: 'The youngest generation',
     youngIntro: 'The ten most recent entrants on the curated list, whose first papers appeared between 2007 and 2016.',
   },
+  front: frontEn,
+  people: peopleEn,
   footer: {
     line1: 'Scholar Wizards is an open-source project. Data from OpenAlex under CC0.',
     line2: 'Indicators support expert judgement; they do not replace it.',
@@ -175,7 +190,11 @@ export const zh: Strings = {
     site: 'Scholar Wizards',
     disciplines: '学科',
     methods: '方法',
-    collection: '专题',
+    collection: '精选合集',
+    themes: '专题',
+    people: '人物',
+    lessons: '共同点',
+    data: '数据',
     language: 'EN',
     languageLabel: '切换到英文',
   },
@@ -216,7 +235,7 @@ export const zh: Strings = {
     backTo: '返回{name}',
   },
   home: {
-    title: 'Scholar Wizards',
+    title: '十个学科的数据',
     lede: '基于开放文献数据，呈现十个学科中被引最多的研究者。每个学科都有独立的排行榜、图表和解读说明，因为同样的引用数，在代数和肿瘤学中意义完全不同。',
     stats: '共收录 {disciplines} 个学科的 {scholars} 位学者，数据于 {date} 获取自 OpenAlex。',
     heroTitle: '十个学科的引用规范',
@@ -290,6 +309,13 @@ export const zh: Strings = {
     listedIn: '收录于',
     flagged: '该学者标记为 †：平均每个活跃年份发表 40 篇以上论文，或至少四分之一的论文作者超过 100 人。其 h 指数和总引用既反映个人工作，也反映合作规模。',
     collectionMember: '属于计算神经科学专题名单。',
+    whyTitle: '为什么入选',
+    whyCore: '入选{field}资深学者名单。名单取自全学科以及最大的若干子领域中被引最多的作者，并且只保留至少 40% 的作品属于本学科的人。按总引用计，{name}在名单中排第 {rank}（共 {n} 人）{sub}。',
+    whySub: '，在{subfield}中排第 {rank}（共 {n} 人）',
+    whyRising: '入选{field}新锐学者名单：本学科近十年高被引论文的第一作者或末位作者，首篇论文发表于 {first} 年。m 商为 {m}，在 {n} 位新锐学者中排第 {rank}。',
+    whyCollection: '属于手工挑选的计算神经科学精选合集，名单从 David Marr 一直延续到当代。',
+    whyHyper: '这位学者标记为 †，因此不参与上面的排名。',
+    chapterLink: '阅读{name}的人物篇',
     careerSpan: '活跃于 {first}–{last}',
   },
   methods: {
@@ -331,6 +357,8 @@ export const zh: Strings = {
     youngTitle: '最年轻的一代',
     youngIntro: '专题名单中最晚入行的十位学者，首篇论文发表于 2007 至 2016 年间。',
   },
+  front: frontZh,
+  people: peopleZh,
   footer: {
     line1: 'Scholar Wizards 是开源项目。数据来自 OpenAlex（CC0 协议）。',
     line2: '指标辅助专家判断，而非取代它。',

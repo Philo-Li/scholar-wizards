@@ -1,0 +1,77 @@
+{
+  "slug": "david-hubel",
+  "name": { "en": "David Hubel", "zh": "大卫·休伯尔" },
+  "wiki": { "en": "David_H._Hubel", "zh": "大衛·休伯爾" },
+  "disciplines": ["neuroscience", "medicine"],
+  "themes": ["partnerships"],
+  "reasons": ["pioneer", "path"],
+  "born": 1926,
+  "keyWork": { "year": 1959, "en": "Discovery, with Torsten Wiesel, of orientation-selective cells in the visual cortex", "zh": "与威泽尔一起发现视觉皮层中对线条朝向敏感的细胞" },
+  "why": {
+    "en": "He studied mathematics and physics, entered medical school without ever having taken a biology course, and only began research at 29. Four years later, with Torsten Wiesel, he noticed a cortical cell firing at the faint shadow cast by the edge of a glass slide, and found that the visual cortex is built from cells that respond to lines at particular angles.",
+    "zh": "他本科读数学和物理，没上过一门生物课就进了医学院，29 岁才开始做研究。四年后，他和威泽尔发现一个皮层细胞对玻璃片边缘投下的一道淡淡阴影猛烈放电，由此弄清了视觉皮层是由只对特定朝向线条起反应的细胞搭起来的。"
+  },
+  "summary": {
+    "en": "Hubel was born in Windsor, Ontario, to American parents and grew up in Montreal. He took honours mathematics and physics at McGill, then applied to McGill's medical school almost on a coin toss and trained in neurology. Drafted into the US Army in 1954, he was posted to the Walter Reed Army Institute of Research, where he built a tungsten microelectrode for recording single cells in the cortex. In 1958 he joined Stephen Kuffler's lab at Johns Hopkins and began a collaboration with Torsten Wiesel that lasted more than twenty years, moved with it to Harvard, and shared the 1981 Nobel Prize in Physiology or Medicine. He died in 2013.",
+    "zh": "休伯尔生于加拿大安大略省温莎，父母是美国人，他在蒙特利尔长大。他在麦吉尔大学读数学和物理荣誉课程，毕业时几乎是抛硬币决定报考医学院，后来做了神经科住院医师。1954 年他被美国陆军征召，分到沃尔特·里德陆军研究所，在那里做出了能记录单个皮层细胞的钨微电极。1958 年他进入约翰斯·霍普金斯大学库夫勒的实验室，开始和威泽尔合作，这一合作持续了二十多年，其间随实验室迁到哈佛。1981 年两人与斯佩里分享诺贝尔生理学或医学奖。他于 2013 年去世。"
+  },
+  "style": [
+    {
+      "en": "When machinists kept building electrode advancers that could not work, he went to night school in Washington to learn to run a lathe, and kept machining his own equipment for the rest of his career.",
+      "zh": "机工按他的图纸做出的电极推进器总是不能用，他就去华盛顿上夜校学开车床，此后一直自己动手加工实验设备。"
+    },
+    {
+      "en": "He and Wiesel wrote roughly one paper a year and often merged two or three papers into one long paper if that made aesthetic sense, largely ignoring pressure to publish more.",
+      "zh": "他和威泽尔大约一年只写一篇论文，觉得合适时还会把两三篇并成一篇长文，基本不理会多发论文的压力。"
+    },
+    {
+      "en": "He rejected the idea that the orientation discovery was an accident: one has to take the time to find what is there and be relaxed enough not to rule out the unexpected. Two other groups missed it, he wrote, because they built machines that only showed horizontal or only vertical bars.",
+      "zh": "他不认为发现朝向选择性是偶然：要有时间去找，还要足够放松，别把意外的东西挡在门外。他写道，另有两个小组错过了这个发现，因为他们造的刺激装置只能打出水平或者只能打出竖直的光条。"
+    },
+    {
+      "en": "Outside the lab he played the flute, did woodworking and photography, and spent hours in French, Japanese and German dictionaries; in the lab he said he enjoyed almost everything, including machining, computers and surgery.",
+      "zh": "实验室外，他吹长笛、做木工、玩摄影，还花大把时间翻法语、日语和德语词典；在实验室里，他说自己几乎样样都喜欢，包括机加工、计算机和手术。"
+    }
+  ],
+  "timeline": [
+    { "year": 1926, "en": "Born in Windsor, Ontario; grows up in Montreal.", "zh": "生于安大略省温莎，在蒙特利尔长大。" },
+    { "year": 1947, "en": "Graduates from McGill in mathematics and physics and enters McGill's medical school.", "zh": "从麦吉尔大学数学与物理专业毕业，进入麦吉尔医学院。" },
+    { "year": 1954, "en": "Drafted by the US Army and assigned to the Walter Reed Army Institute of Research, where he starts doing research.", "zh": "被美国陆军征召，分到沃尔特·里德陆军研究所，从此开始做研究。" },
+    { "year": 1957, "en": "Publishes his tungsten microelectrode for recording single cells.", "zh": "发表用于记录单个细胞的钨微电极。" },
+    { "year": 1958, "en": "Joins Stephen Kuffler's lab at Johns Hopkins and begins working with Torsten Wiesel.", "zh": "进入约翰斯·霍普金斯大学库夫勒实验室，开始与威泽尔合作。" },
+    { "year": 1959, "en": "Moves with Kuffler's group to Harvard Medical School.", "zh": "随库夫勒的团队迁往哈佛医学院。" },
+    { "year": 1981, "en": "Shares the Nobel Prize in Physiology or Medicine with Wiesel and Roger Sperry.", "zh": "与威泽尔、斯佩里分享诺贝尔生理学或医学奖。" },
+    { "year": 2013, "en": "Dies in Lincoln, Massachusetts.", "zh": "在马萨诸塞州林肯镇去世。" }
+  ],
+  "works": [
+    { "year": 1957, "title": "Tungsten microelectrode for recording from single units", "en": "A tough, fine electrode that made it possible to record single cortical cells, first in freely moving cats.", "zh": "一种结实而细的电极，让记录单个皮层细胞成为可能，最初用在自由活动的猫身上。" },
+    { "year": 1959, "title": "Receptive fields of single neurones in the cat's striate cortex", "en": "The first report, with Wiesel, that cells in the primary visual cortex respond to lines and edges of a particular orientation.", "zh": "与威泽尔合作，首次报告初级视觉皮层的细胞对特定朝向的线条和边缘起反应。" },
+    { "year": 1962, "title": "Receptive fields, binocular interaction and functional architecture in the cat's visual cortex", "en": "Described simple and complex cells and their columnar arrangement, a framework that shaped decades of work on the cortex.", "zh": "描述了简单细胞、复杂细胞及其柱状排列，此后几十年的皮层研究都以这个框架为起点。" },
+    { "year": 1988, "title": "Eye, Brain, and Vision", "en": "Hubel's own account of how the visual system works, written for students and general readers.", "zh": "休伯尔亲自写给学生和普通读者的书，讲视觉系统如何工作。" }
+  ],
+  "quotes": [
+    {
+      "text": "I knew we were losing traction in an experiment when Torsten began to talk to me in Swedish; usually this was around 3:00 a.m.",
+      "zh": "托斯坦开始跟我讲瑞典语的时候，我就知道这个实验快撑不下去了，通常是在凌晨三点左右。",
+      "source": "Nobel lecture, 1981",
+      "url": "https://www.nobelprize.org/uploads/2018/06/hubel-lecture.pdf"
+    },
+    {
+      "text": "I still much prefer to do science than to read about it.",
+      "zh": "比起读科学，我至今还是更喜欢做科学。",
+      "source": "Nobel autobiography, 1981",
+      "url": "https://www.nobelprize.org/prizes/medicine/1981/hubel/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "memoir", "title": "David H. Hubel (The History of Neuroscience in Autobiography, Vol. 1)", "publisher": "Society for Neuroscience", "year": 1996, "url": "https://brainfacts.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-1/c9.pdf", "lang": "en" },
+    { "kind": "memoir", "title": "David H. Hubel – Biographical", "publisher": "NobelPrize.org", "year": 1981, "url": "https://www.nobelprize.org/prizes/medicine/1981/hubel/biographical/", "lang": "en" },
+    { "kind": "lecture", "title": "Evolution of ideas on the primary visual cortex, 1955–1978: a biased historical account (Nobel lecture)", "publisher": "NobelPrize.org", "year": 1981, "url": "https://www.nobelprize.org/prizes/medicine/1981/hubel/lecture/", "lang": "en" },
+    { "kind": "obituary", "title": "David Hunter Hubel (1926–2013)", "publisher": "Nature", "year": 2013, "url": "https://www.nature.com/articles/502625a", "lang": "en" },
+    { "kind": "obituary", "title": "Nobel laureate Hubel dies at 87", "publisher": "Harvard Gazette", "year": 2013, "url": "https://news.harvard.edu/gazette/story/2013/09/nobel-laureate-hubel-dies-at-87/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "craft", "en": "Hubel learned machining at night school so he could build the electrode advancer he needed instead of waiting for others to get it right.", "zh": "休伯尔为了造出自己要的电极推进器，去夜校学车床，而不是等别人做对。" },
+    { "key": "right-partner", "en": "He and Wiesel worked as one unit for over twenty years, sharing every experiment and keeping hours they could sustain.", "zh": "他和威泽尔二十多年如一体，每个实验都一起做，作息也定在两人能长期坚持的节奏上。" }
+  ]
+}

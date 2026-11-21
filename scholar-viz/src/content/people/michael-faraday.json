@@ -1,0 +1,85 @@
+{
+  "slug": "michael-faraday",
+  "name": { "en": "Michael Faraday", "zh": "迈克尔·法拉第" },
+  "wiki": { "en": "Michael_Faraday", "zh": "麥可·法拉第" },
+  "disciplines": ["physics", "chemistry"],
+  "themes": ["outsiders"],
+  "reasons": ["path", "pioneer"],
+  "born": 1791,
+  "keyWork": { "year": 1831, "en": "Discovery of electromagnetic induction", "zh": "发现电磁感应" },
+  "why": {
+    "en": "A blacksmith's son who left school early and served seven years as a bookbinder's apprentice, he got into science by sending Humphry Davy a 300-page bound book of notes from Davy's own lectures. He never learned mathematics, yet his experiments and lines of force gave Maxwell the basis for the equations of electromagnetism.",
+    "zh": "他是铁匠的儿子，很早辍学，在装订铺当了七年学徒。他进入科学界的方式，是把自己听戴维讲座的笔记装订成一本 300 页的书寄给戴维。他一辈子没学过数学，可他的实验和“力线”成了麦克斯韦写出电磁学方程的基础。"
+  },
+  "summary": {
+    "en": "Faraday was born in Newington Butts, south London, and was apprenticed to the bookbinder George Riebau from 1805 to 1812, reading the books he bound. In 1813 Davy hired him as a laboratory assistant at the Royal Institution, where he stayed for the rest of his working life. He found electromagnetic rotation in 1821, isolated benzene in 1825, discovered electromagnetic induction in 1831, worked out the laws of electrolysis and, in 1845, showed that magnetism affects light. He founded the Royal Institution's Friday Evening Discourses and Christmas Lectures and gave many of them himself. He died in 1867 at a house in Hampton Court provided by Queen Victoria.",
+    "zh": "法拉第生于伦敦南部的纽因顿巴茨，1805 年到 1812 年在书商兼装订匠里鲍家当学徒，一边装订一边读书。1813 年戴维雇他到英国皇家研究院当实验助手，此后他再没离开。他 1821 年发现电磁旋转，1825 年分离出苯，1831 年发现电磁感应，又总结出电解定律，1845 年证明磁场能影响光。他创办了皇家研究院的周五晚间讲座和圣诞讲座，并亲自讲了很多场。1867 年他在维多利亚女王赐给他的汉普顿宫寓所去世。"
+  },
+  "style": [
+    {
+      "en": "He was entirely an experimentalist. MacTutor notes that almost all his biographers call him \"mathematically illiterate\"; he expressed his ideas as lines of force instead of equations.",
+      "zh": "他是纯粹的实验家。MacTutor 的传记说，几乎所有传记作者都说他“不懂数学”。他用“力线”而不是方程来表达自己的想法。"
+    },
+    {
+      "en": "He kept a laboratory diary for decades; on 28 October 1831 he recorded that he was \"making many experiments with the great magnet of the Royal Society\".",
+      "zh": "他几十年如一日记实验日记。1831 年 10 月 28 日他写道，正在“用皇家学会的大磁铁做很多实验”。"
+    },
+    {
+      "en": "He turned down the presidency of the Royal Society twice, and refused to work on chemical weapons for the Crimean War on ethical grounds.",
+      "zh": "他两次拒绝出任皇家学会会长，也以道德理由拒绝为克里米亚战争研究化学武器。"
+    },
+    {
+      "en": "A devout member of the small Sandemanian church, he met his wife Sarah Barnard through the congregation.",
+      "zh": "他是桑德曼派的虔诚信徒，这是一个很小的教派。他和妻子萨拉·巴纳德就是在教会里认识的。"
+    }
+  ],
+  "timeline": [
+    { "year": 1791, "en": "Born in Newington Butts, Surrey (now London)", "zh": "生于萨里郡纽因顿巴茨（今属伦敦）" },
+    { "year": 1805, "en": "Apprenticed to the bookbinder George Riebau", "zh": "到装订匠里鲍家当学徒" },
+    { "year": 1812, "en": "Attends Humphry Davy's lectures and sends Davy his bound notes", "zh": "听戴维的讲座，把装订好的笔记寄给戴维" },
+    { "year": 1813, "en": "Appointed Chemical Assistant at the Royal Institution", "zh": "被聘为皇家研究院化学助手" },
+    { "year": 1821, "en": "Discovers electromagnetic rotation", "zh": "发现电磁旋转" },
+    { "year": 1831, "en": "Discovers electromagnetic induction", "zh": "发现电磁感应" },
+    { "year": 1845, "en": "Discovers the magneto-optical effect and diamagnetism", "zh": "发现磁光效应和抗磁性" },
+    { "year": 1867, "en": "Dies at Hampton Court, Middlesex", "zh": "在米德尔塞克斯郡汉普顿宫去世" }
+  ],
+  "works": [
+    {
+      "year": 1831,
+      "title": "Experimental Researches in Electricity (First Series): On the induction of electric currents",
+      "en": "Showed that a changing magnetic field produces an electric current, the principle behind every generator and transformer.",
+      "zh": "证明变化的磁场能产生电流，所有发电机和变压器都基于这一原理。"
+    },
+    {
+      "year": 1834,
+      "title": "Laws of electrolysis",
+      "en": "Tied the amount of chemical change to the quantity of electricity, and introduced words still in use: electrode, cathode, ion.",
+      "zh": "把化学变化的量和通过的电量联系起来，还造出了沿用至今的词：电极、阴极、离子。"
+    },
+    {
+      "year": 1845,
+      "title": "On the magnetization of light and the illumination of magnetic lines of force",
+      "en": "The Faraday effect: a magnetic field rotates the plane of polarised light, the first sign that light and magnetism are linked.",
+      "zh": "法拉第效应：磁场能让偏振光的偏振面旋转，这是光和磁有关联的第一个证据。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "profile", "title": "Michael Faraday (1791-1867)", "publisher": "Royal Institution", "year": null, "url": "https://www.rigb.org/node/2696", "lang": "en" },
+    { "kind": "profile", "title": "Michael Faraday", "publisher": "Science History Institute", "year": null, "url": "https://www.sciencehistory.org/education/scientific-biographies/michael-faraday/", "lang": "en" },
+    { "kind": "profile", "title": "Michael Faraday", "publisher": "MacTutor History of Mathematics", "year": 2001, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/", "lang": "en" },
+    { "kind": "archive", "title": "Epsilon: the correspondence of Michael Faraday and other 19th-century scientists", "publisher": "Epsilon", "year": null, "url": "https://epsilon.ac.uk/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "Without mathematics, he relied on doing experiments himself and recording each one. Careful hands-on work let him see what theorists missed.",
+      "zh": "不会数学，他就靠亲手做实验、逐条记录。扎实的动手功夫让他看到了理论家没看到的东西。"
+    },
+    {
+      "key": "communicate",
+      "en": "He founded the Christmas Lectures and Friday Evening Discourses and gave many himself. He even declined to have his lectures published, preferring that people repeat the experiments themselves.",
+      "zh": "他创办圣诞讲座和周五晚间讲座，并亲自登台。他甚至不愿出版讲稿，希望大家自己动手把实验重做一遍。"
+    }
+  ]
+}

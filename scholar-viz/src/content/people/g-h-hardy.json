@@ -1,0 +1,94 @@
+{
+  "slug": "g-h-hardy",
+  "name": { "en": "G. H. Hardy", "zh": "戈弗雷·哈罗德·哈代" },
+  "wiki": { "en": "G._H._Hardy", "zh": "戈弗雷·哈罗德·哈代" },
+  "disciplines": ["mathematics"],
+  "themes": ["partnerships"],
+  "reasons": ["pioneer", "opening"],
+  "born": 1877,
+  "keyWork": { "year": 1914, "en": "Proof that the Riemann zeta function has infinitely many zeros on the critical line", "zh": "证明黎曼 ζ 函数在临界线上有无穷多个零点" },
+  "why": {
+    "en": "Hardy's two defining partnerships both started by letter: a 35-year collaboration with J. E. Littlewood from 1911, and in 1913 a packet of formulas from an unknown clerk in Madras that he took seriously when others had not answered. With them he made Cambridge a centre of analytic number theory.",
+    "zh": "哈代一生最重要的两段合作都从书信开始：1911 年起与李特尔伍德合作了 35 年；1913 年，马德拉斯一个无名职员寄来一沓公式，别人没有回信，他却认真读了。靠这两段合作，剑桥成了解析数论的中心。"
+  },
+  "summary": {
+    "en": "Hardy was born in Cranleigh, Surrey, went to Winchester, and entered Trinity College, Cambridge, in 1896. His textbook A Course of Pure Mathematics (1908) brought continental rigour into English teaching. From 1911 he worked with Littlewood, and from 1914 with Ramanujan, on primes, partitions and Diophantine problems; the circle method came out of this work. He held the Savilian chair at Oxford from 1919 and returned to Cambridge in 1931. In 1940 he wrote A Mathematician's Apology, a short defence of pure mathematics; he died in 1947.",
+    "zh": "哈代生于萨里郡的克兰利，读温切斯特公学，1896 年进入剑桥三一学院。1908 年出版的《纯粹数学教程》把欧陆的严格分析带进了英国的数学教学。1911 年起他与李特尔伍德合作，1914 年起又与拉马努金合作，研究素数、分拆和丢番图问题，圆法就出自这些工作。1919 年他去牛津任萨维尔讲座教授，1931 年回到剑桥。1940 年他写了《一个数学家的辩白》，为纯粹数学辩护。1947 年去世。"
+  },
+  "style": [
+    {
+      "en": "He kept a fixed routine: mathematics from 9 to 1, a light lunch, then the afternoon at the university cricket ground; out of season he read the Australian cricket scores in The Times and played real tennis.",
+      "zh": "他作息固定：上午九点到一点做数学，简单吃过午饭，下午去大学板球场看球；不是板球季，就看《泰晤士报》上的澳大利亚板球比分，打室内网球。"
+    },
+    {
+      "en": "He could not stand being photographed, and only five snapshots of him are known. In hotel rooms his first act was to cover the mirror with a towel.",
+      "zh": "他受不了被拍照，已知的照片只有五张。住进旅馆，第一件事是用毛巾把镜子盖上。"
+    },
+    {
+      "en": "A declared atheist, he played games of trying to fool God: before sailing home from Denmark he sent a postcard claiming he had proved the Riemann hypothesis, reasoning that God would not let the boat sink and give him the same fame as Fermat.",
+      "zh": "他自称无神论者，却总和上帝斗智。一次从丹麦坐船回国前，他寄出明信片，声称自己证明了黎曼猜想。他的理由是：上帝不会让船沉掉，让他像费马那样留下一桩悬案而出名。"
+    }
+  ],
+  "timeline": [
+    { "year": 1877, "en": "Born in Cranleigh, Surrey, on 7 February.", "zh": "2 月 7 日生于萨里郡克兰利。" },
+    { "year": 1896, "en": "Enters Trinity College, Cambridge, on a scholarship from Winchester.", "zh": "从温切斯特公学获奖学金进入剑桥三一学院。" },
+    { "year": 1908, "en": "Publishes A Course of Pure Mathematics.", "zh": "出版《纯粹数学教程》。" },
+    { "year": 1911, "en": "Begins his collaboration with J. E. Littlewood.", "zh": "开始与李特尔伍德合作。" },
+    { "year": 1913, "en": "Receives Ramanujan's first letter from Madras.", "zh": "收到拉马努金从马德拉斯寄来的第一封信。" },
+    { "year": 1919, "en": "Moves to Oxford as Savilian Professor of Geometry.", "zh": "到牛津任萨维尔几何学讲座教授。" },
+    { "year": 1931, "en": "Returns to Cambridge as Sadleirian Professor.", "zh": "回剑桥任萨德勒讲座教授。" },
+    { "year": 1947, "en": "Dies in Cambridge on 1 December.", "zh": "12 月 1 日在剑桥去世。" }
+  ],
+  "works": [
+    {
+      "year": 1908,
+      "title": "A Course of Pure Mathematics",
+      "en": "Taught generations of British students analysis with proper limits and rigour.",
+      "zh": "用严格的极限理论教分析，影响了几代英国学生。"
+    },
+    {
+      "year": 1914,
+      "title": "Sur les zéros de la fonction ζ(s) de Riemann",
+      "en": "The first proof that infinitely many zeros of the zeta function lie on the critical line.",
+      "zh": "第一次证明 ζ 函数有无穷多个零点落在临界线上。"
+    },
+    {
+      "year": 1920,
+      "title": "Some problems of 'Partitio numerorum' (with J. E. Littlewood)",
+      "en": "The series that turned the circle method into a general tool for Waring's and Goldbach's problems.",
+      "zh": "这组论文把圆法发展成处理华林问题、哥德巴赫问题的通用工具。"
+    },
+    {
+      "year": 1940,
+      "title": "A Mathematician's Apology",
+      "en": "A short essay on why pure mathematics is worth doing, written when he felt his creative years were over.",
+      "zh": "一本谈纯粹数学为何值得做的小书，写于他自觉创造力已经耗尽之时。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The mathematician's patterns, like those of the painter's or the poet's, must be beautiful, the ideas, like the colours or the words, must fit together in a harmonious way. There is no permanent place in the world for ugly mathematics.",
+      "zh": "数学家的模式，和画家、诗人的一样，必须是美的；思想要像颜色和词语那样和谐地组合在一起。丑陋的数学在世上没有立足之地。",
+      "source": "A Mathematician's Apology, 1940, quoted in the MacTutor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/"
+    }
+  ],
+  "links": [
+    { "kind": "profile", "title": "Godfrey Harold Hardy", "publisher": "MacTutor History of Mathematics", "year": 2003, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/", "lang": "en" },
+    { "kind": "archive", "title": "Reviews of G H Hardy's Apology", "publisher": "MacTutor History of Mathematics", "year": 2020, "url": "https://mathshistory.st-andrews.ac.uk/Extras/Hardy_apology/", "lang": "en" },
+    { "kind": "profile", "title": "The man who taught infinity: how GH Hardy tamed Srinivasa Ramanujan's genius", "publisher": "University of Cambridge", "year": 2016, "url": "https://www.cam.ac.uk/research/news/opinion-the-man-who-taught-infinity-how-gh-hardy-tamed-srinivasa-ramanujans-genius", "lang": "en" },
+    { "kind": "profile", "title": "Who Was Ramanujan?", "publisher": "Stephen Wolfram Writings", "year": 2016, "url": "https://writings.stephenwolfram.com/2016/04/who-was-ramanujan/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "Hardy did his best work in two long partnerships. He also read an unsolicited letter from an unknown clerk to the end. Take seriously work from outside your circle.",
+      "zh": "哈代最好的工作出自两段长期合作。他也会把一个无名职员的来信认真读完。对圈子外寄来的东西，也要认真看。"
+    },
+    {
+      "key": "communicate",
+      "en": "His Course of Pure Mathematics and his Apology shaped how people learned and thought about mathematics. Write the textbook your field is missing.",
+      "zh": "《纯粹数学教程》和《一个数学家的辩白》改变了人们学数学、看数学的方式。你的领域缺什么书，就去写。"
+    }
+  ]
+}

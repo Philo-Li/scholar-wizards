@@ -1,0 +1,86 @@
+{
+  "slug": "hua-luogeng",
+  "name": { "en": "Hua Luogeng", "zh": "华罗庚" },
+  "wiki": { "en": "Hua_Luogeng", "zh": "华罗庚" },
+  "disciplines": ["mathematics"],
+  "themes": ["chinese", "outsiders"],
+  "reasons": ["path", "opening"],
+  "born": 1910,
+  "keyWork": { "year": 1940, "en": "Additive Theory of Prime Numbers", "zh": "《堆垒素数论》" },
+  "why": {
+    "en": "His only diploma was from junior middle school. While minding his father's shop in Jintan he taught himself mathematics, and a 1930 note exposing an error in a published paper on the quintic got him hired at Tsinghua as a library clerk. By 1938 he was a full professor, having spent two years with Hardy's school in Cambridge.",
+    "zh": "他一生只有初中文凭。在金坛帮父亲看杂货铺时，他靠自学读数学；1930 年，他写短文指出一篇关于五次方程的已发表论文有根本错误，因此被清华请去当图书馆职员。到 1938 年，他已在剑桥哈代学派中待过两年，回国当上了正教授。"
+  },
+  "summary": {
+    "en": "Hua was born in Jintan, Jiangsu, where his father ran a general store. He left a vocational college in Shanghai because he could not afford living costs, and typhoid fever around 1928 left his left leg lame for life. Xiong Qinglai brought him to Tsinghua in 1931, and in 1936 Norbert Wiener's recommendation took him to Cambridge, where he wrote more than ten papers on Waring's problem and exponential sums. In wartime Kunming he wrote Additive Theory of Prime Numbers. After visits to the Soviet Union, Princeton and a professorship at Illinois, he returned to Beijing in March 1950, became the first director of the Academia Sinica's Institute of Mathematics, and trained Wang Yuan and Chen Jingrun. From the 1960s he travelled across China teaching factory and farm workers optimisation methods. He died of a heart attack at the end of a lecture in Tokyo in 1985.",
+    "zh": "华罗庚生于江苏金坛，父亲开杂货铺。他在上海中华职业学校读书，因付不起生活费中途退学；1928 年前后，一场伤寒让他左腿落下终身残疾。1931 年，熊庆来把他调进清华；1936 年，经维纳推荐，他去了剑桥，两年里写了十多篇关于华林问题和指数和的论文。抗战时期，他在昆明写出《堆垒素数论》。此后他访问苏联，到普林斯顿讲学，又任伊利诺伊大学教授，1950 年 3 月回到北京，出任中国科学院数学研究所首任所长，培养了王元、陈景润等人。从 60 年代起，他走遍全国，向工人和农民推广优选法与统筹法。1985 年，他在东京作完报告时心脏病突发去世。"
+  },
+  "style": [
+    {
+      "en": "With almost no books, he learned to attack problems directly from first principles, a habit he kept all his life and urged on his students.",
+      "zh": "手头几乎没有书，他就养成了从最基本的原理出发直接解题的习惯，一辈子都这样，也这样要求学生。"
+    },
+    {
+      "en": "Minding the family shop, he was so absorbed in calculations that he forgot customers and gave wrong change; his father tore up his scratch paper and threw it into the street.",
+      "zh": "看店时他算题入迷，忘了招呼顾客，还找错钱；父亲气得把他的草稿纸撕了扔到街上。"
+    },
+    {
+      "en": "At Tsinghua he called himself a 'half-time assistant': university graduates became assistants, high-school graduates clerks, and he had only finished junior middle school.",
+      "zh": "初到清华时，他自称“半时助理”：大学毕业的当助教，高中毕业的当助理，他只读完初中。"
+    },
+    {
+      "en": "He jotted ideas down on whatever was at hand; his fans and invitation cards carry his working notes.",
+      "zh": "他一有想法就记在手边的东西上，扇子、请柬上都留着他的演算。"
+    }
+  ],
+  "timeline": [
+    { "year": 1910, "en": "Born in Jintan, Jiangsu, on 12 November.", "zh": "11 月 12 日生于江苏金坛。" },
+    { "year": 1930, "en": "Publishes a note in Science showing that a claimed solution of the quintic is flawed.", "zh": "在《科学》杂志发表文章，指出一篇解五次方程的论文不能成立。" },
+    { "year": 1931, "en": "Invited to Tsinghua University by Xiong Qinglai, starting as a clerk.", "zh": "受熊庆来邀请到清华大学，从职员做起。" },
+    { "year": 1936, "en": "Goes to Cambridge and works in the Hardy–Littlewood school for two years.", "zh": "赴英国剑桥，在哈代-李特尔伍德学派中工作两年。" },
+    { "year": 1938, "en": "Returns to China as a professor at the National Southwest Associated University in Kunming.", "zh": "回国，任昆明西南联合大学教授。" },
+    { "year": 1948, "en": "Appointed professor at the University of Illinois.", "zh": "受聘为伊利诺伊大学教授。" },
+    { "year": 1950, "en": "Returns to Beijing; becomes first director of the Institute of Mathematics when it opens in 1952.", "zh": "回到北京；1952 年数学研究所成立，任首任所长。" },
+    { "year": 1985, "en": "Dies in Tokyo on 12 June after giving a lecture.", "zh": "6 月 12 日在东京作学术报告后去世。" }
+  ],
+  "works": [
+    {
+      "year": 1940,
+      "title": "Additive Theory of Prime Numbers (堆垒素数论)",
+      "en": "Reworked Vinogradov's method into what is now called Vinogradov's mean value theorem, central to Waring's problem; accepted in 1940, published by the Steklov Institute in 1947.",
+      "zh": "把维诺格拉多夫的方法重新整理并加强，得到今天所说的维诺格拉多夫中值定理，是研究华林问题的核心工具。1940 年被接受，1947 年由斯捷克洛夫研究所出版。"
+    },
+    {
+      "year": 1958,
+      "title": "Harmonic Analysis of Functions of Several Complex Variables in the Classical Domains (多复变函数论中的典型域的调和分析)",
+      "en": "Worked out explicitly the Bergman kernels and harmonic analysis on the classical domains, a reference point for several complex variables.",
+      "zh": "在典型域上显式算出伯格曼核并建立调和分析，是多复变函数论的重要参照。"
+    },
+    {
+      "year": 1957,
+      "title": "Introduction to Number Theory (数论导引)",
+      "en": "A large textbook, written from his own research, that trained generations of Chinese number theorists.",
+      "zh": "结合他自己研究写成的大部头教材，培养了几代中国数论学者。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "memoir", "title": "Hua Loo-Keng (Heini Halberstam)", "publisher": "MacTutor History of Mathematics", "year": 2004, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hua/", "lang": "en" },
+    { "kind": "profile", "title": "华罗庚在清华的三次“破格”（王元《华罗庚》节选）", "publisher": "中国科学报 / 清华大学新闻网", "year": 2020, "url": "https://www.tsinghua.edu.cn/info/1182/51559.htm", "lang": "zh" },
+    { "kind": "profile", "title": "华罗庚 中国数学的圆心", "publisher": "北京青年报 / 清华大学新闻网", "year": 2001, "url": "https://www.tsinghua.edu.cn/info/2032/79054.htm", "lang": "zh" },
+    { "kind": "profile", "title": "怀念“人民的数学家”华罗庚", "publisher": "新华社", "year": 2026, "url": "https://www.news.cn/20261112/6bff1ea991f24267a347d23b7e1e31af/c.html", "lang": "zh" },
+    { "kind": "archive", "title": "历史沿革：初创基业", "publisher": "中国科学院数学与系统科学研究院", "year": 2009, "url": "https://amss.cas.cn/lshg/200907/t20090731_2290142.html", "lang": "zh" }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Without a library, Hua worked problems out from the basics, and that independence later let him improve on Vinogradov. When resources are thin, derive things yourself rather than wait for the right book.",
+      "zh": "没有图书馆，华罗庚就从最基本处自己推。正是这种独立，后来让他改进了维诺格拉多夫的方法。条件差的时候，与其等一本合适的书，不如自己动手推出来。"
+    },
+    {
+      "key": "communicate",
+      "en": "He wrote popular books for students and took optimisation methods into factories across China. Find a form of your work that people far outside your field can use.",
+      "zh": "他给中学生写课外读物，又把优选法带进全国各地的工厂。给自己的工作找一个圈外人也能用上的形式。"
+    }
+  ]
+}

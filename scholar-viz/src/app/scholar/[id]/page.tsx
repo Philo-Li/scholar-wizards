@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { COLLECTION, rankedRows, scholarIndex, toRow } from '@/lib/data';
+import { COLLECTION, getRows, rankedRows, scholarIndex, toRow } from '@/lib/data';
+import { personForOpenAlex } from '@/lib/people';
 import { DISCIPLINE_BY_SLUG } from '@/lib/disciplines';
 import { percentileOf } from '@/lib/stats';
 import { ScholarView, type ScholarPageData } from '@/components/views/ScholarView';
@@ -37,7 +38,33 @@ function build(id: string): ScholarPageData {
     .slice(0, 6)
     .sort((a, b) => b.h - a.h);
 
+  // Why this scholar is on the site, from the rule that put them on the list.
+  let why: ScholarPageData['why'];
+  if (primary.slug === 'collection') {
+    why = { kind: 'collection' };
+  } else if (raw.group === 'rising') {
+    const cohort = getRows(primary.slug)
+      .filter(r => r.group === 'rising' && r.m !== null)
+      .sort((a, b) => b.m! - a.m!);
+    why = { kind: 'rising', rank: cohort.findIndex(r => r.id === id) + 1, n: cohort.length, m: row.m ?? 0, first: raw.first ?? 0 };
+  } else {
+    const core = getRows(primary.slug)
+      .filter(r => r.group === 'core' && (raw.hyper || !r.hyper))
+      .sort((a, b) => b.cites - a.cites);
+    const sub = row.subfield ? core.filter(r => r.subfield === row.subfield) : [];
+    why = {
+      kind: 'core',
+      rank: core.findIndex(r => r.id === id) + 1,
+      n: core.length,
+      subRank: sub.length > 1 ? sub.findIndex(r => r.id === id) + 1 : 0,
+      subN: sub.length,
+    };
+  }
+  const chapter = personForOpenAlex(id);
+
   return {
+    why,
+    chapter: chapter ? { slug: chapter.slug, name: chapter.name } : null,
     raw,
     row,
     primarySlug: primary.slug,

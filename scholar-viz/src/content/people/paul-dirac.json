@@ -1,0 +1,93 @@
+{
+  "slug": "paul-dirac",
+  "name": { "en": "Paul Dirac", "zh": "保罗·狄拉克" },
+  "wiki": { "en": "Paul_Dirac", "zh": "保罗·狄拉克" },
+  "disciplines": ["physics"],
+  "themes": ["early"],
+  "reasons": ["pioneer"],
+  "born": 1902,
+  "keyWork": { "year": 1928, "en": "The Dirac equation for the electron", "zh": "描述电子的狄拉克方程" },
+  "why": {
+    "en": "Trained first as an electrical engineer, at 25 he wrote down an equation that joined quantum mechanics and special relativity for the electron. Taking its odd extra solutions seriously, he predicted a particle with the electron's mass and opposite charge; the positron was found in 1932.",
+    "zh": "他最早学的是电机工程。25 岁时，他写出一个把量子力学和狭义相对论结合起来的电子方程。方程里多出一组奇怪的解，他没有把它们丢掉，而是据此预言存在一种质量与电子相同、电荷相反的粒子。1932 年，正电子被发现了。"
+  },
+  "summary": {
+    "en": "Dirac grew up in Bristol, the son of a Swiss-born French teacher. He took a degree in electrical engineering at the University of Bristol in 1921 and one in mathematics in 1923, then went to St John's College, Cambridge, where in 1926 he wrote the first doctoral thesis on quantum mechanics. In 1928 he published the Dirac equation and in 1930 the textbook The Principles of Quantum Mechanics. He was Lucasian Professor of Mathematics at Cambridge from 1932 to 1969 and shared the 1933 Nobel Prize in Physics with Erwin Schrödinger. From 1970 he worked at Florida State University in Tallahassee, where he died in 1984.",
+    "zh": "狄拉克在布里斯托尔长大，父亲是瑞士出生的法语教师。他 1921 年在布里斯托尔大学拿到电机工程学位，1923 年又拿到数学学位，随后进入剑桥大学圣约翰学院，1926 年写出了第一篇以量子力学为题的博士论文。1928 年他发表狄拉克方程，1930 年出版教科书《量子力学原理》。1932 年到 1969 年他任剑桥大学卢卡斯数学教授，1933 年与薛定谔分享诺贝尔物理学奖。1970 年起他在塔拉哈西的佛罗里达州立大学工作，1984 年在那里去世。"
+  },
+  "style": [
+    {
+      "en": "His father made the children speak to him only in French. When Paul found he could not say what he wanted in French, he chose to stay silent, a habit of few words that stayed with him for life.",
+      "zh": "父亲要求孩子们跟他说话只能用法语。保罗发现自己用法语说不清想说的话，干脆不说。少言寡语从此跟了他一辈子。"
+    },
+    {
+      "en": "His diary from his student years shows he concentrated only on research and stopped only on Sundays, when he took long walks alone.",
+      "zh": "研究生时期的日记显示，他一心只做研究，只有星期天才停下来，独自走很长的路。"
+    },
+    {
+      "en": "At Cambridge he mostly worked at home, coming in only for classes and seminars. In Tallahassee he walked about a mile to work each day and swam in nearby lakes.",
+      "zh": "在剑桥，他大多在家里工作，只为上课和讨论班去学校。到了塔拉哈西，他每天步行大约一英里去上班，还常到附近的湖里游泳。"
+    },
+    {
+      "en": "He coined the words fermion and boson, and proposed the magnetic monopole as a way to make Maxwell's equations more symmetric.",
+      "zh": "“费米子”和“玻色子”这两个词是他起的。他提出磁单极子，是想让麦克斯韦方程更加对称。"
+    }
+  ],
+  "timeline": [
+    { "year": 1902, "en": "Born in Bristol, England", "zh": "生于英国布里斯托尔" },
+    { "year": 1921, "en": "Graduates in electrical engineering from the University of Bristol", "zh": "从布里斯托尔大学电机工程专业毕业" },
+    { "year": 1926, "en": "PhD at Cambridge with the first thesis on quantum mechanics", "zh": "在剑桥以第一篇量子力学博士论文获得学位" },
+    { "year": 1928, "en": "Publishes the Dirac equation", "zh": "发表狄拉克方程" },
+    { "year": 1930, "en": "Publishes The Principles of Quantum Mechanics", "zh": "出版《量子力学原理》" },
+    { "year": 1932, "en": "Becomes Lucasian Professor of Mathematics at Cambridge", "zh": "出任剑桥大学卢卡斯数学教授" },
+    { "year": 1933, "en": "Shares the Nobel Prize in Physics with Erwin Schrödinger", "zh": "与薛定谔分享诺贝尔物理学奖" },
+    { "year": 1984, "en": "Dies in Tallahassee, Florida", "zh": "在佛罗里达州塔拉哈西去世" }
+  ],
+  "works": [
+    {
+      "year": 1928,
+      "title": "The Quantum Theory of the Electron",
+      "en": "A relativistic wave equation for the electron that produced its spin automatically and implied the existence of antimatter.",
+      "zh": "一个满足相对论的电子波动方程，自然给出了电子的自旋，也意味着反物质的存在。"
+    },
+    {
+      "year": 1930,
+      "title": "The Principles of Quantum Mechanics",
+      "en": "The textbook that set out quantum mechanics in the abstract, notation-driven form physicists still use.",
+      "zh": "这本教科书用抽象而简洁的记号体系阐述量子力学，物理学家沿用至今。"
+    },
+    {
+      "year": 1931,
+      "title": "Quantised Singularities in the Electromagnetic Field",
+      "en": "Proposed the anti-electron and the magnetic monopole, and showed that one monopole anywhere would explain why electric charge is quantised.",
+      "zh": "提出反电子和磁单极子，并证明只要宇宙中存在一个磁单极子，就能解释电荷为什么是量子化的。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If we accept the view of complete symmetry between positive and negative electric charge so far as concerns the fundamental laws of Nature, we must regard it rather as an accident that the Earth (and presumably the whole solar system), contains a preponderance of negative electrons and positive protons. It is quite possible that for some of the stars it is the other way about, these stars being built up mainly of positrons and negative protons.",
+      "zh": "如果我们承认，就自然界的基本规律而言，正电荷与负电荷完全对称，那么地球（大概还有整个太阳系）里负电子和正质子占多数，就只能看作一种偶然。很可能有些恒星正好相反，主要由正电子和负质子构成。",
+      "source": "Nobel Lecture, \"Theory of electrons and positrons\", Stockholm, 12 December 1933",
+      "url": "https://www.nobelprize.org/uploads/2018/06/dirac-lecture.pdf"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Oral history interview with P. A. M. Dirac (by Thomas S. Kuhn and Eugene P. Wigner)", "publisher": "American Institute of Physics, Niels Bohr Library & Archives", "year": 1963, "url": "https://history.aip.org/catalog/icos/4575.html", "lang": "en" },
+    { "kind": "interview", "title": "Physicist Paul Dirac Is 'The Strangest Man' (interview with biographer Graham Farmelo)", "publisher": "NPR", "year": 2009, "url": "https://www.npr.org/2009/10/02/113435529/physicist-paul-dirac-is-the-strangest-man", "lang": "en" },
+    { "kind": "profile", "title": "Beautifully strange (review of The Strangest Man)", "publisher": "Physics World", "year": 2009, "url": "https://physicsworld.com/a/beautifully-strange/", "lang": "en" },
+    { "kind": "lecture", "title": "Theory of Electrons and Positrons (Nobel Lecture)", "publisher": "NobelPrize.org", "year": 1933, "url": "https://www.nobelprize.org/prizes/physics/1933/dirac/lecture/", "lang": "en" },
+    { "kind": "profile", "title": "Paul Adrien Maurice Dirac", "publisher": "MacTutor History of Mathematics", "year": 2003, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirac/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "He demanded an equation that was both relativistic and simple, then trusted the mathematics even when it predicted something no one had seen.",
+      "zh": "他要的方程既要符合相对论，又要简洁；方程预言了没人见过的东西，他依然相信数学。"
+    },
+    {
+      "key": "long-focus",
+      "en": "He protected long stretches of uninterrupted thought: research six days a week, a solitary walk on the seventh.",
+      "zh": "他给自己留出大段不被打扰的思考时间：一周六天做研究，第七天一个人散步。"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "linus-pauling",
+  "name": {
+    "en": "Linus Pauling",
+    "zh": "莱纳斯·鲍林"
+  },
+  "wiki": {
+    "en": "Linus_Pauling",
+    "zh": "萊納斯·鮑林"
+  },
+  "disciplines": [
+    "chemistry",
+    "biology"
+  ],
+  "themes": [
+    "polymaths"
+  ],
+  "reasons": [
+    "pioneer",
+    "crossing",
+    "integrity"
+  ],
+  "born": 1901,
+  "keyWork": {
+    "year": 1931,
+    "en": "\"The Nature of the Chemical Bond\", applying quantum mechanics to chemical bonding",
+    "zh": "《化学键的本质》，用量子力学解释化学键"
+  },
+  "why": {
+    "en": "He used quantum mechanics to explain why atoms bond, then turned to proteins: in 1948, in bed with a cold in Oxford, he folded paper models into the alpha helix. He is the only person to have won two unshared Nobel Prizes, for chemistry in 1954 and for peace in 1962, after the US government had refused him a passport.",
+    "zh": "他用量子力学解释原子为什么会成键，后来转去研究蛋白质：1948 年在牛津感冒卧床，他用纸折模型，折出了 α 螺旋。他是唯一独得两次诺贝尔奖的人，1954 年化学奖，1962 年和平奖；在此之前，美国政府曾拒绝给他发护照。"
+  },
+  "summary": {
+    "en": "Pauling was born in Portland, Oregon, the son of a druggist. He studied chemical engineering at Oregon Agricultural College, taught quantitative analysis there full-time at 18, and earned his PhD at Caltech in 1925. A Guggenheim fellowship took him to Sommerfeld, Schrödinger and Bohr in Europe, and he came back to apply the new quantum mechanics to chemistry. From the 1930s he moved into biology: proteins, antibodies, and in 1949 the finding that sickle-cell anaemia is a disease of an abnormal molecule. From the 1950s he campaigned against nuclear testing, which cost him his passport in 1952 and brought him the Nobel Peace Prize.",
+    "zh": "鲍林生于俄勒冈州波特兰，父亲是药剂师。他在俄勒冈农学院读化学工程，18 岁就在学校全职教定量分析，1925 年在加州理工学院拿到博士。古根海姆奖学金让他去欧洲跟索末菲、薛定谔和玻尔学习，回国后把新的量子力学用到化学上。三十年代起他转向生物学：蛋白质、抗体，以及 1949 年发现镰状细胞贫血是一种由异常分子引起的病。五十年代起他反对核试验，1952 年因此被拒发护照，后来也因此获得诺贝尔和平奖。"
+  },
+  "style": [
+    {
+      "en": "He found the alpha helix in 1948 while confined to bed with a cold in Oxford, working with paper models: he kept the peptide groups planar and rotated the chain until every N-H group could hydrogen-bond.",
+      "zh": "1948 年他在牛津感冒卧床，用纸模型找到了 α 螺旋：保持肽基平面不变，转动肽链，直到每个 N-H 都能形成氢键。"
+    },
+    {
+      "en": "He took bond lengths and angles measured by Robert Corey's crystallography as fixed facts, then reasoned from them to the structure, rather than waiting for a full X-ray solution.",
+      "zh": "他把科里用晶体学测出的键长、键角当作确定的事实，再从这些事实推出结构，而不是等完整的 X 射线解析结果。"
+    },
+    {
+      "en": "In 1952 the State Department refused him a passport, saying his travel \"would not be in the best interests of the United States\", and he missed a Royal Society meeting on protein structure in London.",
+      "zh": "1952 年美国国务院以他出行“不符合美国最大利益”为由拒发护照，他因此错过了伦敦皇家学会关于蛋白质结构的会议。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1901,
+      "en": "Born in Portland, Oregon",
+      "zh": "生于俄勒冈州波特兰"
+    },
+    {
+      "year": 1922,
+      "en": "BSc in chemical engineering, Oregon Agricultural College",
+      "zh": "在俄勒冈农学院获化学工程学士"
+    },
+    {
+      "year": 1925,
+      "en": "PhD in chemistry, Caltech",
+      "zh": "在加州理工学院获化学博士"
+    },
+    {
+      "year": 1939,
+      "en": "Publishes the book The Nature of the Chemical Bond",
+      "zh": "出版专著《化学键的本质》"
+    },
+    {
+      "year": 1951,
+      "en": "Publishes the alpha helix with Corey and Branson",
+      "zh": "与科里、布兰森发表 α 螺旋结构"
+    },
+    {
+      "year": 1954,
+      "en": "Nobel Prize in Chemistry",
+      "zh": "获诺贝尔化学奖"
+    },
+    {
+      "year": 1963,
+      "en": "Receives the 1962 Nobel Peace Prize",
+      "zh": "获颁 1962 年度诺贝尔和平奖"
+    },
+    {
+      "year": 1994,
+      "en": "Dies at Big Sur, California",
+      "zh": "在加州大苏尔去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1931,
+      "title": "The Nature of the Chemical Bond. Application of Results Obtained from the Quantum Mechanics and from a Theory of Paramagnetic Susceptibility to the Structure of Molecules",
+      "en": "Introduced hybridised orbitals and explained the shapes of molecules such as methane from quantum mechanics.",
+      "zh": "提出杂化轨道，从量子力学出发解释了甲烷等分子的形状。"
+    },
+    {
+      "year": 1939,
+      "title": "The Nature of the Chemical Bond and the Structure of Molecules and Crystals",
+      "en": "The book that taught a generation of chemists to think about bonds, resonance and electronegativity.",
+      "zh": "这本书教会了一代化学家用化学键、共振和电负性来思考问题。"
+    },
+    {
+      "year": 1949,
+      "title": "Sickle Cell Anemia, a Molecular Disease",
+      "en": "Showed that a disease could be traced to a single abnormal protein, founding the idea of molecular medicine.",
+      "zh": "证明一种疾病可以追溯到一个异常的蛋白质分子，开了“分子病”这个概念的先河。"
+    },
+    {
+      "year": 1951,
+      "title": "The structure of proteins: two hydrogen-bonded helical configurations of the polypeptide chain",
+      "en": "Proposed the alpha helix, one of the two basic folds of protein structure.",
+      "zh": "提出 α 螺旋，这是蛋白质结构中最基本的两种折叠方式之一。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Oral history interview with Linus C. Pauling",
+      "publisher": "Science History Institute",
+      "year": 1987,
+      "url": "https://digital.sciencehistory.org/works/5h73px42w",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Linus Carl Pauling 1901–1994: A Biographical Memoir, by Jack D. Dunitz",
+      "publisher": "National Academy of Sciences",
+      "year": 1997,
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/pauling-linus.pdf",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "Ava Helen and Linus Pauling Papers",
+      "publisher": "Oregon State University Libraries",
+      "url": "https://scarc.library.oregonstate.edu/coll/pauling/",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Linus Pauling: Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 1954,
+      "url": "https://www.nobelprize.org/prizes/chemistry/1954/pauling/biographical/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "cross-field",
+      "en": "He carried the physics he learned in Europe into chemistry, then carried structural chemistry into biology and medicine.",
+      "zh": "他把在欧洲学到的物理带进化学，又把结构化学带进生物学和医学。"
+    },
+    {
+      "key": "first-principles",
+      "en": "With a few trusted bond lengths and some paper, he reasoned his way to the alpha helix before the data forced it.",
+      "zh": "几个可靠的键长加几张纸，他在数据逼出答案之前就推出了 α 螺旋。"
+    }
+  ]
+}

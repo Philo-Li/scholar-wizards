@@ -1,0 +1,183 @@
+{
+  "slug": "shiing-shen-chern",
+  "name": {
+    "en": "Shiing-Shen Chern",
+    "zh": "陈省身"
+  },
+  "wiki": {
+    "en": "Shiing-Shen_Chern",
+    "zh": "陈省身"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "themes": [
+    "chinese"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1911,
+  "keyWork": {
+    "year": 1944,
+    "en": "Intrinsic proof of the Gauss–Bonnet formula for closed Riemannian manifolds",
+    "zh": "闭黎曼流形高斯-博内公式的内蕴证明"
+  },
+  "why": {
+    "en": "Working in wartime Kunming with little more than a box of reprints Élie Cartan had mailed him, he prepared the ideas that, once he reached Princeton in 1943, gave an intrinsic proof of the Gauss–Bonnet formula and the characteristic classes now named after him. He later founded three mathematics institutes, in Nanjing, Berkeley and Tianjin.",
+    "zh": "抗战时期在昆明，他手边几乎只有嘉当寄来的一箱论文抽印本。1943 年到普林斯顿后，他在此基础上给出了高斯-博内公式的内蕴证明，并引入了后来以他命名的示性类。此后他先后创办了三个数学研究所：南京的中央研究院数学所、伯克利的数学科学研究所和天津的南开数学所。"
+  },
+  "summary": {
+    "en": "Chern was born in Jiaxing, Zhejiang, entered Nankai University at 15 and went on to graduate study at Tsinghua. In 1934 he went to Hamburg to work with Wilhelm Blaschke, finished his doctorate in under two years, and spent 1936–37 in Paris with Élie Cartan. He taught at the Southwest Associated University in Kunming from 1938 to 1943, then spent two years at the Institute for Advanced Study, where he did his most important work. After the war he organised the Institute of Mathematics of the Academia Sinica, then moved to Chicago in 1949 and Berkeley in 1960. He co-founded the Mathematical Sciences Research Institute in Berkeley, set up the Nankai Institute of Mathematics in 1985, and settled in Tianjin in 2000, where he died in 2004.",
+    "zh": "陈省身生于浙江嘉兴，15 岁考入南开大学，后来到清华读研究生。1934 年他去汉堡跟布拉施克学习，不到两年就拿到博士学位，1936 至 1937 年又到巴黎跟随嘉当。1938 到 1943 年他在昆明西南联大任教，随后在普林斯顿高等研究院待了两年，完成了一生最重要的工作。战后他主持筹建中央研究院数学研究所，1949 年转到芝加哥大学，1960 年到伯克利。他参与创办了伯克利的数学科学研究所，1985 年创办南开数学研究所，2000 年定居天津，2004 年在天津去世。"
+  },
+  "style": [
+    {
+      "en": "In Hamburg he was, by his own account, essentially the only one who stayed to the end of Erich Kähler's seminar on Cartan's methods, and he kept going to lunch with Kähler afterwards.",
+      "zh": "据他自己说，在汉堡听凯勒讲嘉当方法的讨论班，最后几乎只剩他一个人坚持到底；讨论班之后他还常和凯勒一起吃午饭。"
+    },
+    {
+      "en": "In Paris he met Cartan every two weeks for about an hour; Cartan often wrote to him the next day with further results and questions.",
+      "zh": "在巴黎，他每两周见嘉当一次，每次一小时左右；嘉当常常第二天就来信，写下新的结果和问题。"
+    },
+    {
+      "en": "He explained his choice of mathematics by what he could not do: he was slow at running and could not tell good music from bad, so he 'turned to mathematics'.",
+      "zh": "他解释自己为什么学数学，说的是自己不会什么：跑步跑不快，音乐好坏听不出，“结果就转到数学来了”。"
+    },
+    {
+      "en": "He compared mathematics to cooking a dish for decades: some work has to be repeated many times before you can be skilled enough to create something new.",
+      "zh": "他把做数学比作炒菜：一道菜炒了几十年才真正吃透，有些工作一定要反复做，才能精，才能创新。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1911,
+      "en": "Born in Jiaxing, Zhejiang, on 28 October.",
+      "zh": "10 月 28 日生于浙江嘉兴。"
+    },
+    {
+      "year": 1930,
+      "en": "Graduates from Nankai University and enters graduate school at Tsinghua.",
+      "zh": "毕业于南开大学，进入清华大学研究院。"
+    },
+    {
+      "year": 1936,
+      "en": "Receives his doctorate in Hamburg under Wilhelm Blaschke; goes to Paris to work with Élie Cartan.",
+      "zh": "在汉堡大学获博士学位，导师为布拉施克；随后赴巴黎师从嘉当。"
+    },
+    {
+      "year": 1943,
+      "en": "Leaves Kunming for the Institute for Advanced Study in Princeton.",
+      "zh": "离开昆明，前往普林斯顿高等研究院。"
+    },
+    {
+      "year": 1949,
+      "en": "Becomes professor of geometry at the University of Chicago.",
+      "zh": "任芝加哥大学几何学教授。"
+    },
+    {
+      "year": 1960,
+      "en": "Moves to the University of California, Berkeley.",
+      "zh": "转到加州大学伯克利分校。"
+    },
+    {
+      "year": 1985,
+      "en": "Founds the Nankai Institute of Mathematics in Tianjin.",
+      "zh": "在天津创办南开数学研究所。"
+    },
+    {
+      "year": 2004,
+      "en": "Receives the first Shaw Prize in Mathematics; dies in Tianjin on 3 December.",
+      "zh": "获首届邵逸夫数学奖；12 月 3 日在天津去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1944,
+      "title": "A simple intrinsic proof of the Gauss–Bonnet formula for closed Riemannian manifolds",
+      "en": "Proved the formula without embedding the manifold in Euclidean space, using the bundle of unit tangent vectors; it opened global differential geometry.",
+      "zh": "借助单位切向量丛，不把流形嵌入欧氏空间就证明了这个公式，开启了整体微分几何。"
+    },
+    {
+      "year": 1946,
+      "title": "Characteristic classes of Hermitian manifolds",
+      "en": "Introduced Chern classes, now basic tools in topology, algebraic geometry and theoretical physics.",
+      "zh": "引入陈类，如今是拓扑、代数几何和理论物理的基本工具。"
+    },
+    {
+      "year": 1974,
+      "title": "Characteristic forms and geometric invariants (with James Simons)",
+      "en": "Defined the Chern–Simons forms, later central to quantum field theory and low-dimensional topology.",
+      "zh": "定义了陈-西蒙斯形式，后来成为量子场论和低维拓扑的核心概念。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Usually the best mathematical work combines some theory with some very special problems. The special problems call for development in the general theory.",
+      "zh": "最好的数学工作，通常是把一些理论和一些非常具体的问题结合起来。具体问题会逼着一般理论向前发展。",
+      "source": "Interview with Allyn Jackson, Notices of the AMS, 1998",
+      "url": "https://celebratio.org/Chern_SS/article/453"
+    },
+    {
+      "text": "有些工作一定要重复，才能够精，才能够创新，才能做新的东西",
+      "zh": "有些工作一定要重复，才能够精，才能够创新，才能做新的东西。",
+      "source": "央视《东方之子》专访，2004 年 11 月",
+      "url": "https://www.tsinghua.edu.cn/info/1970/76800.htm"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Interview with Shiing Shen Chern (Allyn Jackson)",
+      "publisher": "Notices of the AMS, via Celebratio Mathematica",
+      "year": 1998,
+      "url": "https://celebratio.org/Chern_SS/article/453",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "[东方之子]陈省身：几何人生",
+      "publisher": "央视国际 / 清华大学新闻网",
+      "year": 2004,
+      "url": "https://www.tsinghua.edu.cn/info/1970/76800.htm",
+      "lang": "zh"
+    },
+    {
+      "kind": "obituary",
+      "title": "Shiing-Shen Chern, 1911–2004",
+      "publisher": "UC Berkeley News",
+      "year": 2004,
+      "url": "https://newsarchive.berkeley.edu/news/berkeleyan/2004/12/08_chern.shtml",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Shiing-shen Chern",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 2014,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Chern/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "大道至简 陈省身师德永存",
+      "publisher": "中国青年报 / 清华大学新闻网",
+      "year": 2004,
+      "url": "https://www.tsinghua.edu.cn/info/1970/76803.htm",
+      "lang": "zh"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "Chern moved from Nankai to Tsinghua, Hamburg and Paris to work with the strongest people in his field. As he put it, what matters most in research is to find the masters.",
+      "zh": "陈省身从南开到清华，再到汉堡、巴黎，一路去找本行最强的人。用他的话说，做数学研究，最要紧的还是找名家。"
+    },
+    {
+      "key": "craft",
+      "en": "Chern said the secret was practice: like a dish cooked for decades, some work must be repeated many times before you can do something new. Do the basic calculations yourself, again and again.",
+      "zh": "陈省身说，诀窍不过是熟能生巧：就像一道菜炒了几十年，有些工作要反复做，才能做出新东西。基本的推导要亲手做，一遍一遍地做。"
+    }
+  ]
+}

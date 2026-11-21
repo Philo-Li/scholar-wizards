@@ -1,0 +1,60 @@
+{
+  "slug": "june-huh",
+  "name": { "en": "June Huh", "zh": "许埈珥" },
+  "wiki": { "en": "June_Huh", "zh": "许埈珥" },
+  "disciplines": ["mathematics"],
+  "themes": ["outsiders"],
+  "reasons": ["path", "crossing"],
+  "born": 1983,
+  "keyWork": { "year": 2015, "en": "Proof of the Heron–Rota–Welsh conjecture with Karim Adiprasito and Eric Katz", "zh": "与阿迪普拉西托、卡茨合作证明赫伦–罗塔–威尔士猜想" },
+  "why": {
+    "en": "He dropped out of high school to write poetry, believed he was bad at math, and was rejected by every graduate school he applied to except one. Thirteen years later he won the Fields Medal for bringing tools from algebraic geometry to bear on old problems in combinatorics.",
+    "zh": "他高中退学去写诗，一直以为自己数学不好，申请研究生时只被一所学校录取。十三年后，他因为把代数几何的工具用到组合数学的老问题上而获得菲尔兹奖。"
+  },
+  "summary": {
+    "en": "Huh was born in California and grew up in Seoul. A bad score on an elementary school test convinced him he was not good at math, and as a teenager he left school to write poetry. At Seoul National University he drifted, studied physics and astronomy, and took six years to graduate; in his last year a course by Heisuke Hironaka drew him into mathematics. As a first-year graduate student at Illinois he proved Read's conjecture, open for about 40 years, and with Adiprasito and Katz later proved the Heron–Rota–Welsh conjecture. He joined Princeton's faculty in 2021 and received the Fields Medal in 2022.",
+    "zh": "许埈珥生于美国加州，在首尔长大。小学一次考试成绩很差，让他认定自己不擅长数学；十几岁时他退学写诗。在首尔大学他一度迷茫，读的是物理和天文，花了六年才毕业。最后一年，他选了广中平祐的一门课，从此走进数学。在伊利诺伊大学读研究生第一年，他证明了悬置约 40 年的里德猜想；后来又与阿迪普拉西托、卡茨合作证明了赫伦–罗塔–威尔士猜想。2021 年他到普林斯顿大学任教，2022 年获菲尔兹奖。"
+  },
+  "style": [
+    { "en": "He does about three hours of focused work a day, whether that is a math problem, a lecture or scheduling his sons' doctor's appointments. 'Then I'm exhausted,' he said.", "zh": "他每天只做大约三个小时专注的工作，不管是想数学题、备课，还是给两个儿子约医生。他说：“然后我就累垮了。”" },
+    { "en": "He says he has little control over what he focuses on: for a few months in spring 2019, all he did was read.", "zh": "他说自己很难决定专注于什么。2019 年春天有几个月，他什么都没做，只是读书。" },
+    { "en": "In Hironaka's course, which shrank from about 200 students to five, he was drawn by watching research mathematics unfold unfinished, with proofs that were not always correct.", "zh": "广中平祐的课从约 200 人减到只剩 5 人，他是留下来的一个。吸引他的是课堂上那种未完成的研究数学，连证明都不一定对。" }
+  ],
+  "timeline": [
+    { "year": 1983, "en": "Born in Stanford, California; raised in Seoul.", "zh": "生于美国加州斯坦福，在首尔长大。" },
+    { "year": 2002, "en": "Enters Seoul National University, majoring in physics and astronomy.", "zh": "进入首尔大学，主修物理与天文。" },
+    { "year": 2009, "en": "Starts graduate school at the University of Illinois, the only program to accept him.", "zh": "进入伊利诺伊大学读研究生，这是唯一录取他的学校。" },
+    { "year": 2010, "en": "Proves Read's conjecture on chromatic polynomials.", "zh": "证明关于色多项式的里德猜想。" },
+    { "year": 2014, "en": "PhD from the University of Michigan.", "zh": "获密歇根大学博士学位。" },
+    { "year": 2015, "en": "With Adiprasito and Katz, proves the Heron–Rota–Welsh conjecture.", "zh": "与阿迪普拉西托、卡茨证明赫伦–罗塔–威尔士猜想。" },
+    { "year": 2022, "en": "Awarded the Fields Medal.", "zh": "获菲尔兹奖。" }
+  ],
+  "works": [
+    { "year": 2012, "title": "Milnor numbers of projective hypersurfaces and the chromatic polynomial of graphs", "en": "Proved Read's conjecture that the coefficients of a graph's chromatic polynomial are log-concave, by reading them as invariants from algebraic geometry.", "zh": "把图的色多项式系数看作代数几何中的不变量，证明了这些系数是对数凹的，即里德猜想。" },
+    { "year": 2018, "title": "Hodge theory for combinatorial geometries (with Karim Adiprasito and Eric Katz)", "en": "Built a Hodge theory for matroids, objects with no underlying variety, and used it to prove the Heron–Rota–Welsh conjecture.", "zh": "为拟阵这种背后没有代数簇的对象建立了霍奇理论，并用它证明了赫伦–罗塔–威尔士猜想。" }
+  ],
+  "quotes": [
+    {
+      "text": "I wanted to be someone who writes great poetry. I didn't want to write great poetry.",
+      "zh": "我想成为一个写出伟大诗篇的人，却并不想写伟大的诗。",
+      "source": "Quanta Magazine, 2022",
+      "url": "https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/"
+    },
+    {
+      "text": "It feels like you're grabbing something that's already there, rather than creating something in your mind.",
+      "zh": "感觉像是抓住了一个本来就在那里的东西，而不是在脑子里创造出什么。",
+      "source": "Quanta Magazine, 2022",
+      "url": "https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/"
+    }
+  ],
+  "links": [
+    { "kind": "profile", "title": "He Dropped Out to Become a Poet. Now He's Won a Fields Medal.", "publisher": "Quanta Magazine", "year": 2022, "url": "https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/", "lang": "en" },
+    { "kind": "profile", "title": "A Path Less Taken to the Peak of the Math World", "publisher": "Quanta Magazine", "year": 2017, "url": "https://www.quantamagazine.org/a-path-less-taken-to-the-peak-of-the-math-world-20170627/", "lang": "en" },
+    { "kind": "interview", "title": "Fields Medal interview with June Huh", "publisher": "International Mathematical Union", "year": 2022, "url": "https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/Huh%20_June_Interview.pdf", "lang": "en" },
+    { "kind": "profile", "title": "'Stereotypes can't hold up against lived experience.' Our Year of the Tiger series continues: June Huh", "publisher": "Princeton University", "year": 2022, "url": "https://www.princeton.edu/news/2022/12/21/stereotypes-cant-hold-against-lived-experience-our-year-tiger-series-continues-june", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "cross-field", "en": "Huh's results came from treating combinatorial sequences as shadows of geometric objects, then importing the geometry.", "zh": "许埈珥的成果来自把组合数列看成几何对象的影子，再把几何工具搬过来。" },
+    { "key": "curiosity", "en": "He followed the class that excited him, not the major he had chosen, even in his sixth year of college.", "zh": "即使已经读到大学第六年，他还是跟着让自己兴奋的那门课走，而不是自己选的专业。" }
+  ]
+}

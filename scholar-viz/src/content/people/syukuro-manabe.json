@@ -1,0 +1,99 @@
+{
+  "slug": "syukuro-manabe",
+  "name": { "en": "Syukuro Manabe", "zh": "真锅淑郎" },
+  "wiki": { "en": "Syukuro_Manabe", "zh": "真鍋淑郎" },
+  "disciplines": ["earth-sciences", "physics"],
+  "themes": ["partnerships", "late"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1931,
+  "keyWork": { "year": 1967, "en": "Radiative-convective model of the atmosphere with Richard Wetherald, the first credible estimate of warming from doubled CO2", "zh": "与韦瑟尔德建立大气辐射-对流模型，首次可信地估算二氧化碳加倍引起的升温" },
+  "why": {
+    "en": "A doctor's son from a mountain village in Shikoku who said he was too clumsy and forgetful to practise medicine, he built a one-column model of the atmosphere in 1967 that gave the first credible figure for warming from doubled carbon dioxide. Fifty-four years later, at 90, he shared the first Nobel Prize in Physics ever given for climate work.",
+    "zh": "他出生在四国山村的医生家庭，自称手笨、记性差，当不了医生。1967 年他搭起一个单柱大气模型，第一次给出了二氧化碳加倍会升温多少的可信数字。54 年后，90 岁的他分享了第一个颁给气候研究的诺贝尔物理学奖。"
+  },
+  "summary": {
+    "en": "Manabe grew up in Shingu village in Ehime Prefecture, where his father and grandfather ran the only clinic. His family expected him to study medicine, but at the University of Tokyo he chose meteorology. After his doctorate he went to the US Weather Bureau's General Circulation Research Section in Washington, which became NOAA's Geophysical Fluid Dynamics Laboratory, and moved with it to Princeton in 1963. There, with Joseph Smagorinsky, Richard Wetherald and Kirk Bryan, he built the first radiative-convective model, the first coupled ocean-atmosphere model and the first three-dimensional simulation of doubled CO2. He spent 1997 to 2001 leading global-warming research in Japan, returned to Princeton, and shared the 2021 Nobel Prize in Physics.",
+    "zh": "真锅在爱媛县新宫村长大，祖父和父亲经营着村里唯一的诊所。家里指望他学医，他在东京大学却选了气象学。博士毕业后，他去了华盛顿的美国气象局大气环流研究组，也就是后来美国国家海洋和大气管理局的地球物理流体动力学实验室，1963 年随实验室迁到普林斯顿。在那里，他与斯马戈林斯基、韦瑟尔德和布赖恩合作，做出了第一个辐射-对流模型、第一个海气耦合模型，以及第一次二氧化碳加倍的三维模拟。1997 年至 2001 年他回日本主持全球变暖研究，之后回到普林斯顿，2021 年分享诺贝尔物理学奖。"
+  },
+  "style": [
+    {
+      "en": "He turned down medicine because \"whenever there's an emergency, the blood rushes to my head,\" and said his only good trait was to gaze at the sky and get lost in thought.",
+      "zh": "他放弃学医，理由是“一遇到紧急情况就脑子充血”；他说自己唯一的长处，是望着天空出神。"
+    },
+    {
+      "en": "He used his models like a chemist's bench: change one thing at a time, run the numerical experiment, and see how temperature and rainfall respond.",
+      "zh": "他像化学家做实验一样用模型：每次只改一个条件，跑一次数值实验，看温度和降水怎么变化。"
+    },
+    {
+      "en": "His book with Anthony Broccoli is only about 200 pages but took more than 15 years to write, because, he said, he had to keep \"boiling down, boiling down.\"",
+      "zh": "他和布罗科利合写的书只有两百页左右，却写了十五年以上。他说，因为得不停地“熬，再熬”。"
+    },
+    {
+      "en": "Colleagues describe him as endlessly curious; Princeton's Gabriel Vecchi said that when you talk to him, \"he is just curious. He wants to understand how the world works.\"",
+      "zh": "同事说他的好奇心没有尽头。普林斯顿的韦基说，和他聊天时，“他就是好奇，想弄明白世界是怎么运转的”。"
+    }
+  ],
+  "timeline": [
+    { "year": 1931, "en": "Born in Shingu village, Ehime Prefecture, Japan", "zh": "生于日本爱媛县新宫村" },
+    { "year": 1953, "en": "BA from the University of Tokyo", "zh": "东京大学本科毕业" },
+    { "year": 1963, "en": "Moves to Princeton with the new Geophysical Fluid Dynamics Laboratory", "zh": "随新成立的地球物理流体动力学实验室迁到普林斯顿" },
+    { "year": 1967, "en": "Radiative-convective model with Wetherald", "zh": "与韦瑟尔德发表辐射-对流模型" },
+    { "year": 1969, "en": "First coupled ocean-atmosphere climate model with Kirk Bryan", "zh": "与布赖恩发表第一个海气耦合气候模型" },
+    { "year": 1975, "en": "First 3-D simulation of doubled CO2; becomes a US citizen", "zh": "发表首个二氧化碳加倍三维模拟；加入美国国籍" },
+    { "year": 1997, "en": "Returns to Japan to lead global-warming research at the Frontier Research System for Global Change", "zh": "回日本，在地球前沿研究系统主持全球变暖研究" },
+    { "year": 2021, "en": "Nobel Prize in Physics", "zh": "获诺贝尔物理学奖" }
+  ],
+  "works": [
+    {
+      "year": 1967,
+      "title": "Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity",
+      "en": "With Wetherald, showed in a simple column model that more CO2 warms the surface and lower atmosphere and cools the stratosphere.",
+      "zh": "与韦瑟尔德合作，用简单的单柱模型证明：二氧化碳增加会使地表和对流层变暖，平流层变冷。"
+    },
+    {
+      "year": 1969,
+      "title": "Climate Calculations with a Combined Ocean-Atmosphere Model",
+      "en": "With Bryan, the first climate simulation coupling an atmospheric circulation model to an ocean model.",
+      "zh": "与布赖恩合作，首次把大气环流模型和海洋模型耦合起来模拟气候。"
+    },
+    {
+      "year": 1975,
+      "title": "The Effects of Doubling the CO2 Concentration on the Climate of a General Circulation Model",
+      "en": "With Wetherald, the first three-dimensional model estimate of how temperature and the water cycle respond to doubled CO2.",
+      "zh": "与韦瑟尔德合作，首次用三维模型估算二氧化碳加倍后温度和水循环的变化。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The prediction of climate change without accompanying understanding of it is no better than prediction of fortune teller.",
+      "zh": "预测气候变化却不理解它，和算命先生的预言没什么两样。",
+      "source": "Telephone interview with Nobelprize.org, 5 October 2021",
+      "url": "https://www.nobelprize.org/prizes/physics/2021/manabe/interview/"
+    },
+    {
+      "text": "If you look at the list of past winners, they are amazing people who have done marvelous work. In contrast, what I have been doing looks trivial to me. But I'm not going to complain!",
+      "zh": "看看历届得主，都是做出了了不起工作的了不起的人。相比之下，我做的事在我自己看来微不足道。不过我可不会抱怨！",
+      "source": "Princeton University news, 5 October 2021",
+      "url": "https://www.princeton.edu/news/2021/10/05/great-fun-manabe-wins-nobel-prize-physics-modeling-climate-change"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Oral history interview with Syukuro Manabe", "publisher": "American Institute of Physics, Niels Bohr Library & Archives", "year": 1989, "url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5040", "lang": "en" },
+    { "kind": "interview", "title": "Syukuro Manabe – Interview", "publisher": "NobelPrize.org", "year": 2021, "url": "https://www.nobelprize.org/prizes/physics/2021/manabe/interview/", "lang": "en" },
+    { "kind": "profile", "title": "'Great fun': Manabe wins Nobel Prize in physics for modeling climate change", "publisher": "Princeton University", "year": 2021, "url": "https://www.princeton.edu/news/2021/10/05/great-fun-manabe-wins-nobel-prize-physics-modeling-climate-change", "lang": "en" },
+    { "kind": "memoir", "title": "Syukuro Manabe – Biographical", "publisher": "NobelPrize.org", "year": 2021, "url": "https://www.nobelprize.org/prizes/physics/2021/manabe/biographical/", "lang": "en" },
+    { "kind": "lecture", "title": "Syukuro Manabe – Nobel Prize lecture", "publisher": "NobelPrize.org", "year": 2021, "url": "https://www.nobelprize.org/prizes/physics/2021/manabe/lecture/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Manabe started with the simplest model that could answer the question, a single column of air, before building up to full 3-D and ocean coupling.",
+      "zh": "真锅先用能回答问题的最简单模型，一根空气柱，再一步步做到三维模型和海气耦合。"
+    },
+    {
+      "key": "long-focus",
+      "en": "He stayed with one question, how the climate system responds to change, for more than 60 years.",
+      "zh": "他守着一个问题，气候系统如何响应变化，做了六十多年。"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "andrew-wiles",
+  "name": { "en": "Andrew Wiles", "zh": "安德鲁·怀尔斯" },
+  "wiki": { "en": "Andrew_Wiles", "zh": "安德魯·懷爾斯" },
+  "disciplines": ["mathematics"],
+  "themes": ["one-idea"],
+  "reasons": ["pioneer"],
+  "born": 1953,
+  "keyWork": { "year": 1994, "en": "Proof of Fermat's Last Theorem via the modularity of semistable elliptic curves", "zh": "通过半稳定椭圆曲线的模性证明费马大定理" },
+  "why": {
+    "en": "He found Fermat's Last Theorem in a library book at ten and decided to solve it. From 1986 he worked on it for seven years in near secrecy, announced a proof in 1993, saw it break, and repaired it in 1994 with Richard Taylor, opening the modern theory of modularity.",
+    "zh": "十岁那年，他在图书馆的一本书里读到费马大定理，决心要解决它。1986 年起，他几乎秘密地干了七年，1993 年宣布证明，随后发现漏洞，1994 年与理查德·泰勒一起补上，由此开启了现代的模性理论。"
+  },
+  "summary": {
+    "en": "Wiles grew up in Cambridge, England, studied at Oxford and took his PhD at Cambridge under John Coates, with whom he proved early results on the Birch and Swinnerton-Dyer conjecture. In 1982 he moved to Princeton. In 1986 Ken Ribet proved that Fermat's Last Theorem would follow from the Taniyama–Shimura conjecture, and Wiles set aside other work to attack it, telling almost no one. He presented a proof in June 1993 at the Isaac Newton Institute in Cambridge; a gap appeared in the autumn, and on 19 September 1994 he found the fix. Too old for a Fields Medal, he received a special IMU silver plaque in 1998 and the Abel Prize in 2016.",
+    "zh": "怀尔斯在英国剑桥长大，在牛津读本科，在剑桥跟随约翰·科茨读博士，两人合作在贝赫和斯维纳通-戴尔猜想上取得了早期成果。1982 年他转到普林斯顿。1986 年，里贝特证明费马大定理可以由谷山-志村猜想推出，怀尔斯随即放下其他工作，几乎不对任何人提起，专攻这个问题。1993 年 6 月，他在剑桥牛顿研究所公布证明；当年秋天证明中出现漏洞，1994 年 9 月 19 日他找到了修补的办法。他已超过菲尔兹奖的年龄限制，1998 年国际数学联盟专门授予他银质纪念牌，2016 年他获得阿贝尔奖。"
+  },
+  "style": [
+    {
+      "en": "He worked in complete isolation for years because, as he told NOVA, anything to do with Fermat generates too much interest and 'you can't really focus yourself for years unless you have undivided concentration'.",
+      "zh": "他多年独自工作。他对 NOVA 解释说，凡是和费马有关的事都会招来太多关注，“没有心无旁骛的专注，你不可能坚持好几年”。"
+    },
+    {
+      "en": "When stuck, he went for a walk, often down by the lake, and kept a pencil and paper ready to sit on a bench and scribble when an idea came.",
+      "zh": "卡住的时候，他就出去散步，常常走到湖边；随身带着纸笔，一有想法就坐到长椅上写。"
+    },
+    {
+      "en": "He said the only way he could relax during those years was with his young children, who 'simply aren't interested in Fermat'.",
+      "zh": "他说那几年唯一能放松的时候是陪孩子，因为小孩子“对费马根本不感兴趣”。"
+    }
+  ],
+  "timeline": [
+    { "year": 1953, "en": "Born in Cambridge, England, on 11 April.", "zh": "4 月 11 日生于英国剑桥。" },
+    { "year": 1963, "en": "Reads about Fermat's Last Theorem in a book from his local library.", "zh": "在家附近的公共图书馆读到关于费马大定理的书。" },
+    { "year": 1980, "en": "Completes his PhD at Cambridge under John Coates.", "zh": "在剑桥获得博士学位，导师为约翰·科茨。" },
+    { "year": 1982, "en": "Becomes a professor at Princeton.", "zh": "任普林斯顿大学教授。" },
+    { "year": 1986, "en": "Learns of Ribet's result and starts working on the Taniyama–Shimura conjecture.", "zh": "得知里贝特的结果，开始攻谷山-志村猜想。" },
+    { "year": 1993, "en": "Announces a proof at the Isaac Newton Institute in June; a gap is found later that year.", "zh": "6 月在牛顿研究所宣布证明，当年晚些时候被发现有漏洞。" },
+    { "year": 1994, "en": "Finds the repair on 19 September, completed with Richard Taylor.", "zh": "9 月 19 日找到修补办法，与泰勒合作完成。" },
+    { "year": 2016, "en": "Receives the Abel Prize.", "zh": "获阿贝尔奖。" }
+  ],
+  "works": [
+    {
+      "year": 1977,
+      "title": "On the conjecture of Birch and Swinnerton-Dyer (with John Coates)",
+      "en": "The first general result on the Birch and Swinnerton-Dyer conjecture, for elliptic curves with complex multiplication.",
+      "zh": "对具有复乘的椭圆曲线，给出贝赫和斯维纳通-戴尔猜想的第一个一般性结果。"
+    },
+    {
+      "year": 1984,
+      "title": "Class fields of abelian extensions of Q (with Barry Mazur)",
+      "en": "Proved the main conjecture of Iwasawa theory over the rationals.",
+      "zh": "证明了有理数域上岩泽理论的主猜想。"
+    },
+    {
+      "year": 1995,
+      "title": "Modular elliptic curves and Fermat's Last Theorem",
+      "en": "Proved modularity for semistable elliptic curves and with it Fermat's Last Theorem; its methods drive much of number theory today.",
+      "zh": "证明半稳定椭圆曲线都是模的，从而证明费马大定理；文中的方法至今推动着数论的大量工作。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Here was a problem, that I, a ten year old, could understand and I knew from that moment that I would never let it go. I had to solve it.",
+      "zh": "这个问题我一个十岁的孩子都能看懂。从那一刻起我就知道，我再也不会放下它。我必须解决它。",
+      "source": "Interview with NOVA, PBS",
+      "url": "https://www.pbs.org/wgbh/nova/article/andrew-wiles-fermat/"
+    },
+    {
+      "text": "Perhaps I can best describe my experience of doing mathematics in terms of a journey through a dark unexplored mansion.",
+      "zh": "要说我做数学的体验，最贴切的比喻也许是：在一座漆黑、无人探过的大宅里摸索前行。",
+      "source": "Interview with NOVA, PBS",
+      "url": "https://www.pbs.org/wgbh/nova/article/andrew-wiles-fermat/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Andrew Wiles on Solving Fermat", "publisher": "NOVA, PBS", "year": 2000, "url": "https://www.pbs.org/wgbh/nova/article/andrew-wiles-fermat/", "lang": "en" },
+    { "kind": "interview", "title": "Interview with Abel Laureate Sir Andrew Wiles (Martin Raussen and Christian Skau)", "publisher": "EMS Newsletter", "year": 2016, "url": "https://ems.press/content/serial-article-files/8717", "lang": "en" },
+    { "kind": "profile", "title": "Celebrating 30 years of Andrew Wiles and Fermat's Last Theorem", "publisher": "Plus Magazine", "year": 2023, "url": "https://plus.maths.org/celebrating-30-years-andrew-wiles-and-fermats-last-theorem", "lang": "en" },
+    { "kind": "archive", "title": "2016: Sir Andrew J. Wiles", "publisher": "The Abel Prize", "year": 2016, "url": "https://abelprize.no/abel-prize-laureates/2016", "lang": "en" },
+    { "kind": "profile", "title": "Andrew John Wiles", "publisher": "MacTutor History of Mathematics", "year": 2023, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wiles/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "long-focus",
+      "en": "Wiles gave seven years to one problem and protected that focus by working quietly. If you take on something huge, guard your attention as carefully as your time.",
+      "zh": "怀尔斯把七年给了一个问题，并靠低调工作守住了这份专注。要啃大问题，就要像守时间一样守住注意力。"
+    },
+    {
+      "key": "important-problem",
+      "en": "He waited until Ribet's result turned a childhood obsession into a problem that was 'professionally acceptable'. Choose a dream problem when there is a real route into it.",
+      "zh": "他一直等到里贝特的结果出来，童年的执念变成了一个“在职业上站得住”的问题，才全力投入。梦想中的问题，要等到有了真正的入口再下手。"
+    }
+  ]
+}

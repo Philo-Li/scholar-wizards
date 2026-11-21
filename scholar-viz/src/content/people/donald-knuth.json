@@ -1,0 +1,56 @@
+{
+  "slug": "donald-knuth",
+  "name": { "en": "Donald Knuth", "zh": "高德纳" },
+  "wiki": { "en": "Donald_Knuth", "zh": "高德纳" },
+  "disciplines": ["computer-science", "mathematics"],
+  "themes": ["own-terms"],
+  "reasons": ["pioneer", "integrity"],
+  "born": 1938,
+  "keyWork": { "year": 1968, "en": "The Art of Computer Programming, Volume 1", "zh": "《计算机程序设计艺术》第一卷" },
+  "why": {
+    "en": "He began The Art of Computer Programming in 1962 and is still writing it; in the process he turned the analysis of algorithms into a mathematical discipline. When the typesetting of his own book looked bad to him, he stopped and spent years writing TeX, which most mathematicians and physicists still use to write papers.",
+    "zh": "他从 1962 年开始写《计算机程序设计艺术》，至今仍在写；在这个过程中，他把算法分析变成了一门数学学科。因为觉得自己书的排版太难看，他停下来花了好几年写出 TeX，至今大多数数学家和物理学家仍用它写论文。"
+  },
+  "summary": {
+    "en": "Knuth grew up in Milwaukee and studied physics, then mathematics, at the Case Institute of Technology. Around his graduation he wrote a compiler for the Burroughs 205, and Burroughs kept him on as a consultant while he did a PhD in mathematics at Caltech, finished in 1963. Addison-Wesley asked him for a book on compilers; it grew into The Art of Computer Programming, whose first volume appeared in 1968, the year he moved to Stanford. He received the Turing Award in 1974. From 1977 he built the TeX typesetting system and the METAFONT font system, then went back to the book; he retired early in 1993 to work on it full time.",
+    "zh": "高德纳在密尔沃基长大，在凯斯理工学院先读物理、后转数学。临近毕业时他为宝来公司的 Burroughs 205 写了一个编译器，此后在加州理工学院读数学博士期间一直给宝来公司做顾问，1963 年毕业。艾迪生–韦斯利出版社请他写一本讲编译器的书，这本书越写越大，成了《计算机程序设计艺术》，第一卷在 1968 年出版，同年他到斯坦福大学任教。1974 年他获图灵奖。1977 年起他开发 TeX 排版系统和 METAFONT 字体系统，完成后又回到这部书上；1993 年他提前退休，专心写书。"
+  },
+  "style": [
+    { "en": "He gave up email on 1 January 1990 and asks correspondents to send paper letters, which he answers in batches.", "zh": "1990 年 1 月 1 日起他不再用电子邮件，请来信的人寄纸质信件，他攒起来集中回复。" },
+    { "en": "He built his house around a two-story pipe organ, and has composed a large organ work, Fantasia Apocalyptica.", "zh": "他的房子是围着一架两层楼高的管风琴建的，他还写过一部大型管风琴作品《启示录幻想曲》。" },
+    { "en": "He pays a reward by cheque to the first person who reports each error in his books.", "zh": "谁第一个指出他书里的某处错误，他就寄一张支票作为奖励。" }
+  ],
+  "timeline": [
+    { "year": 1938, "en": "Born in Milwaukee, Wisconsin.", "zh": "生于威斯康星州密尔沃基。" },
+    { "year": 1960, "en": "Graduates from Case Institute of Technology.", "zh": "毕业于凯斯理工学院。" },
+    { "year": 1962, "en": "Begins writing The Art of Computer Programming.", "zh": "开始写《计算机程序设计艺术》。" },
+    { "year": 1963, "en": "PhD in mathematics from Caltech.", "zh": "获加州理工学院数学博士学位。" },
+    { "year": 1968, "en": "Volume 1 is published; joins Stanford.", "zh": "第一卷出版，同年加入斯坦福大学。" },
+    { "year": 1974, "en": "Receives the ACM Turing Award.", "zh": "获图灵奖。" },
+    { "year": 1977, "en": "Starts work on TeX.", "zh": "开始开发 TeX。" },
+    { "year": 1993, "en": "Retires early to finish The Art of Computer Programming.", "zh": "提前退休，专心完成《计算机程序设计艺术》。" }
+  ],
+  "works": [
+    { "year": 1968, "title": "The Art of Computer Programming", "en": "A multi-volume treatment of algorithms with exact mathematical analysis of their running time, which defined the field of analysis of algorithms.", "zh": "多卷本的算法专著，对算法运行时间做精确的数学分析，奠定了算法分析这一领域。" },
+    { "year": 1978, "title": "TeX", "en": "A typesetting system that made high-quality mathematical typesetting available to anyone and became the standard for technical publishing.", "zh": "一套排版系统，让任何人都能排出高质量的数学公式，成了科技出版的标准。" },
+    { "year": 1984, "title": "Literate Programming", "en": "Argued that programs should be written as explanations for human readers, with code woven into the text.", "zh": "主张程序应该写成给人读的文章，把代码编织进说明文字之中。" }
+  ],
+  "quotes": [
+    {
+      "text": "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things.",
+      "zh": "电子邮件对那些需要时刻掌握一切动态的人是好东西。但对我不是；我的角色是把事情一直钻到底。",
+      "source": "\"Knuth versus Email\", Knuth's Stanford home page",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/email.html"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Oral History of Donald Knuth (interviewed by Edward Feigenbaum)", "publisher": "Computer History Museum", "year": 2007, "url": "https://archive.computerhistory.org/resources/access/text/2013/05/102658053-05-01-acc.pdf", "lang": "en" },
+    { "kind": "interview", "title": "The Computer Scientist Who Can't Stop Telling Stories", "publisher": "Quanta Magazine", "year": 2020, "url": "https://www.quantamagazine.org/computer-scientist-donald-knuth-cant-stop-telling-stories-20200416/", "lang": "en" },
+    { "kind": "interview", "title": "People of ACM – Donald Knuth", "publisher": "ACM", "year": 2014, "url": "https://www.acm.org/articles/people-of-acm/2014/donald-knuth", "lang": "en" },
+    { "kind": "archive", "title": "Donald E. Knuth – A.M. Turing Award Laureate", "publisher": "ACM", "year": 1974, "url": "https://amturing.acm.org/award_winners/knuth_1013846.cfm", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "long-focus", "en": "Knuth has worked on one book for more than sixty years, and cut himself off from email to protect the long, uninterrupted hours it needs.", "zh": "高德纳为一部书写了六十多年，并且为了保住整块不受打扰的时间，干脆断了电子邮件。" },
+    { "key": "craft", "en": "When the tools for printing his book were not good enough, he stopped and built new ones himself.", "zh": "印书的工具不够好，他就停下来，自己动手造新工具。" }
+  ]
+}

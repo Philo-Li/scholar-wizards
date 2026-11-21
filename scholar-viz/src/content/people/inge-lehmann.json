@@ -1,0 +1,156 @@
+{
+  "slug": "inge-lehmann",
+  "name": {
+    "en": "Inge Lehmann",
+    "zh": "英厄·莱曼"
+  },
+  "wiki": {
+    "en": "Inge_Lehmann",
+    "zh": "英厄·莱曼"
+  },
+  "disciplines": [
+    "earth-sciences"
+  ],
+  "themes": [
+    "women",
+    "late"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1888,
+  "keyWork": {
+    "year": 1936,
+    "en": "\"P′\": evidence that the Earth has a solid inner core",
+    "zh": "《P′》：论证地球有一个固态内核"
+  },
+  "why": {
+    "en": "Denmark's only seismologist for decades, she spent her days maintaining instruments, yet from a few P-waves that showed up where the liquid core should have blocked them she inferred in 1936 that the Earth has a solid inner core. After retiring at 65 she kept publishing for three decades; her last paper came out when she was 99.",
+    "zh": "几十年里她是丹麦唯一的地震学家，白天的工作主要是维护仪器。可她从几条本该被液态地核挡住、却出现在记录上的 P 波中推断出：地球有一个固态内核。65 岁退休后，她又发表论文三十多年，最后一篇问世时她 99 岁。"
+  },
+  "summary": {
+    "en": "Lehmann was born in Copenhagen and went to Denmark's first coeducational school, run by Hanna Adler, an aunt of Niels Bohr. She studied mathematics in Copenhagen and at Newnham College, Cambridge, left after a breakdown, worked as an actuarial assistant, and finished her degree only in 1920. In 1925 she became assistant to Niels Erik Nørlund, who was setting up seismic stations in Denmark and Greenland, and in 1928 she was appointed state geodesist and head of the seismology department. Her 1936 paper \"P′\" proposed the inner core; Gutenberg, Richter and Jeffreys adopted it within a few years. After retiring in 1953 she worked for long stretches at Lamont in New York, found a discontinuity in the upper mantle now named after her, and in 1971 became the first woman to receive the American Geophysical Union's Bowie Medal. She died in 1993, aged 104.",
+    "zh": "莱曼生于哥本哈根，上的是丹麦第一所男女同校的学校，校长汉娜·阿德勒是玻尔的姨妈。她先后在哥本哈根大学和剑桥纽纳姆学院学数学，因精神崩溃中断学业，做过精算助理，直到 1920 年才拿到学位。1925 年她给正在丹麦和格陵兰建地震台网的诺伦德当助手，1928 年被任命为国家大地测量师，主管地震部门。1936 年她在论文《P′》中提出地球有内核，几年内古登堡、里克特和杰弗里斯都接受了这一解释。1953 年退休后，她长期在纽约的拉蒙特观测站工作，在上地幔发现了一个以她命名的间断面。1971 年她成为第一位获美国地球物理联合会鲍伊奖章的女性。1993 年去世，享年 104 岁。"
+  },
+  "style": [
+    {
+      "en": "Before computers, she kept earthquake data on cardboard cards sorted in oatmeal boxes; her nephew remembered a garden table covered with them on Sundays.",
+      "zh": "在没有计算机的年代，她把地震数据记在硬纸卡片上，分装在燕麦片盒子里。她的外甥记得，星期天她花园的桌子上摆满了这些盒子。"
+    },
+    {
+      "en": "Quiet and reserved in person, she built her international network by writing letters to seismologists all over the world.",
+      "zh": "她为人安静寡言，却靠频繁写信，与世界各地的地震学家建立了联系。"
+    },
+    {
+      "en": "She objected when her first job turned out to be clerical, saying she would not have accepted it had she known; she was given geometry problems instead, which led her to seismology.",
+      "zh": "她刚入职时发现自己被当作文员使用，当即表示如果事先知道就不会接受这份工作。于是上司改派给她几何计算，她由此走进了地震学。"
+    },
+    {
+      "en": "When Harold Jeffreys dismissed her inner-core idea, she wrote back the line that later titled her biography: \"If I am right, and I know I am.\"",
+      "zh": "杰弗里斯否定她的内核设想时，她在回信里写下了后来成为她传记书名的那句话：“如果我是对的，而我知道我是对的。”"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1888,
+      "en": "Born in Copenhagen",
+      "zh": "生于哥本哈根"
+    },
+    {
+      "year": 1910,
+      "en": "Goes to Newnham College, Cambridge",
+      "zh": "进入剑桥大学纽纳姆学院"
+    },
+    {
+      "year": 1920,
+      "en": "Completes her mathematics degree at the University of Copenhagen",
+      "zh": "在哥本哈根大学完成数学学位"
+    },
+    {
+      "year": 1928,
+      "en": "Appointed state geodesist and head of seismology at the Danish Geodetic Institute",
+      "zh": "任丹麦大地测量研究所国家大地测量师，主管地震部门"
+    },
+    {
+      "year": 1936,
+      "en": "Publishes \"P′\", proposing a solid inner core",
+      "zh": "发表《P′》，提出固态内核"
+    },
+    {
+      "year": 1953,
+      "en": "Retires and begins extended research stays at Lamont",
+      "zh": "退休，开始长期在拉蒙特观测站做研究"
+    },
+    {
+      "year": 1971,
+      "en": "First woman awarded the AGU's William Bowie Medal",
+      "zh": "成为第一位获美国地球物理联合会鲍伊奖章的女性"
+    },
+    {
+      "year": 1993,
+      "en": "Dies in Copenhagen",
+      "zh": "在哥本哈根去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1936,
+      "title": "P′",
+      "en": "Explained faint P-waves in the core's shadow zone by a solid inner core inside the liquid outer core.",
+      "zh": "用液态外核中的固态内核解释了地核影区里微弱的 P 波。"
+    },
+    {
+      "year": 1961,
+      "title": "S and the Structure of the Upper Mantle",
+      "en": "Part of her post-retirement work on the upper mantle, where a seismic discontinuity now bears her name.",
+      "zh": "她退休后研究上地幔的成果之一；那里的一个地震波间断面如今以她命名。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "No difference between the intellect of boys and girls was recognised, a fact that brought some disappointment [to me] later in life when I had to recognise that this was not the general attitude.",
+      "zh": "学校里不承认男孩和女孩在智力上有什么差别。后来我不得不承认，这并不是世人的普遍看法，为此有些失望。",
+      "source": "Lehmann on her school, quoted in APS News, 2023",
+      "url": "https://www.aps.org/apsnews/2023/08/seismologist-lehmann-earth-inner-core"
+    }
+  ],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "September 1936: Seismologist Inge Lehmann Concludes That Earth Has an Inner Core",
+      "publisher": "APS News",
+      "year": 2023,
+      "url": "https://www.aps.org/apsnews/2023/08/seismologist-lehmann-earth-inner-core",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "The overlooked genius of geophysics",
+      "publisher": "University Post, University of Copenhagen",
+      "year": 2025,
+      "url": "https://uniavisen.dk/en/the-overlooked-genius-of-geophysics/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Inge Lehmann: the ground-breaking seismologist who faced a rocky road to success",
+      "publisher": "Physics World",
+      "year": 2025,
+      "url": "https://physicsworld.com/a/inge-lehmann-the-ground-breaking-seismologist-who-faced-a-rocky-road-to-success/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "Lehmann took a few anomalous wave arrivals seriously instead of writing them off, and held her interpretation when Jeffreys disagreed.",
+      "zh": "莱曼认真对待几条反常的波，没有把它们当噪声扔掉；杰弗里斯反对时，她也坚持自己的解释。"
+    },
+    {
+      "key": "long-focus",
+      "en": "She treated retirement at 65 as the start of full-time research and kept publishing for more than three decades.",
+      "zh": "她把 65 岁退休当作全职做研究的开始，此后又发表论文三十多年。"
+    }
+  ]
+}

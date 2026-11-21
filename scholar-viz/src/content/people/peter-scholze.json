@@ -1,0 +1,53 @@
+{
+  "slug": "peter-scholze",
+  "name": { "en": "Peter Scholze", "zh": "彼得·朔尔策" },
+  "wiki": { "en": "Peter_Scholze", "zh": "彼得·朔尔策" },
+  "disciplines": ["mathematics"],
+  "themes": ["early"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1987,
+  "keyWork": { "year": 2011, "en": "Perfectoid spaces (PhD thesis)", "zh": "完美胚空间（博士论文）" },
+  "why": {
+    "en": "He finished his Bonn bachelor's degree in three semesters, and his PhD thesis introduced perfectoid spaces, a framework that turned hard problems about p-adic numbers into easier ones in characteristic p. He became Germany's youngest full professor at 24 and won the Fields Medal at 30.",
+    "zh": "他在波恩大学只用三个学期就读完本科，博士论文提出了“完美胚空间”，把关于 p 进数的难题转化成特征 p 里更容易处理的问题。24 岁时他成为德国最年轻的正教授，30 岁获菲尔兹奖。"
+  },
+  "summary": {
+    "en": "Scholze was born in Dresden and attended Heinrich Hertz Gymnasium, a Berlin school specializing in mathematics and science. He won three gold medals and a silver at the International Mathematical Olympiad. At 16 he set out to understand Andrew Wiles's proof of Fermat's Last Theorem and learned the background by working backward from it. At the University of Bonn, under Michael Rapoport, he wrote a thesis on perfectoid spaces that proved a case of the weight-monodromy conjecture. He became a professor at Bonn in 2012, a director at the Max Planck Institute for Mathematics in 2018, and later developed condensed mathematics with Dustin Clausen.",
+    "zh": "朔尔策生于德累斯顿，中学就读于柏林一所以数理见长的海因里希·赫兹中学，在国际数学奥林匹克拿过三金一银。16 岁时他想读懂怀尔斯对费马大定理的证明，于是倒过来学，缺什么补什么。在波恩大学，他跟随迈克尔·拉波波特，以完美胚空间为题写博士论文，证明了权–单值猜想的一个情形。2012 年他成为波恩大学教授，2018 年出任马克斯·普朗克数学研究所所长，之后又与达斯廷·克劳森一起发展了“凝聚数学”。"
+  },
+  "style": [
+    { "en": "He learns backward: he starts from a result he wants to understand and fills in whatever he needs. He says he never really learned linear algebra on its own, only by learning other things.", "zh": "他倒着学：先抓住想弄懂的结果，再回头补需要的知识。他说自己从没专门学过线性代数，都是在学别的东西时顺带掌握的。" },
+    { "en": "A Bonn classmate, Eugen Hellmann, recalled that Scholze never took notes in class, because he understood the material in real time and did not forget it.", "zh": "波恩的同学欧根·黑尔曼回忆，朔尔策上课从不记笔记，因为他当场就能理解，而且不会忘。" }
+  ],
+  "timeline": [
+    { "year": 1987, "en": "Born in Dresden, Germany.", "zh": "生于德国德累斯顿。" },
+    { "year": 2004, "en": "Begins working through Wiles's proof of Fermat's Last Theorem at 16.", "zh": "16 岁开始钻研怀尔斯对费马大定理的证明。" },
+    { "year": 2011, "en": "Posts his thesis 'Perfectoid spaces'.", "zh": "完成博士论文《完美胚空间》。" },
+    { "year": 2012, "en": "PhD at Bonn under Michael Rapoport; appointed full professor at 24.", "zh": "在波恩大学随拉波波特获博士学位，24 岁被聘为正教授。" },
+    { "year": 2018, "en": "Awarded the Fields Medal; becomes a director of the Max Planck Institute for Mathematics.", "zh": "获菲尔兹奖，并出任马克斯·普朗克数学研究所所长。" },
+    { "year": 2019, "en": "Begins lecturing on condensed mathematics with Dustin Clausen.", "zh": "开始与克劳森合作讲授凝聚数学。" }
+  ],
+  "works": [
+    { "year": 2012, "title": "Perfectoid spaces", "en": "Introduced spaces that let mathematicians move problems between mixed characteristic and characteristic p, and proved new cases of the weight-monodromy conjecture.", "zh": "提出一类空间，让问题可以在混合特征和特征 p 之间来回转移，并证明了权–单值猜想的新情形。" },
+    { "year": 2015, "title": "On torsion in the cohomology of locally symmetric varieties", "en": "Attached Galois representations to torsion classes, a major step in the Langlands program.", "zh": "为挠类构造伽罗瓦表示，是朗兰兹纲领中的重要一步。" },
+    { "year": 2019, "title": "Lectures on Condensed Mathematics (with Dustin Clausen)", "en": "Proposed replacing topological spaces with 'condensed sets' so that algebra and topology fit together cleanly.", "zh": "提出用“凝聚集”代替拓扑空间，让代数和拓扑更顺畅地结合在一起。" }
+  ],
+  "quotes": [
+    {
+      "text": "To this day, that's to a large extent how I learn. I never really learned the basic things like linear algebra, actually — I only assimilated it through learning some other stuff.",
+      "zh": "直到今天，我基本还是这样学东西的。其实我从没真正学过线性代数这类基础课，都是在学别的东西时吸收进来的。",
+      "source": "Quanta Magazine, 2016",
+      "url": "https://www.quantamagazine.org/peter-scholze-and-the-future-of-arithmetic-geometry-20160628/"
+    }
+  ],
+  "links": [
+    { "kind": "profile", "title": "The Oracle of Arithmetic", "publisher": "Quanta Magazine", "year": 2016, "url": "https://www.quantamagazine.org/peter-scholze-and-the-future-of-arithmetic-geometry-20160628/", "lang": "en" },
+    { "kind": "profile", "title": "A Master of Numbers and Shapes Who Is Rewriting Arithmetic", "publisher": "Quanta Magazine", "year": 2018, "url": "https://www.quantamagazine.org/peter-scholze-becomes-one-of-the-youngest-fields-medalists-ever-20180801/", "lang": "en" },
+    { "kind": "interview", "title": "Peter Scholze: „Mathematische Strukturen besser verstehen“", "publisher": "Max-Planck-Gesellschaft", "year": 2018, "url": "https://www.mpg.de/12157366/peter-scholze-interview", "lang": "other" },
+    { "kind": "video", "title": "Interview at CIRM: Peter Scholze", "publisher": "CIRM / Carmin.tv", "year": 2015, "url": "https://www.carmin.tv/en/video/interview-at-cirm-peter-scholze", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "important-problem", "en": "Scholze started from a landmark proof he could not yet read and learned whatever it demanded, instead of waiting until he had covered the basics.", "zh": "朔尔策从一个自己还读不懂的重大证明出发，缺什么学什么，而不是先把基础课按部就班学完。" },
+    { "key": "first-principles", "en": "Rather than patching old tools, he rebuilt foundations: first perfectoid spaces, then condensed mathematics.", "zh": "他不去修补旧工具，而是重建基础：先是完美胚空间，后来是凝聚数学。" }
+  ]
+}

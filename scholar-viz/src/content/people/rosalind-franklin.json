@@ -1,0 +1,157 @@
+{
+  "slug": "rosalind-franklin",
+  "name": {
+    "en": "Rosalind Franklin",
+    "zh": "罗莎琳·富兰克林"
+  },
+  "wiki": {
+    "en": "Rosalind_Franklin",
+    "zh": "羅莎琳·富蘭克林"
+  },
+  "disciplines": [
+    "chemistry",
+    "biology"
+  ],
+  "themes": [
+    "women"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1920,
+  "keyWork": {
+    "year": 1952,
+    "en": "X-ray diffraction of the A and B forms of DNA, including Photograph 51",
+    "zh": "DNA 的 A 型与 B 型 X 射线衍射研究，包括“51 号照片”"
+  },
+  "why": {
+    "en": "In two years at King's College London she separated the two forms of DNA and took Photograph 51, after a 62-hour exposure. Watson and Crick built their double helix partly from her data, which they saw without her knowledge; she died at 37, four years before their Nobel Prize.",
+    "zh": "她在伦敦国王学院的两年里分开了 DNA 的两种形态，并在 62 小时的曝光后拍下“51 号照片”。沃森和克里克的双螺旋模型部分建立在她的数据上，而他们是在她不知情的情况下看到这些数据的。她 37 岁去世，四年后沃森、克里克获得诺贝尔奖。"
+  },
+  "summary": {
+    "en": "Franklin was born in London and read natural sciences at Newnham College, Cambridge. During the war she studied the porosity of coal for the British Coal Utilisation Research Association, which earned her a Cambridge PhD in 1945 and five papers on carbons still cited today. From 1947 to 1950 she worked in Paris with Jacques Mering, learning X-ray diffraction of imperfectly crystalline matter. At King's College London from 1951 she produced the sharpest DNA images of the time and showed how humidity switches DNA between its A and B forms. She moved to Birkbeck College in 1953, worked on the structure of tobacco mosaic and other viruses with Aaron Klug, and died of ovarian cancer in 1958.",
+    "zh": "富兰克林生于伦敦，在剑桥大学纽纳姆学院读自然科学。战时她为英国煤炭利用研究协会研究煤的孔隙结构，1945 年凭此获得剑桥博士学位，相关的五篇碳材料论文至今仍被引用。1947 到 1950 年，她在巴黎跟随雅克·梅林工作，学会了用 X 射线衍射研究不完全结晶的物质。1951 年起她在伦敦国王学院拍出了当时最清晰的 DNA 衍射图，并发现湿度会让 DNA 在 A 型和 B 型之间转换。1953 年她转到伯贝克学院，与阿伦·克卢格一起研究烟草花叶病毒等病毒的结构，1958 年死于卵巢癌。"
+  },
+  "style": [
+    {
+      "en": "Photograph 51 was number 51 in a series she took under different humidity conditions. Her lab notebook records that the DNA was exposed to X-rays for a total of 62 hours.",
+      "zh": "“51 号照片”是她在不同湿度下拍摄的一组照片中的第 51 张。她的实验记录写明，这次 DNA 样品一共曝光了 62 小时。"
+    },
+    {
+      "en": "In mid-1952, after deciding that the A form was not helical, she teased Maurice Wilkins with a mock funeral notice for the crystalline DNA helix.",
+      "zh": "1952 年年中，她判断 A 型 DNA 不是螺旋，还拿一张“结晶 DNA 螺旋讣告”跟威尔金斯开玩笑。"
+    },
+    {
+      "en": "Her biographer Anne Sayre reports that the Paris years were the happiest of her life; she hiked with lab friends on weekends and refused to take money from her parents, living on her own modest salary.",
+      "zh": "传记作者安妮·塞尔说，巴黎那几年是她一生中最快乐的时光。她周末和实验室的朋友去徒步，坚持只靠自己微薄的工资生活，不肯收父母的钱。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1920,
+      "en": "Born in London",
+      "zh": "生于伦敦"
+    },
+    {
+      "year": 1941,
+      "en": "Graduates in natural sciences from Newnham College, Cambridge",
+      "zh": "从剑桥大学纽纳姆学院自然科学专业毕业"
+    },
+    {
+      "year": 1945,
+      "en": "Cambridge PhD for work on the structure of coal",
+      "zh": "以煤结构研究获剑桥博士学位"
+    },
+    {
+      "year": 1947,
+      "en": "Joins Jacques Mering's lab in Paris",
+      "zh": "加入巴黎雅克·梅林的实验室"
+    },
+    {
+      "year": 1951,
+      "en": "Joins King's College London to work on DNA",
+      "zh": "到伦敦国王学院研究 DNA"
+    },
+    {
+      "year": 1952,
+      "en": "Takes Photograph 51 with Raymond Gosling",
+      "zh": "与雷蒙德·葛斯林拍下“51 号照片”"
+    },
+    {
+      "year": 1953,
+      "en": "Publishes in Nature alongside Watson and Crick; moves to Birkbeck College",
+      "zh": "论文与沃森、克里克的论文同期登上《自然》；转到伯贝克学院"
+    },
+    {
+      "year": 1958,
+      "en": "Dies of ovarian cancer in London",
+      "zh": "在伦敦死于卵巢癌"
+    }
+  ],
+  "works": [
+    {
+      "year": 1951,
+      "title": "Crystallite growth in graphitizing and non-graphitizing carbons",
+      "en": "Divided carbons into those that turn into graphite on heating and those that never do, a distinction materials scientists still use.",
+      "zh": "把碳分为加热后能变成石墨和永远不会石墨化的两类，材料科学至今沿用这一区分。"
+    },
+    {
+      "year": 1953,
+      "title": "Molecular Configuration in Sodium Thymonucleate",
+      "en": "Published with Gosling in the same Nature issue as the double helix, giving the X-ray evidence for it.",
+      "zh": "与葛斯林合作，和双螺旋论文同期刊登在《自然》上，提供了双螺旋的 X 射线证据。"
+    },
+    {
+      "year": 1956,
+      "title": "Location of the ribonucleic acid in the tobacco mosaic virus particle",
+      "en": "Showed where the RNA sits inside the virus, part of the Birkbeck work that later helped Aaron Klug win a Nobel Prize.",
+      "zh": "确定了 RNA 在病毒颗粒中的位置，是伯贝克时期工作的一部分，这些工作后来帮助克卢格获得诺贝尔奖。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "What Rosalind Franklin truly contributed to the discovery of DNA's structure",
+      "publisher": "Nature",
+      "year": 2023,
+      "url": "https://www.nature.com/articles/d41586-023-01313-5",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Rosalind Franklin and the Double Helix",
+      "publisher": "Physics Today",
+      "year": 2003,
+      "url": "https://physicstoday.aip.org/features/rosalind-franklin-and-the-double-helix",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "The story behind Photograph 51",
+      "publisher": "King's College London",
+      "url": "https://www.kcl.ac.uk/the-story-behind-photograph-51",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Rosalind Franklin: A Crucial Contribution",
+      "publisher": "Nature Education (Scitable)",
+      "url": "https://www.nature.com/scitable/topicpage/rosalind-franklin-a-crucial-contribution-6538012",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "She controlled humidity and exposure until the images were sharp enough to settle the question; the data, not the model, was her contribution.",
+      "zh": "她控制湿度和曝光，直到图像清晰到足以回答问题。她的贡献在数据，而不在模型。"
+    },
+    {
+      "key": "cross-field",
+      "en": "The X-ray methods she learned on coal and carbon in Paris were what she brought to DNA and viruses.",
+      "zh": "她在巴黎研究煤和碳时学到的 X 射线方法，正是她后来带进 DNA 和病毒研究的本事。"
+    }
+  ]
+}

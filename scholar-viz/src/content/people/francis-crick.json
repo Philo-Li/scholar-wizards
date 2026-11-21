@@ -1,0 +1,110 @@
+{
+  "slug": "francis-crick",
+  "name": { "en": "Francis Crick", "zh": "弗朗西斯·克里克" },
+  "wiki": { "en": "Francis_Crick", "zh": "弗朗西斯·克里克" },
+  "disciplines": ["biology", "neuroscience"],
+  "themes": ["partnerships", "polymaths"],
+  "reasons": ["pioneer", "crossing"],
+  "born": 1916,
+  "keyWork": { "year": 1953, "en": "The double-helix structure of DNA, with James Watson", "zh": "与詹姆斯·沃森提出 DNA 双螺旋结构" },
+  "why": {
+    "en": "A physicist who had spent the war designing naval mines, he switched to biology at 31 knowing, by his own account, almost no biology or chemistry. At 36, still a PhD student, he and James Watson worked out the structure of DNA; at 60 he moved to California and spent his last decades on consciousness.",
+    "zh": "他学物理出身，战时在英国海军部设计水雷，31 岁改行做生物，按他自己的说法，当时几乎不懂生物，也不懂化学。36 岁时他还是博士生，和詹姆斯·沃森一起解出了 DNA 的结构；60 岁他搬到加州，把最后几十年用在意识问题上。"
+  },
+  "summary": {
+    "en": "Crick was born in Northampton, studied physics at University College London, and had his PhD interrupted by the Second World War, which he spent at the Admiralty working on magnetic and acoustic mines. In 1947 he turned to biology, and in 1949 joined the Medical Research Council unit at the Cavendish Laboratory in Cambridge. His friendship with Watson, from 1951, led to the 1953 double-helix model and its copying mechanism; with Sydney Brenner he went on to the adaptor hypothesis and the triplet nature of the genetic code. He shared the 1962 Nobel Prize with Watson and Maurice Wilkins. In 1977 he moved to the Salk Institute in La Jolla to study the brain, and he died in San Diego in 2004.",
+    "zh": "克里克生于英格兰北安普敦，在伦敦大学学院读物理，博士学业被二战打断，战时在海军部研究磁性水雷和声学水雷。1947 年他转向生物学，1949 年加入剑桥卡文迪许实验室的医学研究理事会研究组。1951 年他与沃森结识，1953 年提出双螺旋模型和它的复制机制；此后又与悉尼·布伦纳提出“适配器假说”，证明遗传密码是三联体。1962 年他与沃森、莫里斯·威尔金斯共获诺贝尔奖。1977 年他转到拉霍亚的索尔克研究所研究大脑，2004 年在圣迭戈去世。"
+  },
+  "style": [
+    {
+      "en": "He chose his field by what he called the 'gossip test': whatever you find yourself gossiping about is what you are really interested in. For him that was the borderline between the living and the nonliving, and the brain.",
+      "zh": "他用自己所说的“闲聊测试”选方向：你平时总在闲聊什么，就说明你真正对什么感兴趣。对他来说，那是生命与非生命的边界，以及大脑。"
+    },
+    {
+      "en": "Arriving in biology in 1947 with practically no organic chemistry or crystallography, he spent the next few years learning the elements of these subjects, while helping work out the theory of X-ray diffraction by a helix.",
+      "zh": "1947 年他进入生物学时几乎不懂有机化学和晶体学，此后几年一边补这些基础，一边参与推导螺旋分子的 X 射线衍射理论。"
+    },
+    {
+      "en": "With Watson he split the work by background: he took the X-ray and structural side, Watson the biology.",
+      "zh": "他和沃森按背景分工：他负责 X 射线和结构，沃森负责生物学。"
+    },
+    {
+      "en": "Christof Koch, his collaborator on consciousness, said Crick delighted in playing devil's advocate for several generations of young researchers.",
+      "zh": "和他合作研究意识的克里斯托夫·科赫说，克里克很乐意给一代又一代年轻研究者唱反调。"
+    }
+  ],
+  "timeline": [
+    { "year": 1916, "en": "Born in Northampton, England.", "zh": "生于英格兰北安普敦。" },
+    { "year": 1937, "en": "BSc in physics, University College London.", "zh": "获伦敦大学学院物理学学士学位。" },
+    { "year": 1939, "en": "PhD interrupted by war; joins the Admiralty to work on mines.", "zh": "博士学业因战争中断，进入海军部研究水雷。" },
+    { "year": 1947, "en": "Leaves the Admiralty to study biology in Cambridge.", "zh": "离开海军部，到剑桥学生物。" },
+    { "year": 1953, "en": "Proposes the DNA double helix with Watson.", "zh": "与沃森提出 DNA 双螺旋。" },
+    { "year": 1954, "en": "Completes his PhD on X-ray diffraction of proteins.", "zh": "以蛋白质 X 射线衍射研究获博士学位。" },
+    { "year": 1962, "en": "Nobel Prize in Physiology or Medicine, with Watson and Wilkins.", "zh": "与沃森、威尔金斯共获诺贝尔生理学或医学奖。" },
+    { "year": 1977, "en": "Moves to the Salk Institute to study the brain and consciousness.", "zh": "转到索尔克研究所研究大脑与意识。" },
+    { "year": 2004, "en": "Dies in San Diego.", "zh": "在圣迭戈去世。" }
+  ],
+  "works": [
+    {
+      "year": 1953,
+      "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+      "en": "The one-page Nature paper that gave the double helix and hinted at how genes copy themselves.",
+      "zh": "发表在《自然》上的一页纸论文，提出双螺旋，并点出基因复制的方式。"
+    },
+    {
+      "year": 1958,
+      "title": "On Protein Synthesis",
+      "en": "Set out the sequence hypothesis and the 'central dogma' of information flow from nucleic acid to protein.",
+      "zh": "提出序列假说和“中心法则”：遗传信息从核酸流向蛋白质。"
+    },
+    {
+      "year": 1961,
+      "title": "General Nature of the Genetic Code for Proteins",
+      "en": "With Brenner and colleagues, used phage mutants to show that the code is read in triplets.",
+      "zh": "与布伦纳等人用噬菌体突变体证明，遗传密码按三个碱基一组读取。"
+    },
+    {
+      "year": 1994,
+      "title": "The Astonishing Hypothesis: The Scientific Search for the Soul",
+      "en": "His argument that consciousness can be studied as the behaviour of nerve cells, which helped make it a scientific topic.",
+      "zh": "他主张意识可以当作神经细胞的活动来研究，这本书帮意识成了正经的科学课题。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It has not escaped our notice that the specific pairing that we have postulated immediately suggests a possible copying mechanism for the genetic material.",
+      "zh": "我们注意到，我们所设想的这种特定配对，立刻暗示了遗传物质的一种可能的复制机制。",
+      "source": "Watson and Crick, Nature, 1953",
+      "url": "https://www.nature.com/articles/171737a0"
+    },
+    {
+      "text": "The gossip test is simply that whatever you find yourself gossiping about is what you’re really interested in.",
+      "zh": "所谓闲聊测试很简单：你发现自己总在闲聊什么，那就是你真正感兴趣的东西。",
+      "source": "Quoted in Salk Institute obituary, 2004",
+      "url": "https://www.salk.edu/news-release/francis-harry-compton-crick-1916-2004/"
+    }
+  ],
+  "links": [
+    { "kind": "obituary", "title": "Francis Harry Compton Crick 1916-2004", "publisher": "Salk Institute", "year": 2004, "url": "https://www.salk.edu/news-release/francis-harry-compton-crick-1916-2004/", "lang": "en" },
+    { "kind": "obituary", "title": "Francis Crick (1916–2004)", "publisher": "Nature", "year": 2004, "url": "https://www.nature.com/articles/430845a", "lang": "en" },
+    { "kind": "obituary", "title": "Francis Crick", "publisher": "Nature News", "year": 2004, "url": "https://www.nature.com/articles/news040726-12", "lang": "en" },
+    { "kind": "memoir", "title": "Francis Crick – Biographical", "publisher": "NobelPrize.org", "year": 1962, "url": "https://www.nobelprize.org/prizes/medicine/1962/crick/biographical/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "important-problem",
+      "en": "Crick picked his problems by asking what he could not stop talking about, and twice chose the deepest open question in sight: the nature of the gene, then consciousness.",
+      "zh": "克里克选题的办法，是看自己停不下来谈论什么。他两次都选了眼前最根本的未解问题：先是基因的本质，后是意识。"
+    },
+    {
+      "key": "cross-field",
+      "en": "He carried a physicist's habit of thinking in structures and mechanisms into a biology that was still largely descriptive.",
+      "zh": "他把物理学家从结构和机制入手的思路，带进了当时还以描述为主的生物学。"
+    },
+    {
+      "key": "right-partner",
+      "en": "His work with Watson, and later Brenner, ran on constant argument between people with different training.",
+      "zh": "他和沃森、后来和布伦纳的合作，都是靠不同训练背景的人不停争论推进的。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "amos-tversky",
+  "name": { "en": "Amos Tversky", "zh": "阿莫斯·特沃斯基" },
+  "wiki": { "en": "Amos_Tversky", "zh": "阿摩司·特沃斯基" },
+  "disciplines": ["psychology", "economics"],
+  "themes": ["partnerships"],
+  "reasons": ["pioneer", "crossing"],
+  "born": 1937,
+  "keyWork": { "year": 1974, "en": "Judgment under Uncertainty: Heuristics and Biases, with Daniel Kahneman", "zh": "与卡尼曼合写《不确定条件下的判断：启发法与偏差》" },
+  "why": {
+    "en": "A paratroop officer decorated for bravery became the mathematical half of the partnership with Daniel Kahneman that showed people judge probability by shortcuts that fail in predictable ways. Kenneth Arrow said economists had always brushed off psychologists' criticism, but that \"no such defense was possible against Amos' work.\"",
+    "zh": "一位因英勇获勋的伞兵军官，成了他和卡尼曼这对搭档中偏数学的那一半。两人证明，人估计概率靠的是一些思维捷径，而这些捷径会以可预测的方式出错。阿罗说，经济学家向来对心理学家的批评不以为然，“但面对阿莫斯的工作，这种辩解行不通”。"
+  },
+  "summary": {
+    "en": "Tversky was born in Haifa; his father was a veterinarian and his mother a member of the Knesset from 1948 until her death. He served as a paratroop officer in three wars, studied at the Hebrew University, and earned a PhD at the University of Michigan in 1965. From 1969 he worked with Daniel Kahneman at the Hebrew University, producing the papers on heuristics and biases and on prospect theory that founded behavioural economics. He joined Stanford's faculty in 1978 and won a MacArthur fellowship in 1984. He died of metastatic melanoma in 1996, six years before Kahneman received the Nobel Prize for their joint work; the prize is not awarded posthumously.",
+    "zh": "特沃斯基生于海法，父亲是兽医，母亲从 1948 年起任以色列议会议员，直到去世。他当过伞兵军官，打过三场战争，后在希伯来大学读书，1965 年在密歇根大学获博士学位。从 1969 年起，他在希伯来大学与卡尼曼合作，写出了关于启发法与偏差、关于前景理论的论文，奠定了行为经济学。1978 年他进入斯坦福大学任教，1984 年获麦克阿瑟奖。1996 年他死于转移性黑色素瘤，六年后卡尼曼因两人的共同工作获诺贝尔奖，而诺贝尔奖不授予已故者。"
+  },
+  "style": [
+    {
+      "en": "He was a night person and Kahneman a morning person, so their collaboration ran on lunches followed by long afternoons of talk; Kahneman wrote that people who knew Tversky often called him the smartest person they knew, and that he had an endless supply of jokes.",
+      "zh": "他是夜猫子，卡尼曼习惯早起，于是两人的合作靠的是午饭加一下午的长谈。卡尼曼写道，认识特沃斯基的人常说他是自己见过最聪明的人，而且他的笑话总也讲不完。"
+    },
+    {
+      "en": "He found research problems in ordinary life: a Stanford faculty meeting that delayed one job offer until another was settled became, in his hands, a line of laboratory experiments on decision-making.",
+      "zh": "他从日常生活里找研究题目：斯坦福一次教授会议上，大家想等第一份聘书有了结果再发第二份，他指出没必要等，随后又在实验室里证明人们普遍会这样做。"
+    },
+    {
+      "en": "Colleagues described him as a perfectionist who held high standards for himself and others yet was modest and helpful; Stanford's psychology chair said that on any serious departmental issue people asked, \"Have you talked to Amos yet?\"",
+      "zh": "同事说他是完美主义者，对自己和别人要求都高，却谦和、乐于助人。斯坦福心理学系主任说，系里每逢大事，大家都会问一句：“问过阿莫斯了吗？”"
+    },
+    {
+      "en": "In 1956 he received Israel's highest honour for personal bravery after running forward to drag away a soldier who had frozen on top of a lit explosive charge; he carried metal fragments in his body for the rest of his life.",
+      "zh": "1956 年，一名士兵点燃炸药后吓呆了，趴在炸药上不动，他冲上去把人拖开，自己受了伤。他因此获得以色列个人英勇的最高荣誉，此后弹片一直留在身体里。"
+    }
+  ],
+  "timeline": [
+    { "year": 1937, "en": "Born in Haifa.", "zh": "生于海法。" },
+    { "year": 1956, "en": "Receives Israel's highest honour for personal bravery as a paratroop officer.", "zh": "作为伞兵军官获以色列个人英勇最高荣誉。" },
+    { "year": 1961, "en": "Graduates from the Hebrew University of Jerusalem.", "zh": "从耶路撒冷希伯来大学毕业。" },
+    { "year": 1965, "en": "Earns a PhD at the University of Michigan.", "zh": "在密歇根大学获博士学位。" },
+    { "year": 1969, "en": "Begins working with Daniel Kahneman.", "zh": "开始与卡尼曼合作。" },
+    { "year": 1978, "en": "Joins the Stanford faculty.", "zh": "进入斯坦福大学任教。" },
+    { "year": 1984, "en": "Receives a MacArthur fellowship.", "zh": "获麦克阿瑟奖。" },
+    { "year": 1996, "en": "Dies at his home at Stanford.", "zh": "在斯坦福家中去世。" }
+  ],
+  "works": [
+    { "year": 1971, "title": "Belief in the Law of Small Numbers", "en": "The first Tversky–Kahneman paper, showing that even trained researchers expect small samples to look like the population.", "zh": "特沃斯基和卡尼曼的第一篇合作论文，指出连受过训练的研究者也以为小样本会和总体长得一样。" },
+    { "year": 1974, "title": "Judgment under Uncertainty: Heuristics and Biases", "en": "The Science paper that named representativeness, availability and anchoring and set off a large body of research across fields.", "zh": "发表在《科学》上，提出代表性、可得性和锚定三种启发法，在多个学科引发了大量后续研究。" },
+    { "year": 1977, "title": "Features of Similarity", "en": "A feature-based model of similarity judgments that challenged geometric models, still a reference point in cognitive science.", "zh": "提出基于特征的相似性判断模型，挑战了几何模型，至今仍是认知科学的基本参照。" },
+    { "year": 1979, "title": "Prospect Theory: An Analysis of Decision under Risk", "en": "With Kahneman, a descriptive theory of choice under risk built on reference points and loss aversion.", "zh": "与卡尼曼合作，提出以参照点和损失厌恶为基础的风险决策描述性理论。" }
+  ],
+  "quotes": [
+    {
+      "text": "growing up in a country that's fighting for survival, you're perhaps more likely to think simultaneously about applied and theoretical problems.",
+      "zh": "在一个为生存而战的国家长大，你可能更容易同时去想应用问题和理论问题。",
+      "source": "Said in 1985; quoted in the Stanford News Service obituary, 1996",
+      "url": "https://web.archive.org/web/2005/http://news.stanford.edu/pr/96/960605tversky.html"
+    }
+  ],
+  "links": [
+    { "kind": "obituary", "title": "Amos Tversky, leading decision researcher, dies at 59", "publisher": "Stanford News Service (Internet Archive copy)", "year": 1996, "url": "https://web.archive.org/web/2005/http://news.stanford.edu/pr/96/960605tversky.html", "lang": "en" },
+    { "kind": "memoir", "title": "Daniel Kahneman – Biographical (long section on working with Tversky)", "publisher": "NobelPrize.org", "year": 2002, "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/", "lang": "en" },
+    { "kind": "profile", "title": "How Two Trailblazing Psychologists Turned the World of Decision Science Upside Down", "publisher": "Vanity Fair", "year": 2016, "url": "https://www.vanityfair.com/news/2016/11/decision-science-daniel-kahneman-amos-tversky", "lang": "en" },
+    { "kind": "profile", "title": "Amos Tversky, Behavioral Finance, and Nobel Prizes", "publisher": "Financial Analysts Journal (CFA Institute)", "year": 1996, "url": "https://rpc.cfainstitute.org/en/research/financial-analysts-journal/1996/amos-tversky-behavioral-finance-and-nobel-prizes", "lang": "en" },
+    { "kind": "interview", "title": "The Men Who Started a Thinking Revolution (Michael Lewis on Kahneman and Tversky)", "publisher": "Freakonomics Radio", "year": 2024, "url": "https://freakonomics.com/podcast/the-men-who-started-a-thinking-revolution-update/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "curiosity", "en": "Tversky treated everyday decisions, even a faculty meeting, as raw material for experiments.", "zh": "特沃斯基把日常的决定，哪怕是一次教授会议，都当成实验的素材。" },
+    { "key": "right-partner", "en": "He paired his mathematical rigour with Kahneman's intuitions about error; Kahneman wrote that they could finish each other's sentences yet kept surprising each other.", "zh": "他用自己的数学严谨去配卡尼曼对错误的直觉。卡尼曼写道，两人能接上对方没说完的话，却仍不断让对方感到意外。" }
+  ]
+}

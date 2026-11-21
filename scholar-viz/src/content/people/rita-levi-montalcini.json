@@ -1,0 +1,186 @@
+{
+  "slug": "rita-levi-montalcini",
+  "name": {
+    "en": "Rita Levi-Montalcini",
+    "zh": "丽塔·列维-蒙塔尔奇尼"
+  },
+  "wiki": {
+    "en": "Rita_Levi-Montalcini",
+    "zh": "丽塔·列维-蒙塔尔奇尼"
+  },
+  "disciplines": [
+    "neuroscience",
+    "biology"
+  ],
+  "themes": [
+    "women",
+    "outsiders"
+  ],
+  "reasons": [
+    "opening",
+    "path",
+    "integrity"
+  ],
+  "born": 1909,
+  "keyWork": {
+    "year": 1952,
+    "en": "Discovery of nerve growth factor (NGF)",
+    "zh": "发现神经生长因子（NGF）"
+  },
+  "why": {
+    "en": "Her father would not let his daughters go to university, and Mussolini's racial laws later barred her, as a Jew, from academic work; she set up a laboratory in her bedroom in Turin and studied chick embryos there during the war. That line of work led her, in St. Louis, to the first known growth factor, and a Nobel Prize in 1986.",
+    "zh": "父亲不让女儿上大学；后来墨索里尼的种族法又因为她是犹太人，把她挡在学术界之外。战争期间，她在都灵家中的卧室里搭了个实验室研究鸡胚。沿着这条线，她后来在圣路易斯发现了人类所知的第一种生长因子，1986 年获诺贝尔奖。"
+  },
+  "summary": {
+    "en": "Levi-Montalcini and her twin sister were born in Turin in 1909 into a cultured Jewish family run on Victorian lines. At twenty she persuaded her father to let her study, made up Latin, Greek and mathematics in eight months, and graduated in medicine from Turin in 1936, a classmate of Salvador Luria and Renato Dulbecco. Barred from the university by the racial laws, she repeated Viktor Hamburger's limb-removal experiments on chick embryos at home, moving her lab to a country cottage when bombing began and then hiding in Florence until the war ended. In 1947 Hamburger invited her to Washington University in St. Louis for a few months; she stayed for decades, found that a mouse tumour released a factor that made nerves grow, and with biochemist Stanley Cohen purified it as nerve growth factor. She later set up a research unit in Rome, became a senator for life in 2001, and died in Rome in 2012 at 103.",
+    "zh": "列维-蒙塔尔奇尼和孪生姐妹 1909 年生于都灵一个有教养的犹太家庭，家规是维多利亚式的。二十岁时她说服父亲让她读书，用八个月补完拉丁文、希腊文和数学，1936 年从都灵大学医学院毕业，同学里有萨尔瓦多·卢里亚和雷纳托·杜尔贝科。种族法把她赶出大学后，她在家里重复维克托·汉堡格做过的鸡胚切除肢芽实验；都灵遭轰炸后，她把实验室搬到乡下小屋，后来又躲到佛罗伦萨，直到战争结束。1947 年汉堡格邀她去圣路易斯华盛顿大学待几个月，结果她一待就是几十年。她发现一种小鼠肿瘤能释放促进神经生长的因子，又与生物化学家斯坦利·科恩一起把它纯化出来，命名为神经生长因子。后来她在罗马建立研究所，2001 年成为终身参议员，2012 年在罗马去世，享年 103 岁。"
+  },
+  "style": [
+    {
+      "en": "At twenty she decided she could not accept the feminine role her father had in mind, asked his permission to pursue a career, and filled her gaps in Latin, Greek and mathematics in eight months.",
+      "zh": "二十岁时，她认定自己无法接受父亲设想的女性角色，请求父亲允许她去工作，然后用八个月补上了拉丁文、希腊文和数学。"
+    },
+    {
+      "en": "Her wartime home lab was built around one paper: a 1934 article by Viktor Hamburger on the effects of removing limbs from chick embryos.",
+      "zh": "她战时的家庭实验室，是围绕一篇论文搭起来的：维克托·汉堡格 1934 年关于切除鸡胚肢芽的文章。"
+    },
+    {
+      "en": "She went to St. Louis planning to stay ten to twelve months and kept postponing her return because the results were too good to leave.",
+      "zh": "她去圣路易斯时打算待十到十二个月，因为实验结果太好，回国的日子一推再推。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1909,
+      "en": "Born in Turin, Italy, with her twin sister Paola.",
+      "zh": "与孪生姐妹保拉生于意大利都灵。"
+    },
+    {
+      "year": 1936,
+      "en": "Graduates summa cum laude in medicine and surgery, University of Turin.",
+      "zh": "以最优等成绩从都灵大学医学院毕业。"
+    },
+    {
+      "year": 1938,
+      "en": "Racial laws bar Jews from academic careers.",
+      "zh": "种族法禁止犹太人从事学术职业。"
+    },
+    {
+      "year": 1940,
+      "en": "Sets up a laboratory in her bedroom and studies chick embryos.",
+      "zh": "在卧室里建实验室，研究鸡胚。"
+    },
+    {
+      "year": 1947,
+      "en": "Joins Viktor Hamburger at Washington University in St. Louis.",
+      "zh": "赴圣路易斯华盛顿大学与汉堡格合作。"
+    },
+    {
+      "year": 1952,
+      "en": "Shows a tumour-derived factor drives nerve growth, the discovery of NGF.",
+      "zh": "证明肿瘤来源的一种因子能促进神经生长，即发现 NGF。"
+    },
+    {
+      "year": 1986,
+      "en": "Nobel Prize in Physiology or Medicine, shared with Stanley Cohen.",
+      "zh": "与斯坦利·科恩共获诺贝尔生理学或医学奖。"
+    },
+    {
+      "year": 2001,
+      "en": "Appointed senator for life in Italy.",
+      "zh": "被任命为意大利终身参议员。"
+    },
+    {
+      "year": 2012,
+      "en": "Dies in Rome, aged 103.",
+      "zh": "在罗马去世，享年 103 岁。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1951,
+      "title": "Selective growth stimulating effects of mouse sarcoma on the sensory and sympathetic nervous system of the chick embryo",
+      "en": "With Hamburger, showed that a mouse tumour grafted onto chick embryos made nearby nerves overgrow, the first clue to NGF.",
+      "zh": "与汉堡格合作，发现移植到鸡胚上的小鼠肿瘤能让附近神经过度生长，这是 NGF 的第一条线索。"
+    },
+    {
+      "year": 1986,
+      "title": "The Nerve Growth Factor: Thirty-Five Years Later",
+      "en": "Her Nobel lecture, tracing how a single observation in chick embryos became the field of growth factors.",
+      "zh": "她的诺贝尔演讲，讲鸡胚里的一个观察如何发展成整个生长因子领域。"
+    },
+    {
+      "year": 1987,
+      "title": "Elogio dell'imperfezione",
+      "en": "Her autobiography, In Praise of Imperfection, on family, persecution and a life in science.",
+      "zh": "她的自传《赞美不完美》，写家庭、迫害和科学生涯。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I then decided to build a small research unit at home and installed it in my bedroom.",
+      "zh": "于是我决定在家里建一个小小的研究室，就放在我的卧室里。",
+      "source": "Autobiography, nobelprize.org, 1986",
+      "url": "https://www.nobelprize.org/prizes/medicine/1986/levi-montalcini/biographical/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "memoir",
+      "title": "Rita Levi-Montalcini – Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 1986,
+      "url": "https://www.nobelprize.org/prizes/medicine/1986/levi-montalcini/biographical/",
+      "lang": "en"
+    },
+    {
+      "kind": "video",
+      "title": "Rita Levi-Montalcini – Interview",
+      "publisher": "NobelPrize.org",
+      "year": 1986,
+      "url": "https://www.nobelprize.org/prizes/medicine/1986/levi-montalcini/interview/",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "The Nerve Growth Factor: Thirty-Five Years Later",
+      "publisher": "NobelPrize.org",
+      "year": 1986,
+      "url": "https://www.nobelprize.org/prizes/medicine/1986/levi-montalcini/lecture/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Finding the Good in the Bad: A Profile of Rita Levi-Montalcini",
+      "publisher": "Scientific American",
+      "year": 2012,
+      "url": "https://www.scientificamerican.com/article/finding-the-good-rita-levi-montalcini/",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Nobel-winning biologist Rita Levi-Montalcini dies at 103",
+      "publisher": "NBC News",
+      "year": 2012,
+      "url": "https://www.nbcnews.com/id/50324234",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "Shut out of every institution, she kept working with what one room allowed. The bedroom experiments became the groundwork for her later discovery.",
+      "zh": "所有机构都把她拒之门外，她就用一间屋子能提供的条件继续干。卧室里的实验成了她后来那项发现的基础。"
+    },
+    {
+      "key": "curiosity",
+      "en": "She followed a puzzling result, a tumour that made nerves sprout, far beyond her planned few months abroad.",
+      "zh": "肿瘤为什么会让神经长出来？她追着这个怪现象走下去，远远超出了原本只在国外待几个月的计划。"
+    },
+    {
+      "key": "right-partner",
+      "en": "Her biological intuition and Stanley Cohen's biochemistry together turned a vague 'factor' into a purified protein.",
+      "zh": "她的生物学直觉加上斯坦利·科恩的生物化学，把一个模糊的“因子”变成了纯化的蛋白质。"
+    }
+  ]
+}

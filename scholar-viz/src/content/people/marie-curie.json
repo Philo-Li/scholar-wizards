@@ -1,0 +1,84 @@
+{
+  "slug": "marie-curie",
+  "name": { "en": "Marie Curie", "zh": "玛丽·居里" },
+  "wiki": { "en": "Marie_Curie", "zh": "玛丽·居里" },
+  "disciplines": ["physics", "chemistry"],
+  "themes": ["women", "partnerships"],
+  "reasons": ["opening", "pioneer"],
+  "born": 1867,
+  "keyWork": { "year": 1898, "en": "Discovery of polonium and radium, with Pierre Curie", "zh": "与皮埃尔·居里一起发现钋和镭" },
+  "why": {
+    "en": "Working in a leaky former dissecting room next to the ESPCI in Paris, she found that radioactivity is a property of the atom and used it to discover two new elements. From a tonne of pitchblende she and Pierre extracted a tenth of a gram of radium chloride, and she became the first person to win Nobel Prizes in two sciences.",
+    "zh": "她在巴黎高等物理化工学院旁一间漏雨的旧解剖室里做实验，发现放射性是原子本身的性质，并用它找到了两种新元素。她和皮埃尔从一吨沥青铀矿里提炼出十分之一克氯化镭。她是第一个在两门科学里都拿到诺贝尔奖的人。"
+  },
+  "summary": {
+    "en": "Maria Skłodowska was born in Warsaw under Russian rule, where women could not enter university; she studied at the clandestine Flying University. In 1891 she followed her sister to Paris and studied physics and mathematics at the Sorbonne. In 1895 she married Pierre Curie, and in 1898 the two announced polonium and radium. They shared the 1903 Nobel Prize in Physics with Henri Becquerel. After Pierre was killed in a street accident in 1906 she took over his chair, the first woman professor at the University of Paris, and won the 1911 Nobel Prize in Chemistry alone. During the First World War she set up mobile X-ray units for field hospitals. She died in 1934 of aplastic anaemia, probably caused by radiation.",
+    "zh": "玛丽亚·斯克沃多夫斯卡生于俄国统治下的华沙，那里的大学不收女生，她只能在地下的“流动大学”读书。1891 年她随姐姐到巴黎，在索邦读物理和数学。1895 年她与皮埃尔·居里结婚，1898 年两人宣布发现钋和镭。1903 年他们与贝克勒尔分享诺贝尔物理学奖。1906 年皮埃尔死于街头车祸，她接任他的教席，成为巴黎大学第一位女教授，1911 年又独得诺贝尔化学奖。第一次世界大战期间，她为野战医院组建了流动 X 光车。1934 年她死于再生障碍性贫血，病因很可能是长期接触放射线。"
+  },
+  "style": [
+    {
+      "en": "She measured radioactivity with an electrometer that Pierre and his brother had built, finding that the activity of uranium compounds depended only on the amount of uranium. That quantitative habit led her to see that pitchblende was too active to be explained by uranium alone.",
+      "zh": "她用皮埃尔兄弟研制的静电计测放射性，发现铀化合物的放射性只取决于其中铀的含量。正是这种定量的习惯，让她注意到沥青铀矿的放射性太强，单靠铀解释不了。"
+    },
+    {
+      "en": "The Curies had no proper laboratory; they worked in a converted shed, formerly a medical school dissecting room, that was poorly ventilated and not waterproof.",
+      "zh": "居里夫妇没有像样的实验室，是在一间改造过的棚屋里工作的。那里原是医学院的解剖室，通风很差，还漏雨。"
+    },
+    {
+      "en": "The Curies chose not to patent their method for isolating radium, and benefited little from the radium industry that grew from it.",
+      "zh": "居里夫妇没有为提炼镭的方法申请专利，后来兴起的镭工业也几乎没让他们得到什么收益。"
+    },
+    {
+      "en": "She worked unprotected with radioactive material for decades. Her notebooks are still radioactive and are expected to stay so for well over a thousand years.",
+      "zh": "她几十年里在毫无防护的情况下接触放射性物质。她的笔记本至今仍有放射性，预计一千多年后才会消退。"
+    }
+  ],
+  "timeline": [
+    { "year": 1867, "en": "Born in Warsaw, then part of the Russian Empire", "zh": "生于当时属俄罗斯帝国的华沙" },
+    { "year": 1891, "en": "Moves to Paris to study at the Sorbonne", "zh": "到巴黎索邦求学" },
+    { "year": 1895, "en": "Marries Pierre Curie", "zh": "与皮埃尔·居里结婚" },
+    { "year": 1898, "en": "With Pierre, announces the discovery of polonium and radium", "zh": "与皮埃尔宣布发现钋和镭" },
+    { "year": 1903, "en": "Shares the Nobel Prize in Physics with Pierre Curie and Henri Becquerel", "zh": "与皮埃尔·居里、贝克勒尔分享诺贝尔物理学奖" },
+    { "year": 1906, "en": "Pierre dies; she succeeds him, the first woman professor at the University of Paris", "zh": "皮埃尔去世，她接任教席，成为巴黎大学第一位女教授" },
+    { "year": 1911, "en": "Sole winner of the Nobel Prize in Chemistry", "zh": "独得诺贝尔化学奖" },
+    { "year": 1934, "en": "Dies of aplastic anaemia at Passy, Haute-Savoie", "zh": "因再生障碍性贫血在上萨瓦省帕西去世" }
+  ],
+  "works": [
+    {
+      "year": 1898,
+      "title": "Sur une substance nouvelle radio-active, contenue dans la pechblende",
+      "en": "Announced polonium, the first element found by its radioactivity, and set out the method of hunting elements this way.",
+      "zh": "宣布发现钋，这是第一个靠放射性找到的元素，也确立了用放射性寻找新元素的方法。"
+    },
+    {
+      "year": 1903,
+      "title": "Recherches sur les substances radioactives",
+      "en": "Her doctoral thesis, a full account of the work on radioactivity that won the Nobel Prize the same year.",
+      "zh": "她的博士论文，系统总结了放射性研究，同年这项工作获得诺贝尔奖。"
+    },
+    {
+      "year": 1910,
+      "title": "Isolation of radium metal (with André-Louis Debierne)",
+      "en": "Produced pure metallic radium, settling doubts that radium was a true element.",
+      "zh": "制出纯金属镭，打消了人们对镭是否真是一种元素的怀疑。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "archive", "title": "Marie Curie and the Science of Radioactivity", "publisher": "American Institute of Physics, Center for History of Physics", "year": 2000, "url": "https://history.aip.org/exhibits/curie/", "lang": "en" },
+    { "kind": "lecture", "title": "Radium and the New Concepts in Chemistry (Nobel Lecture)", "publisher": "NobelPrize.org", "year": 1911, "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/lecture/", "lang": "en" },
+    { "kind": "memoir", "title": "Marie Curie: Biographical", "publisher": "NobelPrize.org", "year": 1903, "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "When pitchblende measured more active than its uranium could explain, she trusted the number and spent four years of hard chemistry tracking down the cause.",
+      "zh": "沥青铀矿的读数高出铀所能解释的范围，她相信这个数字，用四年繁重的化学分离把原因找了出来。"
+    },
+    {
+      "key": "right-partner",
+      "en": "Her early measurements were convincing enough that by mid-1898 Pierre dropped his own work on crystals to join her. A good result is the best way to recruit a partner.",
+      "zh": "她最初的测量结果很有说服力，到 1898 年年中，皮埃尔放下自己的晶体研究加入进来。拉到合作者，最好的办法是拿出好结果。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "ignaz-semmelweis",
+  "name": { "en": "Ignaz Semmelweis", "zh": "伊格纳茨·塞麦尔维斯" },
+  "wiki": { "en": "Ignaz_Semmelweis", "zh": "伊格纳茨·塞麦尔维斯" },
+  "disciplines": ["medicine"],
+  "themes": ["vindicated"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1818,
+  "keyWork": { "year": 1847, "en": "Chlorinated-lime handwashing at the Vienna General Hospital's First Obstetric Clinic", "zh": "在维也纳总医院第一产科推行漂白粉洗手" },
+  "why": {
+    "en": "In 1847, two decades before germ theory, he noticed that the doctors' maternity ward in Vienna lost several times more mothers to childbed fever than the midwives' ward, and made everyone wash in chlorinated lime; deaths in his ward fell from 18.27% to 1.27% the next year. Most of his colleagues rejected the idea, and he died in an asylum in 1865.",
+    "zh": "1847 年，比细菌学说早了二十年，他注意到维也纳医生负责的产房死于产褥热的产妇是助产士产房的好几倍，于是要求所有人用漂白粉溶液洗手；第二年他病房的死亡率从 18.27% 降到 1.27%。多数同行不接受，1865 年他死在一家精神病院。"
+  },
+  "summary": {
+    "en": "Semmelweis was born in Buda, began studying law in Vienna to please his father, then switched to medicine and graduated in 1844. As an assistant at the Vienna General Hospital's First Obstetric Clinic he compared death rates between its two wards and, after his colleague Jakob Kolletschka died of a scalpel wound with the same signs as childbed fever, concluded that doctors coming from autopsies carried \"cadaverous particles\" to women in labour. His handwashing rule cut deaths sharply, but his superior Johann Klein never accepted it and dismissed him in 1849. Back in Hungary he eliminated childbed fever at Pest's Szent Rókus Hospital and published his book only in 1861; its rejection embittered him. He was committed to an asylum near Vienna in 1865 and died there two weeks later, before Lister and Pasteur made his case for him.",
+    "zh": "塞麦尔维斯生于布达，为了顺从父亲先在维也纳读法律，后来转学医学，1844 年毕业。他在维也纳总医院第一产科当助理，比较了两个病房的死亡率。同事雅各布·科勒奇卡在尸检时被手术刀划伤，死前症状与产褥热一模一样，他由此断定：医生从解剖室出来，把“尸体颗粒”带给了待产的妇女。他的洗手规定让死亡率大幅下降，但上司约翰·克莱因始终不认，1849 年把他解雇。回到匈牙利后，他在佩斯的圣罗库斯医院消灭了产褥热，直到 1861 年才出书，书遭冷遇让他越来越愤懑。1865 年他被送进维也纳附近的精神病院，两周后去世。此后李斯特和巴斯德的工作才替他证明了这一切。"
+  },
+  "style": [
+    {
+      "en": "He tested his own hands first: soap, water and a nail brush, then chlorinated water, then the cheaper chlorinated lime used to whiten paper and clean stables.",
+      "zh": "他先在自己手上试：肥皂、清水加指甲刷，然后是氯水，最后选了更便宜的漂白粉，就是当时用来漂白纸张、清洗马厩的那种。"
+    },
+    {
+      "en": "He built his case on numbers, filling his 1861 book with tables comparing births and deaths across wards, hospitals and years.",
+      "zh": "他靠数字说话。1861 年的书里满是表格，按病房、医院、年份对比出生数和死亡数。"
+    },
+    {
+      "en": "He was slow to publish, waiting until 1861 to set out his evidence, and insisted that cadaverous matter was the only cause of the fever, which made it easier for critics to dismiss him.",
+      "zh": "他迟迟不发表，直到 1861 年才把证据完整写出来；他又坚持尸体物质是产褥热的唯一病因，这让反对者更容易把他打发掉。"
+    },
+    {
+      "en": "At Szent Rókus he fought administrators over dirty bed linen, once throwing soiled sheets onto an official's desk; later he wrote open letters accusing colleagues of a \"massacre\".",
+      "zh": "在圣罗库斯医院，他为脏床单和管理者争吵，有一次把脏床单扔到一位官员的办公桌上；后来他写公开信，指责同行在制造“屠杀”。"
+    }
+  ],
+  "timeline": [
+    { "year": 1818, "en": "Born in Buda, Hungary.", "zh": "生于匈牙利布达。" },
+    { "year": 1844, "en": "Graduates in medicine from the University of Vienna.", "zh": "从维也纳大学医学院毕业。" },
+    { "year": 1846, "en": "Becomes assistant at the First Obstetric Clinic, Vienna General Hospital.", "zh": "任维也纳总医院第一产科助理。" },
+    { "year": 1847, "en": "After Kolletschka's death, introduces chlorinated-lime handwashing; deaths fall sharply.", "zh": "科勒奇卡死后，推行漂白粉洗手，死亡率骤降。" },
+    { "year": 1849, "en": "Dismissed from the clinic by Johann Klein.", "zh": "被克莱因解雇。" },
+    { "year": 1851, "en": "Takes charge of obstetrics at Szent Rókus Hospital in Pest.", "zh": "主持佩斯圣罗库斯医院产科。" },
+    { "year": 1861, "en": "Publishes his book on the cause and prevention of childbed fever.", "zh": "出版论产褥热病因与预防的专著。" },
+    { "year": 1865, "en": "Dies in an asylum near Vienna, aged 47.", "zh": "死于维也纳附近的精神病院，终年 47 岁。" }
+  ],
+  "works": [
+    {
+      "year": 1847,
+      "title": "Chlorinated-lime handwashing rule, First Obstetric Clinic, Vienna",
+      "en": "The first hospital hand-disinfection policy backed by before-and-after mortality figures.",
+      "zh": "第一项有前后死亡率数据支撑的医院手部消毒制度。"
+    },
+    {
+      "year": 1861,
+      "title": "Die Ätiologie, der Begriff und die Prophylaxis des Kindbettfiebers",
+      "en": "His full statistical case that childbed fever is carried on examiners' hands and can be prevented.",
+      "zh": "他用统计数据完整论证：产褥热是由检查者的手传播的，可以预防。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "profile", "title": "Ignaz Semmelweis", "publisher": "Science History Institute", "year": 2025, "url": "https://www.sciencehistory.org/education/scientific-biographies/ignaz-semmelweis/", "lang": "en" },
+    { "kind": "profile", "title": "The father of handwashing", "publisher": "Wellcome Collection", "year": 2020, "url": "https://wellcomecollection.org/stories/X9eRxRIAACMA1BZa", "lang": "en" },
+    { "kind": "profile", "title": "Ignaz Philipp Semmelweis (1818–1865): herald of hygienic medicine", "publisher": "The Medical Journal of Australia", "year": 2018, "url": "https://www.mja.com.au/journal/2018/209/11/ignaz-philipp-semmelweis-1818-1865-herald-hygienic-medicine", "lang": "en" },
+    { "kind": "profile", "title": "Ignaz Semmelweis", "publisher": "Linda Hall Library", "year": 2021, "url": "https://www.lindahall.org/about/news/scientist-of-the-day/ignaz-semmelweis/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "Semmelweis did not have a theory of germs; he had two wards, a death count and a controlled change. Counting carefully was enough to be right.",
+      "zh": "塞麦尔维斯并不知道细菌，他手里只有两个病房、一份死亡统计和一次对照改变。仔细地数，就足以让他是对的。"
+    },
+    {
+      "key": "communicate",
+      "en": "His delay in publishing and his attacks on colleagues let a correct result be ignored for years. Being right is not the same as persuading.",
+      "zh": "他迟迟不发表，又攻击同行，一个正确的结果因此被搁置多年。对了，不等于说服了别人。"
+    }
+  ]
+}

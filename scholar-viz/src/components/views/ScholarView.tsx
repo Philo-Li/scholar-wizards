@@ -16,6 +16,11 @@ interface Position {
 }
 
 export interface ScholarPageData {
+  why:
+    | { kind: 'collection' }
+    | { kind: 'rising'; rank: number; n: number; m: number; first: number }
+    | { kind: 'core'; rank: number; n: number; subRank: number; subN: number };
+  chapter: { slug: string; name: { en: string; zh: string } } | null;
   raw: RawScholar;
   row: ScholarRow;
   primarySlug: string;
@@ -97,6 +102,33 @@ export function ScholarView({ data }: { data: ScholarPageData }) {
         <Stat value={formatInt(raw.works)} label={t.common.works} />
         <Stat value={formatInt(row.recent)} label={t.common.recentCites} />
       </div>
+
+      <section aria-labelledby="why" className="mt-10 max-w-prose border-l-2 border-rulestrong pl-5">
+        <h2 id="why" className="font-sans text-[14px] font-medium text-ink3">{t.scholar.whyTitle}</h2>
+        <p className="mt-1.5 text-[16.5px] leading-relaxed">
+          {data.why.kind === 'collection' && t.scholar.whyCollection}
+          {data.why.kind === 'rising' &&
+            fmt(t.scholar.whyRising, { field, first: data.why.first, m: data.why.m.toFixed(2), rank: data.why.rank, n: data.why.n })}
+          {data.why.kind === 'core' &&
+            fmt(t.scholar.whyCore, {
+              field,
+              name: raw.name,
+              rank: data.why.rank,
+              n: data.why.n,
+              sub: data.why.subRank
+                ? fmt(t.scholar.whySub, { rank: data.why.subRank, n: data.why.subN, subfield: subfieldName(raw.subfield, language) })
+                : '',
+            })}
+          {raw.hyper && data.why.kind === 'core' && <> {t.scholar.whyHyper}</>}
+        </p>
+        {data.chapter && (
+          <p className="mt-3 font-sans text-[14.5px]">
+            <Link href={`/people/${data.chapter.slug}`} className="link">
+              {fmt(t.scholar.chapterLink, { name: data.chapter.name[language] })}
+            </Link>
+          </p>
+        )}
+      </section>
 
       {raw.hyper && (
         <p className="mt-8 max-w-prose text-[15.5px] leading-relaxed text-ink2 border-l-2 border-rule pl-4">{t.scholar.flagged}</p>

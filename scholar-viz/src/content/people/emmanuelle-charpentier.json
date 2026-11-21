@@ -1,0 +1,167 @@
+{
+  "slug": "emmanuelle-charpentier",
+  "name": {
+    "en": "Emmanuelle Charpentier",
+    "zh": "埃玛纽埃勒·沙尔庞捷"
+  },
+  "wiki": {
+    "en": "Emmanuelle_Charpentier",
+    "zh": "埃玛纽埃勒·沙尔庞捷"
+  },
+  "disciplines": [
+    "biology"
+  ],
+  "themes": [
+    "women",
+    "partnerships"
+  ],
+  "reasons": [
+    "pioneer",
+    "path"
+  ],
+  "born": 1968,
+  "keyWork": {
+    "year": 2011,
+    "en": "Discovery of tracrRNA and its role in CRISPR-Cas9, then the 2012 Cas9 mechanism with Doudna",
+    "zh": "发现 tracrRNA 及其在 CRISPR-Cas9 中的作用，随后与道德纳阐明 Cas9 的切割机制"
+  },
+  "why": {
+    "en": "She worked in ten institutions across five countries, and did the decisive CRISPR work at Umeå in northern Sweden, where the long winters gave her quiet. Her 2011 discovery of tracrRNA in a throat-infection bacterium was the piece that, with Jennifer Doudna, became the CRISPR-Cas9 editing tool.",
+    "zh": "她辗转五个国家的十家机构。决定性的 CRISPR 工作是在瑞典北部的于默奥做的，那里漫长的冬天给了她清静。2011 年她在一种引起咽喉感染的细菌里发现了 tracrRNA，正是这一块拼图，后来与道德纳一起拼成了 CRISPR-Cas9 编辑工具。"
+  },
+  "summary": {
+    "en": "Charpentier was born in Juvisy-sur-Orge near Paris, studied at Pierre and Marie Curie University, and did her doctorate at the Pasteur Institute, which she had told her mother at 12 she would one day work at. She then spent years in the United States, at Rockefeller University, New York University and St. Jude Children's Research Hospital in Memphis. She started her own group at the University of Vienna, moved to Umeå University in 2009, and from there published the tracrRNA paper in Nature in 2011. After the 2012 Science paper with Doudna she moved to Braunschweig and then Berlin, where she has led a Max Planck unit for the science of pathogens since 2018. She and Doudna shared the 2020 Nobel Prize in Chemistry, the first time two women shared a science Nobel.",
+    "zh": "沙尔庞捷生于巴黎附近的瑞维西-絮尔-奥尔日，在巴黎第六大学（皮埃尔和玛丽·居里大学）读书，在巴斯德研究所读博士。她 12 岁时就对母亲说过，将来要去巴斯德研究所工作。之后她在美国待了多年，先后在洛克菲勒大学、纽约大学和孟菲斯的圣犹大儿童研究医院工作。她在维也纳大学建立了自己的课题组，2009 年转到于默奥大学，2011 年从那里在《自然》上发表 tracrRNA 论文。2012 年与道德纳在《科学》上发表论文后，她先去了不伦瑞克，再到柏林，2018 年起领导马克斯·普朗克病原体科学研究单元。她和道德纳分享了 2020 年诺贝尔化学奖，这是第一次由两位女性分享科学类诺贝尔奖。"
+  },
+  "style": [
+    {
+      "en": "Times Higher Education counts her career as five countries, 10 institutions and 13 departments; she argues that scientists need to leave the \"comfortable life\" to do new things.",
+      "zh": "据《泰晤士高等教育》统计，她的职业生涯跨了五个国家、十家机构、十三个院系。她认为科学家要离开“舒适的生活”，才能做出新东西。"
+    },
+    {
+      "en": "She played piano from about six until her mid-teens and danced ballet until nearly thirty, and says the repetition, method and self-discipline of ballet are what science also needs.",
+      "zh": "她六七岁开始学钢琴，学到十四五岁；芭蕾一直跳到将近三十岁。她说芭蕾里的反复练习、讲究方法、对自己严格，也正是科研需要的。"
+    },
+    {
+      "en": "A 2016 Nature profile describes her as a microbiologist who \"spent years moving labs and relishing solitude\".",
+      "zh": "2016 年《自然》的人物特写形容她“多年辗转于各个实验室，享受独处”。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1968,
+      "en": "Born in Juvisy-sur-Orge, France",
+      "zh": "生于法国瑞维西-絮尔-奥尔日"
+    },
+    {
+      "year": 1995,
+      "en": "Doctorate from the Pasteur Institute",
+      "zh": "在巴斯德研究所获博士学位"
+    },
+    {
+      "year": 2002,
+      "en": "Starts her own group at the University of Vienna",
+      "zh": "在维也纳大学建立自己的课题组"
+    },
+    {
+      "year": 2009,
+      "en": "Moves to Umeå University, Sweden",
+      "zh": "转到瑞典于默奥大学"
+    },
+    {
+      "year": 2011,
+      "en": "Publishes the discovery of tracrRNA in Nature",
+      "zh": "在《自然》发表 tracrRNA 的发现"
+    },
+    {
+      "year": 2012,
+      "en": "Publishes the Cas9 mechanism with Doudna in Science",
+      "zh": "与道德纳在《科学》发表 Cas9 切割机制"
+    },
+    {
+      "year": 2015,
+      "en": "Becomes a director at the Max Planck Institute for Infection Biology, Berlin",
+      "zh": "出任柏林马克斯·普朗克感染生物学研究所所长"
+    },
+    {
+      "year": 2020,
+      "en": "Shares the Nobel Prize in Chemistry with Doudna",
+      "zh": "与道德纳分享诺贝尔化学奖"
+    }
+  ],
+  "works": [
+    {
+      "year": 2011,
+      "title": "CRISPR RNA maturation by trans-encoded small RNA and host factor RNase III",
+      "en": "Found tracrRNA in Streptococcus pyogenes, the small RNA that Cas9 needs to work.",
+      "zh": "在化脓性链球菌中发现 tracrRNA，这是 Cas9 发挥作用所必需的小 RNA。"
+    },
+    {
+      "year": 2012,
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "en": "With Doudna's lab, showed that Cas9 plus two RNAs, or one fused guide RNA, cuts DNA at a chosen site.",
+      "zh": "与道德纳实验室合作，证明 Cas9 加上两条 RNA，或一条融合的向导 RNA，就能在指定位置切开 DNA。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It's a lot of methodology and it's a lot of failure. It's part of being a researcher. Experiments very often fail technically, so we have to troubleshoot.",
+      "zh": "这里面有大量的方法，也有大量的失败。这就是做研究的一部分。实验经常在技术上失败，我们就得排查问题。",
+      "source": "Interview recorded in Stockholm, NobelPrize.org, 12 December 2022",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/charpentier/1371685-interview-transcript/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Transcript from an interview with Emmanuelle Charpentier",
+      "publisher": "NobelPrize.org",
+      "year": 2022,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/charpentier/1371685-interview-transcript/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "The quiet revolutionary: How the co-discovery of CRISPR explosively changed Emmanuelle Charpentier's life",
+      "publisher": "Nature",
+      "year": 2016,
+      "url": "https://www.nature.com/news/the-quiet-revolutionary-how-the-co-discovery-of-crispr-explosively-changed-emmanuelle-charpentier-s-life-1.19814",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "How a peripatetic career made Emmanuelle Charpentier a Nobelist",
+      "publisher": "Times Higher Education",
+      "year": 2023,
+      "url": "https://www.timeshighereducation.com/news/how-peripatetic-career-made-emmanuelle-charpentier-nobelist",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Emmanuelle Charpentier: An artist in gene editing",
+      "publisher": "Max Planck Society",
+      "year": 2017,
+      "url": "https://www.mpg.de/10729312/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Emmanuelle Charpentier: Women who changed science",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/stories/women-who-changed-science/emmanuelle-charpentier/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "leave-mainstream",
+      "en": "She kept moving to places where she could work independently, including a small institute in northern Sweden, rather than staying where the careers were safest.",
+      "zh": "她一再搬到能独立做研究的地方，包括瑞典北部的一个小研究所，而不是待在职业最稳妥的地方。"
+    },
+    {
+      "key": "right-partner",
+      "en": "Her lab found the missing RNA; Doudna's lab had the biochemistry and structural tools. Together they turned a bacterial curiosity into a tool.",
+      "zh": "她的实验室找到了缺失的那条 RNA，道德纳的实验室有生化和结构手段。两边合在一起，把细菌里的一个奇特现象变成了工具。"
+    }
+  ]
+}

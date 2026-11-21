@@ -1,0 +1,167 @@
+{
+  "slug": "dorothy-hodgkin",
+  "name": {
+    "en": "Dorothy Hodgkin",
+    "zh": "多萝西·霍奇金"
+  },
+  "wiki": {
+    "en": "Dorothy_Hodgkin",
+    "zh": "多萝西·霍奇金"
+  },
+  "disciplines": [
+    "chemistry"
+  ],
+  "themes": [
+    "women"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1910,
+  "keyWork": {
+    "year": 1956,
+    "en": "X-ray structure of vitamin B12",
+    "zh": "用 X 射线解出维生素 B12 的结构"
+  },
+  "why": {
+    "en": "She solved the structures of penicillin and vitamin B12 with X-rays, then spent 35 years on insulin, which she first photographed in 1934 and finally solved in 1969. When rheumatoid arthritis left her unable to work the X-ray switch, she had a long lever fitted and kept going.",
+    "zh": "她用 X 射线解出了青霉素和维生素 B12 的结构，又为胰岛素花了 35 年：1934 年拍下第一张照片，1969 年才解出来。类风湿关节炎让她的手按不动 X 射线机的开关，她就请人装了一根长杠杆，接着干。"
+  },
+  "summary": {
+    "en": "Dorothy Crowfoot was born in Cairo, where her father worked in the Egyptian education service, and grew up partly in the Sudan and partly in Norfolk. At school she was one of two girls allowed to join the boys' chemistry class. She studied chemistry at Somerville College, Oxford, then spent two years in Cambridge with J. D. Bernal, who was turning X-ray crystallography toward biological molecules. Back in Oxford from 1934, she worked for decades in scattered rooms of the University Museum, solving penicillin during the war, vitamin B12 in the 1950s and insulin in 1969. She won the 1964 Nobel Prize in Chemistry alone, the third woman to win it.",
+    "zh": "多萝西·克劳福特生于开罗，父亲当时在埃及教育部门任职。她的童年一半在苏丹，一半在英格兰诺福克。中学里只有两个女生获准跟男生一起上化学课，她是其中之一。她在牛津大学萨默维尔学院读化学，之后去剑桥跟贝尔纳待了两年，那时贝尔纳正把 X 射线晶体学用到生物分子上。1934 年回到牛津后，她在大学博物馆里几间分散的屋子里工作了几十年：战时解出青霉素，五十年代解出维生素 B12，1969 年解出胰岛素。1964 年她独得诺贝尔化学奖，是第三位获得这个奖的女性。"
+  },
+  "style": [
+    {
+      "en": "She started at about ten, after a school lesson in which the class grew crystals; she then set up a lab at home with glassware and crystals bought from the local chemist.",
+      "zh": "大约十岁时，学校一堂课让学生自己培养晶体，她从此着了迷，在家里搭起实验室，器皿和晶体都是从药房买来的。"
+    },
+    {
+      "en": "Rheumatoid arthritis struck in her late twenties and deformed her hands. When she could no longer work the main switch of the X-ray equipment, she had a long lever made for it and carried on.",
+      "zh": "二十多岁末，她患上类风湿关节炎，双手变形。按不动 X 射线设备的总开关，她就让人做了一根长杠杆，照常做实验。"
+    },
+    {
+      "en": "Her Nobel biography describes her research group as \"a somewhat casual organisation of students and visitors\"; until 1958 it was housed in scattered rooms in the Oxford University Museum.",
+      "zh": "她的诺贝尔奖小传说，她的课题组一直是“学生和访客组成的松散团体”，1958 年之前就挤在牛津大学博物馆里几间分散的房间。"
+    },
+    {
+      "en": "Even with worsening arthritis she kept up a heavy schedule of travel to conferences, often taking a family member along to help and using a wheelchair between sessions.",
+      "zh": "关节炎越来越重，她仍然满世界开会，常带一位家人同行帮忙，会场之间坐轮椅移动。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1910,
+      "en": "Born in Cairo, Egypt",
+      "zh": "生于埃及开罗"
+    },
+    {
+      "year": 1928,
+      "en": "Enters Somerville College, Oxford, to read chemistry",
+      "zh": "进入牛津大学萨默维尔学院读化学"
+    },
+    {
+      "year": 1932,
+      "en": "Moves to Cambridge to work with J. D. Bernal",
+      "zh": "去剑桥跟随贝尔纳做研究"
+    },
+    {
+      "year": 1934,
+      "en": "Returns to Oxford; takes her first X-ray photographs of insulin",
+      "zh": "回到牛津，拍下第一批胰岛素 X 射线照片"
+    },
+    {
+      "year": 1956,
+      "en": "Publishes the structure of vitamin B12",
+      "zh": "发表维生素 B12 的结构"
+    },
+    {
+      "year": 1964,
+      "en": "Sole winner of the Nobel Prize in Chemistry",
+      "zh": "独得诺贝尔化学奖"
+    },
+    {
+      "year": 1969,
+      "en": "Her group solves the structure of insulin, 35 years after she began",
+      "zh": "课题组解出胰岛素结构，距她开始已过 35 年"
+    },
+    {
+      "year": 1994,
+      "en": "Dies in Warwickshire, England",
+      "zh": "在英格兰沃里克郡去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1949,
+      "title": "The X-ray crystallographic investigation of the structure of penicillin",
+      "en": "Showed that penicillin contains a beta-lactam ring, settling a wartime debate that chemical methods could not resolve.",
+      "zh": "证明青霉素含有 β-内酰胺环，解决了化学方法争论多年也定不下来的问题。"
+    },
+    {
+      "year": 1956,
+      "title": "Structure of vitamin B12",
+      "en": "The largest molecule solved by X-rays at the time, done with early computers; it was the main work cited for her Nobel Prize.",
+      "zh": "当时用 X 射线解出的最大分子，借助了早期计算机，是她获诺贝尔奖的主要依据。"
+    },
+    {
+      "year": 1969,
+      "title": "Structure of rhombohedral 2 zinc insulin crystals",
+      "en": "The first structure of insulin, a protein she had first photographed 35 years earlier.",
+      "zh": "第一次给出胰岛素的三维结构，她在 35 年前就拍下了这种蛋白质的第一张照片。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Chemistry was the first one, and it began with a session in which we grew crystals, and I just liked doing this ever afterwards.",
+      "zh": "第一门就是化学，第一堂课是培养晶体，从那以后我就一直喜欢做这件事。",
+      "source": "Web of Stories video interview, \"Developing an early interest in science\"",
+      "url": "https://www.webofstories.com/play/dorothy.hodgkin/1"
+    }
+  ],
+  "links": [
+    {
+      "kind": "video",
+      "title": "Dorothy Hodgkin tells her life story",
+      "publisher": "Web of Stories",
+      "url": "https://www.webofstories.com/play/dorothy.hodgkin/1",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Two Nobel laureates in conversation: Robert Robinson listens to Dorothy Hodgkin's account of her life scientific",
+      "publisher": "Notes and Records of the Royal Society",
+      "year": 2023,
+      "url": "https://eprints.whiterose.ac.uk/189608/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Dorothy Hodgkin FRS: Scientists with disabilities",
+      "publisher": "The Royal Society",
+      "url": "https://royalsociety.org/topics-policy/diversity-in-science/scientists-with-disabilities/dorothy-hodgkin",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Dorothy Crowfoot Hodgkin: Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 1964,
+      "url": "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/biographical/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "long-focus",
+      "en": "She kept insulin on her bench for 35 years, solving other molecules along the way while the methods caught up with the problem.",
+      "zh": "她把胰岛素留在手边 35 年，其间先解出别的分子，等方法追上问题。"
+    },
+    {
+      "key": "craft",
+      "en": "When her body made the equipment hard to use, she changed the equipment rather than the work.",
+      "zh": "身体让仪器变得难用，她改的是仪器，不是工作。"
+    }
+  ]
+}

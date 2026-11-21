@@ -1,0 +1,165 @@
+{
+  "slug": "alfred-wegener",
+  "name": {
+    "en": "Alfred Wegener",
+    "zh": "阿尔弗雷德·魏格纳"
+  },
+  "wiki": {
+    "en": "Alfred_Wegener",
+    "zh": "阿尔弗雷德·魏格纳"
+  },
+  "disciplines": [
+    "earth-sciences"
+  ],
+  "themes": [
+    "vindicated",
+    "polymaths",
+    "outsiders"
+  ],
+  "reasons": [
+    "pioneer",
+    "crossing",
+    "timing"
+  ],
+  "born": 1880,
+  "keyWork": {
+    "year": 1912,
+    "en": "Theory of continental displacement (continental drift)",
+    "zh": "提出大陆漂移说"
+  },
+  "why": {
+    "en": "A meteorologist and polar explorer, not a geologist, he told the Geological Association in 1912 that the continents had once been joined and had drifted apart. Critics called it \"utter, damned rot\" and he could not get a chair at any German university; he died on the Greenland ice cap in 1930, a quarter-century before paleomagnetism and seafloor studies proved the continents do move.",
+    "zh": "他是气象学家和极地探险家，不是地质学家。1912 年他在地质学会上说，各大陆原本连在一起，后来才漂开。批评者骂这是“十足的胡扯”，他在德国找不到教授职位。1930 年他死在格陵兰冰盖上，二十多年后，古地磁和海底研究才证明大陆确实在移动。"
+  },
+  "summary": {
+    "en": "Wegener was born in Berlin and took a doctorate in astronomy at the University of Berlin, then switched to meteorology, using kites and balloons to study the upper air. In 1906 he and his brother Kurt set a world record by staying aloft in a balloon for more than 52 hours, and the same year he joined a Danish expedition to northeast Greenland. His 1911 textbook on the thermodynamics of the atmosphere became a standard in Germany. In 1912 he first presented continental drift, and in 1915 set it out in The Origin of Continents and Oceans, revising it until 1929 while geologists attacked both the theory and him. He became professor of meteorology and geophysics at Graz in 1924 and died in November 1930 while leading an expedition across the Greenland ice sheet.",
+    "zh": "魏格纳生于柏林，在柏林大学拿的是天文学博士，后来转向气象学，用风筝和气球研究高空大气。1906 年他和弟弟库尔特乘气球在空中停留超过 52 小时，创下世界纪录；同年他加入丹麦探险队，去了格陵兰东北海岸。他 1911 年写的大气热力学教材成了德国的标准课本。1912 年他第一次公开提出大陆漂移，1915 年写成《海陆的起源》，此后一直修订到 1929 年，地质学界则同时攻击这个理论和他本人。1924 年他到奥地利格拉茨大学任气象学和地球物理学教授，1930 年 11 月在带队穿越格陵兰冰盖时去世。"
+  },
+  "style": [
+    {
+      "en": "The idea started with a map. In December 1910 he wrote to his future wife asking whether the east coast of South America did not fit exactly against the west coast of Africa, adding that it was an idea he would have to pursue.",
+      "zh": "这个想法起于一张地图。1910 年 12 月，他写信问未婚妻：南美洲东岸不是正好能拼上非洲西岸吗？还说这个想法他得追下去。"
+    },
+    {
+      "en": "A Marburg colleague, Hans Benndorf, recalled that after a long pause he would say \"I believe such and such,\" and was usually right, as rigorous analysis showed days later.",
+      "zh": "马尔堡的同事本多夫回忆，他常常沉思许久，然后说一句“我认为是这样”，几天后严格推算的结果多半证明他是对的。"
+    },
+    {
+      "en": "Not being a geologist, he went to geologists for help: Hans Cloos remembered a visitor who \"spun out an extremely strange train of thought\" about the Earth and asked for geological facts.",
+      "zh": "他不是地质学家，就去找地质学家帮忙。汉斯·克洛斯记得，有个人来访，讲了一套“极其古怪的思路”，然后请他提供地质事实。"
+    },
+    {
+      "en": "At the hostile 1926 symposium on his theory in New York, he said little and sat smoking his pipe, listening.",
+      "zh": "1926 年在纽约讨论他理论的研讨会上，许多发言近乎嘲讽。他没说几句话，只是抽着烟斗听。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1880,
+      "en": "Born in Berlin",
+      "zh": "生于柏林"
+    },
+    {
+      "year": 1906,
+      "en": "Balloon endurance record with his brother Kurt; joins the Danish expedition to northeast Greenland",
+      "zh": "与弟弟创下气球滞空纪录；加入丹麦探险队赴格陵兰东北部"
+    },
+    {
+      "year": 1911,
+      "en": "Publishes Thermodynamik der Atmosphäre",
+      "zh": "出版《大气热力学》"
+    },
+    {
+      "year": 1912,
+      "en": "Presents continental displacement to the Geological Association in Frankfurt on 6 January",
+      "zh": "1 月 6 日在法兰克福地质学会上提出大陆漂移"
+    },
+    {
+      "year": 1915,
+      "en": "Publishes Die Entstehung der Kontinente und Ozeane",
+      "zh": "出版《海陆的起源》"
+    },
+    {
+      "year": 1924,
+      "en": "Professor of meteorology and geophysics at the University of Graz",
+      "zh": "任格拉茨大学气象学和地球物理学教授"
+    },
+    {
+      "year": 1926,
+      "en": "His theory is attacked at an international symposium in New York",
+      "zh": "他的理论在纽约国际研讨会上遭到围攻"
+    },
+    {
+      "year": 1930,
+      "en": "Dies on the Greenland ice sheet during his last expedition",
+      "zh": "在最后一次探险中死于格陵兰冰盖"
+    }
+  ],
+  "works": [
+    {
+      "year": 1911,
+      "title": "Thermodynamik der Atmosphäre",
+      "en": "His meteorology lectures as a book; it became a standard text in Germany.",
+      "zh": "由他的气象学讲义整理成书，成为德国的标准教材。"
+    },
+    {
+      "year": 1915,
+      "title": "Die Entstehung der Kontinente und Ozeane",
+      "en": "Gathered fossil, geological and climate evidence that the continents had been joined; the 1922 edition named the supercontinent Pangaea.",
+      "zh": "汇集化石、地质和古气候证据，论证各大陆曾经相连；1922 年版把那块超级大陆称为泛大陆。"
+    },
+    {
+      "year": 1924,
+      "title": "Die Klimate der geologischen Vorzeit",
+      "en": "With his father-in-law Wladimir Köppen, plotted ancient climates on drifted continents, which made scattered ice-age evidence fall into place.",
+      "zh": "与岳父柯本合作，把古气候画在漂移后的大陆上，散落各处的冰期证据一下子对上了。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "Alfred Wegener",
+      "publisher": "NASA Earth Observatory",
+      "year": 2001,
+      "url": "https://science.nasa.gov/earth/earth-observatory/alfred-wegener/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "January 6, 1912: Alfred Wegener Presents His Theory of Continental Drift",
+      "publisher": "APS News",
+      "year": 2019,
+      "url": "https://www.aps.org/apsnews/2019/01/alfred-wegener-theory-continental-drift",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "Biography of Alfred Wegener",
+      "publisher": "Environment & Society Portal (Wegener diaries exhibition)",
+      "year": 2020,
+      "url": "https://www.environmentandsociety.org/exhibitions/wegener-diaries/biography-alfred-wegener",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "May 12, 1931: Alfred Wegener's last Journey",
+      "publisher": "Scientific American (History of Geology blog)",
+      "year": 2013,
+      "url": "https://blogs.scientificamerican.com/history-of-geology/may-12-1931-wegeners-last-journey/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "cross-field",
+      "en": "Wegener pulled together fossils, rock types, mountain belts and ancient climates, evidence that no single discipline had put side by side.",
+      "zh": "魏格纳把化石、岩石、山脉走向和古气候摆在一起看，这些证据此前没有哪个学科放在一起比较过。"
+    },
+    {
+      "key": "persist-evidence",
+      "en": "Under open ridicule, he answered with new editions: from 1915 to 1929 he kept revising the book with more evidence and an honest admission that the driving force was still unknown.",
+      "zh": "面对公开嘲讽，他的回应是出新版：从 1915 年到 1929 年不断修订，补充证据，也坦白承认驱动力仍是未解之谜。"
+    }
+  ]
+}

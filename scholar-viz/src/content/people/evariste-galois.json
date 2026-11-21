@@ -1,0 +1,153 @@
+{
+  "slug": "evariste-galois",
+  "name": {
+    "en": "Évariste Galois",
+    "zh": "埃瓦里斯特·伽罗瓦"
+  },
+  "wiki": {
+    "en": "Évariste_Galois",
+    "zh": "埃瓦里斯特·伽罗瓦"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "themes": [
+    "early",
+    "vindicated"
+  ],
+  "reasons": [
+    "pioneer",
+    "timing"
+  ],
+  "born": 1811,
+  "keyWork": {
+    "year": 1831,
+    "en": "Mémoire sur les conditions de résolubilité des équations par radicaux",
+    "zh": "《论方程可用根式求解的条件》"
+  },
+  "why": {
+    "en": "By 19 he had found exactly when a polynomial equation can be solved by radicals, by looking at the group of permutations of its roots. The Academy lost one version of his memoir and rejected another as unclear; he died in a duel at 20, and the work was published only in 1846.",
+    "zh": "19 岁时，他通过方程根的置换群，找到了多项式方程能用根式求解的确切条件。科学院弄丢了他的一份论文，又以“不够清楚”退回了另一份；他 20 岁死于决斗，这些工作直到 1846 年才发表。"
+  },
+  "summary": {
+    "en": "Galois was born in Bourg-la-Reine, near Paris, where his father was mayor. At the Lycée Louis-le-Grand he lost interest in everything except mathematics, and he twice failed the entrance exam to the École Polytechnique. In 1829 his father killed himself after a political smear, and Galois entered the École Préparatoire, from which he was expelled in 1831 for his republican politics. His papers to the Academy of Sciences were lost or rejected, and he spent months in Sainte-Pélagie prison. On 30 May 1832 he was shot in a duel and died the next day; the night before, he wrote a letter to his friend Auguste Chevalier summarising his discoveries.",
+    "zh": "伽罗瓦生于巴黎近郊的拉赖因堡，父亲是当地镇长。他在路易大帝中学读书时，对数学以外的一切都失去了兴趣，两次报考巴黎综合理工学院都没考上。1829 年，父亲受政敌诬陷后自杀，同年他进入预备学校（今巴黎高师），1831 年因参与共和派活动被开除。他交给科学院的论文不是丢失就是被退回，他自己则在圣佩拉吉监狱关了几个月。1832 年 5 月 30 日他在决斗中中枪，次日去世。决斗前一晚，他给朋友谢瓦利耶写信，把自己的发现概括了一遍。"
+  },
+  "style": [
+    {
+      "en": "His mathematics examiner at the École Préparatoire wrote that he was 'sometimes obscure in expressing his ideas' but showed 'a remarkable spirit of research'.",
+      "zh": "预备学校的数学考官评价他“表达想法有时晦涩”，但“有出色的研究精神”。"
+    },
+    {
+      "en": "Poisson rejected his 1831 memoir because the argument was 'neither sufficiently clear nor sufficiently developed', while encouraging him to publish a fuller account.",
+      "zh": "泊松退回他 1831 年的论文，理由是论证“既不够清楚，也不够充分”，同时鼓励他把完整的推导写出来发表。"
+    },
+    {
+      "en": "He was politically active and impulsive: expelled for a letter attacking his school's director, and twice arrested for republican protests.",
+      "zh": "他热衷政治，行事冲动：因写信攻击校长被开除，又两次因参加共和派示威被捕。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1811,
+      "en": "Born in Bourg-la-Reine on 25 October.",
+      "zh": "10 月 25 日生于拉赖因堡。"
+    },
+    {
+      "year": 1823,
+      "en": "Enters the Lycée Louis-le-Grand in Paris.",
+      "zh": "进入巴黎路易大帝中学。"
+    },
+    {
+      "year": 1829,
+      "en": "His father commits suicide; he fails the École Polytechnique exam a second time and enters the École Préparatoire.",
+      "zh": "父亲自杀；第二次报考综合理工学院落榜，进入预备学校。"
+    },
+    {
+      "year": 1830,
+      "en": "Submits a paper for the Academy's Grand Prize; it is lost after Fourier's death.",
+      "zh": "向科学院投稿竞争数学大奖，论文在傅里叶去世后遗失。"
+    },
+    {
+      "year": 1831,
+      "en": "Submits his memoir on solvability by radicals in January; Poisson rejects it. Expelled from school and jailed for political activity.",
+      "zh": "1 月提交关于根式可解性的论文，被泊松退回。同年被学校开除，又因政治活动入狱。"
+    },
+    {
+      "year": 1832,
+      "en": "Writes his last letter to Auguste Chevalier on 29 May; wounded in a duel on 30 May, dies on 31 May.",
+      "zh": "5 月 29 日给谢瓦利耶写下最后一封信；30 日决斗受伤，31 日去世。"
+    },
+    {
+      "year": 1846,
+      "en": "Joseph Liouville publishes Galois's papers in his Journal de Mathématiques Pures et Appliquées.",
+      "zh": "刘维尔在《纯粹与应用数学杂志》上发表伽罗瓦的论文。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1831,
+      "title": "Mémoire sur les conditions de résolubilité des équations par radicaux",
+      "en": "Showed that an equation is solvable by radicals exactly when its group of root permutations has a certain structure; the birth of group theory and Galois theory.",
+      "zh": "证明方程能用根式求解，当且仅当其根的置换群具有某种结构。群论和伽罗瓦理论由此诞生。"
+    },
+    {
+      "year": 1830,
+      "title": "Des équations primitives qui sont solubles par radicaux",
+      "en": "His so-called second memoir, which went further into the structure of the groups attached to equations.",
+      "zh": "即所谓“第二篇论文”，进一步研究方程所对应的群的结构。"
+    },
+    {
+      "year": 1832,
+      "title": "Lettre à Auguste Chevalier",
+      "en": "Written the night before the duel, it summarised his results and named the problems he had not finished.",
+      "zh": "决斗前夜写成，概述了他的全部成果，也列出了他来不及完成的问题。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Tu prieras publiquement Jacobi ou Gauss de donner leur avis non sur la vérité, mais sur l'importance des théorèmes.",
+      "zh": "你要公开请雅可比或高斯发表意见，不是评判这些定理对不对，而是评判它们重不重要。",
+      "source": "Letter to Auguste Chevalier, 29 May 1832, reproduced in Antoine Chambert-Loir, \"Évariste Galois, révolutionnaire et géomètre\"",
+      "url": "https://webusers.imj-prg.fr/~antoine.chambert-loir/publications/pdf/galois.pdf"
+    }
+  ],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "Évariste Galois",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 1996,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galois/",
+      "lang": "en"
+    },
+    {
+      "kind": "video",
+      "title": "The Memoirs and Legacy of Évariste Galois (Peter M. Neumann)",
+      "publisher": "Gresham College",
+      "year": 2011,
+      "url": "https://www.gresham.ac.uk/watch-now/memoirs-and-legacy-evariste-galois",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "The Memoirs and legacy of Évariste Galois (Peter M. Neumann, handout)",
+      "publisher": "Gresham College / BSHM",
+      "year": 2011,
+      "url": "https://www.gresham.ac.uk/sites/default/files/the_memoirs_and_legacy_of_evariste_galois.pdf",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "important-problem",
+      "en": "Galois went after a question that had been open for centuries: which equations can be solved by radicals. Answering it forced him to invent a new kind of object, the group.",
+      "zh": "伽罗瓦啃的是几百年没解决的问题：哪些方程能用根式求解。为了回答它，他不得不发明一种新的对象——群。"
+    },
+    {
+      "key": "communicate",
+      "en": "His work was rejected partly because it was too compressed to follow. A correct idea still needs a write-up that a referee can check.",
+      "zh": "他的论文被退回，一部分原因是写得太简略，别人看不懂。想法对了，还得写到审稿人能核对的程度。"
+    }
+  ]
+}

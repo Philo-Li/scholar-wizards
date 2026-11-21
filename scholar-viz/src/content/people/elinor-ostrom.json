@@ -1,0 +1,75 @@
+{
+  "slug": "elinor-ostrom",
+  "name": { "en": "Elinor Ostrom", "zh": "埃莉诺·奥斯特罗姆" },
+  "wiki": { "en": "Elinor_Ostrom", "zh": "埃莉诺·奥斯特罗姆" },
+  "disciplines": ["economics"],
+  "themes": ["women", "late"],
+  "reasons": ["opening", "pioneer", "crossing"],
+  "born": 1933,
+  "keyWork": { "year": 1990, "en": "Governing the Commons", "zh": "《公共事物的治理之道》" },
+  "why": {
+    "en": "Advised as a girl not to take mathematics beyond algebra and geometry, and discouraged by UCLA's economics department from doing a PhD there, she became the first woman to win the economics Nobel. Her field studies showed that fishers, farmers and forest users often manage shared resources well without either privatisation or state control.",
+    "zh": "她小时候被告诫女孩学数学别超过代数和几何，后来又被加州大学洛杉矶分校经济系劝退，没能在那里读经济学博士。可她最终成为第一位获得诺贝尔经济学奖的女性。她的实地研究表明，渔民、农民和林地使用者往往不靠私有化，也不靠政府管制，就能把共有资源管好。"
+  },
+  "summary": {
+    "en": "Elinor Ostrom grew up in Los Angeles during the Depression, the first in her family to go to college, and paid her way through UCLA in three years. After working as an export clerk and an assistant personnel manager, she was admitted to UCLA's political science PhD programme as one of four women in a class of 40, and wrote her dissertation on how users of a Southern California groundwater basin governed it. In 1965 she followed her husband Vincent Ostrom to Indiana University, where she was first hired to teach a 7:30 a.m. introductory course. In 1973 the couple founded the Workshop in Political Theory and Policy Analysis, and her 1990 book Governing the Commons challenged the \"tragedy of the commons\" with evidence from communities around the world. She shared the 2009 Nobel Prize with Oliver Williamson and died in 2012.",
+    "zh": "埃莉诺·奥斯特罗姆在大萧条时期的洛杉矶长大，是家里第一个上大学的人，靠打工三年读完加州大学洛杉矶分校。她做过出口文员和人事助理，后来考进该校政治学博士项目，同班 40 人里只有 4 位女生。她的博士论文研究南加州一个地下水盆地的用水户如何管理这片水源。1965 年她随丈夫文森特·奥斯特罗姆去了印第安纳大学，最初的教职是给新生上早上 7 点半的入门课。1973 年夫妇二人创办政治理论与政策分析研讨会。她 1990 年的《公共事物的治理之道》用世界各地社区的实例反驳了“公地悲剧”。2009 年她与威廉姆森分享诺贝尔经济学奖，2012 年去世。"
+  },
+  "style": [
+    {
+      "en": "When employers after college asked whether she could type and take shorthand, she took a correspondence course in shorthand; she never used it for dictation but found it very useful for taking notes in field interviews.",
+      "zh": "大学毕业找工作时，雇主一开口就问会不会打字、速记。她于是报了函授速记课。这门手艺她从没用来记口述，却在做实地访谈记笔记时派上了大用场。"
+    },
+    {
+      "en": "She credited high-school debate with shaping how she thought: there are always at least two sides to a policy question, and you must be able to argue and critique both.",
+      "zh": "她说高中辩论塑造了她的思维方式：政策问题总有至少两面，你得能为两边立论，也能批驳两边。"
+    },
+    {
+      "en": "She spent her first fifteen years at Indiana studying police departments across the US, and found no large department that outperformed small and medium ones at direct services, against the reformers' view that many small units meant chaos.",
+      "zh": "她在印第安纳的头十五年研究全美各地的警察局，发现没有哪个大警察局在直接服务上胜过中小警察局。这与当时“小单位多就是混乱”的主流看法相反。"
+    },
+    {
+      "en": "For a forest study in the 1990s she chose not to fly American researchers in to collect data, and instead built a network in which scholars living in each country did the fieldwork with shared methods.",
+      "zh": "90 年代做森林研究时，她不赞成派美国学者飞过去采数据，而是建起一个网络，由各国本地学者按统一方法自己做实地调查。"
+    }
+  ],
+  "timeline": [
+    { "year": 1933, "en": "Born Elinor Awan in Los Angeles.", "zh": "生于洛杉矶，原名埃莉诺·阿万。" },
+    { "year": 1965, "en": "Completes her PhD in political science at UCLA and moves to Indiana University.", "zh": "在加州大学洛杉矶分校获政治学博士学位，随后到印第安纳大学。" },
+    { "year": 1973, "en": "Founds the Workshop in Political Theory and Policy Analysis with Vincent Ostrom.", "zh": "与文森特·奥斯特罗姆创办政治理论与政策分析研讨会。" },
+    { "year": 1990, "en": "Publishes Governing the Commons.", "zh": "出版《公共事物的治理之道》。" },
+    { "year": 2009, "en": "Shares the Nobel Memorial Prize in Economic Sciences with Oliver Williamson, the first woman to receive it.", "zh": "与威廉姆森分享诺贝尔经济学奖，成为首位获得该奖的女性。" },
+    { "year": 2012, "en": "Dies in Bloomington, Indiana.", "zh": "在印第安纳州布卢明顿去世。" }
+  ],
+  "works": [
+    { "year": 1990, "title": "Governing the Commons: The Evolution of Institutions for Collective Action", "en": "Showed from case studies worldwide that communities can govern shared resources themselves, and set out design principles for institutions that last.", "zh": "用世界各地的案例证明社区可以自己治理共有资源，并归纳出长期有效的制度设计原则。" },
+    { "year": 2009, "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems", "en": "A Science paper offering a common vocabulary so that studies of fisheries, forests and water from different disciplines can be compared.", "zh": "发表在《科学》上，提出一套通用框架，让不同学科对渔场、森林、水源的研究可以相互比较。" },
+    { "year": 2009, "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems", "en": "Her Nobel lecture, summing up half a century of work on how many overlapping centres of decision can govern well.", "zh": "她的诺贝尔演讲，总结了半个世纪的研究：多个相互重叠的决策中心如何实现良好治理。" }
+  ],
+  "quotes": [
+    {
+      "text": "I learned not to take initial rejections as being permanent obstacles to moving ahead.",
+      "zh": "我学会了不把一开始的拒绝当成永远过不去的坎。",
+      "source": "Nobel autobiography, 2009",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/biographical/"
+    },
+    {
+      "text": "The way we organize the modern American university fragments our knowledge badly.",
+      "zh": "现代美国大学的组织方式，把我们的知识切得支离破碎。",
+      "source": "Nobel autobiography, 2009",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Interview with the 2009 Laureates in Economic Sciences", "publisher": "NobelPrize.org", "year": 2009, "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/interview/", "lang": "en" },
+    { "kind": "memoir", "title": "Elinor Ostrom – Biographical", "publisher": "NobelPrize.org", "year": 2009, "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/biographical/", "lang": "en" },
+    { "kind": "lecture", "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems (Prize lecture)", "publisher": "NobelPrize.org", "year": 2009, "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/", "lang": "en" },
+    { "kind": "obituary", "title": "Remembering Elinor Ostrom, Nobel Laureate", "publisher": "NPR Planet Money", "year": 2012, "url": "https://www.npr.org/sections/money/2012/06/12/154872185/remembering-elinor-ostrom-nobel-laureate", "lang": "en" },
+    { "kind": "obituary", "title": "The grand philosopher of the Commons: in memory of Elinor Ostrom", "publisher": "The Conversation", "year": 2012, "url": "https://theconversation.com/the-grand-philosopher-of-the-commons-in-memory-of-elinor-ostrom-7621", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "leave-mainstream", "en": "Ostrom tested the accepted \"tragedy of the commons\" against what real communities did, and reported what she found even when it contradicted the textbook.", "zh": "奥斯特罗姆拿现实中的社区去检验公认的“公地悲剧”，结论与教科书相反，她也照实报告。" },
+    { "key": "cross-field", "en": "She combined fieldwork, laboratory experiments and large-sample statistics, and built a workshop where economists, political scientists and others studied the same cases together.", "zh": "她把实地调查、实验室实验和大样本统计结合起来，还建了一个研讨会，让经济学家、政治学家等不同背景的人一起研究同一批案例。" },
+    { "key": "craft", "en": "She did the slow work herself: interviews, notes in shorthand, years spent refining data-collection methods with local partners.", "zh": "慢功夫她亲自下：做访谈、用速记记笔记，花多年时间和当地伙伴打磨数据采集方法。" }
+  ]
+}

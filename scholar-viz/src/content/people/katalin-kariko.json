@@ -1,0 +1,104 @@
+{
+  "slug": "katalin-kariko",
+  "name": { "en": "Katalin Karikó", "zh": "卡塔林·卡里科" },
+  "wiki": { "en": "Katalin_Karikó", "zh": "卡塔林·考里科" },
+  "disciplines": ["biology", "medicine"],
+  "themes": ["late", "vindicated", "partnerships"],
+  "reasons": ["timing", "pioneer"],
+  "born": 1955,
+  "keyWork": { "year": 2005, "en": "Showing with Drew Weissman that modified nucleosides stop mRNA from triggering an immune attack", "zh": "与德鲁·韦斯曼证明修饰核苷能让 mRNA 躲过免疫反应" },
+  "why": {
+    "en": "She worked on mRNA at the University of Pennsylvania for over two decades without ever running her own lab, was demoted in 1995 and pushed out in 2013. The modified-nucleoside trick she and Drew Weissman published in 2005 became the basis of the Covid-19 mRNA vaccines, and of her 2023 Nobel Prize.",
+    "zh": "她在宾夕法尼亚大学研究 mRNA 二十多年，始终没有自己的实验室，1995 年被降职，2013 年被迫离开。她和德鲁·韦斯曼 2005 年发表的修饰核苷方法，后来成了新冠 mRNA 疫苗的基础，也让她拿到 2023 年诺贝尔奖。"
+  },
+  "summary": {
+    "en": "Karikó grew up in a small Hungarian town, the daughter of a butcher, and earned her PhD at the University of Szeged in 1982. When her lab's funding ran out in 1985 she moved to Temple University in Philadelphia with her husband and two-year-old daughter, the family's savings sewn into a teddy bear. From 1989 at Penn she kept applying for grants to make mRNA into a drug and kept being turned down. A chance meeting with immunologist Drew Weissman at a photocopier in 1997 led to the 2005 discovery that swapping uridine for modified nucleosides keeps mRNA from setting off inflammation. She left Penn for BioNTech in 2013, and that company's vaccine, built on this work, was among the first approved against Covid-19 in 2020.",
+    "zh": "卡里科是匈牙利一个小镇上屠夫的女儿，1982 年在塞格德大学获得博士学位。1985 年实验室经费断了，她带着丈夫和两岁的女儿去了费城的天普大学，全家的积蓄缝在女儿的泰迪熊里。1989 年起她在宾夕法尼亚大学一次次申请经费，想把 mRNA 做成药，一次次被拒。1997 年她在复印机旁认识了免疫学家德鲁·韦斯曼，两人 2005 年发现，把尿苷换成修饰核苷，mRNA 就不再引发炎症。2013 年她离开宾大去了 BioNTech，这家公司基于这项工作做出的疫苗，2020 年成为最早获批的新冠疫苗之一。"
+  },
+  "style": [
+    {
+      "en": "At BioNTech, aged 58, she was still culturing plasmids and feeding cells with her own hands, as she told nobelprize.org in 2023.",
+      "zh": "她在 2023 年诺贝尔奖官网访谈里说，58 岁在 BioNTech 时，她还亲手培养质粒、给细胞换液。"
+    },
+    {
+      "en": "She applied for grant after grant and almost never got funded, yet told Scientific American she liked writing grant proposals anyway.",
+      "zh": "她的经费申请一份接一份被拒，几乎没拿到过资助，但她对《科学美国人》说，自己其实喜欢写申请书。"
+    },
+    {
+      "en": "At 16 she read Hans Selye's book on stress and took its rule to heart: spend energy only on what you can change. When she was terminated, she says, she did not ask \"Why me?\" but \"What next?\"",
+      "zh": "她 16 岁读了汉斯·塞利关于压力的书，记住了一条：只把力气花在能改变的事情上。被解聘时，她说自己没有问“为什么是我”，只问“接下来做什么”。"
+    },
+    {
+      "en": "Weissman once told her she zigzagged from A to B while he went straight; she answered that she learned a lot by zigzagging.",
+      "zh": "韦斯曼说她从 A 到 B 总是走之字形，而他走直线；她回答，走之字形学到的东西更多。"
+    }
+  ],
+  "timeline": [
+    { "year": 1955, "en": "Born in Szolnok, Hungary.", "zh": "生于匈牙利索尔诺克。" },
+    { "year": 1982, "en": "PhD in biochemistry, University of Szeged.", "zh": "在塞格德大学获生物化学博士学位。" },
+    { "year": 1985, "en": "Lab funding ends; moves with her family to Temple University, Philadelphia.", "zh": "实验室经费中断，举家迁往费城天普大学。" },
+    { "year": 1989, "en": "Joins the University of Pennsylvania to work on mRNA therapies.", "zh": "进入宾夕法尼亚大学，研究 mRNA 疗法。" },
+    { "year": 1995, "en": "Taken off the faculty track and demoted.", "zh": "被移出教职晋升序列，降职。" },
+    { "year": 2005, "en": "Publishes with Drew Weissman the finding that nucleoside-modified mRNA avoids immune activation.", "zh": "与韦斯曼发表论文：修饰核苷的 mRNA 不再激活免疫系统。" },
+    { "year": 2013, "en": "Forced out of Penn; joins BioNTech in Germany.", "zh": "被迫离开宾大，加入德国 BioNTech。" },
+    { "year": 2023, "en": "Nobel Prize in Physiology or Medicine, shared with Weissman.", "zh": "与韦斯曼共获诺贝尔生理学或医学奖。" }
+  ],
+  "works": [
+    {
+      "year": 2005,
+      "title": "Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA",
+      "en": "Showed that natural RNA modifications let mRNA slip past the immune receptors that had made it unusable as a drug.",
+      "zh": "证明天然的 RNA 修饰能让 mRNA 避开免疫受体，解决了 mRNA 一进体内就引发炎症、无法用作药物的难题。"
+    },
+    {
+      "year": 2008,
+      "title": "Incorporation of pseudouridine into mRNA yields superior nonimmunogenic vector with increased translational capacity and biological stability",
+      "en": "Found that pseudouridine-modified mRNA not only avoids inflammation but also makes far more protein, the version later used in vaccines.",
+      "zh": "发现用假尿苷修饰的 mRNA 不仅不引发炎症，还能产出多得多的蛋白质，后来的疫苗用的就是这种做法。"
+    },
+    {
+      "year": 2023,
+      "title": "Breaking Through: My Life in Science",
+      "en": "Her memoir of growing up in communist Hungary and decades of rejection in American academia.",
+      "zh": "她的自传，讲在社会主义匈牙利长大，以及在美国学术界几十年被拒的经历。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I did all these experiments actually, with my own hands, I was 58 years old, I was still culturing plasmids and feeding cells, so it is very unlikely.",
+      "zh": "这些实验其实都是我亲手做的。我那时 58 岁，还在培养质粒、给细胞换液，所以这事本来很不可能。",
+      "source": "Interview with Adam Smith, nobelprize.org, 2023",
+      "url": "https://www.nobelprize.org/prizes/medicine/2023/kariko/interview/"
+    },
+    {
+      "text": "His mantra was that you have to focus on things that you can change.",
+      "zh": "他的信条是：你只该专注于自己能改变的事。",
+      "source": "On Hans Selye, interview with Adam Smith, nobelprize.org, 2023",
+      "url": "https://www.nobelprize.org/prizes/medicine/2023/kariko/interview/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Katalin Karikó – Interview", "publisher": "NobelPrize.org", "year": 2023, "url": "https://www.nobelprize.org/prizes/medicine/2023/kariko/interview/", "lang": "en" },
+    { "kind": "interview", "title": "I Was Considered A Nobody", "publisher": "Science Friday", "year": 2025, "url": "https://www.sciencefriday.com/segments/the-leap-i-was-considered-a-nobody/", "lang": "en" },
+    { "kind": "interview", "title": "Katalin Karikó’s Nobel Prize–Winning Work on mRNA Was Long Ignored—And Led to COVID Vaccines", "publisher": "Scientific American", "year": 2025, "url": "https://www.scientificamerican.com/article/katalin-karikos-nobel-prize-winning-work-on-mrna-was-long-ignored-and-led-to/", "lang": "en" },
+    { "kind": "profile", "title": "Nobel Prize winner Katalin Karikó was once brushed off by Penn", "publisher": "The Philadelphia Inquirer", "year": 2023, "url": "https://www.inquirer.com/health/university-pennsylvania-refused-tenure-katalin-kariko-20231007.html", "lang": "en" },
+    { "kind": "lecture", "title": "Katalin Karikó – Nobel Prize lecture", "publisher": "NobelPrize.org", "year": 2023, "url": "https://www.nobelprize.org/prizes/medicine/2023/kariko/lecture/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "long-focus",
+      "en": "Karikó stayed with one molecule for some thirty years, through demotion and rejected grants, because she believed the problems with mRNA were technical and solvable.",
+      "zh": "降职、经费被拒，卡里科都没有放下 mRNA。她认定 mRNA 的问题是技术问题，能解决，这一坚持就是三十来年。"
+    },
+    {
+      "key": "right-partner",
+      "en": "Her chemistry and Weissman's immunology met by chance at a photocopier; neither alone had seen why mRNA set off inflammation.",
+      "zh": "她懂 RNA 化学，韦斯曼懂免疫，两人在复印机旁偶然相识。单靠任何一方，都看不出 mRNA 为什么会引发炎症。"
+    },
+    {
+      "key": "craft",
+      "en": "She kept doing bench work herself into her late fifties, instead of moving into management.",
+      "zh": "她没有转去做管理，快六十岁了还在自己做实验。"
+    }
+  ]
+}

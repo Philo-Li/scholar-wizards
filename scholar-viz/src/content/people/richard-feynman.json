@@ -1,0 +1,94 @@
+{
+  "slug": "richard-feynman",
+  "name": { "en": "Richard Feynman", "zh": "理查德·费曼" },
+  "wiki": { "en": "Richard_Feynman", "zh": "理查德·費曼" },
+  "disciplines": ["physics"],
+  "themes": ["own-terms"],
+  "reasons": ["pioneer", "integrity"],
+  "born": 1918,
+  "keyWork": { "year": 1948, "en": "Feynman diagrams and the space-time approach to quantum electrodynamics", "zh": "费曼图与量子电动力学的时空表述" },
+  "why": {
+    "en": "When he first showed his diagrams at the Pocono conference in 1948, the audience was puzzled and the talk went badly. Within a few years those pictures had become the standard way physicists calculate particle interactions. Late in life, on the Challenger commission, he dipped a piece of O-ring material in ice water on live television to show why the shuttle failed.",
+    "zh": "1948 年他在波科诺会议上第一次展示自己的图，听众一头雾水，报告很不成功。几年之内，这些图就成了物理学家计算粒子相互作用的标准方法。晚年参加“挑战者号”调查委员会时，他在电视直播的听证会上把一小段 O 形环材料泡进冰水，演示了航天飞机失事的原因。"
+  },
+  "summary": {
+    "en": "Feynman grew up in Far Rockaway, Queens, and took his bachelor's degree at MIT in 1939, the year he was named a Putnam Fellow. He earned his PhD at Princeton under John Wheeler in 1942 and spent the war at Los Alamos. At Cornell after the war he developed the path-integral formulation of quantum mechanics and the diagrams that bear his name, then moved to Caltech in 1950. His lectures to Caltech undergraduates in the early 1960s became The Feynman Lectures on Physics. He shared the 1965 Nobel Prize in Physics with Julian Schwinger and Sin-Itiro Tomonaga, served on the presidential commission into the 1986 Challenger disaster, and died in Los Angeles in 1988.",
+    "zh": "费曼在纽约皇后区的远洛克威长大，1939 年在麻省理工学院拿到学士学位，同年获得普特南奖。1942 年他在普林斯顿跟随惠勒获得博士学位，战时在洛斯阿拉莫斯工作。战后在康奈尔大学，他发展出量子力学的路径积分表述和以他命名的图，1950 年转到加州理工学院。六十年代初他给加州理工本科生讲的课，后来成了《费曼物理学讲义》。1965 年他与施温格、朝永振一郎分享诺贝尔物理学奖，1986 年参加“挑战者号”事故总统调查委员会，1988 年在洛杉矶去世。"
+  },
+  "style": [
+    {
+      "en": "At Los Alamos he amused himself by opening the combination locks on colleagues' filing cabinets, finding that many left them on factory settings or used guessable dates.",
+      "zh": "在洛斯阿拉莫斯，他的消遣是去开同事文件柜上的密码锁。他发现很多人用的是出厂设置，或者是很好猜的日期。"
+    },
+    {
+      "en": "He was an enthusiastic amateur player of bongo and conga drums, often played in pit orchestras for musicals, and in Brazil learned the frigideira for samba.",
+      "zh": "他是热心的业余邦哥鼓和康加鼓手，常在音乐剧的乐池里伴奏，在巴西还学会了桑巴乐里的平底锅打击乐器。"
+    },
+    {
+      "en": "In his Nobel lecture he chose to tell how he actually got to the work, wrong ideas and blind alleys included, rather than present the polished result.",
+      "zh": "他的诺贝尔演讲没有讲打磨好的结论，而是讲自己实际怎样走到这一步，包括想错的地方和走进的死胡同。"
+    },
+    {
+      "en": "He was elected to the National Academy of Sciences but later resigned from it.",
+      "zh": "他当选过美国国家科学院院士，后来主动退出了。"
+    }
+  ],
+  "timeline": [
+    { "year": 1918, "en": "Born in Queens, New York City", "zh": "生于纽约皇后区" },
+    { "year": 1939, "en": "Bachelor's degree from MIT", "zh": "从麻省理工学院本科毕业" },
+    { "year": 1942, "en": "PhD from Princeton under John Wheeler", "zh": "在普林斯顿跟随惠勒获得博士学位" },
+    { "year": 1943, "en": "Joins the Manhattan Project at Los Alamos", "zh": "到洛斯阿拉莫斯参加曼哈顿计划" },
+    { "year": 1948, "en": "Presents his diagrams at the Pocono conference; publishes the path-integral formulation", "zh": "在波科诺会议上展示费曼图，发表路径积分表述" },
+    { "year": 1965, "en": "Shares the Nobel Prize in Physics with Schwinger and Tomonaga", "zh": "与施温格、朝永振一郎分享诺贝尔物理学奖" },
+    { "year": 1986, "en": "Serves on the commission investigating the Challenger disaster", "zh": "参加“挑战者号”事故调查委员会" },
+    { "year": 1988, "en": "Dies in Los Angeles", "zh": "在洛杉矶去世" }
+  ],
+  "works": [
+    {
+      "year": 1948,
+      "title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+      "en": "The path integral: a particle's behaviour as a sum over every possible path, now a basic tool across quantum physics.",
+      "zh": "路径积分：把粒子的行为看成对所有可能路径的求和，如今是整个量子物理的基本工具。"
+    },
+    {
+      "year": 1949,
+      "title": "Space-Time Approach to Quantum Electrodynamics",
+      "en": "Introduced Feynman diagrams in print, turning hard calculations in quantum electrodynamics into rules anyone could apply.",
+      "zh": "正式发表费曼图，把量子电动力学里艰难的计算变成了人人可用的规则。"
+    },
+    {
+      "year": 1963,
+      "title": "The Feynman Lectures on Physics",
+      "en": "Introductory physics rebuilt from his own point of view; still read by students and working physicists.",
+      "zh": "他按自己的思路重新讲了一遍基础物理，至今仍被学生和物理学家阅读。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We have a habit in writing articles published in scientific journals to make the work as finished as possible, to cover all the tracks, to not worry about the blind alleys or to describe how you had the wrong idea first, and so on.",
+      "zh": "我们在科学期刊上写文章，习惯把工作弄得尽量完美，把走过的痕迹都抹掉，不提那些死胡同，也不讲自己一开始是怎么想错的。",
+      "source": "Nobel Lecture, \"The Development of the Space-Time View of Quantum Electrodynamics\", 1965",
+      "url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Oral history interview with Richard Phillips Feynman (by Charles Weiner), 1966–1973", "publisher": "American Institute of Physics, Niels Bohr Library & Archives", "year": 1966, "url": "https://history.aip.org/catalog/icos/5020.html", "lang": "en" },
+    { "kind": "interview", "title": "The Pleasure of Finding Things Out (transcript of the 1981 BBC Horizon interview)", "publisher": "BBC Horizon, via MIT Media Lab", "year": 1981, "url": "https://learning.media.mit.edu/courses/mas713/readings/Finding_Things_Out.pdf", "lang": "en" },
+    { "kind": "lecture", "title": "The Development of the Space-Time View of Quantum Electrodynamics (Nobel Lecture)", "publisher": "NobelPrize.org", "year": 1965, "url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/", "lang": "en" },
+    { "kind": "obituary", "title": "Richard Feynman Dead at 69; Leading Theoretical Physicist", "publisher": "The New York Times (via MacTutor)", "year": 1988, "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Feynman_NY_Times/", "lang": "en" },
+    { "kind": "obituary", "title": "The death of Richard Feynman", "publisher": "Nature", "year": 1988, "url": "https://www.nature.com/articles/331653a0", "lang": "en" },
+    { "kind": "profile", "title": "Richard Phillips Feynman", "publisher": "MacTutor History of Mathematics", "year": 2002, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Feynman/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "communicate",
+      "en": "He rebuilt introductory physics for undergraduates and told a Nobel audience about his wrong turns. Explaining how you really got there helps others more than a polished result.",
+      "zh": "他为本科生重新讲了一遍基础物理，在诺贝尔讲台上也照实讲自己走过的弯路。讲清楚自己是怎么走到这一步的，比只给出漂亮的结论更能帮到别人。"
+    },
+    {
+      "key": "first-principles",
+      "en": "He invented his own notation and pictures when the standard methods felt clumsy, and the Challenger demonstration needed nothing more than a clamp and a glass of ice water.",
+      "zh": "标准方法用着别扭，他就自己发明记号和图。他在“挑战者号”听证会上的演示，也只用了一个夹子和一杯冰水。"
+    }
+  ]
+}

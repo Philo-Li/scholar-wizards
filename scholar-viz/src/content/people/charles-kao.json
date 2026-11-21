@@ -1,0 +1,88 @@
+{
+  "slug": "charles-kao",
+  "name": { "en": "Charles K. Kao", "zh": "高锟" },
+  "wiki": { "en": "Charles_K._Kao", "zh": "高錕" },
+  "disciplines": ["physics"],
+  "themes": ["chinese", "vindicated"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1933,
+  "keyWork": { "year": 1966, "en": "Paper with George Hockham showing glass fibre could carry light for long-distance communication", "zh": "与霍克汉姆发表论文，论证玻璃纤维可用于远距离光通信" },
+  "why": {
+    "en": "In 1966, when light died out after a few metres of glass, a young engineer at a telephone company lab argued that the loss came from impurities, not from glass itself, and that purer fibre could carry telephone signals over long distances. Few people believed glass could be made that pure; within four years Corning made it, and the Nobel Prize came 43 years after the paper.",
+    "zh": "1966 年，光在玻璃里走不了几米就衰减殆尽。一家电话公司实验室里的年轻工程师提出：损耗来自杂质，不来自玻璃本身，只要纤维够纯，就能远距离传电话信号。当时几乎没人相信能造出这么纯的玻璃。四年后康宁公司造出来了，诺贝尔奖则在论文发表 43 年后才到。"
+  },
+  "summary": {
+    "en": "Kao was born in Shanghai to a family of scholars and left with them in 1948, first for Taiwan and then Hong Kong. He studied electrical engineering at Woolwich Polytechnic in London and joined Standard Telephones and Cables, later moving to its research lab in Harlow, where he earned a PhD from University College London while working. There, with George Hockham, he wrote the 1966 paper that set out how optical fibre could work for communications. He spent about thirty years with ITT in Britain, the US and Europe, founded the electronics department at the Chinese University of Hong Kong in 1970, and served as its vice-chancellor from 1987 to 1996. He shared the 2009 Nobel Prize in Physics, by which time he had Alzheimer's disease, and died in Hong Kong in 2018.",
+    "zh": "高锟生于上海一个书香家庭，1948 年随家人离开上海，先到台湾，再到香港。他在伦敦的伍尔维奇理工学院读电机工程，毕业后进入标准电话电缆公司，后调到公司在哈洛的研究所，一边工作一边拿到伦敦大学学院的博士学位。在那里，他和霍克汉姆写出 1966 年那篇论文，讲清楚了光纤怎样用于通信。此后他在国际电话电报公司工作约三十年，辗转英国、美国和欧洲；1970 年到香港中文大学创办电子系，1987 年至 1996 年任中大校长。2009 年他分享诺贝尔物理学奖，那时他已患阿尔茨海默病。2018 年在香港去世。"
+  },
+  "style": [
+    {
+      "en": "As a boy in Shanghai he ran chemistry experiments at home with a friend, made his own glassware from bottles and kept bottles of cyanide, until a flask of boiling nitric acid exploded and his parents confiscated everything.",
+      "zh": "小时候在上海，他和朋友在家里做化学实验，用玻璃瓶自己做漏斗和烧杯，还藏着几瓶氰化物。直到一瓶正在加热的硝酸炸开，父母把东西全没收了。"
+    },
+    {
+      "en": "He described himself as never a talkative person and not comfortable with small talk at social gatherings.",
+      "zh": "他说自己从来不是健谈的人，在社交场合聊家常会觉得不自在。"
+    },
+    {
+      "en": "At Woolwich he spent more time on the tennis court than with his books and graduated with a Second, which he recorded plainly in his own Nobel biography.",
+      "zh": "在伍尔维奇读书时，他花在网球场上的时间比花在书本上多，毕业只拿了二等学位。这件事他在自己写的诺贝尔自传里照直写了出来。"
+    },
+    {
+      "en": "After the 1966 paper he kept travelling to research labs around the world to discuss progress and encourage the work on low-loss fibre.",
+      "zh": "1966 年论文发表后，他一直奔走于世界各地的实验室，讨论进展，鼓励同行把低损耗光纤做出来。"
+    }
+  ],
+  "timeline": [
+    { "year": 1933, "en": "Born in Shanghai", "zh": "生于上海" },
+    { "year": 1948, "en": "Family leaves Shanghai for Taiwan, then Hong Kong", "zh": "随家人离开上海，经台湾到香港" },
+    { "year": 1957, "en": "BSc in electrical engineering, Woolwich Polytechnic, London", "zh": "获伦敦伍尔维奇理工学院电机工程学士学位" },
+    { "year": 1965, "en": "PhD from University College London", "zh": "获伦敦大学学院博士学位" },
+    { "year": 1966, "en": "Publishes the optical-fibre paper with George Hockham", "zh": "与霍克汉姆发表光纤论文" },
+    { "year": 1970, "en": "Founds the Department of Electronics at the Chinese University of Hong Kong", "zh": "到香港中文大学创办电子系" },
+    { "year": 1987, "en": "Becomes vice-chancellor of CUHK, serving until 1996", "zh": "出任香港中文大学校长，至 1996 年" },
+    { "year": 2009, "en": "Nobel Prize in Physics", "zh": "获诺贝尔物理学奖" },
+    { "year": 2018, "en": "Dies in Hong Kong", "zh": "在香港去世" }
+  ],
+  "works": [
+    {
+      "year": 1966,
+      "title": "Dielectric-fibre surface waveguides for optical frequencies",
+      "en": "Argued that impurities, not glass itself, caused the losses, and laid out the case for long-distance fibre communication.",
+      "zh": "指出光损耗来自杂质而非玻璃本身，论证了远距离光纤通信的可行性。"
+    },
+    {
+      "year": 2009,
+      "title": "Sand from Centuries Past: Send Future Voices Fast",
+      "en": "His Nobel lecture, tracing the path from an old idea of guiding light in glass to the global fibre network.",
+      "zh": "他的诺贝尔演讲，从用玻璃导光这个老想法讲到全球光纤网络。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Ideas do not always come in a flash, but by diligent trial-and-error experiments that take time and thought.",
+      "zh": "想法并不总是灵光一闪，而是靠勤勤恳恳地反复试错，要花时间，也要花心思。",
+      "source": "Autobiography written for Les Prix Nobel, 2009",
+      "url": "https://www.nobelprize.org/prizes/physics/2009/kao/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "memoir", "title": "Charles K. Kao – Biographical", "publisher": "NobelPrize.org", "year": 2009, "url": "https://www.nobelprize.org/prizes/physics/2009/kao/biographical/", "lang": "en" },
+    { "kind": "lecture", "title": "Sand from Centuries Past: Send Future Voices Fast", "publisher": "NobelPrize.org", "year": 2009, "url": "https://www.nobelprize.org/prizes/physics/2009/kao/lecture/", "lang": "en" },
+    { "kind": "obituary", "title": "In Memory of Professor Sir Charles Kao 1933 — 2018", "publisher": "The Chinese University of Hong Kong", "year": 2018, "url": "https://www.cpr.cuhk.edu.hk/en/?p=49828", "lang": "en" },
+    { "kind": "obituary", "title": "Charles Kao", "publisher": "Optica", "year": 2018, "url": "https://optica.org/about/newsroom/obituaries/2018/charles_kao", "lang": "en" },
+    { "kind": "obituary", "title": "“世界光纤之父”高锟走了", "publisher": "中国科学报（澎湃新闻转载）", "year": 2018, "url": "https://www.thepaper.cn/newsDetail_forward_2474291", "lang": "zh" }
+  ],
+  "lessons": [
+    {
+      "key": "important-problem",
+      "en": "Kao went after the one number that blocked optical communication, the loss per kilometre of glass, and asked what was actually causing it.",
+      "zh": "高锟盯住了卡住光通信的那个数字：玻璃每公里的损耗，并追问它到底从哪里来。"
+    },
+    {
+      "key": "communicate",
+      "en": "Having made a claim few believed, he spent years visiting labs to persuade and encourage the people who could make the pure glass.",
+      "zh": "提出一个少有人信的判断之后，他花了多年时间奔走各地实验室，说服并鼓励那些能把纯玻璃造出来的人。"
+    }
+  ]
+}

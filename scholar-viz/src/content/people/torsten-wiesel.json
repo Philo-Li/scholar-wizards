@@ -1,0 +1,77 @@
+{
+  "slug": "torsten-wiesel",
+  "name": { "en": "Torsten Wiesel", "zh": "托斯坦·威泽尔" },
+  "wiki": { "en": "Torsten_Wiesel", "zh": "托斯坦·威泽尔" },
+  "disciplines": ["neuroscience", "medicine"],
+  "themes": ["partnerships"],
+  "reasons": ["pioneer"],
+  "born": 1924,
+  "keyWork": { "year": 1959, "en": "Discovery, with David Hubel, of orientation-selective cells in the visual cortex", "zh": "与休伯尔一起发现视觉皮层中对线条朝向敏感的细胞" },
+  "why": {
+    "en": "He grew up on the grounds of a Stockholm mental hospital run by his father and called himself a lazy student until 17. With David Hubel he sewed shut one eye of newborn kittens and found the eye was left blind and the cortex rewired to the open eye, the evidence that early visual experience shapes the brain and a reason doctors now treat children's cataracts early.",
+    "zh": "他在父亲主管的斯德哥尔摩一家精神病院院内长大，自称 17 岁前是个懒散的学生。他和休伯尔把新生小猫的一只眼睑缝上，发现这只眼睛几个月后就看不见了，皮层细胞几乎全都改由另一只眼驱动。这证明早期视觉经验会塑造大脑，也是如今儿童先天性白内障要尽早手术的依据之一。"
+  },
+  "summary": {
+    "en": "Wiesel was born in Uppsala, the youngest of five children, and studied medicine at the Karolinska Institute, spending a year working with patients in mental hospitals. In 1955 he went to Stephen Kuffler's lab at Johns Hopkins as a postdoctoral fellow, and in 1958 David Hubel arrived; their collaboration ran for some twenty years, most of it at Harvard, and won them a share of the 1981 Nobel Prize in Physiology or Medicine. He moved to Rockefeller University in 1983 and served as its president from 1991 to 1998. He then spent much of his time on science policy and human rights: he was secretary-general of the Human Frontier Science Program and chaired the US National Academies' human rights committee for ten years.",
+    "zh": "威泽尔生于乌普萨拉，是家里五个孩子中最小的。他在卡罗林斯卡学院学医，读书期间还在几家精神病院干了一年临床。1955 年他到约翰斯·霍普金斯大学库夫勒的实验室做博士后，1958 年休伯尔加入，两人的合作持续约二十年，大部分时间在哈佛，并因此分享了 1981 年诺贝尔生理学或医学奖。1983 年他转到洛克菲勒大学，1991 年至 1998 年任校长。此后他把很多精力放在科学政策和人权上：担任过人类前沿科学计划秘书长，并主持美国国家科学院人权委员会十年。"
+  },
+  "style": [
+    {
+      "en": "By his own account he was a lazy, mischievous schoolboy whose only memorable achievement was being elected president of the school athletic association; at 17 he suddenly became a serious student.",
+      "zh": "照他自己的说法，中学时他懒散又调皮，唯一拿得出手的成绩是当选学校体育协会主席；到 17 岁，他突然认真读起书来。"
+    },
+    {
+      "en": "The kitten deprivation studies began as a side project in the early 1960s, run for years without a grant on kittens bred from lab cats. Closing one eye and keeping the other as a control, rather than raising animals in the dark, turned out to give far stronger effects.",
+      "zh": "小猫视觉剥夺实验是 20 世纪 60 年代初顺手做起来的，用实验室自己繁殖的小猫，好几年没申请经费。他们没有把小猫养在黑暗里，而是只缝一只眼、留另一只眼做对照，结果效应反而强得多。"
+    },
+    {
+      "en": "After forty years at the bench he became president of Rockefeller University and found, to his own surprise, that he enjoyed administration, especially recruiting new scientists.",
+      "zh": "在实验室干了四十年后，他出任洛克菲勒大学校长，出乎自己意料地喜欢上了管理，尤其是为学校招揽新人。"
+    },
+    {
+      "en": "In later life he put his effort into young scientists outside the US: he co-chaired the board of the Okinawa Institute of Science and Technology and chaired the advisory board of China's National Institute of Biological Sciences in Beijing.",
+      "zh": "晚年他把力气用在美国以外的年轻科学家身上：他与人共同主持冲绳科学技术大学院大学理事会，并担任北京生命科学研究所科学顾问委员会主席。"
+    }
+  ],
+  "timeline": [
+    { "year": 1924, "en": "Born in Uppsala, Sweden.", "zh": "生于瑞典乌普萨拉。" },
+    { "year": 1954, "en": "Completes medical studies and returns to Carl Gustaf Bernhard's laboratory at the Karolinska Institute.", "zh": "完成医学学业，回到卡罗林斯卡学院伯恩哈德的实验室做基础研究。" },
+    { "year": 1955, "en": "Joins Stephen Kuffler's laboratory at Johns Hopkins as a postdoctoral fellow.", "zh": "到约翰斯·霍普金斯大学库夫勒实验室做博士后。" },
+    { "year": 1958, "en": "Begins working with David Hubel on the visual cortex.", "zh": "开始与休伯尔合作研究视觉皮层。" },
+    { "year": 1973, "en": "Becomes head of Harvard's Department of Neurobiology.", "zh": "出任哈佛神经生物学系主任。" },
+    { "year": 1981, "en": "Shares the Nobel Prize in Physiology or Medicine with Hubel and Roger Sperry.", "zh": "与休伯尔、斯佩里分享诺贝尔生理学或医学奖。" },
+    { "year": 1991, "en": "Becomes president of Rockefeller University, serving until 1998.", "zh": "出任洛克菲勒大学校长，任职至 1998 年。" },
+    { "year": 2000, "en": "Becomes secretary-general of the Human Frontier Science Program.", "zh": "出任人类前沿科学计划秘书长。" }
+  ],
+  "works": [
+    { "year": 1959, "title": "Receptive fields of single neurones in the cat's striate cortex", "en": "The first report, with Hubel, that visual cortex cells respond to lines of a particular orientation.", "zh": "与休伯尔合作，首次报告视觉皮层细胞对特定朝向的线条起反应。" },
+    { "year": 1963, "title": "Single-cell responses in striate cortex of kittens deprived of vision in one eye", "en": "Showed that closing one eye early in life leaves it unable to drive cortical cells, the start of the study of critical periods.", "zh": "证明幼年时闭合一只眼，这只眼就几乎驱动不了皮层细胞，开启了关键期研究。" },
+    { "year": 1981, "title": "The postnatal development of the visual cortex and the influence of environment", "en": "His Nobel lecture, summing up two decades of deprivation experiments in cats and monkeys.", "zh": "他的诺贝尔演讲，总结了二十年来在猫和猴身上做的视觉剥夺实验。" },
+    { "year": 2005, "title": "Brain and Visual Perception: The Story of a 25-Year Collaboration", "en": "The collected papers of Hubel and Wiesel with their own commentary on how each piece of work came about.", "zh": "休伯尔和威泽尔的论文合集，两人为每篇写了来龙去脉的评述。" }
+  ],
+  "quotes": [
+    {
+      "text": "I was a rather lazy, mischievous student, interested mainly in sports.",
+      "zh": "我那时是个相当懒散、调皮的学生，心思主要在体育上。",
+      "source": "Nobel autobiography, 1981",
+      "url": "https://www.nobelprize.org/prizes/medicine/1981/wiesel/biographical/"
+    },
+    {
+      "text": "To my surprise, I enjoyed the challenges of administration, in particular assisting in the recruitment of new talent to the university.",
+      "zh": "出乎我意料，我喜欢管理工作的挑战，特别是帮学校招揽新人。",
+      "source": "Nobel autobiography, addendum 2008",
+      "url": "https://www.nobelprize.org/prizes/medicine/1981/wiesel/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Interview with Dr. Torsten Wiesel", "publisher": "NobelPrize.org", "year": 2001, "url": "https://www.nobelprize.org/prizes/medicine/1981/wiesel/interview/", "lang": "en" },
+    { "kind": "interview", "title": "Q&A: Torsten Wiesel", "publisher": "Nature", "year": 2014, "url": "https://www.nature.com/articles/514S11a", "lang": "en" },
+    { "kind": "memoir", "title": "Torsten N. Wiesel – Biographical", "publisher": "NobelPrize.org", "year": 1981, "url": "https://www.nobelprize.org/prizes/medicine/1981/wiesel/biographical/", "lang": "en" },
+    { "kind": "lecture", "title": "The postnatal development of the visual cortex and the influence of environment (Nobel lecture)", "publisher": "NobelPrize.org", "year": 1981, "url": "https://www.nobelprize.org/prizes/medicine/1981/wiesel/lecture/", "lang": "en" },
+    { "kind": "memoir", "title": "David H. Hubel (The History of Neuroscience in Autobiography, Vol. 1), on the collaboration", "publisher": "Society for Neuroscience", "year": 1996, "url": "https://brainfacts.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-1/c9.pdf", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "first-principles", "en": "Wiesel and Hubel chose the simplest design for the deprivation question: close one eye and use the other as a built-in control.", "zh": "威泽尔和休伯尔给剥夺实验选了最简单的设计：只闭一只眼，另一只眼就是现成的对照。" },
+    { "key": "right-partner", "en": "Hubel described Wiesel's scientific taste and his determination to keep working through any roadblock; the pair stayed together for some twenty years.", "zh": "休伯尔说威泽尔科学品味好，遇到什么阻碍都要做下去；两人一起干了约二十年。" }
+  ]
+}

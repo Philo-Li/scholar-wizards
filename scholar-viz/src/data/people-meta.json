@@ -1,0 +1,2674 @@
+{
+ "alan-turing": {
+  "qid": "Q7251",
+  "born": {
+   "year": 1912,
+   "month": 6,
+   "day": 23
+  },
+  "died": {
+   "year": 1954,
+   "month": 6,
+   "day": 7
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Alan_Turing_%281951%29_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 853,
+   "page": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951)_(crop).jpg",
+   "artist": "Elliott & Fry",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "albert-einstein": {
+  "qid": "Q937",
+  "born": {
+   "year": 1879,
+   "month": 3,
+   "day": 14
+  },
+  "died": {
+   "year": 1955,
+   "month": 4,
+   "day": 18
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 1921,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1925,
+    "declined": false
+   },
+   {
+    "id": "Q753072",
+    "en": "Gold Medal of the Royal Astronomical Society",
+    "zh": "英国皇家天文学会金质奖章",
+    "year": 1926,
+    "declined": false
+   },
+   {
+    "id": "Q317038",
+    "en": "Max Planck Medal",
+    "zh": "马克斯·普朗克奖章",
+    "year": 1929,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/960px-Albert_Einstein_Head_cleaned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 792,
+   "page": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg",
+   "artist": "Oren Jack Turner",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "alexander-grothendieck": {
+  "qid": "Q77141",
+  "born": {
+   "year": 1928,
+   "month": 3,
+   "day": 28
+  },
+  "died": {
+   "year": 2014,
+   "month": 11,
+   "day": 13
+  },
+  "prizes": [
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 1966,
+    "declined": false
+   },
+   {
+    "id": "Q57233090",
+    "en": "Crafoord Prize in Mathematics",
+    "zh": "Crafoord Prize in Mathematics",
+    "year": 1988,
+    "declined": true
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Alexander_Grothendieck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 779,
+   "page": "https://commons.wikimedia.org/wiki/File:Alexander_Grothendieck.jpg",
+   "artist": "Konrad Jacobs, Erlangen, Copyright by MFO / Original uploader was AEDP at it.wikipedia",
+   "licence": "CC BY-SA 2.0 de"
+  },
+  "openalex": null
+ },
+ "alfred-wegener": {
+  "qid": "Q76323",
+  "born": {
+   "year": 1880,
+   "month": 11,
+   "day": 1
+  },
+  "died": {
+   "year": 1930,
+   "month": 11,
+   "day": 15
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Alfred_Wegener_ca.1924-30.jpg/960px-Alfred_Wegener_ca.1924-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 774,
+   "page": "https://commons.wikimedia.org/wiki/File:Alfred_Wegener_ca.1924-30.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "amos-tversky": {
+  "qid": "Q474333",
+  "born": {
+   "year": 1937,
+   "month": 3,
+   "day": 16
+  },
+  "died": {
+   "year": 1996,
+   "month": 6,
+   "day": 2
+  },
+  "prizes": [],
+  "portrait": null,
+  "openalex": null
+ },
+ "andrew-wiles": {
+  "qid": "Q184433",
+  "born": {
+   "year": 1953,
+   "month": 4,
+   "day": 11
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q690881",
+    "en": "Ostrowski Prize",
+    "zh": "奥斯特洛夫斯基奖",
+    "year": 1996,
+    "declined": false
+   },
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1996,
+    "declined": false
+   },
+   {
+    "id": "Q188184",
+    "en": "Abel Prize",
+    "zh": "阿贝尔奖",
+    "year": 2016,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 2017,
+    "declined": false
+   },
+   {
+    "id": "Q915604",
+    "en": "Wolf Prize in Mathematics",
+    "zh": "沃尔夫数学奖",
+    "year": null,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Andrew_wiles1-3.jpg/960px-Andrew_wiles1-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 806,
+   "page": "https://commons.wikimedia.org/wiki/File:Andrew_wiles1-3.jpg",
+   "artist": "\"copyright C. J. Mozzochi, Princeton N.J\"",
+   "licence": "Attribution"
+  },
+  "openalex": null
+ },
+ "andrew-yao": {
+  "qid": "Q62888",
+  "born": {
+   "year": 1946,
+   "month": 12,
+   "day": 24
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q185667",
+    "en": "Turing Award",
+    "zh": "图灵奖",
+    "year": 2000,
+    "declined": false
+   },
+   {
+    "id": "Q6452191",
+    "en": "Kyoto Prize in Advanced Technology",
+    "zh": "Kyoto Prize in Advanced Technology",
+    "year": 2021,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Andrew_Yao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 800,
+   "page": "https://commons.wikimedia.org/wiki/File:Andrew_Yao.jpg",
+   "artist": "Schmid, Renate",
+   "licence": "CC BY-SA 2.0 de"
+  },
+  "openalex": null
+ },
+ "arthur-ashkin": {
+  "qid": "Q708472",
+  "born": {
+   "year": 1922,
+   "month": 9,
+   "day": 2
+  },
+  "died": {
+   "year": 2020,
+   "month": 9,
+   "day": 21
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 2018,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Arthur_Ashkin_EM1B5678_%2844417135450%29.jpg/960px-Arthur_Ashkin_EM1B5678_%2844417135450%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 853,
+   "page": "https://commons.wikimedia.org/wiki/File:Arthur_Ashkin_EM1B5678_(44417135450).jpg",
+   "artist": "Bengt Nyman from Vaxholm, Sweden",
+   "licence": "CC BY 2.0"
+  },
+  "openalex": null
+ },
+ "barbara-mcclintock": {
+  "qid": "Q199654",
+  "born": {
+   "year": 1902,
+   "month": 6,
+   "day": 16
+  },
+  "died": {
+   "year": 1992,
+   "month": 9,
+   "day": 2
+  },
+  "prizes": [
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1970,
+    "declined": false
+   },
+   {
+    "id": "Q540561",
+    "en": "Wolf Prize in Medicine",
+    "zh": "沃尔夫医学奖",
+    "year": 1981,
+    "declined": false
+   },
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 1983,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/960px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 524,
+   "page": "https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg",
+   "artist": "Smithsonian Institution/Science Service; Restored by Adam Cuerden",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "barry-marshall": {
+  "qid": "Q202136",
+  "born": {
+   "year": 1951,
+   "month": 9,
+   "day": 30
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q136696",
+    "en": "Lasker-DeBakey Clinical Medical Research Award",
+    "zh": "拉斯克临床医学研究奖",
+    "year": 1995,
+    "declined": false
+   },
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 2005,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Barry_J_Marshall.jpg/960px-Barry_J_Marshall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 736,
+   "page": "https://commons.wikimedia.org/wiki/File:Barry_J_Marshall.jpg",
+   "artist": "WikiEdtingProfile2021",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "brenda-milner": {
+  "qid": "Q468228",
+  "born": {
+   "year": 1918,
+   "month": 7,
+   "day": 15
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q628457",
+    "en": "Balzan Prize",
+    "zh": "巴仁獎",
+    "year": 2009,
+    "declined": false
+   },
+   {
+    "id": "Q18889781",
+    "en": "Kavli Prize in Neuroscience",
+    "zh": "Kavli Prize in Neuroscience",
+    "year": 2014,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Brenda_Milner.jpg/960px-Brenda_Milner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 743,
+   "page": "https://commons.wikimedia.org/wiki/File:Brenda_Milner.jpg",
+   "artist": "Eva Blue",
+   "licence": "CC BY 2.0"
+  },
+  "openalex": null
+ },
+ "charles-darwin": {
+  "qid": "Q1035",
+  "born": {
+   "year": 1809,
+   "month": 2,
+   "day": 12
+  },
+  "died": {
+   "year": 1882,
+   "month": 4,
+   "day": 19
+  },
+  "prizes": [
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1853,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1864,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Charles_Darwin_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 899,
+   "page": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_portrait.jpg",
+   "artist": "Herbert Rose Barraud",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "charles-kao": {
+  "qid": "Q16389",
+  "born": {
+   "year": 1933,
+   "month": 11,
+   "day": 4
+  },
+  "died": {
+   "year": 2018,
+   "month": 9,
+   "day": 23
+  },
+  "prizes": [
+   {
+    "id": "Q908745",
+    "en": "Japan Prize",
+    "zh": "日本国际奖",
+    "year": 1996,
+    "declined": false
+   },
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 2009,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Charles_K._Kao_cropped_2.jpg/960px-Charles_K._Kao_cropped_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 752,
+   "page": "https://commons.wikimedia.org/wiki/File:Charles_K._Kao_cropped_2.jpg",
+   "artist": "David Dobkin [1]",
+   "licence": "CC BY-SA 3.0"
+  },
+  "openalex": null
+ },
+ "chen-ning-yang": {
+  "qid": "Q181369",
+  "born": {
+   "year": 1922,
+   "month": 10,
+   "day": 1
+  },
+  "died": {
+   "year": 2025,
+   "month": 10,
+   "day": 18
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 1957,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1986,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Yang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 905,
+   "page": "https://commons.wikimedia.org/wiki/File:Yang.jpg",
+   "artist": "Nobel foundation",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "chien-shiung-wu": {
+  "qid": "Q450317",
+  "born": {
+   "year": 1912,
+   "month": 5,
+   "day": 31
+  },
+  "died": {
+   "year": 1997,
+   "month": 2,
+   "day": 16
+  },
+  "prizes": [
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1975,
+    "declined": false
+   },
+   {
+    "id": "Q845333",
+    "en": "Wolf Prize in Physics",
+    "zh": "沃尔夫物理学奖",
+    "year": 1978,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chien-shiung_Wu_%281912-1997%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 949,
+   "page": "https://commons.wikimedia.org/wiki/File:Chien-shiung_Wu_(1912-1997)_(cropped).jpg",
+   "artist": "Smithsonian Institution from United States",
+   "licence": "No restrictions"
+  },
+  "openalex": null
+ },
+ "claude-shannon": {
+  "qid": "Q92760",
+  "born": {
+   "year": 1916,
+   "month": 4,
+   "day": 30
+  },
+  "died": {
+   "year": 2001,
+   "month": 2,
+   "day": 24
+  },
+  "prizes": [
+   {
+    "id": "Q678414",
+    "en": "IEEE Medal of Honor",
+    "zh": "IEEE榮譽獎章",
+    "year": 1966,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1966,
+    "declined": false
+   },
+   {
+    "id": "Q18344281",
+    "en": "Kyoto Prize in Basic Sciences",
+    "zh": "Kyoto Prize in Basic Sciences",
+    "year": 1985,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/ClaudeShannon_MFO3807.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 901,
+   "page": "https://commons.wikimedia.org/wiki/File:ClaudeShannon_MFO3807.jpg",
+   "artist": "Jacobs, Konrad",
+   "licence": "CC BY-SA 2.0 de"
+  },
+  "openalex": null
+ },
+ "dan-shechtman": {
+  "qid": "Q44111",
+  "born": {
+   "year": 1941,
+   "month": 1,
+   "day": 24
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q845333",
+    "en": "Wolf Prize in Physics",
+    "zh": "沃尔夫物理学奖",
+    "year": 1999,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 2011,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Nobel_Prize_2011-Nobel_interviews_KVA-DSC_8049.jpg/960px-Nobel_Prize_2011-Nobel_interviews_KVA-DSC_8049.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 960,
+   "page": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_2011-Nobel_interviews_KVA-DSC_8049.jpg",
+   "artist": "Holger Motzkau",
+   "licence": "CC BY-SA 3.0"
+  },
+  "openalex": null
+ },
+ "daniel-kahneman": {
+  "qid": "Q233950",
+  "born": {
+   "year": 1934,
+   "month": 3,
+   "day": 5
+  },
+  "died": {
+   "year": 2024,
+   "month": 3,
+   "day": 27
+  },
+  "prizes": [
+   {
+    "id": "Q17144",
+    "en": "Presidential Medal of Freedom",
+    "zh": "总统自由勋章",
+    "year": 2013,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Daniel_Kahneman_%283283955327%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 761,
+   "page": "https://commons.wikimedia.org/wiki/File:Daniel_Kahneman_(3283955327)_(cropped).jpg",
+   "artist": "nrkbeta",
+   "licence": "CC BY-SA 2.0"
+  },
+  "openalex": null
+ },
+ "david-hubel": {
+  "qid": "Q295644",
+  "born": {
+   "year": 1926,
+   "month": 2,
+   "day": 27
+  },
+  "died": {
+   "year": 2013,
+   "month": 9,
+   "day": 22
+  },
+  "prizes": [
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 1981,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/DHUBEL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 922,
+   "page": "https://commons.wikimedia.org/wiki/File:DHUBEL.jpg",
+   "artist": "Joey cantod",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "demis-hassabis": {
+  "qid": "Q3022141",
+  "born": {
+   "year": 1976,
+   "month": 7,
+   "day": 27
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q3320352",
+    "en": "Princess of Asturias Award for Technical and Scientific Research",
+    "zh": "阿斯图里亚斯亲王奖科学技术奖",
+    "year": 2022,
+    "declined": false
+   },
+   {
+    "id": "Q5019489",
+    "en": "Breakthrough Prize in Life Sciences",
+    "zh": "生命科学突破奖",
+    "year": 2023,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 2024,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/960px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 853,
+   "page": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg",
+   "artist": "John Sears",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": "A5005349213"
+ },
+ "donald-knuth": {
+  "qid": "Q17457",
+  "born": {
+   "year": 1938,
+   "month": 1,
+   "day": 10
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q1541081",
+    "en": "Grace Murray Hopper Award",
+    "zh": "格蕾丝·默里·霍珀奖",
+    "year": 1971,
+    "declined": false
+   },
+   {
+    "id": "Q185667",
+    "en": "Turing Award",
+    "zh": "图灵奖",
+    "year": 1974,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1979,
+    "declined": false
+   },
+   {
+    "id": "Q6452191",
+    "en": "Kyoto Prize in Advanced Technology",
+    "zh": "Kyoto Prize in Advanced Technology",
+    "year": 1996,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Donald_Ervin_Knuth_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 961,
+   "page": "https://commons.wikimedia.org/wiki/File:Donald_Ervin_Knuth_(cropped).jpg",
+   "artist": "Alex Handy",
+   "licence": "CC BY-SA 2.0"
+  },
+  "openalex": null
+ },
+ "dorothy-hodgkin": {
+  "qid": "Q7487",
+  "born": {
+   "year": 1910,
+   "month": 5,
+   "day": 12
+  },
+  "died": {
+   "year": 1994,
+   "month": 7,
+   "day": 29
+  },
+  "prizes": [
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1956,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 1964,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1976,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Professor_Dorothy_Hodgkin.jpg/960px-Professor_Dorothy_Hodgkin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 982,
+   "page": "https://commons.wikimedia.org/wiki/File:Professor_Dorothy_Hodgkin.jpg",
+   "artist": "University of Bristol",
+   "licence": "CC BY-SA 2.0"
+  },
+  "openalex": null
+ },
+ "elinor-ostrom": {
+  "qid": "Q153761",
+  "born": {
+   "year": 1933,
+   "month": 8,
+   "day": 7
+  },
+  "died": {
+   "year": 2012,
+   "month": 6,
+   "day": 12
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Nobel_Prize_2009-Press_Conference_KVA-30.jpg/960px-Nobel_Prize_2009-Press_Conference_KVA-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 952,
+   "page": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_2009-Press_Conference_KVA-30.jpg",
+   "artist": "Holger Motzkau",
+   "licence": "CC BY-SA 3.0"
+  },
+  "openalex": "A5003087402"
+ },
+ "emmanuelle-charpentier": {
+  "qid": "Q17280087",
+  "born": {
+   "year": 1968,
+   "month": 12,
+   "day": 11
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q3320352",
+    "en": "Princess of Asturias Award for Technical and Scientific Research",
+    "zh": "阿斯图里亚斯亲王奖科学技术奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q5019489",
+    "en": "Breakthrough Prize in Life Sciences",
+    "zh": "生命科学突破奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q477467",
+    "en": "Gruber Prize in Genetics",
+    "zh": "格鲁伯遗传学奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q10922924",
+    "en": "Tang Prize",
+    "zh": "唐奖",
+    "year": 2016,
+    "declined": false
+   },
+   {
+    "id": "Q908745",
+    "en": "Japan Prize",
+    "zh": "日本国际奖",
+    "year": 2017,
+    "declined": false
+   },
+   {
+    "id": "Q18889779",
+    "en": "Kavli Prize in Nanoscience",
+    "zh": "Kavli Prize in Nanoscience",
+    "year": 2018,
+    "declined": false
+   },
+   {
+    "id": "Q540561",
+    "en": "Wolf Prize in Medicine",
+    "zh": "沃尔夫医学奖",
+    "year": 2020,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 2020,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Emmanuelle_Charpentier.jpg/960px-Emmanuelle_Charpentier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 606,
+   "page": "https://commons.wikimedia.org/wiki/File:Emmanuelle_Charpentier.jpg",
+   "artist": "Bianca Fioretti, Hallbauer & Fioretti",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "emmy-noether": {
+  "qid": "Q7099",
+  "born": {
+   "year": 1882,
+   "month": 3,
+   "day": 23
+  },
+  "died": {
+   "year": 1935,
+   "month": 4,
+   "day": 14
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/EmmyNoether_MFO3096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 613,
+   "page": "https://commons.wikimedia.org/wiki/File:EmmyNoether_MFO3096.jpg",
+   "artist": "Konrad Jacobs, Erlangen",
+   "licence": "CC BY-SA 2.0 de"
+  },
+  "openalex": null
+ },
+ "evariste-galois": {
+  "qid": "Q7091",
+  "born": {
+   "year": 1811,
+   "month": 10,
+   "day": 25
+  },
+  "died": {
+   "year": 1832,
+   "month": 5,
+   "day": 31
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/E._Galois_Portrait_No.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 908,
+   "page": "https://commons.wikimedia.org/wiki/File:E._Galois_Portrait_No.2.jpg",
+   "artist": "Alfred Galois",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "francis-crick": {
+  "qid": "Q123280",
+  "born": {
+   "year": 1916,
+   "month": 6,
+   "day": 8
+  },
+  "died": {
+   "year": 2004,
+   "month": 7,
+   "day": 28
+  },
+  "prizes": [
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 1962,
+    "declined": false
+   },
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1972,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1975,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Francis_Crick_1995.jpg/960px-Francis_Crick_1995.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 916,
+   "page": "https://commons.wikimedia.org/wiki/File:Francis_Crick_1995.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "CC BY 4.0"
+  },
+  "openalex": null
+ },
+ "g-h-hardy": {
+  "qid": "Q184337",
+  "born": {
+   "year": 1877,
+   "month": 2,
+   "day": 7
+  },
+  "died": {
+   "year": 1947,
+   "month": 12,
+   "day": 1
+  },
+  "prizes": [
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1920,
+    "declined": false
+   },
+   {
+    "id": "Q899402",
+    "en": "Sylvester Medal",
+    "zh": "西尔维斯特奖章",
+    "year": 1940,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1947,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Godfrey_Harold_Hardy_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 640,
+   "page": "https://commons.wikimedia.org/wiki/File:Godfrey_Harold_Hardy_1.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  "openalex": "A5110397833"
+ },
+ "geoffrey-hinton": {
+  "qid": "Q92894",
+  "born": {
+   "year": 1947,
+   "month": 12,
+   "day": 6
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q185667",
+    "en": "Turing Award",
+    "zh": "图灵奖",
+    "year": 2018,
+    "declined": false
+   },
+   {
+    "id": "Q3320352",
+    "en": "Princess of Asturias Award for Technical and Scientific Research",
+    "zh": "阿斯图里亚斯亲王奖科学技术奖",
+    "year": 2022,
+    "declined": false
+   },
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 2024,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Geoffrey_Hinton_in_2026.jpg/960px-Geoffrey_Hinton_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 896,
+   "page": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg",
+   "artist": "Cmichel67",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "grace-hopper": {
+  "qid": "Q11641",
+  "born": {
+   "year": 1906,
+   "month": 12,
+   "day": 9
+  },
+  "died": {
+   "year": 1992,
+   "month": 1,
+   "day": 1
+  },
+  "prizes": [
+   {
+    "id": "Q17144",
+    "en": "Presidential Medal of Freedom",
+    "zh": "总统自由勋章",
+    "year": 2016,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/960px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 800,
+   "page": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg",
+   "artist": "James S. Davis",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "gregor-mendel": {
+  "qid": "Q37970",
+  "born": {
+   "year": 1822,
+   "month": 7,
+   "day": 20
+  },
+  "died": {
+   "year": 1884,
+   "month": 1,
+   "day": 6
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Gregor_Mendel_2.jpg/960px-Gregor_Mendel_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 868,
+   "page": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "grigori-perelman": {
+  "qid": "Q117346",
+  "born": {
+   "year": 1966,
+   "month": 6,
+   "day": 13
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 2006,
+    "declined": true
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg/960px-Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 722,
+   "page": "https://commons.wikimedia.org/wiki/File:Grigori_Perelman,_1993_(re-scanned)_(cropped).jpg",
+   "artist": "George Bergman",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "herbert-simon": {
+  "qid": "Q181529",
+  "born": {
+   "year": 1916,
+   "month": 6,
+   "day": 15
+  },
+  "died": {
+   "year": 2001,
+   "month": 2,
+   "day": 9
+  },
+  "prizes": [
+   {
+    "id": "Q185667",
+    "en": "Turing Award",
+    "zh": "图灵奖",
+    "year": 1975,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1986,
+    "declined": false
+   },
+   {
+    "id": "Q511102",
+    "en": "John Von Neumann Theory Prize",
+    "zh": "冯·诺伊曼理論獎",
+    "year": 1988,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Herbert_Simon%2C_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg/960px-Herbert_Simon%2C_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 936,
+   "page": "https://commons.wikimedia.org/wiki/File:Herbert_Simon,_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg",
+   "artist": "Rochester Institute of Technology",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "hua-luogeng": {
+  "qid": "Q590111",
+  "born": {
+   "year": 1910,
+   "month": 11,
+   "day": 12
+  },
+  "died": {
+   "year": 1985,
+   "month": 6,
+   "day": 12
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Hua_Luogeng_1956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 758,
+   "page": "https://commons.wikimedia.org/wiki/File:Hua_Luogeng_1956.jpg",
+   "artist": "牛畏予",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "ignaz-semmelweis": {
+  "qid": "Q59736",
+  "born": {
+   "year": 1818,
+   "month": 7,
+   "day": 1
+  },
+  "died": {
+   "year": 1865,
+   "month": 8,
+   "day": 13
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg/960px-Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 665,
+   "page": "https://commons.wikimedia.org/wiki/File:Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg",
+   "artist": "József Borsos / Albert Doctor",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "inge-lehmann": {
+  "qid": "Q256839",
+  "born": {
+   "year": 1888,
+   "month": 5,
+   "day": 13
+  },
+  "died": {
+   "year": 1993,
+   "month": 2,
+   "day": 21
+  },
+  "prizes": [
+   {
+    "id": "Q1780740",
+    "en": "William Bowie Medal",
+    "zh": "威廉·鲍伊奖章",
+    "year": 1971,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Inge_Lehman.jpg/960px-Inge_Lehman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 935,
+   "page": "https://commons.wikimedia.org/wiki/File:Inge_Lehman.jpg",
+   "artist": "Even Neuhaus (6.2.1863-20.4.1946)",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "jennifer-doudna": {
+  "qid": "Q56068",
+  "born": {
+   "year": 1964,
+   "month": 2,
+   "day": 19
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q3320352",
+    "en": "Princess of Asturias Award for Technical and Scientific Research",
+    "zh": "阿斯图里亚斯亲王奖科学技术奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q5019489",
+    "en": "Breakthrough Prize in Life Sciences",
+    "zh": "生命科学突破奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q477467",
+    "en": "Gruber Prize in Genetics",
+    "zh": "格鲁伯遗传学奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q10922924",
+    "en": "Tang Prize",
+    "zh": "唐奖",
+    "year": 2016,
+    "declined": false
+   },
+   {
+    "id": "Q908745",
+    "en": "Japan Prize",
+    "zh": "日本国际奖",
+    "year": 2017,
+    "declined": false
+   },
+   {
+    "id": "Q18889779",
+    "en": "Kavli Prize in Nanoscience",
+    "zh": "Kavli Prize in Nanoscience",
+    "year": 2018,
+    "declined": false
+   },
+   {
+    "id": "Q540561",
+    "en": "Wolf Prize in Medicine",
+    "zh": "沃尔夫医学奖",
+    "year": 2020,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 2020,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Professor_Jennifer_Doudna_ForMemRS_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 853,
+   "page": "https://commons.wikimedia.org/wiki/File:Professor_Jennifer_Doudna_ForMemRS_(cropped).jpg",
+   "artist": "Duncan.Hull",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "jim-simons": {
+  "qid": "Q560847",
+  "born": {
+   "year": 1938,
+   "month": 4,
+   "day": 25
+  },
+  "died": {
+   "year": 2024,
+   "month": 5,
+   "day": 10
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Jim_Simons_at_MSRI.jpg/960px-Jim_Simons_at_MSRI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 480,
+   "page": "https://commons.wikimedia.org/wiki/File:Jim_Simons_at_MSRI.jpg",
+   "artist": "Gleuschk",
+   "licence": "CC BY-SA 3.0"
+  },
+  "openalex": null
+ },
+ "jocelyn-bell-burnell": {
+  "qid": "Q233974",
+  "born": {
+   "year": 1943,
+   "month": 7,
+   "day": 15
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q56547241",
+    "en": "Special Breakthrough Prize in Fundamental Physics",
+    "zh": "Special Breakthrough Prize in Fundamental Physics",
+    "year": 2018,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 2021,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Jocelyn_Bell_Burnell_in_Manchester_2026.MP.jpg/960px-Jocelyn_Bell_Burnell_in_Manchester_2026.MP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 974,
+   "page": "https://commons.wikimedia.org/wiki/File:Jocelyn_Bell_Burnell_in_Manchester_2026.MP.jpg",
+   "artist": "Victoria",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "john-fenn": {
+  "qid": "Q106738",
+  "born": {
+   "year": 1917,
+   "month": 6,
+   "day": 15
+  },
+  "died": {
+   "year": 2010,
+   "month": 12,
+   "day": 10
+  },
+  "prizes": [
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 2002,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/John_B_Fenn01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 561,
+   "page": "https://commons.wikimedia.org/wiki/File:John_B_Fenn01.jpg",
+   "artist": null,
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "john-goodenough": {
+  "qid": "Q906529",
+  "born": {
+   "year": 1922,
+   "month": 7,
+   "day": 25
+  },
+  "died": {
+   "year": 2023,
+   "month": 6,
+   "day": 25
+  },
+  "prizes": [
+   {
+    "id": "Q908745",
+    "en": "Japan Prize",
+    "zh": "日本国际奖",
+    "year": 2001,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 2011,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 2019,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 2019,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nobel_9_Dec_2019_029_copy_%2849204051647%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 863,
+   "page": "https://commons.wikimedia.org/wiki/File:Nobel_9_Dec_2019_029_copy_(49204051647)_(cropped).jpg",
+   "artist": "US Embassy Sweden",
+   "licence": "CC BY 2.0"
+  },
+  "openalex": null
+ },
+ "john-nash": {
+  "qid": "Q128736",
+  "born": {
+   "year": 1928,
+   "month": 6,
+   "day": 13
+  },
+  "died": {
+   "year": 2015,
+   "month": 5,
+   "day": 23
+  },
+  "prizes": [
+   {
+    "id": "Q511102",
+    "en": "John Von Neumann Theory Prize",
+    "zh": "冯·诺伊曼理論獎",
+    "year": 1978,
+    "declined": false
+   },
+   {
+    "id": "Q63724652",
+    "en": "Steele Prize for Seminal Contribution To Research",
+    "zh": "Steele Prize for Seminal Contribution To Research",
+    "year": 1999,
+    "declined": false
+   },
+   {
+    "id": "Q188184",
+    "en": "Abel Prize",
+    "zh": "阿贝尔奖",
+    "year": 2015,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/John_Forbes_Nash%2C_Jr._by_Peter_Badge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 965,
+   "page": "https://commons.wikimedia.org/wiki/File:John_Forbes_Nash,_Jr._by_Peter_Badge.jpg",
+   "artist": "Peter Badge / Typos1",
+   "licence": "CC BY-SA 3.0"
+  },
+  "openalex": null
+ },
+ "john-von-neumann": {
+  "qid": "Q17455",
+  "born": {
+   "year": 1903,
+   "month": 12,
+   "day": 28
+  },
+  "died": {
+   "year": 1957,
+   "month": 2,
+   "day": 8
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/JohnvonNeumann-LosAlamos.jpg/960px-JohnvonNeumann-LosAlamos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 830,
+   "page": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.jpg",
+   "artist": null,
+   "licence": "Attribution"
+  },
+  "openalex": "A5112237696"
+ },
+ "june-huh": {
+  "qid": "Q32538394",
+  "born": {
+   "year": 1983,
+   "month": 6,
+   "day": 9
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 2022,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/June_Huh_MacArthur_Fellows_Program_2022.jpg/960px-June_Huh_MacArthur_Fellows_Program_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 959,
+   "page": "https://commons.wikimedia.org/wiki/File:June_Huh_MacArthur_Fellows_Program_2022.jpg",
+   "artist": "John D. and Catherine T. MacArthur Foundation",
+   "licence": "CC BY 4.0"
+  },
+  "openalex": null
+ },
+ "karl-weierstrass": {
+  "qid": "Q57103",
+  "born": {
+   "year": 1815,
+   "month": 10,
+   "day": 31
+  },
+  "died": {
+   "year": 1897,
+   "month": 2,
+   "day": 19
+  },
+  "prizes": [
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1895,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Karl_Weierstrass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 939,
+   "page": "https://commons.wikimedia.org/wiki/File:Karl_Weierstrass.jpg",
+   "artist": null,
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "katalin-kariko": {
+  "qid": "Q88608397",
+  "born": {
+   "year": 1955,
+   "month": 1,
+   "day": 17
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q3320352",
+    "en": "Princess of Asturias Award for Technical and Scientific Research",
+    "zh": "阿斯图里亚斯亲王奖科学技术奖",
+    "year": 2021,
+    "declined": false
+   },
+   {
+    "id": "Q136696",
+    "en": "Lasker-DeBakey Clinical Medical Research Award",
+    "zh": "拉斯克临床医学研究奖",
+    "year": 2021,
+    "declined": false
+   },
+   {
+    "id": "Q5019489",
+    "en": "Breakthrough Prize in Life Sciences",
+    "zh": "生命科学突破奖",
+    "year": 2022,
+    "declined": false
+   },
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 2023,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Katalin_Karik%C3%B3_at_the_United_States_Embassy_Sweden%2C_2023_Nobel_Reception_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 858,
+   "page": "https://commons.wikimedia.org/wiki/File:Katalin_Karik%C3%B3_at_the_United_States_Embassy_Sweden,_2023_Nobel_Reception_(cropped).jpg",
+   "artist": "US Embassy Sweden",
+   "licence": "CC BY 2.0"
+  },
+  "openalex": null
+ },
+ "kurt-godel": {
+  "qid": "Q41390",
+  "born": {
+   "year": 1906,
+   "month": 4,
+   "day": 28
+  },
+  "died": {
+   "year": 1978,
+   "month": 1,
+   "day": 14
+  },
+  "prizes": [
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1974,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 848,
+   "page": "https://commons.wikimedia.org/wiki/File:Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "lawrence-bragg": {
+  "qid": "Q131729",
+  "born": {
+   "year": 1890,
+   "month": 3,
+   "day": 31
+  },
+  "died": {
+   "year": 1971,
+   "month": 7,
+   "day": 1
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 1915,
+    "declined": false
+   },
+   {
+    "id": "Q844872",
+    "en": "Hughes Medal",
+    "zh": "休斯奖章",
+    "year": 1931,
+    "declined": false
+   },
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1946,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1966,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Wl-bragg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 905,
+   "page": "https://commons.wikimedia.org/wiki/File:Wl-bragg.jpg",
+   "artist": "Nobel foundation",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "linus-pauling": {
+  "qid": "Q48983",
+  "born": {
+   "year": 1901,
+   "month": 2,
+   "day": 28
+  },
+  "died": {
+   "year": 1994,
+   "month": 8,
+   "day": 19
+  },
+  "prizes": [
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 1954,
+    "declined": false
+   },
+   {
+    "id": "Q35637",
+    "en": "Nobel Peace Prize",
+    "zh": "诺贝尔和平奖",
+    "year": 1962,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1974,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Linus_Pauling_1962.jpg/960px-Linus_Pauling_1962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 960,
+   "page": "https://commons.wikimedia.org/wiki/File:Linus_Pauling_1962.jpg",
+   "artist": "Nobel Foundation",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "lise-meitner": {
+  "qid": "Q56189",
+  "born": {
+   "year": 1878,
+   "month": 11,
+   "day": 7
+  },
+  "died": {
+   "year": 1968,
+   "month": 10,
+   "day": 27
+  },
+  "prizes": [
+   {
+    "id": "Q317038",
+    "en": "Max Planck Medal",
+    "zh": "马克斯·普朗克奖章",
+    "year": 1949,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Lise_Meitner_%281878-1968%29%2C_lecturing_at_Catholic_University%2C_Washington%2C_D.C.%2C_1946.jpg/960px-Lise_Meitner_%281878-1968%29%2C_lecturing_at_Catholic_University%2C_Washington%2C_D.C.%2C_1946.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 866,
+   "page": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_(1878-1968),_lecturing_at_Catholic_University,_Washington,_D.C.,_1946.jpg",
+   "artist": "Smithsonian Institution",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "ludwig-boltzmann": {
+  "qid": "Q84296",
+  "born": {
+   "year": 1844,
+   "month": 2,
+   "day": 20
+  },
+  "died": {
+   "year": 1906,
+   "month": 9,
+   "day": 5
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Boltzmann-Ludwig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 720,
+   "page": "https://commons.wikimedia.org/wiki/File:Boltzmann-Ludwig.jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "lynn-margulis": {
+  "qid": "Q234583",
+  "born": {
+   "year": 1938,
+   "month": 3,
+   "day": 5
+  },
+  "died": {
+   "year": 2011,
+   "month": 11,
+   "day": 22
+  },
+  "prizes": [
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1999,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Lynn_Margulis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 960,
+   "page": "https://commons.wikimedia.org/wiki/File:Lynn_Margulis.jpg",
+   "artist": "Jpedreira",
+   "licence": "CC BY-SA 2.5"
+  },
+  "openalex": null
+ },
+ "marie-curie": {
+  "qid": "Q7186",
+  "born": {
+   "year": 1867,
+   "month": 11,
+   "day": 7
+  },
+  "died": {
+   "year": 1934,
+   "month": 7,
+   "day": 4
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 1903,
+    "declined": false
+   },
+   {
+    "id": "Q44585",
+    "en": "Nobel Prize in Chemistry",
+    "zh": "诺贝尔化学奖",
+    "year": 1911,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Marie_Curie_%281900%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 938,
+   "page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_(1900)_(cropped).jpg",
+   "artist": "Unknown authorUnknown author",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "marie-tharp": {
+  "qid": "Q538786",
+  "born": {
+   "year": 1920,
+   "month": 7,
+   "day": 30
+  },
+  "died": {
+   "year": 2006,
+   "month": 8,
+   "day": 23
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Marie_Tharp_working_with_fathometer_record_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 821,
+   "page": "https://commons.wikimedia.org/wiki/File:Marie_Tharp_working_with_fathometer_record_(cropped).jpg",
+   "artist": "Credit Line: AIP Emilio Segrè Visual Archives, Gift of Bill Woodward, USNS Kane Collection",
+   "licence": "CC0"
+  },
+  "openalex": null
+ },
+ "maryam-mirzakhani": {
+  "qid": "Q1771279",
+  "born": {
+   "year": 1977,
+   "month": 5,
+   "day": 12
+  },
+  "died": {
+   "year": 2017,
+   "month": 7,
+   "day": 14
+  },
+  "prizes": [
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 2014,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Maryam_Mirzakhani_in_Seoul_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 889,
+   "page": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_in_Seoul_2014.jpg",
+   "artist": "Gert-Martin Greuel",
+   "licence": "CC BY-SA 2.0 de"
+  },
+  "openalex": null
+ },
+ "michael-faraday": {
+  "qid": "Q8750",
+  "born": {
+   "year": 1791,
+   "month": 9,
+   "day": 22
+  },
+  "died": {
+   "year": 1867,
+   "month": 8,
+   "day": 25
+  },
+  "prizes": [
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1832,
+    "declined": false
+   },
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1835,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1838,
+    "declined": false
+   },
+   {
+    "id": "Q285167",
+    "en": "Rumford Medal",
+    "zh": "伦福德奖",
+    "year": 1846,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/960px-M_Faraday_Th_Phillips_oil_1842.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 829,
+   "page": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg",
+   "artist": "Thomas Phillips",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "paul-dirac": {
+  "qid": "Q47480",
+  "born": {
+   "year": 1902,
+   "month": 8,
+   "day": 8
+  },
+  "died": {
+   "year": 1984,
+   "month": 10,
+   "day": 20
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 1933,
+    "declined": false
+   },
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 1939,
+    "declined": false
+   },
+   {
+    "id": "Q28003",
+    "en": "Copley Medal",
+    "zh": "科普利奖章",
+    "year": 1952,
+    "declined": false
+   },
+   {
+    "id": "Q317038",
+    "en": "Max Planck Medal",
+    "zh": "马克斯·普朗克奖章",
+    "year": 1952,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Paul_Dirac%2C_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 945,
+   "page": "https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933.jpg",
+   "artist": "Nobel Foundation",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "paul-erdos": {
+  "qid": "Q173746",
+  "born": {
+   "year": 1913,
+   "month": 3,
+   "day": 26
+  },
+  "died": {
+   "year": 1996,
+   "month": 9,
+   "day": 20
+  },
+  "prizes": [
+   {
+    "id": "Q915604",
+    "en": "Wolf Prize in Mathematics",
+    "zh": "沃尔夫数学奖",
+    "year": 1983,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Erdos_head_budapest_fall_1992.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 723,
+   "page": "https://commons.wikimedia.org/wiki/File:Erdos_head_budapest_fall_1992.jpg",
+   "artist": "Topsy Kretts",
+   "licence": "CC BY 3.0"
+  },
+  "openalex": "A5077107126"
+ },
+ "peter-scholze": {
+  "qid": "Q98034",
+  "born": {
+   "year": 1987,
+   "month": 12,
+   "day": 11
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q690881",
+    "en": "Ostrowski Prize",
+    "zh": "奥斯特洛夫斯基奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 2018,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Peter_Scholze_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 610,
+   "page": "https://commons.wikimedia.org/wiki/File:Peter_Scholze_(cropped).jpg",
+   "artist": "George Bergman",
+   "licence": "GFDL 1.2"
+  },
+  "openalex": null
+ },
+ "richard-feynman": {
+  "qid": "Q39246",
+  "born": {
+   "year": 1918,
+   "month": 5,
+   "day": 11
+  },
+  "died": {
+   "year": 1988,
+   "month": 2,
+   "day": 15
+  },
+  "prizes": [
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 1965,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1979,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 737,
+   "page": "https://commons.wikimedia.org/wiki/File:RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+   "artist": "Copyright Tamiko Thiel 1984",
+   "licence": "CC BY-SA 3.0"
+  },
+  "openalex": null
+ },
+ "rita-levi-montalcini": {
+  "qid": "Q185007",
+  "born": {
+   "year": 1909,
+   "month": 4,
+   "day": 22
+  },
+  "died": {
+   "year": 2012,
+   "month": 12,
+   "day": 30
+  },
+  "prizes": [
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 1986,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1987,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Rita_Levi-Montalcini_%281986%29.png/960px-Rita_Levi-Montalcini_%281986%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 965,
+   "page": "https://commons.wikimedia.org/wiki/File:Rita_Levi-Montalcini_(1986).png",
+   "artist": "Kurt Hagblom, Firma Hagblom-Foto, restored by Adam Cuerden",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "rosalind-franklin": {
+  "qid": "Q7474",
+  "born": {
+   "year": 1920,
+   "month": 7,
+   "day": 25
+  },
+  "died": {
+   "year": 1958,
+   "month": 4,
+   "day": 16
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Rosalind_Franklin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 769,
+   "page": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
+   "artist": "MRC Laboratory of Molecular Biology",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": null
+ },
+ "santiago-ramon-y-cajal": {
+  "qid": "Q150526",
+  "born": {
+   "year": 1852,
+   "month": 5,
+   "day": 1
+  },
+  "died": {
+   "year": 1934,
+   "month": 10,
+   "day": 17
+  },
+  "prizes": [
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 1906,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cajal-mi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 903,
+   "page": "https://commons.wikimedia.org/wiki/File:Cajal-mi.jpg",
+   "artist": null,
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "shiing-shen-chern": {
+  "qid": "Q328131",
+  "born": {
+   "year": 1911,
+   "month": 10,
+   "day": 26
+  },
+  "died": {
+   "year": 2004,
+   "month": 12,
+   "day": 3
+  },
+  "prizes": [
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1975,
+    "declined": false
+   },
+   {
+    "id": "Q915604",
+    "en": "Wolf Prize in Mathematics",
+    "zh": "沃尔夫数学奖",
+    "year": 1983,
+    "declined": false
+   },
+   {
+    "id": "Q584250",
+    "en": "Shaw Prize",
+    "zh": "邵逸夫奖",
+    "year": 2004,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shiing-shen_Chern_1988_%28re-scanned%29_%28cropped-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 783,
+   "page": "https://commons.wikimedia.org/wiki/File:Shiing-shen_Chern_1988_(re-scanned)_(cropped-1).jpg",
+   "artist": "George Bergman",
+   "licence": "CC BY-SA 4.0"
+  },
+  "openalex": "A5109052943"
+ },
+ "shing-tung-yau": {
+  "qid": "Q334760",
+  "born": {
+   "year": 1949,
+   "month": 4,
+   "day": 4
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 1982,
+    "declined": false
+   },
+   {
+    "id": "Q57233090",
+    "en": "Crafoord Prize in Mathematics",
+    "zh": "Crafoord Prize in Mathematics",
+    "year": 1994,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1997,
+    "declined": false
+   },
+   {
+    "id": "Q915604",
+    "en": "Wolf Prize in Mathematics",
+    "zh": "沃尔夫数学奖",
+    "year": 2010,
+    "declined": false
+   },
+   {
+    "id": "Q584250",
+    "en": "Shaw Prize",
+    "zh": "邵逸夫奖",
+    "year": 2023,
+    "declined": false
+   },
+   {
+    "id": "Q583069",
+    "en": "Crafoord Prize",
+    "zh": "克拉福德奖",
+    "year": null,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Shing-Tung_Yau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 640,
+   "page": "https://commons.wikimedia.org/wiki/File:Shing-Tung_Yau.jpg",
+   "artist": "National Science Foundation",
+   "licence": "Public domain"
+  },
+  "openalex": "A5006865040"
+ },
+ "srinivasa-ramanujan": {
+  "qid": "Q83163",
+  "born": {
+   "year": 1887,
+   "month": 12,
+   "day": 22
+  },
+  "died": {
+   "year": 1920,
+   "month": 4,
+   "day": 26
+  },
+  "prizes": [],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Srinivasa_Ramanujan_-_OPC_-_2_%28cleaned%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 833,
+   "page": "https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_2_(cleaned).jpg",
+   "artist": "Konrad Jacobs",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ },
+ "syukuro-manabe": {
+  "qid": "Q3675789",
+  "born": {
+   "year": 1931,
+   "month": 9,
+   "day": 21
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q1780740",
+    "en": "William Bowie Medal",
+    "zh": "威廉·鲍伊奖章",
+    "year": 2010,
+    "declined": false
+   },
+   {
+    "id": "Q57233027",
+    "en": "Crafoord Prize in Geosciences",
+    "zh": "Crafoord Prize in Geosciences",
+    "year": 2018,
+    "declined": false
+   },
+   {
+    "id": "Q583069",
+    "en": "Crafoord Prize",
+    "zh": "克拉福德奖",
+    "year": 2018,
+    "declined": false
+   },
+   {
+    "id": "Q38104",
+    "en": "Nobel Prize in Physics",
+    "zh": "诺贝尔物理学奖",
+    "year": 2021,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Crafoord_Prize_EM1B0732_%2842329290061%29.jpg/960px-Crafoord_Prize_EM1B0732_%2842329290061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 800,
+   "page": "https://commons.wikimedia.org/wiki/File:Crafoord_Prize_EM1B0732_(42329290061).jpg",
+   "artist": "Bengt Nyman from Vaxholm, Sweden",
+   "licence": "CC BY 2.0"
+  },
+  "openalex": null
+ },
+ "terence-tao": {
+  "qid": "Q295981",
+  "born": {
+   "year": 1975,
+   "month": 7,
+   "day": 17
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q28835",
+    "en": "Fields Medal",
+    "zh": "菲尔兹奖",
+    "year": 2006,
+    "declined": false
+   },
+   {
+    "id": "Q690881",
+    "en": "Ostrowski Prize",
+    "zh": "奥斯特洛夫斯基奖",
+    "year": 2007,
+    "declined": false
+   },
+   {
+    "id": "Q57233090",
+    "en": "Crafoord Prize in Mathematics",
+    "zh": "Crafoord Prize in Mathematics",
+    "year": 2012,
+    "declined": false
+   },
+   {
+    "id": "Q746756",
+    "en": "Royal Medal",
+    "zh": "皇家奖章",
+    "year": 2014,
+    "declined": false
+   },
+   {
+    "id": "Q17278380",
+    "en": "Breakthrough Prize in Mathematics",
+    "zh": "数学突破奖",
+    "year": 2015,
+    "declined": false
+   },
+   {
+    "id": "Q3320352",
+    "en": "Princess of Asturias Award for Technical and Scientific Research",
+    "zh": "阿斯图里亚斯亲王奖科学技术奖",
+    "year": 2020,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_%2850m16s%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 853,
+   "page": "https://commons.wikimedia.org/wiki/File:Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_(50m16s)_(cropped).jpg",
+   "artist": "Institute for Pure & Applied Mathematics",
+   "licence": "CC BY 4.0"
+  },
+  "openalex": "A5066728260"
+ },
+ "torsten-wiesel": {
+  "qid": "Q271421",
+  "born": {
+   "year": 1924,
+   "month": 6,
+   "day": 3
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 1981,
+    "declined": false
+   },
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 2005,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Torsten_Wiesel-7Nov2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 923,
+   "page": "https://commons.wikimedia.org/wiki/File:Torsten_Wiesel-7Nov2006.jpg",
+   "artist": "Festival della Scienza",
+   "licence": "CC BY-SA 2.0"
+  },
+  "openalex": null
+ },
+ "tu-youyou": {
+  "qid": "Q462843",
+  "born": {
+   "year": 1930,
+   "month": 12,
+   "day": 30
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q136696",
+    "en": "Lasker-DeBakey Clinical Medical Research Award",
+    "zh": "拉斯克临床医学研究奖",
+    "year": 2011,
+    "declined": false
+   },
+   {
+    "id": "Q80061",
+    "en": "Nobel Prize in Physiology or Medicine",
+    "zh": "诺贝尔生理学或医学奖",
+    "year": 2015,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/D810_4987_Tu_Youyou%2C_medicine_%2822945001843%29_%28cropped%29.jpg/960px-D810_4987_Tu_Youyou%2C_medicine_%2822945001843%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 956,
+   "page": "https://commons.wikimedia.org/wiki/File:D810_4987_Tu_Youyou,_medicine_(22945001843)_(cropped).jpg",
+   "artist": "Bengt Nyman from Vaxholm, Sweden",
+   "licence": "CC BY 2.0"
+  },
+  "openalex": null
+ },
+ "vera-rubin": {
+  "qid": "Q234888",
+  "born": {
+   "year": 1928,
+   "month": 7,
+   "day": 23
+  },
+  "died": {
+   "year": 2016,
+   "month": 12,
+   "day": 25
+  },
+  "prizes": [
+   {
+    "id": "Q737051",
+    "en": "National Medal of Science",
+    "zh": "美国国家科学奖章",
+    "year": 1993,
+    "declined": false
+   },
+   {
+    "id": "Q753072",
+    "en": "Gold Medal of the Royal Astronomical Society",
+    "zh": "英国皇家天文学会金质奖章",
+    "year": 1996,
+    "declined": false
+   },
+   {
+    "id": "Q1483071",
+    "en": "Gruber Prize in Cosmology",
+    "zh": "格鲁贝尔宇宙学奖",
+    "year": 2002,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vera_Rubin_with_antique_globes.jpg/960px-Vera_Rubin_with_antique_globes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "width": 640,
+   "height": 1055,
+   "page": "https://commons.wikimedia.org/wiki/File:Vera_Rubin_with_antique_globes.jpg",
+   "artist": "Photograph by Mark Godfrey, courtesy of AIP Emilio Segrè Visual Archives, Gift of Vera Rubin",
+   "licence": "Attribution"
+  },
+  "openalex": null
+ },
+ "yitang-zhang": {
+  "qid": "Q13360454",
+  "born": {
+   "year": 1955,
+   "month": null,
+   "day": null
+  },
+  "died": null,
+  "prizes": [
+   {
+    "id": "Q690881",
+    "en": "Ostrowski Prize",
+    "zh": "奥斯特洛夫斯基奖",
+    "year": 2013,
+    "declined": false
+   }
+  ],
+  "portrait": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Yitang_Zhang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "width": 640,
+   "height": 360,
+   "page": "https://commons.wikimedia.org/wiki/File:Yitang_Zhang.jpg",
+   "artist": "VOA",
+   "licence": "Public domain"
+  },
+  "openalex": null
+ }
+}

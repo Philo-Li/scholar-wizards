@@ -1,0 +1,49 @@
+{
+  "slug": "john-von-neumann",
+  "name": { "en": "John von Neumann", "zh": "约翰·冯·诺伊曼" },
+  "wiki": { "en": "John_von_Neumann", "zh": "约翰·冯·诺伊曼" },
+  "disciplines": ["mathematics", "physics", "computer-science", "economics"],
+  "themes": ["polymaths", "early"],
+  "reasons": ["crossing", "pioneer"],
+  "born": 1903,
+  "keyWork": { "year": 1945, "en": "First Draft of a Report on the EDVAC: the stored-program computer design", "zh": "《EDVAC 报告书的第一份草案》：存储程序计算机的设计" },
+  "why": {
+    "en": "In 1926 he earned a chemical engineering diploma in Zürich and a mathematics doctorate in Budapest in the same year. He went on to give quantum mechanics its Hilbert-space form, found game theory, and write the 1945 report that laid out the design most computers still follow.",
+    "zh": "1926 年，他同一年拿到苏黎世的化学工程文凭和布达佩斯的数学博士学位。此后他用希尔伯特空间为量子力学建立了数学框架，创立了博弈论，又在 1945 年写下一份报告，提出了今天大多数计算机仍在沿用的结构。"
+  },
+  "summary": {
+    "en": "Von Neumann was born in Budapest to a banking family. He studied chemistry in Berlin and Zürich while taking a mathematics doctorate in Budapest, which he passed without attending courses. In 1930 he went to Princeton and in 1933 became, at 30, the youngest professor at the Institute for Advanced Study. During the Second World War he worked on the Manhattan Project and on hydrodynamics, ballistics and statistics; after it he led the Institute's electronic computer project. He served on the Atomic Energy Commission and died of cancer in Washington in 1957, aged 53.",
+    "zh": "冯·诺伊曼生于布达佩斯一个银行家家庭。他在柏林和苏黎世读化学，同时在布达佩斯攻读数学博士，没上过课却考出了优异成绩。1930 年他到普林斯顿，1933 年 30 岁时成为普林斯顿高等研究院最年轻的教授。二战期间他参加曼哈顿计划，研究流体力学、弹道和统计；战后主持研究院的电子计算机项目。他后来出任美国原子能委员会委员，1957 年在华盛顿死于癌症，终年 53 岁。"
+  },
+  "style": [
+    { "en": "When he arrived at the Institute for Advanced Study at 30, he was often mistaken for a graduate student.", "zh": "他 30 岁到高等研究院时，常被人当成研究生。" },
+    { "en": "Colleagues recalled him at the daily afternoon tea analysing and solving other people's problems on the spot, with obvious delight.", "zh": "同事回忆，他在每天的下午茶上兴致勃勃，当场帮别人分析、解决问题。" },
+    { "en": "Bochner's memoir records that he had a prodigious memory, read history all his life, and drove dashing cars at the top speed they were built for.", "zh": "博赫纳在纪念文章里写道，他记忆力惊人，一辈子爱读历史，还喜欢把漂亮的跑车开到设计极速。" }
+  ],
+  "timeline": [
+    { "year": 1903, "en": "Born in Budapest, Hungary.", "zh": "生于匈牙利布达佩斯。" },
+    { "year": 1926, "en": "Chemical engineering diploma from ETH Zürich and mathematics doctorate from Budapest.", "zh": "获苏黎世联邦理工学院化学工程文凭和布达佩斯大学数学博士学位。" },
+    { "year": 1928, "en": "Proves the minimax theorem for two-person zero-sum games.", "zh": "证明二人零和博弈的极小极大定理。" },
+    { "year": 1932, "en": "Publishes Mathematical Foundations of Quantum Mechanics.", "zh": "出版《量子力学的数学基础》。" },
+    { "year": 1933, "en": "Becomes a professor at the Institute for Advanced Study.", "zh": "成为普林斯顿高等研究院教授。" },
+    { "year": 1944, "en": "Publishes Theory of Games and Economic Behavior with Oskar Morgenstern.", "zh": "与奥斯卡·摩根斯特恩合著《博弈论与经济行为》。" },
+    { "year": 1945, "en": "Writes the First Draft of a Report on the EDVAC.", "zh": "写成《EDVAC 报告书的第一份草案》。" },
+    { "year": 1957, "en": "Dies in Washington, D.C.", "zh": "在华盛顿去世。" }
+  ],
+  "works": [
+    { "year": 1932, "title": "Mathematische Grundlagen der Quantenmechanik", "en": "Gave quantum mechanics a rigorous form in terms of operators on Hilbert space.", "zh": "用希尔伯特空间上的算子，为量子力学建立了严格的数学形式。" },
+    { "year": 1944, "title": "Theory of Games and Economic Behavior (with Oskar Morgenstern)", "en": "Founded game theory as a field and brought expected-utility reasoning into economics.", "zh": "把博弈论确立为一门学科，并把期望效用的推理带进了经济学。" },
+    { "year": 1945, "title": "First Draft of a Report on the EDVAC", "en": "Described a computer that keeps its program and data in the same memory, the layout now called the von Neumann architecture.", "zh": "描述了一种把程序和数据存放在同一存储器里的计算机，这种结构后来被称为冯·诺伊曼结构。" }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "memoir", "title": "John von Neumann 1903–1957 (Biographical Memoir by S. Bochner)", "publisher": "National Academy of Sciences", "year": 1958, "url": "https://www.nasonline.org/wp-content/uploads/2024/06/von-neumann-john.pdf", "lang": "en" },
+    { "kind": "profile", "title": "John von Neumann: Life, Work, and Legacy", "publisher": "Institute for Advanced Study", "year": 2016, "url": "https://www.ias.edu/node/209976", "lang": "en" },
+    { "kind": "archive", "title": "John von Neumann – Biography", "publisher": "MacTutor History of Mathematics", "year": 2003, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/", "lang": "en" },
+    { "kind": "profile", "title": "Computer Pioneers – John Louis von Neumann", "publisher": "IEEE Computer Society", "year": 1995, "url": "https://history.computer.org/pioneers/von-neumann.html", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "cross-field", "en": "Von Neumann applied the same mathematical rigour to quantum theory, economics, shock waves and computing, and each time it opened a new field.", "zh": "冯·诺伊曼把同样严格的数学用在量子理论、经济学、冲击波和计算上，几乎每次都开出一个新领域。" },
+    { "key": "communicate", "en": "His EDVAC report spread an unfinished design widely and quickly, which is why its layout became the standard.", "zh": "他的 EDVAC 报告把一个尚未完成的设计迅速传播出去，这正是这种结构成为标准的原因。" }
+  ]
+}

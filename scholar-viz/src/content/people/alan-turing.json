@@ -1,0 +1,166 @@
+{
+  "slug": "alan-turing",
+  "name": {
+    "en": "Alan Turing",
+    "zh": "艾伦·图灵"
+  },
+  "wiki": {
+    "en": "Alan_Turing",
+    "zh": "艾伦·图灵"
+  },
+  "disciplines": [
+    "mathematics",
+    "computer-science",
+    "biology"
+  ],
+  "themes": [
+    "early",
+    "polymaths"
+  ],
+  "reasons": [
+    "pioneer",
+    "crossing"
+  ],
+  "born": 1912,
+  "keyWork": {
+    "year": 1936,
+    "en": "On Computable Numbers: the Turing machine and the limits of computation",
+    "zh": "《论可计算数》：图灵机与计算的极限"
+  },
+  "why": {
+    "en": "At 24, to answer a question in logic, he described an imaginary machine that reads and writes symbols on a tape, and showed that one such machine could imitate all the others. That paper defined what a computer is a decade before one was built; he then helped break Enigma, designed an early stored-program computer, and wrote a founding paper on how biological patterns form.",
+    "zh": "24 岁时，为了回答一个逻辑问题，他设想了一台在纸带上读写符号的机器，并证明有一台这样的机器能模仿其他所有机器。这篇论文在电子计算机造出来之前十年，就定义了什么是计算机。之后他参与破译恩尼格玛密码，设计了早期的存储程序计算机，还写下了生物形态如何生成的开创性论文。"
+  },
+  "summary": {
+    "en": "Turing was born in London and studied mathematics at King's College, Cambridge, where he was elected a fellow at 22. In 1936 he published 'On Computable Numbers', then took a PhD at Princeton under Alonzo Church. During the Second World War he led work at Bletchley Park on breaking the German naval Enigma. After the war he designed the ACE computer at the National Physical Laboratory, moved to Manchester, proposed the imitation game as a test of machine intelligence, and modelled pattern formation in living things. In 1952 he was convicted of gross indecency for a relationship with a man; he died of cyanide poisoning in 1954, aged 41.",
+    "zh": "图灵生于伦敦，在剑桥大学国王学院读数学，22 岁当选院士。1936 年他发表《论可计算数》，随后赴普林斯顿随阿隆佐·丘奇读博士。二战期间，他在布莱切利园主持破译德国海军恩尼格玛密码的工作。战后他在英国国家物理实验室设计 ACE 计算机，后转到曼彻斯特，提出用“模仿游戏”检验机器智能，又用数学模型研究生物体花纹的形成。1952 年，他因与一名男子的关系被判“严重猥亵罪”；1954 年死于氰化物中毒，年仅 41 岁。"
+  },
+  "style": [
+    {
+      "en": "He was a serious long-distance runner. He sometimes ran to scientific meetings and beat colleagues who took public transport, and only an injury kept him from serious consideration for the 1948 British Olympic team.",
+      "zh": "他是认真的长跑运动员，有时跑步去开学术会议，比坐公交的同事还先到。只因受伤，他才没能认真竞争 1948 年英国奥运代表队的名额。"
+    },
+    {
+      "en": "His biographer Andrew Hodges notes he was slow to communicate his results or compete for priority.",
+      "zh": "传记作者安德鲁·霍奇斯指出，他不急于发表成果，也不爱争优先权。"
+    },
+    {
+      "en": "At Sherborne School his headmaster complained that if he was to be solely a scientific specialist, he was wasting his time at a public school.",
+      "zh": "在舍伯恩公学读书时，校长抱怨说，如果他只想当个理科专才，那上公学就是浪费时间。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1912,
+      "en": "Born in London.",
+      "zh": "生于伦敦。"
+    },
+    {
+      "year": 1935,
+      "en": "Elected a fellow of King's College, Cambridge.",
+      "zh": "当选剑桥大学国王学院院士。"
+    },
+    {
+      "year": 1936,
+      "en": "Publishes 'On Computable Numbers'.",
+      "zh": "发表《论可计算数》。"
+    },
+    {
+      "year": 1938,
+      "en": "PhD at Princeton under Alonzo Church.",
+      "zh": "在普林斯顿随丘奇获博士学位。"
+    },
+    {
+      "year": 1939,
+      "en": "Joins Bletchley Park to work on Enigma.",
+      "zh": "加入布莱切利园破译恩尼格玛。"
+    },
+    {
+      "year": 1950,
+      "en": "Publishes 'Computing Machinery and Intelligence'.",
+      "zh": "发表《计算机器与智能》。"
+    },
+    {
+      "year": 1952,
+      "en": "Publishes his paper on morphogenesis; convicted of gross indecency.",
+      "zh": "发表形态发生论文；同年被判“严重猥亵罪”。"
+    },
+    {
+      "year": 1954,
+      "en": "Dies of cyanide poisoning in Wilmslow.",
+      "zh": "在威姆斯洛死于氰化物中毒。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1936,
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "en": "Defined the Turing machine, proved that a universal machine exists, and showed that some problems no machine can decide.",
+      "zh": "定义了图灵机，证明存在通用机器，并说明有些问题任何机器都无法判定。"
+    },
+    {
+      "year": 1950,
+      "title": "Computing Machinery and Intelligence",
+      "en": "Replaced the question 'Can machines think?' with a concrete test, the imitation game, and answered the main objections to machine intelligence.",
+      "zh": "用一个具体的测试——模仿游戏——代替“机器能思考吗”这个问题，并逐条回应了反对机器智能的论点。"
+    },
+    {
+      "year": 1952,
+      "title": "The Chemical Basis of Morphogenesis",
+      "en": "Showed how two reacting, diffusing chemicals can produce spots and stripes, a mechanism biologists still use.",
+      "zh": "说明两种相互反应、各自扩散的化学物质就能产生斑点和条纹，生物学家至今仍在用这一机制。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I propose to consider the question, \"Can machines think?\"",
+      "zh": "我提议来考虑这样一个问题：“机器能思考吗？”",
+      "source": "\"Computing Machinery and Intelligence\", Mind, 1950",
+      "url": "https://redirect.cs.umbc.edu/courses/471/papers/turing.pdf"
+    },
+    {
+      "text": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+      "zh": "我们只能看到前方不远处，但已经能看到那里有很多事要做。",
+      "source": "\"Computing Machinery and Intelligence\", Mind, 1950",
+      "url": "https://redirect.cs.umbc.edu/courses/471/papers/turing.pdf"
+    }
+  ],
+  "links": [
+    {
+      "kind": "memoir",
+      "title": "Alan Turing – a short biography",
+      "publisher": "Andrew Hodges (turing.org.uk)",
+      "year": 1995,
+      "url": "https://www.turing.org.uk/publications/dnb.html",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Alan Mathison Turing 1912–1954 (M. H. A. Newman, Biographical Memoirs of Fellows of the Royal Society), off-print in the Turing Digital Archive",
+      "publisher": "King's College, Cambridge",
+      "year": 1955,
+      "url": "https://turingarchive.kings.cam.ac.uk/biographical-and-personal-documents-amta/amt-36",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "Alan Turing – Biography",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 2003,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Turing answered a deep question in logic with the simplest possible device: a tape, a head and a table of rules.",
+      "zh": "图灵用最简单的装置——一条纸带、一个读写头、一张规则表——回答了逻辑学里一个很深的问题。"
+    },
+    {
+      "key": "cross-field",
+      "en": "He carried the same habit of mathematical modelling from logic to codebreaking, computer design and biology.",
+      "zh": "他把同一套数学建模的习惯，从逻辑带到密码破译、计算机设计，再带到生物学。"
+    }
+  ]
+}

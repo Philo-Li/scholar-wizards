@@ -1,0 +1,173 @@
+{
+  "slug": "alexander-grothendieck",
+  "name": {
+    "en": "Alexander Grothendieck",
+    "zh": "亚历山大·格罗滕迪克"
+  },
+  "wiki": {
+    "en": "Alexander_Grothendieck",
+    "zh": "亚历山大·格罗滕迪克"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "themes": [
+    "own-terms"
+  ],
+  "reasons": [
+    "pioneer",
+    "integrity"
+  ],
+  "born": 1928,
+  "keyWork": {
+    "year": 1960,
+    "en": "Éléments de géométrie algébrique and the theory of schemes",
+    "zh": "《代数几何原理》与概形理论"
+  },
+  "why": {
+    "en": "A stateless refugee who spent part of the war in an internment camp, he rebuilt algebraic geometry on the theory of schemes in barely a decade at the IHÉS. In 1970 he walked out when he learned that part of the institute's funding came from the military, and in 1991 he disappeared into the Pyrenees.",
+    "zh": "他是无国籍的难民，战时在拘留营里待过。在法国高等科学研究所的十来年里，他用概形理论把代数几何从头重建了一遍。1970 年，他得知研究所有一部分经费来自军方，随即离开；1991 年，他隐居到比利牛斯山中，从此不再露面。"
+  },
+  "summary": {
+    "en": "Grothendieck was born in Berlin to an anarchist father, who was later killed at Auschwitz, and a mother from Hamburg active in left-wing groups. From 1939 he lived in France, interned with his mother at the Rieucros camp, and after the war studied at Montpellier while working in vineyards. His 1953 thesis in Nancy on topological tensor products settled questions in functional analysis, after which he switched to algebraic geometry. At the IHÉS from 1958 he and his seminar produced thousands of pages, the EGA and SGA, that introduced schemes, topoi and étale cohomology. He refused to travel to Moscow for his 1966 Fields Medal, left mathematics research in 1970 for pacifist and ecological activism, declined the Crafoord Prize in 1988, and spent his last 23 years in seclusion in Ariège, where he died in 2014.",
+    "zh": "格罗滕迪克生于柏林，父亲是无政府主义者，后来死在奥斯维辛；母亲来自汉堡，也参加过多个左翼团体。1939 年起他住在法国，和母亲一起被关进里厄克罗拘留营；战后他在蒙彼利埃一边在葡萄园干活，一边读书。1953 年他在南锡完成关于拓扑张量积的博士论文，解决了泛函分析里的一批问题，随后转向代数几何。1958 年起，他在高等科学研究所带领讨论班写出了数千页的《代数几何原理》和《代数几何讨论班》，引入了概形、拓扑斯和平展上同调。1966 年他获菲尔兹奖，却拒绝去莫斯科领奖；1970 年他离开研究工作，投身反战和生态运动；1988 年他拒绝了克拉福德奖。他在阿列日省隐居了 23 年，2014 年去世。"
+  },
+  "style": [
+    {
+      "en": "Luc Illusie, who attended his seminar from 1964, recalled that he lectured with great energy and precision, recalling all the necessary material so that even a newcomer could follow the structure.",
+      "zh": "1964 年起参加他讨论班的伊吕齐回忆，他在黑板前讲得精力充沛、一丝不苟，把需要的预备知识一一交代，连外行也能跟上整体结构。"
+    },
+    {
+      "en": "Ronald Brown, who corresponded with him in the 1980s, wrote that he could be so absorbed in an idea that one letter mentions having to remind himself to eat and sleep.",
+      "zh": "80 年代与他通信的罗纳德·布朗写道，他会完全沉浸在数学想法里，有一封信说自己得提醒自己吃饭睡觉。"
+    },
+    {
+      "en": "Between 1980 and 1990 he wrote literally thousands of pages, mathematical and meditative, including the memoir Récoltes et Semailles.",
+      "zh": "1980 到 1990 年间，他写了数千页手稿，有数学，也有沉思录，其中包括回忆录《收获与播种》。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1928,
+      "en": "Born in Berlin on 28 March.",
+      "zh": "3 月 28 日生于柏林。"
+    },
+    {
+      "year": 1953,
+      "en": "Defends his thesis on topological tensor products and nuclear spaces at Nancy.",
+      "zh": "在南锡答辩关于拓扑张量积与核空间的博士论文。"
+    },
+    {
+      "year": 1958,
+      "en": "Joins the newly founded Institut des Hautes Études Scientifiques.",
+      "zh": "加入新成立的法国高等科学研究所。"
+    },
+    {
+      "year": 1966,
+      "en": "Awarded the Fields Medal; refuses to travel to Moscow to receive it.",
+      "zh": "获菲尔兹奖，拒绝赴莫斯科领奖。"
+    },
+    {
+      "year": 1970,
+      "en": "Leaves the IHÉS over its military funding.",
+      "zh": "因研究所接受军方经费而离开。"
+    },
+    {
+      "year": 1988,
+      "en": "Declines the Crafoord Prize.",
+      "zh": "拒绝克拉福德奖。"
+    },
+    {
+      "year": 1991,
+      "en": "Leaves home without telling anyone and lives in seclusion in the Pyrenees.",
+      "zh": "不告而别，隐居比利牛斯山区。"
+    },
+    {
+      "year": 2014,
+      "en": "Dies on 13 November in Ariège.",
+      "zh": "11 月 13 日在阿列日省去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1955,
+      "title": "Produits tensoriels topologiques et espaces nucléaires",
+      "en": "His thesis created the theory of nuclear spaces and closed his work in functional analysis.",
+      "zh": "博士论文建立了核空间理论，也为他在泛函分析方面的工作画上句号。"
+    },
+    {
+      "year": 1960,
+      "title": "Éléments de géométrie algébrique (with J. Dieudonné)",
+      "en": "Rebuilt algebraic geometry on schemes, the language in which the field has been written ever since.",
+      "zh": "以概形为基础重建代数几何，此后这个领域一直用这套语言书写。"
+    },
+    {
+      "year": 1963,
+      "title": "Séminaire de géométrie algébrique du Bois Marie (SGA)",
+      "en": "The seminar volumes developed étale cohomology and topoi, the tools Deligne later used to prove the Weil conjectures.",
+      "zh": "讨论班系列发展出平展上同调和拓扑斯，德利涅后来正是用这些工具证明了韦伊猜想。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The introduction of the cipher 0 or the group concept was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps ...",
+      "zh": "引入数字 0 或群的概念，当年也是“一般废话”。数学之所以几千年来停滞不前，就是因为没有人迈出这种幼稚的一步。",
+      "source": "Letter to Ronald Brown, 1982, quoted in the MacTutor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "In the Mountains of Mathematics (Jim Holt)",
+      "publisher": "The New York Review of Books",
+      "year": 2015,
+      "url": "https://www.nybooks.com/articles/2015/12/03/mountains-mathematics/",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Alexandre Grothendieck 1928–2014, Part 2",
+      "publisher": "Notices of the AMS",
+      "year": 2016,
+      "url": "https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothObitAMS2.pdf",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Reminiscences of Grothendieck and His School (Luc Illusie et al.)",
+      "publisher": "Notices of the AMS",
+      "year": 2010,
+      "url": "https://www.imo.universite-paris-saclay.fr/~luc.illusie/Reminiscences-NoticesAMS.pdf",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Alexander Grothendieck obituary",
+      "publisher": "The Guardian",
+      "year": 2014,
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Grothendieck_Guardian/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Alexander Grothendieck",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 2014,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Grothendieck preferred to build a general framework in which a hard problem becomes easy, rather than attack it head on. When a problem resists, ask what larger structure would make it obvious.",
+      "zh": "格罗滕迪克不爱硬攻难题，而是搭一个更一般的框架，让难题在里面变得容易。问题啃不动时，问问什么样的更大结构能让它变得显然。"
+    },
+    {
+      "key": "leave-mainstream",
+      "en": "He walked away from the IHÉS and from prizes when they conflicted with his principles. Decide in advance what you will not trade for a position.",
+      "zh": "当研究所和奖项与他的原则冲突时，他转身就走。事先想清楚，哪些东西你不会拿去换一个位置。"
+    }
+  ]
+}

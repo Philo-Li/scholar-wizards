@@ -1,0 +1,57 @@
+{
+  "slug": "andrew-yao",
+  "name": { "en": "Andrew Chi-Chih Yao", "zh": "姚期智" },
+  "wiki": { "en": "Andrew_Yao", "zh": "姚期智" },
+  "disciplines": ["computer-science"],
+  "themes": ["chinese"],
+  "reasons": ["pioneer", "opening"],
+  "born": 1946,
+  "keyWork": { "year": 1979, "en": "Some complexity questions related to distributive computing: the founding paper of communication complexity", "zh": "《与分布式计算相关的一些复杂性问题》：通信复杂性的奠基论文" },
+  "why": {
+    "en": "He finished a Harvard physics PhD under Sheldon Glashow, switched fields, and two years later had a second PhD in computer science. He went on to found communication complexity, pose the millionaires' problem that started secure multiparty computation, and become the first Chinese recipient of the Turing Award; at 57 he gave up a Princeton chair to build a computer science programme at Tsinghua from scratch.",
+    "zh": "他在哈佛随谢尔登·格拉肖拿到物理学博士后改行，两年后又拿到计算机科学博士学位。此后他开创了通信复杂性，提出引出安全多方计算的“百万富翁问题”，成为第一位获得图灵奖的华人。57 岁时，他辞去普林斯顿大学的讲席教授，到清华大学从零开始办计算机科学教育。"
+  },
+  "summary": {
+    "en": "Yao was born in Shanghai, lived in Hong Kong for two years and grew up in Taiwan, where he studied physics at National Taiwan University. He took a PhD in physics at Harvard in 1972, then a PhD in computer science at the University of Illinois in 1975. After posts at MIT, Stanford and Berkeley he joined Princeton in 1986. His work set foundations for communication complexity, pseudorandomness, cryptography and secure computation, and he received the Turing Award in 2000. In 2004 he moved to Tsinghua University, where he founded the 'Yao Class' for undergraduates in 2005 and the Institute for Interdisciplinary Information Sciences, and in 2017 he gave up his foreign citizenship to become a member of the Chinese Academy of Sciences.",
+    "zh": "姚期智生于上海，在香港住过两年，之后在台湾长大，在台湾大学读物理。1972 年他获哈佛大学物理学博士学位，1975 年又获伊利诺伊大学计算机科学博士学位。先后在麻省理工学院、斯坦福大学、伯克利任教后，他于 1986 年加入普林斯顿大学。他为通信复杂性、伪随机性、密码学和安全计算打下了基础，2000 年获图灵奖。2004 年他到清华大学，2005 年创办本科“姚班”，后来又创办交叉信息研究院；2017 年他放弃外国国籍，转为中国科学院院士。"
+  },
+  "style": [
+    { "en": "He came to computer science through his wife, a mathematics student at MIT: through her he saw the manuscripts and open problems of the theory group, found he could solve some of them, and decided around 1970 to switch.", "zh": "他走上计算机这条路是因为夫人。夫人在麻省理工学院读数学，他通过她接触到系里几位计算机理论老师的著作、手稿和前沿问题，发现自己能解决其中一些，大约在 1970 年决定改行。" },
+    { "en": "When he moved to Tsinghua in 2004 he resigned his Princeton tenure and sold his house in the United States.", "zh": "2004 年到清华时，他辞去了普林斯顿大学的终身教职，还卖掉了在美国的房子。" },
+    { "en": "He likens research to feeling your way through a dark room, and tells students the key is to fix a direction and learn to find problems of their own.", "zh": "他把做研究比作在黑屋子里摸索，告诉学生关键是锁定方向，学会自己发现问题。" }
+  ],
+  "timeline": [
+    { "year": 1946, "en": "Born in Shanghai.", "zh": "生于上海。" },
+    { "year": 1967, "en": "BS in physics from National Taiwan University.", "zh": "获台湾大学物理学学士学位。" },
+    { "year": 1972, "en": "PhD in physics from Harvard under Sheldon Glashow.", "zh": "在哈佛大学随格拉肖获物理学博士学位。" },
+    { "year": 1975, "en": "PhD in computer science from the University of Illinois.", "zh": "获伊利诺伊大学计算机科学博士学位。" },
+    { "year": 1979, "en": "Introduces communication complexity.", "zh": "提出通信复杂性。" },
+    { "year": 1982, "en": "Poses the millionaires' problem, founding secure two-party computation.", "zh": "提出“百万富翁问题”，开创安全两方计算。" },
+    { "year": 2000, "en": "Receives the ACM Turing Award.", "zh": "获图灵奖。" },
+    { "year": 2004, "en": "Leaves Princeton for Tsinghua University; the Yao Class follows in 2005.", "zh": "离开普林斯顿到清华大学；次年创办“姚班”。" }
+  ],
+  "works": [
+    { "year": 1977, "title": "Probabilistic computations: Toward a unified measure of complexity", "en": "Introduced Yao's minimax principle, the standard tool for proving lower bounds on randomized algorithms.", "zh": "提出姚氏极小极大原理，这是证明随机算法下界的标准工具。" },
+    { "year": 1979, "title": "Some complexity questions related to distributive computing", "en": "Asked how many bits two parties must exchange to compute a function together, founding communication complexity.", "zh": "提出两方合作计算一个函数至少要交换多少比特，开创了通信复杂性。" },
+    { "year": 1982, "title": "Protocols for secure computations", "en": "Posed the millionaires' problem and showed parties can compute jointly without revealing their inputs, the basis of secure multiparty computation.", "zh": "提出“百万富翁问题”，证明多方可以在不泄露各自输入的情况下共同计算，这是安全多方计算的基础。" },
+    { "year": 1982, "title": "Theory and applications of trapdoor functions", "en": "Gave a computational definition of pseudorandomness: output no efficient test can tell from true randomness.", "zh": "从计算的角度定义伪随机性：任何高效检验都无法把它与真随机区分开。" }
+  ],
+  "quotes": [
+    {
+      "text": "我认为做事情要一样一样来，每做一件事一定要打造出一个品牌，有令人惊艳的成果。",
+      "zh": "我认为做事情要一样一样来，每做一件事一定要打造出一个品牌，有令人惊艳的成果。",
+      "source": "《人民政协报》专访，2017",
+      "url": "https://www.tsinghua.edu.cn/info/1182/45621.htm"
+    }
+  ],
+  "links": [
+    { "kind": "archive", "title": "Andrew C Yao – A.M. Turing Award Laureate", "publisher": "ACM", "year": 2000, "url": "https://amturing.acm.org/award_winners/yao_1611524.cfm", "lang": "en" },
+    { "kind": "interview", "title": "“建立起科学与孩子之间的通路”——专访中国科学院院士、清华大学教授姚期智", "publisher": "人民政协报（清华新闻网转载）", "year": 2017, "url": "https://www.tsinghua.edu.cn/info/1182/45621.htm", "lang": "zh" },
+    { "kind": "lecture", "title": "我在清华“追星”：姚期智谈科研直觉，和他的朋友圈", "publisher": "科学网（清华新闻网转载）", "year": 2026, "url": "https://www.tsinghua.edu.cn/info/1182/126207.htm", "lang": "zh" },
+    { "kind": "archive", "title": "Princeton University's Andrew Chi Chih Yao Wins the ACM's 2000 A. M. Turing Award", "publisher": "IIIS, Tsinghua University", "year": 2001, "url": "https://iiis.tsinghua.edu.cn/en/info/1020/2660.htm", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "leave-mainstream", "en": "With a Harvard physics PhD in hand, Yao moved into computer science while it was still young, because he wanted to help build a field from its foundations.", "zh": "已经拿到哈佛物理学博士，姚期智还是转向了当时尚年轻的计算机科学，因为他想参与一门学科从地基开始的搭建。" },
+    { "key": "first-principles", "en": "His best-known results start from a plain question, such as how many bits two people must exchange, and turn it into a theory.", "zh": "他最有名的成果都从一个朴素的问题出发，比如两个人至少要交换多少比特，然后发展成一套理论。" }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "claude-shannon",
+  "name": {
+    "en": "Claude Shannon",
+    "zh": "克劳德·香农"
+  },
+  "wiki": {
+    "en": "Claude_Shannon",
+    "zh": "克劳德·香农"
+  },
+  "disciplines": [
+    "mathematics",
+    "computer-science"
+  ],
+  "themes": [
+    "one-idea",
+    "early"
+  ],
+  "reasons": [
+    "pioneer"
+  ],
+  "born": 1916,
+  "keyWork": {
+    "year": 1948,
+    "en": "A Mathematical Theory of Communication",
+    "zh": "《通信的数学理论》"
+  },
+  "why": {
+    "en": "His 1937 master's thesis showed that Boolean algebra could design relay switching circuits, the basis of digital logic. Eleven years later a single paper defined information, the bit and channel capacity, and founded information theory.",
+    "zh": "他 1937 年的硕士论文证明布尔代数可以用来设计继电器开关电路，奠定了数字逻辑的基础。十一年后，他用一篇论文定义了信息、比特和信道容量，开创了信息论。"
+  },
+  "summary": {
+    "en": "Shannon grew up in Gaylord, Michigan, and took degrees in electrical engineering and mathematics at the University of Michigan. At MIT he worked on Vannevar Bush's differential analyzer and wrote his master's thesis on switching circuits, then a PhD on the algebra of genetics. At Bell Labs from 1941 he worked on fire control and cryptography during the war, and in 1948 published 'A Mathematical Theory of Communication'. He also built a maze-solving mechanical mouse, wrote early papers on computer chess, and later joined the MIT faculty. He died in 2001 after a long illness with Alzheimer's disease.",
+    "zh": "香农在密歇根州盖洛德长大，在密歇根大学拿到电气工程和数学两个学位。在麻省理工学院，他操作过范内瓦·布什的微分分析机，硕士论文写开关电路，博士论文则研究遗传学的代数。1941 年起他在贝尔实验室工作，战时参与火控和密码研究，1948 年发表《通信的数学理论》。他还造过会走迷宫的机械老鼠，写过最早的计算机下棋论文，后来到麻省理工学院任教。2001 年，他在与阿尔茨海默病长期抗争后去世。"
+  },
+  "style": [
+    {
+      "en": "At Bell Labs he rode through the halls on a unicycle while juggling, and he filled his house with machines he built himself, including a motorized pogo stick and a rocket-powered Frisbee.",
+      "zh": "在贝尔实验室，他骑着独轮车、一边抛球一边穿过走廊。家里堆满了他自己做的机器，包括电动弹簧高跷和火箭推进的飞盘。"
+    },
+    {
+      "en": "In 1950 he built Theseus, a mechanical mouse that learned its way through a maze to a piece of brass cheese.",
+      "zh": "1950 年他造了一只叫“忒修斯”的机械老鼠，它能学会穿过迷宫找到一块黄铜做的奶酪。"
+    },
+    {
+      "en": "Chasing ideas for a chess-playing machine, he played so much chess at work that at least one supervisor became worried.",
+      "zh": "为了琢磨下棋机器，他上班时下了太多棋，至少有一位上司为此担心过。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1916,
+      "en": "Born in Petoskey, Michigan.",
+      "zh": "生于密歇根州佩托斯基。"
+    },
+    {
+      "year": 1936,
+      "en": "Graduates from the University of Michigan in electrical engineering and mathematics.",
+      "zh": "从密歇根大学毕业，获电气工程和数学学位。"
+    },
+    {
+      "year": 1937,
+      "en": "Completes his MIT master's thesis on relay and switching circuits.",
+      "zh": "在麻省理工学院完成关于继电器与开关电路的硕士论文。"
+    },
+    {
+      "year": 1941,
+      "en": "Joins Bell Labs.",
+      "zh": "加入贝尔实验室。"
+    },
+    {
+      "year": 1948,
+      "en": "Publishes 'A Mathematical Theory of Communication'.",
+      "zh": "发表《通信的数学理论》。"
+    },
+    {
+      "year": 1956,
+      "en": "Joins the MIT faculty.",
+      "zh": "到麻省理工学院任教。"
+    },
+    {
+      "year": 2001,
+      "en": "Dies in Medford, Massachusetts.",
+      "zh": "在马萨诸塞州梅德福去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1938,
+      "title": "A Symbolic Analysis of Relay and Switching Circuits",
+      "en": "Showed that Boolean algebra describes switching circuits, so circuits could be designed and simplified on paper.",
+      "zh": "证明布尔代数可以描述开关电路，电路从此可以在纸上设计和化简。"
+    },
+    {
+      "year": 1948,
+      "title": "A Mathematical Theory of Communication",
+      "en": "Defined entropy as a measure of information and proved that every noisy channel has a capacity below which error-free transmission is possible.",
+      "zh": "用熵来度量信息，并证明每个有噪声的信道都有一个容量，低于它就能做到几乎无差错的传输。"
+    },
+    {
+      "year": 1949,
+      "title": "Communication Theory of Secrecy Systems",
+      "en": "Put cryptography on a mathematical footing and proved the one-time pad unbreakable.",
+      "zh": "把密码学放到数学基础之上，并证明一次性密码本无法破译。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The fundamental problem of communication is that of reproducing at one point either exactly or approximately a message selected at another point. Frequently the messages have meaning; that is they refer to or are correlated according to some system with certain physical or conceptual entities. These semantic aspects of communication are irrelevant to the engineering problem.",
+      "zh": "通信的根本问题，是在一处精确或近似地再现在另一处选出的消息。消息常常带有意义，也就是说，它们按某种体系指向或关联着某些物理的或概念的实体。通信的这些语义方面与工程问题无关。",
+      "source": "\"A Mathematical Theory of Communication\", Bell System Technical Journal, 1948",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Oral-History: Claude E. Shannon (interviewed by Robert Price)",
+      "publisher": "IEEE History Center / ETHW",
+      "year": 1982,
+      "url": "https://ethw.org/Oral-History:Claude_E._Shannon",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Claude Shannon: Tinkerer, Prankster, and Father of Information Theory",
+      "publisher": "IEEE Spectrum",
+      "year": 1992,
+      "url": "https://spectrum.ieee.org/tech-history/cyberspace/claude-shannon-tinkerer-prankster-and-father-of-information-theory",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "Claude Shannon – Biography",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 2003,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Shannon threw away meaning and asked only how many choices a message selects among; that one simplification made communication measurable.",
+      "zh": "香农把“意义”放到一边，只问一条消息是从多少种可能中选出来的。正是这一步简化，让通信变得可以度量。"
+    },
+    {
+      "key": "curiosity",
+      "en": "He built juggling machines, maze-solving mice and chess programs for fun, and the play fed his serious work on machines and information.",
+      "zh": "他出于好玩造抛球机、走迷宫的老鼠和下棋程序，这些游戏反过来滋养了他关于机器与信息的正经研究。"
+    }
+  ]
+}

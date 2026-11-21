@@ -9,19 +9,24 @@ export function Navbar() {
   const path = usePathname();
 
   const links = [
-    { href: '/', label: t.nav.disciplines, active: path === '/' || path.startsWith('/field') },
-    { href: '/collections/computational-neuroscience', label: t.nav.collection, active: path.startsWith('/collections') },
+    { href: '/', label: t.nav.themes, active: path === '/' || path.startsWith('/themes') },
+    { href: '/people', label: t.nav.people, active: path.startsWith('/people') },
+    { href: '/lessons', label: t.nav.lessons, active: path.startsWith('/lessons') },
+    {
+      href: '/disciplines',
+      label: t.nav.data,
+      active: ['/disciplines', '/field', '/scholar', '/collections'].some(p => path.startsWith(p)),
+    },
     { href: '/methods', label: t.nav.methods, active: path.startsWith('/methods') },
   ];
 
   return (
     <header className="border-b border-rule bg-paper/95 backdrop-blur sticky top-0 z-40">
-      <nav className="max-w-page mx-auto px-5 sm:px-8 h-14 flex items-center gap-6 font-sans text-[14px]">
+      <nav className="max-w-page mx-auto px-5 sm:px-8 min-h-14 py-2 sm:py-0 flex flex-wrap items-center gap-x-6 gap-y-1 font-sans text-[14px]">
         <Link href="/" className="font-serif text-[19px] font-semibold tracking-tight text-ink mr-auto">
-          <span aria-hidden className="italic font-normal mr-0.5">h</span>
-          {' '}{t.nav.site}
+          {t.nav.site}
         </Link>
-        <ul className="flex items-center gap-4 sm:gap-6">
+        <ul className="order-last sm:order-none w-full sm:w-auto flex items-center gap-5 sm:gap-6 overflow-x-auto whitespace-nowrap pb-1 sm:pb-0">
           {links.map(l => (
             <li key={l.href}>
               <Link

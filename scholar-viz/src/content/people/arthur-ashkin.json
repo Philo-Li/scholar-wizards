@@ -1,0 +1,100 @@
+{
+  "slug": "arthur-ashkin",
+  "name": { "en": "Arthur Ashkin", "zh": "阿瑟·阿什金" },
+  "wiki": { "en": "Arthur_Ashkin", "zh": "阿瑟·阿什金" },
+  "disciplines": ["physics"],
+  "themes": ["late"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1922,
+  "keyWork": { "year": 1986, "en": "Single-beam optical trap (optical tweezers)", "zh": "单光束光阱（光镊）" },
+  "why": {
+    "en": "Ashkin published his first optical-trapping paper at 47, built optical tweezers at 64, and won the Nobel Prize at 96, then the oldest laureate ever. When the call came he was in his basement lab, writing a new paper.",
+    "zh": "阿什金 47 岁发表第一篇光阱论文，64 岁做出光镊，96 岁获得诺贝尔奖，成为当时年纪最大的得主。接到获奖电话时，他正在自家地下室的实验室里写一篇新论文。"
+  },
+  "summary": {
+    "en": "Ashkin grew up in Brooklyn and spent the Second World War building magnetrons for radar at Columbia's Radiation Laboratory. After a PhD in nuclear physics at Cornell in 1952 he joined Bell Labs, where his first assignment went so badly he nearly got fired. Turning to lasers in the 1960s, he showed in 1970 that radiation pressure could push and trap tiny transparent spheres, and in 1986 that a single tightly focused beam could hold a particle in place. In 1987 he used it to catch living bacteria without killing them, giving biologists a tool to grab and pull single cells and molecules. He retired in 1992, kept experimenting at home, shared the 2018 Nobel Prize in Physics, and died in 2020.",
+    "zh": "阿什金在布鲁克林长大，二战期间在哥伦比亚大学辐射实验室给雷达造磁控管。1952 年他在康奈尔大学拿到核物理博士学位后进了贝尔实验室，第一个项目做得很糟，差点被解雇。六十年代他转向激光，1970 年证明光压可以推动并困住微小的透明小球，1986 年又证明一束聚焦得足够紧的激光就能把粒子固定住。1987 年他用这套装置抓住活细菌而不伤害它们，生物学家从此有了夹取、牵拉单个细胞和分子的工具。他 1992 年退休，此后在家里继续做实验，2018 年分享诺贝尔物理学奖，2020 年去世。"
+  },
+  "style": [
+    {
+      "en": "He kept working in a home basement lab long after retiring from Bell Labs. When Nobelprize.org phoned in 2018, he said they were disturbing him while he wrote a paper on solar energy.",
+      "zh": "从贝尔实验室退休后，他一直在家里的地下室做实验。2018 年诺贝尔官网打来电话时，他说他们打扰他写论文了，那篇论文讲的是太阳能。"
+    },
+    {
+      "en": "When he first described catching living things with light, people told him: \"Don't exaggerate Ashkin!\" Light was then considered deadly to tissue.",
+      "zh": "他第一次讲用光抓住活的生物时，别人对他说：“阿什金，别夸张了！”当时人们认为光会杀死组织。"
+    },
+    {
+      "en": "He refused co-authorship on a theory paper by his friend James Gordon that grew out of their talks, saying \"I don't understand this stuff\"; Gordon insisted he had explained the problem.",
+      "zh": "好友戈登根据两人的讨论写出一篇理论论文，阿什金不肯署名，说“这东西我不懂”；戈登坚持说，问题本来就是他讲清楚的。"
+    },
+    {
+      "en": "His heroes were Antonie van Leeuwenhoek, who kept writing to the Royal Society while nobody paid attention, and Michael Faraday.",
+      "zh": "他心中的榜样是列文虎克和法拉第。列文虎克不停地给英国皇家学会写信，很长时间没人理他。"
+    }
+  ],
+  "timeline": [
+    { "year": 1922, "en": "Born in Brooklyn, New York", "zh": "生于纽约布鲁克林" },
+    { "year": 1947, "en": "Graduates from Columbia College", "zh": "哥伦比亚学院毕业" },
+    { "year": 1952, "en": "PhD from Cornell University; joins Bell Labs", "zh": "获康奈尔大学博士学位，进入贝尔实验室" },
+    { "year": 1970, "en": "First report of trapping particles with laser radiation pressure", "zh": "首次报告用激光光压捕获粒子" },
+    { "year": 1986, "en": "Demonstrates the single-beam gradient optical trap", "zh": "演示单光束梯度力光阱" },
+    { "year": 1987, "en": "Traps living bacteria and viruses with optical tweezers", "zh": "用光镊捕获活细菌和病毒" },
+    { "year": 1992, "en": "Retires from Bell Labs and moves his research home", "zh": "从贝尔实验室退休，把研究搬回家里" },
+    { "year": 2018, "en": "Nobel Prize in Physics", "zh": "获诺贝尔物理学奖" },
+    { "year": 2020, "en": "Dies at home in Rumson, New Jersey", "zh": "在新泽西州拉姆森家中去世" }
+  ],
+  "works": [
+    {
+      "year": 1970,
+      "title": "Acceleration and Trapping of Particles by Radiation Pressure",
+      "en": "First showed laser light can push and hold micron-sized spheres; Bell Labs' internal review said it had no new physics.",
+      "zh": "第一次证明激光可以推动并困住微米级小球；贝尔实验室的内部评审曾说这篇论文没有新物理。"
+    },
+    {
+      "year": 1986,
+      "title": "Observation of a single-beam gradient force optical trap for dielectric particles",
+      "en": "The paper that introduced optical tweezers: one focused beam holds a particle in three dimensions.",
+      "zh": "光镊由此诞生：一束聚焦激光就能在三维空间中固定一个粒子。"
+    },
+    {
+      "year": 1987,
+      "title": "Optical trapping and manipulation of viruses and bacteria",
+      "en": "Showed the trap could hold living organisms unharmed, opening the way to single-molecule biophysics.",
+      "zh": "证明光阱能抓住活的生物而不伤害它，为单分子生物物理打开了路。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I was interested in science since I was a kid, so I tell my wife that's the only thing that I'm really good at.",
+      "zh": "我从小就对科学感兴趣，所以我跟我太太说，这是我唯一真正擅长的事。",
+      "source": "Telephone interview with Nobelprize.org, 2 October 2018",
+      "url": "https://www.nobelprize.org/prizes/physics/2018/ashkin/interview/"
+    },
+    {
+      "text": "Well, look, I'm writing a paper now and I'm not celebrating about old stuff. I've got something new and important.",
+      "zh": "听着，我正在写论文，不打算为旧东西庆祝。我手上有新的、重要的东西。",
+      "source": "Telephone interview with Nobelprize.org, 2 October 2018",
+      "url": "https://www.nobelprize.org/prizes/physics/2018/ashkin/interview/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "Arthur Ashkin – Interview", "publisher": "NobelPrize.org", "year": 2018, "url": "https://www.nobelprize.org/prizes/physics/2018/ashkin/interview/", "lang": "en" },
+    { "kind": "memoir", "title": "Arthur Ashkin – Biographical", "publisher": "NobelPrize.org", "year": 2018, "url": "https://www.nobelprize.org/prizes/physics/2018/ashkin/biographical/", "lang": "en" },
+    { "kind": "memoir", "title": "Arthur Ashkin: Father of the optical tweezers", "publisher": "PNAS", "year": 2021, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896341", "lang": "en" },
+    { "kind": "obituary", "title": "Arthur Ashkin (1922–2020)", "publisher": "Nature", "year": 2020, "url": "https://www.nature.com/articles/d41586-020-03380-4", "lang": "en" },
+    { "kind": "obituary", "title": "Optical tweezer pioneer Arthur Ashkin dies aged 98", "publisher": "Physics World", "year": 2020, "url": "https://physicsworld.com/a/optical-tweezer-pioneer-arthur-ashkin-dies-aged-98/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "Ashkin carried the experimental skills he learned building wartime magnetrons into a lifetime at the bench, and kept a lab in his basement into his nineties.",
+      "zh": "阿什金把战时造磁控管练出的动手本领带进了一辈子的实验台，九十多岁还在地下室里做实验。"
+    },
+    {
+      "key": "long-focus",
+      "en": "He worked on radiation pressure from 1970 to 1986 before the single-beam trap appeared, and kept pushing it toward biology when others thought light would kill cells.",
+      "zh": "从 1970 年到 1986 年，他在光压上做了十六年才做出单光束光阱；别人认为光会杀死细胞时，他照样把它推向生物学。"
+    }
+  ]
+}

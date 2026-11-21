@@ -1,0 +1,164 @@
+{
+  "slug": "kurt-godel",
+  "name": {
+    "en": "Kurt Gödel",
+    "zh": "库尔特·哥德尔"
+  },
+  "wiki": {
+    "en": "Kurt_Gödel",
+    "zh": "库尔特·哥德尔"
+  },
+  "disciplines": [
+    "mathematics"
+  ],
+  "themes": [
+    "early",
+    "one-idea"
+  ],
+  "reasons": [
+    "pioneer"
+  ],
+  "born": 1906,
+  "keyWork": {
+    "year": 1931,
+    "en": "Incompleteness theorems",
+    "zh": "不完备性定理"
+  },
+  "why": {
+    "en": "At 25, in a paper of about 25 pages, he proved that any consistent formal system rich enough for arithmetic contains true statements it cannot prove, and cannot prove its own consistency. John von Neumann cancelled the rest of his course on Hilbert's programme to lecture on it instead.",
+    "zh": "25 岁时，他用一篇二十几页的论文证明：任何足以表达算术的相容形式系统，都含有它无法证明的真命题，也无法证明自身的相容性。冯·诺伊曼读到后，停掉了自己正在讲的希尔伯特纲领课程，改讲哥德尔的结果。"
+  },
+  "summary": {
+    "en": "Gödel was born in Brünn, Moravia, entered the University of Vienna in 1924 and moved in the circle around Moritz Schlick. His 1929 dissertation proved the completeness of first-order logic; two years later he published the incompleteness theorems. In 1938 he showed that the axiom of choice and the generalised continuum hypothesis are consistent with set theory. In 1940 he left Nazi-annexed Austria by way of Russia and Japan for the Institute for Advanced Study in Princeton, where he stayed for the rest of his life and became a close friend of Einstein. He published little after the 1940s. Convinced he was being poisoned, he stopped eating and died in 1978.",
+    "zh": "哥德尔生于摩拉维亚的布尔诺，1924 年进入维也纳大学，常参加石里克周围的学术圈子。1929 年的博士论文证明了一阶逻辑的完全性；两年后，他发表了不完备性定理。1938 年，他证明选择公理和广义连续统假设与集合论相容。1940 年，他取道苏联和日本，离开被纳粹吞并的奥地利，来到普林斯顿高等研究院，在那里度过余生，并与爱因斯坦成为挚友。40 年代以后他发表得很少。晚年他认定有人要毒害自己，拒绝进食，1978 年去世。"
+  },
+  "style": [
+    {
+      "en": "He and Einstein were often seen walking to and from the Institute together, talking in German.",
+      "zh": "人们常看到他和爱因斯坦一起步行往返研究院，用德语交谈。"
+    },
+    {
+      "en": "Preparing for his 1947 US citizenship hearing, he studied the Constitution and decided it had an inner contradiction that would let a dictatorship arise legally. When the examiner asked about Austria, he started to explain; Oskar Morgenstern, one of his two witnesses with Einstein, recalled that the examiner quickly cut him off.",
+      "zh": "1947 年准备入籍面试时，他研读美国宪法，认定其中有内在矛盾，能让独裁在合法程序下出现。面试时考官问起奥地利，他便要开始论证。据陪同作证的摩根斯特恩回忆（另一位证人是爱因斯坦），考官赶紧打断了他。"
+    },
+    {
+      "en": "His Princeton chair came with a contract that explicitly gave him no lecturing duties, and he supervised no doctoral students.",
+      "zh": "他在普林斯顿的教授合同明确写着不承担授课任务；他一生没有带过博士生。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1906,
+      "en": "Born in Brünn, Austria-Hungary (now Brno), on 28 April.",
+      "zh": "4 月 28 日生于奥匈帝国的布吕恩（今捷克布尔诺）。"
+    },
+    {
+      "year": 1924,
+      "en": "Enters the University of Vienna.",
+      "zh": "进入维也纳大学。"
+    },
+    {
+      "year": 1929,
+      "en": "Completes his dissertation proving the completeness of first-order logic.",
+      "zh": "完成博士论文，证明一阶逻辑的完全性。"
+    },
+    {
+      "year": 1931,
+      "en": "Publishes the incompleteness theorems.",
+      "zh": "发表不完备性定理。"
+    },
+    {
+      "year": 1940,
+      "en": "Travels via Russia and Japan to the Institute for Advanced Study in Princeton.",
+      "zh": "取道苏联和日本前往普林斯顿高等研究院。"
+    },
+    {
+      "year": 1951,
+      "en": "Receives the first Albert Einstein Award, shared with Julian Schwinger.",
+      "zh": "与施温格分享首届爱因斯坦奖。"
+    },
+    {
+      "year": 1953,
+      "en": "Becomes a professor at the Institute.",
+      "zh": "成为研究院教授。"
+    },
+    {
+      "year": 1978,
+      "en": "Dies in Princeton on 14 January.",
+      "zh": "1 月 14 日在普林斯顿去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1930,
+      "title": "Die Vollständigkeit der Axiome des logischen Funktionenkalküls",
+      "en": "Proved that first-order logic is complete: every valid statement can be derived.",
+      "zh": "证明一阶逻辑是完全的：凡是普遍有效的命题都能推导出来。"
+    },
+    {
+      "year": 1931,
+      "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+      "en": "Showed that arithmetic cannot be captured completely by any consistent formal system, ending Hilbert's hope of a complete foundation.",
+      "zh": "证明没有哪个相容的形式系统能完整刻画算术，终结了希尔伯特建立完备数学基础的希望。"
+    },
+    {
+      "year": 1940,
+      "title": "The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis with the Axioms of Set Theory",
+      "en": "Introduced the constructible universe to show that these axioms cannot be disproved from standard set theory.",
+      "zh": "引入可构造集宇宙，证明这些公理无法从标准集合论中被否证。"
+    },
+    {
+      "year": 1949,
+      "title": "An example of a new type of cosmological solutions of Einstein's field equations of gravitation",
+      "en": "A rotating universe consistent with general relativity in which time travel into the past is possible, written for Einstein's 70th birthday.",
+      "zh": "给出广义相对论中一个旋转宇宙解，其中可以回到过去，是为爱因斯坦七十寿辰而作。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "obituary",
+      "title": "Dr Kurt Gödel, 71, Mathematician (Peter B. Flint)",
+      "publisher": "The New York Times",
+      "year": 1978,
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Godel_NY_Times/",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "Oskar Morgenstern's account of Kurt Gödel's naturalisation",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 1971,
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Godel_naturalisation/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Kurt Gödel",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "year": 2007,
+      "url": "https://plato.stanford.edu/entries/goedel/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Kurt Gödel",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 2003,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "important-problem",
+      "en": "Gödel took on the central question of his field, whether mathematics could be given a complete and consistent foundation, and answered it in a few dozen pages. Aim at the question everyone else is assuming away.",
+      "zh": "哥德尔直接回答了本领域最核心的问题——数学能否建立在完备又相容的基础上，只用了几十页。去回答那个别人都默认已有答案的问题。"
+    },
+    {
+      "key": "first-principles",
+      "en": "His key trick was to encode statements about a formal system as numbers, so the system could talk about itself. A simple encoding can turn a philosophical question into a theorem.",
+      "zh": "他的关键一招是把关于形式系统的命题编码成数，让系统能够谈论自身。一个简单的编码，就能把哲学问题变成定理。"
+    }
+  ]
+}

@@ -42,3 +42,4 @@ Thumbs.db
 *.swp
 *.swo
 data/openalex_cache/
+data/wiki_cache/

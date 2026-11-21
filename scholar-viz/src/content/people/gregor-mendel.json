@@ -1,0 +1,153 @@
+{
+  "slug": "gregor-mendel",
+  "name": {
+    "en": "Gregor Mendel",
+    "zh": "格雷戈尔·孟德尔"
+  },
+  "wiki": {
+    "en": "Gregor_Mendel",
+    "zh": "格雷戈爾·孟德爾"
+  },
+  "disciplines": [
+    "biology"
+  ],
+  "themes": [
+    "outsiders",
+    "vindicated",
+    "one-idea"
+  ],
+  "reasons": [
+    "pioneer",
+    "path",
+    "timing"
+  ],
+  "born": 1822,
+  "keyWork": {
+    "year": 1865,
+    "en": "\"Experiments on Plant Hybrids\", the laws of inheritance from pea crosses",
+    "zh": "《植物杂交实验》，从豌豆杂交中得出遗传规律"
+  },
+  "why": {
+    "en": "An Augustinian friar who twice failed the exam to become a certified teacher, he crossed peas in his monastery garden for eight years and found the ratios that underlie all of genetics. He read the results to a local natural history society in Brno in 1865; they were ignored for 35 years, until three botanists rediscovered them in 1900.",
+    "zh": "这位奥古斯丁会修士两次没考过中学教师资格考试，却在修道院的园子里做了八年豌豆杂交，找到了整个遗传学赖以成立的比例。1865 年他在布尔诺一个地方自然科学学会上宣读了结果，此后 35 年无人理会，直到 1900 年被三位植物学家重新发现。"
+  },
+  "summary": {
+    "en": "Johann Mendel was born to a poor farming family in Heinzendorf, Austrian Silesia, now Hynčice in the Czech Republic. In 1843 he entered the Augustinian monastery of St. Thomas in Brno, taking the name Gregor; the friars there taught, did research and were encouraged by their abbot, Cyrill Napp. The order sent him to the University of Vienna from 1851 to 1853, where he studied physics and mathematics. Between 1856 and 1863 he grew and crossed thousands of pea plants, published the results in 1866, and also experimented with hawkweed and other plants and kept meteorological records for the rest of his life. He became abbot in 1868, spent his last years in a dispute with the state over taxing the monastery, and died in 1884.",
+    "zh": "约翰·孟德尔出生在奥地利西里西亚海因岑多夫（今捷克海恩奇采）一个贫苦农家。1843 年他进入布尔诺的圣托马斯奥古斯丁修道院，取教名格雷戈尔。那里的修士教书、做研究，院长纳普也鼓励他们这样做。1851 到 1853 年，修会送他去维也纳大学学习物理和数学。1856 到 1863 年，他种植并杂交了数以千计的豌豆，1866 年发表结果；他还做过山柳菊等植物的杂交，并且一辈子坚持记录气象。1868 年他当选院长，晚年为修道院的税务问题和政府争执，1884 年去世。"
+  },
+  "style": [
+    {
+      "en": "He was trained in physics as much as biology: at Vienna he studied under Christian Doppler, and meteorology remained one of his main research activities for life.",
+      "zh": "他受的物理训练不比生物少：在维也纳曾受教于多普勒，气象学终生都是他的主要研究之一。"
+    },
+    {
+      "en": "He did not stop at peas. His letters to the botanist Carl von Nägeli report crosses in some twenty other genera, including hawkweed, which he chose because he suspected it would behave differently.",
+      "zh": "他没有止步于豌豆。他写给植物学家耐格里的信里，记录了二十来个属的杂交实验，其中包括山柳菊；选它，正是因为他猜想它的表现会和豌豆不同。"
+    },
+    {
+      "en": "He read Darwin closely: his copy of the German translation of Variation of Animals and Plants under Domestication carries his annotations, and one passage prompted him to design a new pollination experiment.",
+      "zh": "他细读过达尔文：他那本德译本《动物和植物在家养下的变异》上留有批注，其中一段话促使他设计了一个新的授粉实验。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1822,
+      "en": "Born in Heinzendorf, Austrian Silesia",
+      "zh": "生于奥地利西里西亚海因岑多夫"
+    },
+    {
+      "year": 1843,
+      "en": "Enters St. Thomas's Abbey in Brno as an Augustinian friar",
+      "zh": "进入布尔诺圣托马斯修道院，成为奥古斯丁会修士"
+    },
+    {
+      "year": 1851,
+      "en": "Sent to study at the University of Vienna",
+      "zh": "被派往维也纳大学进修"
+    },
+    {
+      "year": 1856,
+      "en": "Begins his pea hybridisation experiments",
+      "zh": "开始豌豆杂交实验"
+    },
+    {
+      "year": 1865,
+      "en": "Presents his results to the Brno Natural History Society",
+      "zh": "在布尔诺自然科学学会宣读研究结果"
+    },
+    {
+      "year": 1868,
+      "en": "Elected abbot of St. Thomas's",
+      "zh": "当选圣托马斯修道院院长"
+    },
+    {
+      "year": 1884,
+      "en": "Dies in Brno",
+      "zh": "在布尔诺去世"
+    },
+    {
+      "year": 1900,
+      "en": "His work is rediscovered by de Vries, Correns and Tschermak",
+      "zh": "德弗里斯、科伦斯和切尔马克重新发现他的工作"
+    }
+  ],
+  "works": [
+    {
+      "year": 1866,
+      "title": "Versuche über Pflanzen-Hybriden",
+      "en": "Showed that traits are passed on as discrete units in fixed ratios, the foundation of genetics.",
+      "zh": "证明性状以离散单位、按固定比例传递，奠定了遗传学的基础。"
+    },
+    {
+      "year": 1870,
+      "title": "Über einige aus künstlicher Befruchtung gewonnenen Hieracium-Bastarde",
+      "en": "His hawkweed paper, which warned against treating the pea rules as universal laws without testing them on other plants.",
+      "zh": "他关于山柳菊杂种的论文，提醒人们不要未经检验就把豌豆规律当作普遍定律。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "Demystifying the mythical Mendel: a biographical review",
+      "publisher": "Heredity",
+      "year": 2022,
+      "url": "https://www.nature.com/articles/s41437-022-00526-0",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Bicentennial of Gregor Johann Mendel's birth: Mendel's work still addresses geneticists in 2022",
+      "publisher": "Frontiers in Plant Science",
+      "year": 2022,
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.969745/full",
+      "lang": "en"
+    },
+    {
+      "kind": "archive",
+      "title": "Experiments in Plant Hybridization (1865), English translation",
+      "publisher": "Electronic Scholarly Publishing",
+      "url": "http://www.esp.org/foundations/genetics/classical/gm-65.pdf",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "The legend of an invisible monk",
+      "publisher": "Revista Pesquisa FAPESP",
+      "url": "https://revistapesquisa.fapesp.br/en/the-legend-of-an-invisible-monk/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "He picked an organism with clear either-or traits, counted thousands of offspring, and let the numbers show the rule.",
+      "zh": "他挑了一种性状非此即彼的植物，数了成千上万株后代，让数字自己显出规律。"
+    },
+    {
+      "key": "cross-field",
+      "en": "He brought the physicist's habit of counting and ratios, learned in Vienna, to a question that plant hybridisers had mostly approached by description.",
+      "zh": "他把在维也纳学到的物理学家的计数和比例思维，带进了一个此前杂交育种家大多只做描述的问题。"
+    }
+  ]
+}

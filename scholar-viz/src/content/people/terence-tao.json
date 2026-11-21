@@ -1,0 +1,55 @@
+{
+  "slug": "terence-tao",
+  "name": { "en": "Terence Tao", "zh": "陶哲轩" },
+  "wiki": { "en": "Terence_Tao", "zh": "陶哲轩" },
+  "disciplines": ["mathematics"],
+  "themes": ["early", "chinese"],
+  "reasons": ["timing", "crossing"],
+  "born": 1975,
+  "keyWork": { "year": 2004, "en": "Green–Tao theorem: the primes contain arbitrarily long arithmetic progressions", "zh": "格林–陶定理：素数中存在任意长的等差数列" },
+  "why": {
+    "en": "At 12 he became the youngest gold medallist in International Mathematical Olympiad history; at 31 he won the Fields Medal for work spanning harmonic analysis, number theory and PDEs. He also writes one of the most widely read research blogs in mathematics, and a reader's comment there led him to the solution of the Erdős discrepancy problem.",
+    "zh": "12 岁拿下国际数学奥林匹克金牌，至今仍是最年轻的金牌得主；31 岁因调和分析、数论和偏微分方程方面的工作获菲尔兹奖。他的研究博客是数学界读者最多的博客之一，埃尔德什差异问题的突破，就来自博客上一位读者的留言。"
+  },
+  "summary": {
+    "en": "Tao was born in Adelaide to parents who had emigrated from Hong Kong. As a boy he took classes at Flinders University while still in high school, and won IMO bronze, silver and gold medals at 10, 11 and 12. He finished a PhD at Princeton under Elias Stein at 20 and became a full professor at UCLA at 24. With Ben Green he proved in 2004 that the primes contain arithmetic progressions of any length, and he received the Fields Medal in 2006. He has since worked across dozens of fields, from compressed sensing to the Navier–Stokes equations, and has become a leading voice on using AI and proof assistants in mathematics.",
+    "zh": "陶哲轩生于澳大利亚阿德莱德，父母是从香港移民过去的。上中学时他已经在弗林德斯大学听课，10 岁、11 岁、12 岁先后拿到国际数学奥林匹克铜牌、银牌和金牌。20 岁在普林斯顿大学随伊莱亚斯·斯坦获得博士学位，24 岁成为加州大学洛杉矶分校正教授。2004 年他和本·格林证明素数中存在任意长的等差数列，2006 年获菲尔兹奖。此后他的工作遍及几十个方向，从压缩感知到纳维–斯托克斯方程都有涉及，近年又成为推动用人工智能和形式化证明工具做数学的重要人物。"
+  },
+  "style": [
+    { "en": "At Princeton he coasted: he spent only a few weeks preparing for his general exams and, by his own account, barely passed. Stein told him the performance was disappointing, and he resolved to work harder.", "zh": "在普林斯顿读博时他一度松懈，资格考试只准备了几个星期，用他自己的话说是“差一点就没过”。导师斯坦直言表现令人失望，他从此下决心用功。" },
+    { "en": "He works in the open. A 2015 comment on his blog by Uwe Stroinski suggested a link between the Erdős discrepancy problem and the Elliott conjecture; within two weeks Tao had a proof.", "zh": "他习惯公开地做研究。2015 年，乌韦·施特罗因斯基在他的博客上留言，指出埃尔德什差异问题可能与埃利奥特猜想有关；两周之内，陶哲轩就完成了证明。" },
+    { "en": "He argues against the cult of genius: his career-advice pages tell students that hard work, learning other fields and talking to other mathematicians matter more than any innate gift.", "zh": "他反对“天才崇拜”。他在博客的职业建议里告诉学生：用功、学别的领域、多和同行交流，比天赋更要紧。" }
+  ],
+  "timeline": [
+    { "year": 1975, "en": "Born in Adelaide, Australia.", "zh": "生于澳大利亚阿德莱德。" },
+    { "year": 1988, "en": "Wins IMO gold, the youngest gold medallist ever.", "zh": "获国际数学奥林匹克金牌，成为史上最年轻的金牌得主。" },
+    { "year": 1996, "en": "PhD at Princeton under Elias Stein; joins UCLA.", "zh": "在普林斯顿大学随斯坦获博士学位，随后加入加州大学洛杉矶分校。" },
+    { "year": 2000, "en": "Becomes a full professor at UCLA at 24.", "zh": "24 岁升任加州大学洛杉矶分校正教授。" },
+    { "year": 2004, "en": "Proves with Ben Green that the primes contain arbitrarily long arithmetic progressions.", "zh": "与本·格林证明素数中存在任意长的等差数列。" },
+    { "year": 2006, "en": "Awarded the Fields Medal and a MacArthur Fellowship.", "zh": "获菲尔兹奖和麦克阿瑟奖。" },
+    { "year": 2015, "en": "Solves the Erdős discrepancy problem after a lead from a blog comment.", "zh": "受博客留言启发，解决埃尔德什差异问题。" }
+  ],
+  "works": [
+    { "year": 2008, "title": "The primes contain arbitrarily long arithmetic progressions (with Ben Green)", "en": "Showed that the primes, despite thinning out, contain evenly spaced runs of any length, joining ergodic theory and analytic number theory.", "zh": "证明素数虽然越来越稀疏，却含有任意长的等差数列，把遍历论和解析数论接在了一起。" },
+    { "year": 2006, "title": "Robust uncertainty principles (with Emmanuel Candès and Justin Romberg)", "en": "One of the founding papers of compressed sensing, which lets signals be rebuilt from far fewer measurements than once thought necessary.", "zh": "压缩感知的奠基论文之一：信号可以用远少于传统要求的测量次数重建出来。" },
+    { "year": 2016, "title": "The Erdős discrepancy problem", "en": "Settled an 80-year-old question about how unbalanced a ±1 sequence must become, using ideas that surfaced in an online collaboration.", "zh": "解决了一个关于 ±1 序列必然失衡多少、悬而未决约八十年的问题，关键思路来自网上的公开讨论。" }
+  ],
+  "quotes": [
+    {
+      "text": "Does one have to be a genius to do mathematics? The answer is an emphatic NO. In order to make good and useful contributions to mathematics, one does need to work hard, learn one's field well, learn other fields and tools, ask questions, talk to other mathematicians, and think about the \"big picture\".",
+      "zh": "做数学一定要是天才吗？答案是坚决的“不”。要在数学上做出好的、有用的贡献，确实需要用功，学透自己的领域，学习别的领域和工具，提问，和其他数学家交流，并思考“大图景”。",
+      "source": "\"Does one have to be a genius to do maths?\", What's new (Tao's blog)",
+      "url": "https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/"
+    }
+  ],
+  "links": [
+    { "kind": "interview", "title": "What Makes for 'Good' Mathematics? (The Joy of Why)", "publisher": "Quanta Magazine", "year": 2024, "url": "https://www.quantamagazine.org/what-makes-for-good-mathematics-20240201/", "lang": "en" },
+    { "kind": "interview", "title": "Terence Tao: Hardest Problems in Mathematics, Physics & the Future of AI (transcript)", "publisher": "Lex Fridman Podcast", "year": 2025, "url": "https://lexfridman.com/terence-tao-transcript", "lang": "en" },
+    { "kind": "profile", "title": "Mind of a Mathematician", "publisher": "Princeton Alumni Weekly", "year": 2019, "url": "https://paw.princeton.edu/article/mind-mathematician", "lang": "en" },
+    { "kind": "archive", "title": "Terence Tao – Biography", "publisher": "MacTutor History of Mathematics", "year": 2023, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tao/", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "communicate", "en": "Tao posts unfinished ideas and lecture notes on his blog; readers' comments have fed straight back into his research.", "zh": "陶哲轩把没做完的想法和讲义都贴在博客上，读者的留言常常直接推动了他的研究。" },
+    { "key": "cross-field", "en": "He moves between harmonic analysis, number theory, combinatorics and applied problems, and his best results come from carrying a tool from one area into another.", "zh": "他在调和分析、数论、组合和应用问题之间来回走，最好的成果往往来自把一个领域的工具带进另一个领域。" }
+  ]
+}

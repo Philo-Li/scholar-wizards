@@ -1,0 +1,94 @@
+{
+  "slug": "chien-shiung-wu",
+  "name": { "en": "Chien-Shiung Wu", "zh": "吴健雄" },
+  "wiki": { "en": "Chien-Shiung_Wu", "zh": "吴健雄" },
+  "disciplines": ["physics"],
+  "themes": ["women", "chinese"],
+  "reasons": ["opening", "pioneer"],
+  "born": 1912,
+  "keyWork": { "year": 1957, "en": "Experiment showing that parity is not conserved in beta decay", "zh": "证明 β 衰变中宇称不守恒的实验" },
+  "why": {
+    "en": "In late 1956 she took cobalt-60 to the National Bureau of Standards, cooled it to near absolute zero so the nuclear spins lined up, and showed that beta decay prefers one direction: nature can tell left from right. Lee and Yang, who had proposed the idea, won the 1957 Nobel Prize; she was left out.",
+    "zh": "1956 年底，她带着钴-60 到美国国家标准局，把样品冷却到接近绝对零度，让原子核自旋排成一个方向，结果发现 β 衰变放出的电子偏向一边：自然界分得清左和右。提出这一设想的李政道和杨振宁获得了 1957 年诺贝尔物理学奖，她却不在其中。"
+  },
+  "summary": {
+    "en": "Wu was born in Liuhe, Taicang, in Jiangsu; her father ran a school and believed girls should be educated. She studied at National Central University in Nanjing, switching from mathematics to physics, and in 1936 sailed to the United States, where she earned her PhD at Berkeley in 1940. In 1944 she joined the Manhattan Project at Columbia, working on uranium enrichment by gaseous diffusion, and stayed at Columbia until she retired. In 1949 she confirmed Fermi's theory of beta decay, then in 1956–57 carried out the parity experiment and in 1963 confirmed the conserved vector current hypothesis. She became the first woman president of the American Physical Society in 1975, received the first Wolf Prize in Physics in 1978, and died in New York in 1997.",
+    "zh": "吴健雄生于江苏太仓浏河镇，父亲办了一所学校，主张女孩也要读书。她在南京的中央大学先读数学，后转物理，1936 年赴美，1940 年在伯克利获得博士学位。1944 年她到哥伦比亚大学参加曼哈顿计划，研究气体扩散法浓缩铀，此后一直在哥大任教到退休。1949 年她用实验确认了费米的 β 衰变理论，1956 至 1957 年完成宇称实验，1963 年又证实了矢量流守恒假说。1975 年她成为美国物理学会第一位女会长，1978 年获得首届沃尔夫物理学奖，1997 年在纽约去世。"
+  },
+  "style": [
+    {
+      "en": "Samuel Ting said of her that she was cautious and careful in experiments and spent most of her time calibrating her instruments.",
+      "zh": "丁肇中说，她做实验小心谨慎，用大多数时间校对仪器。"
+    },
+    {
+      "en": "In 1956 she planned to visit China with her husband for the first time in twenty years, but stayed in the United States to finish the parity experiment while he went alone.",
+      "zh": "1956 年她本打算和丈夫一起回国，这是她离开中国二十年来第一次，最后却留在美国完成宇称实验，让丈夫一个人去了。"
+    },
+    {
+      "en": "She often bought fabric to make her own qipao, which she wore under her lab coat as a reminder of China.",
+      "zh": "她常去买布料自己做旗袍，在实验服里面穿着，以此怀念故国。"
+    },
+    {
+      "en": "She typically worked from 8 a.m. to 7 or 8 in the evening. Students nicknamed her the Dragon Lady for her strictness, but she also ate lunch with them and got to know their families.",
+      "zh": "她通常从早上八点一直干到晚上七八点。学生因为她要求严格，私下叫她“龙女士”，可她也常和学生一起吃午饭，认识他们的家人。"
+    }
+  ],
+  "timeline": [
+    { "year": 1912, "en": "Born in Liuhe, Taicang, Jiangsu, China", "zh": "生于江苏太仓浏河镇" },
+    { "year": 1934, "en": "Graduates in physics from National Central University, Nanjing", "zh": "从南京中央大学物理系毕业" },
+    { "year": 1940, "en": "PhD in physics from the University of California, Berkeley", "zh": "获伯克利加州大学物理学博士学位" },
+    { "year": 1944, "en": "Joins the Manhattan Project at Columbia University", "zh": "到哥伦比亚大学参加曼哈顿计划" },
+    { "year": 1957, "en": "Publishes the parity experiment; Lee and Yang win the Nobel Prize that year", "zh": "发表宇称实验结果，同年李政道、杨振宁获诺贝尔奖" },
+    { "year": 1975, "en": "First woman president of the American Physical Society", "zh": "成为美国物理学会首位女会长" },
+    { "year": 1978, "en": "Receives the first Wolf Prize in Physics", "zh": "获首届沃尔夫物理学奖" },
+    { "year": 1997, "en": "Dies in New York City", "zh": "在纽约去世" }
+  ],
+  "works": [
+    {
+      "year": 1957,
+      "title": "Experimental Test of Parity Conservation in Beta Decay",
+      "en": "Showed that the weak interaction distinguishes left from right, overturning a symmetry physicists had assumed was universal.",
+      "zh": "证明弱相互作用分得清左右，推翻了物理学家一直默认普遍成立的一条对称性。"
+    },
+    {
+      "year": 1949,
+      "title": "Beta-ray spectra measurements confirming Fermi's theory",
+      "en": "Traced earlier disagreements with Fermi's beta-decay theory to thick, uneven sources, and with thin uniform sources got spectra that matched it.",
+      "zh": "她发现早先与费米 β 衰变理论不符的结果，是因为放射源太厚、不均匀；改用薄而均匀的源后，测得的能谱与理论吻合。"
+    },
+    {
+      "year": 1963,
+      "title": "Experimental Test of the Conserved Vector Current Theory on the Beta Spectra of B12 and N12 (with Y. K. Lee and L. W. Mo)",
+      "en": "Confirmed the conserved vector current hypothesis of Feynman and Gell-Mann, a step toward unifying the weak and electromagnetic forces.",
+      "zh": "证实了费曼和盖尔曼提出的矢量流守恒假说，为弱力和电磁力的统一迈出了一步。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "whether the tiny atoms and nuclei, or the mathematical symbols, or the DNA molecules have any preference for either masculine or feminine treatment.",
+      "zh": "……那些微小的原子和原子核、那些数学符号、那些 DNA 分子，会不会偏爱男性或女性的对待方式。",
+      "source": "Symposium on American women in science and engineering, MIT, 1964 (as quoted by the U.S. National Park Service)",
+      "url": "https://www.nps.gov/people/dr-chien-shiung-wu-the-first-lady-of-physics.htm"
+    }
+  ],
+  "links": [
+    { "kind": "profile", "title": "核物理学家吴健雄诞辰110周年：曾实验证实宇称不守恒定律", "publisher": "澎湃新闻", "year": 2022, "url": "https://www.thepaper.cn/newsDetail_forward_18356585", "lang": "zh" },
+    { "kind": "profile", "title": "A Physics Legend Part One: How Chien-Shiung Wu Changed Physics Forever", "publisher": "NPR Short Wave", "year": 2022, "url": "https://www.npr.org/2022/03/09/1085428338/a-physics-legend-part-one-how-chien-shiung-wu-changed-physics-forever", "lang": "en" },
+    { "kind": "obituary", "title": "Chien-Shiung Wu (obituary by T. D. Lee and Richard Garwin)", "publisher": "Physics Today", "year": 1997, "url": "https://physicstoday.aip.org/obituaries/chien-shiung-wu", "lang": "en" },
+    { "kind": "profile", "title": "Chien-Shiung Wu", "publisher": "Atomic Heritage Foundation", "year": null, "url": "https://ahf.nuclearmuseum.org/ahf/profile/chien-shiung-wu/", "lang": "en" },
+    { "kind": "profile", "title": "Dr. Chien-Shiung Wu, The First Lady of Physics", "publisher": "U.S. National Park Service", "year": null, "url": "https://www.nps.gov/people/dr-chien-shiung-wu-the-first-lady-of-physics.htm", "lang": "en" },
+    { "kind": "archive", "title": "Dr. Chien-Shiung Wu: Premier Nuclear Physicist", "publisher": "Library of Congress, Headlines & Heroes", "year": 2022, "url": "https://blogs.loc.gov/headlinesandheroes/2022/05/dr-chien-shiung-wu-premier-nuclear-physicist/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "She won the race on parity because she could build what the test needed: a cryogenic cobalt source and detectors that worked inside it. Most of her time went into calibration.",
+      "zh": "她能在宇称问题上抢先，是因为她造得出检验所需的东西：低温下的钴源，以及能在其中工作的探测器。她的大部分时间都花在校准上。"
+    },
+    {
+      "key": "persist-evidence",
+      "en": "When beta-decay data disagreed with Fermi's theory, she looked for the flaw in the sources rather than the theory, and found it.",
+      "zh": "β 衰变数据与费米理论对不上时，她先去查放射源有没有问题，而不是急着怀疑理论，结果真找到了原因。"
+    }
+  ]
+}

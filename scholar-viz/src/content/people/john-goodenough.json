@@ -1,0 +1,177 @@
+{
+  "slug": "john-goodenough",
+  "name": {
+    "en": "John B. Goodenough",
+    "zh": "约翰·B·古迪纳夫"
+  },
+  "wiki": {
+    "en": "John_B._Goodenough",
+    "zh": "约翰·B·古迪纳夫"
+  },
+  "disciplines": [
+    "chemistry",
+    "physics"
+  ],
+  "themes": [
+    "late",
+    "polymaths"
+  ],
+  "reasons": [
+    "timing",
+    "path",
+    "crossing"
+  ],
+  "born": 1922,
+  "keyWork": {
+    "year": 1980,
+    "en": "Lithium cobalt oxide cathode for lithium-ion batteries",
+    "zh": "锂离子电池的钴酸锂正极"
+  },
+  "why": {
+    "en": "A physicist trained in magnetism, he moved to Oxford at 54 to run an inorganic chemistry lab and at 57 found the lithium cobalt oxide cathode that made rechargeable lithium-ion batteries practical. He kept working at the University of Texas into his late 90s and became, at 97, the oldest Nobel laureate.",
+    "zh": "他学的是物理，做的是磁学，54 岁去牛津主持无机化学实验室，57 岁找到钴酸锂正极，让可充电锂离子电池真正可用。他在得克萨斯大学一直工作到九十多岁，97 岁获诺贝尔奖，是年纪最大的得主。"
+  },
+  "summary": {
+    "en": "Goodenough was born in Jena, Germany, to American parents and grew up near New Haven, Connecticut. He struggled to learn to read as a child, studied mathematics at Yale, and served as an Army meteorologist in the Second World War. On returning he studied physics at the University of Chicago under Clarence Zener, then spent 24 years at MIT's Lincoln Laboratory, where his work on magnetic oxides helped develop random-access memory and led to the Goodenough–Kanamori rules. In 1976 he moved to Oxford, where his group found the lithium cobalt oxide cathode in 1980. From 1986 he worked at the University of Texas at Austin, where his group later introduced lithium iron phosphate; he died in 2023 at 100.",
+    "zh": "古迪纳夫生于德国耶拿，父母是美国人，他在康涅狄格州纽黑文附近长大。小时候他学认字非常吃力，后来在耶鲁大学读数学，二战期间在陆军当气象员。战后他去芝加哥大学跟齐纳读物理，之后在麻省理工学院林肯实验室待了 24 年，对磁性氧化物的研究帮助发展了随机存取存储器，也得出了古迪纳夫-金森规则。1976 年他去了牛津，1980 年课题组找到了钴酸锂正极。1986 年起他在得克萨斯大学奥斯汀分校工作，课题组后来又提出了磷酸铁锂。他 2023 年去世，享年 100 岁。"
+  },
+  "style": [
+    {
+      "en": "He wrote that as a child he \"read mechanically without the ability to catch easily the meaning of a paragraph\" and worked through school to cover the deficiency.",
+      "zh": "他自述小时候“只会机械地读，很难抓住一段话的意思”，整个求学阶段都在拼命弥补。"
+    },
+    {
+      "en": "When he registered for physics at Chicago after the war, Professor Simpson told him that anyone who had done anything significant in physics had done it by his age. He enrolled anyway.",
+      "zh": "战后他去芝加哥大学报名读物理，辛普森教授对他说，凡是在物理上有过重要成就的人，到他这个年纪早就做出来了。他还是报了名。"
+    },
+    {
+      "en": "His thesis adviser Clarence Zener accepted him with: \"Now you have two things you must do. The first is to find your research problem and the second is to solve it. Good day!\"",
+      "zh": "导师齐纳收下他时只说了一句：“现在你有两件事要做。第一，找到你的研究问题；第二，解决它。再见！”"
+    },
+    {
+      "en": "Asked on the day of his Nobel Prize for the secret of a long life in research, he laughed and said: don't retire too early.",
+      "zh": "获奖当天被问到长期做研究有什么秘诀，他笑着说：别太早退休。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1922,
+      "en": "Born in Jena, Germany",
+      "zh": "生于德国耶拿"
+    },
+    {
+      "year": 1944,
+      "en": "BA in mathematics, Yale; serves as an Army meteorologist",
+      "zh": "耶鲁大学数学学士毕业，在陆军任气象员"
+    },
+    {
+      "year": 1952,
+      "en": "PhD in physics, University of Chicago; joins MIT Lincoln Laboratory",
+      "zh": "获芝加哥大学物理博士，加入麻省理工学院林肯实验室"
+    },
+    {
+      "year": 1976,
+      "en": "Becomes head of the Inorganic Chemistry Laboratory, Oxford",
+      "zh": "出任牛津大学无机化学实验室主任"
+    },
+    {
+      "year": 1980,
+      "en": "Publishes the lithium cobalt oxide cathode",
+      "zh": "发表钴酸锂正极"
+    },
+    {
+      "year": 1986,
+      "en": "Moves to the University of Texas at Austin",
+      "zh": "转到得克萨斯大学奥斯汀分校"
+    },
+    {
+      "year": 2019,
+      "en": "Nobel Prize in Chemistry at 97, shared with Whittingham and Yoshino",
+      "zh": "97 岁获诺贝尔化学奖，与惠廷厄姆、吉野彰共享"
+    },
+    {
+      "year": 2023,
+      "en": "Dies in Austin, Texas, aged 100",
+      "zh": "在得克萨斯州奥斯汀去世，享年 100 岁"
+    }
+  ],
+  "works": [
+    {
+      "year": 1963,
+      "title": "Magnetism and the Chemical Bond",
+      "en": "His book from the Lincoln Lab years, setting out how the chemistry of oxides determines their magnetism.",
+      "zh": "林肯实验室时期的专著，阐明氧化物的化学成键如何决定其磁性。"
+    },
+    {
+      "year": 1980,
+      "title": "LixCoO2 (0<x≤1): A new cathode material for batteries of high energy density",
+      "en": "Doubled the voltage available from lithium batteries and made the modern lithium-ion cell possible.",
+      "zh": "把锂电池的电压提高了一倍，让现代锂离子电池成为可能。"
+    },
+    {
+      "year": 1997,
+      "title": "Phospho-olivines as Positive-Electrode Materials for Rechargeable Lithium Batteries",
+      "en": "Introduced lithium iron phosphate, a cheaper and safer cathode now used widely in electric vehicles and grid storage.",
+      "zh": "提出磷酸铁锂，一种更便宜、更安全的正极，如今广泛用于电动车和储能。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "No, I just say don't retire too early.",
+      "zh": "没有，我只想说：别太早退休。",
+      "source": "Telephone interview with Adam Smith, NobelPrize.org, 9 October 2019",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/goodenough/interview/"
+    },
+    {
+      "text": "How I struggled to learn to read!",
+      "zh": "我学认字学得多么吃力啊！",
+      "source": "Nobel Prize autobiography, 2019",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/goodenough/biographical/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "John B. Goodenough: Interview",
+      "publisher": "NobelPrize.org",
+      "year": 2019,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/goodenough/interview/",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "John B. Goodenough: Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 2019,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/goodenough/biographical/",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "John Bannister Goodenough, battery pioneer (1922–2023)",
+      "publisher": "Nature",
+      "year": 2023,
+      "url": "https://www.nature.com/articles/d41586-023-02152-0",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "How Nobel Prize winner John Goodenough sparked the wireless revolution",
+      "publisher": "University of Chicago News",
+      "url": "https://news.uchicago.edu/story/how-john-goodenough-sparked-wireless-revolution",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "cross-field",
+      "en": "He brought a solid-state physicist's understanding of oxides to battery chemistry, a field he entered in his fifties.",
+      "zh": "他把固体物理学家对氧化物的理解带进电池化学，而他进入这个领域时已经五十多岁。"
+    },
+    {
+      "key": "important-problem",
+      "en": "In 1970, worried about US dependence on foreign oil, he turned to energy problems, and kept working on better batteries until he was nearly 100.",
+      "zh": "1970 年，他担心美国过度依赖进口石油，转而研究能源问题，此后一直做更好的电池，做到将近 100 岁。"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "marie-tharp",
+  "name": {
+    "en": "Marie Tharp",
+    "zh": "玛丽·萨普"
+  },
+  "wiki": {
+    "en": "Marie_Tharp",
+    "zh": "玛丽·萨普"
+  },
+  "disciplines": [
+    "earth-sciences"
+  ],
+  "themes": [
+    "women",
+    "partnerships",
+    "vindicated"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1920,
+  "keyWork": {
+    "year": 1952,
+    "en": "Identifying the rift valley along the crest of the Mid-Atlantic Ridge",
+    "zh": "在大西洋中脊顶部识别出裂谷"
+  },
+  "why": {
+    "en": "Barred from Lamont's research ships, she plotted other people's sonar soundings by hand and noticed that six profiles across the North Atlantic all had the same V-shaped notch down the middle of the ridge. Her collaborator Bruce Heezen dismissed it as \"girl talk\"; it turned out to be the rift where the sea floor pulls apart, and their maps made continental drift hard to deny.",
+    "zh": "女性不准上拉蒙特的科考船，她就在绘图桌前手工标绘别人测回来的声呐数据。她发现横穿北大西洋的六条剖面，在海岭正中都有同样的 V 形凹槽。合作者希曾说这是“女孩子的闲话”。后来证明，那正是海底向两边裂开的裂谷；他们的海底地图让大陆漂移再也难以否认。"
+  },
+  "summary": {
+    "en": "Tharp was born in Ypsilanti, Michigan; her father's soil-survey work meant she attended nearly two dozen schools. She graduated from Ohio University in English and music, took a master's in geology at the University of Michigan when wartime shortages opened the program to women, and earned a mathematics degree at night in Tulsa while working for an oil company. In 1948 she joined Maurice Ewing's group at Columbia, later the Lamont-Doherty Earth Observatory, as an assistant who drew the ocean floor from soundings collected by Heezen and others. With Heezen she published the first map of the North Atlantic floor in 1959, then the South Atlantic and Indian Ocean, and in 1977 the World Ocean Floor panorama. Heezen died that year; Tharp kept working on the maps and died in 2006.",
+    "zh": "萨普生于密歇根州伊普西兰蒂。父亲做土壤调查，常年搬家，她高中毕业前上过将近二十所学校。她在俄亥俄大学读的是英语和音乐，战时人手短缺，密歇根大学的地质专业对女性开放，她去读了硕士；后来在石油公司工作，晚上在塔尔萨读完数学学位。1948 年她加入哥伦比亚大学尤因的团队，也就是后来的拉蒙特-多尔蒂地球观测站，任务是把希曾等人测回的数据画成海底地形。1959 年她和希曾发表第一张北大西洋海底图，随后是南大西洋和印度洋，1977 年完成《世界海底全景图》。希曾当年去世，萨普继续做地图，2006 年去世。"
+  },
+  "style": [
+    {
+      "en": "She drew with pens, ink and rulers, degree by degree, from thousands of sonar readings, and redrafted maps many times as the units changed from fathoms to corrected fathoms to metres.",
+      "zh": "她用钢笔、墨水和直尺，根据成千上万个声呐读数一度一度地画。单位从英寻改成校正英寻、再改成米，她就把地图一遍遍重画。"
+    },
+    {
+      "en": "She stayed out of the arguments: \"I was so busy making maps I let them argue,\" she said, preferring to show a picture of where the rift was.",
+      "zh": "她不参与争论。她说：“我忙着画图，让他们去吵吧。”她宁愿拿出一张图，让人看清裂谷在哪里。"
+    },
+    {
+      "en": "When Ewing fired her during his feud with Heezen in the 1960s, she kept mapping from home, paid from Heezen's Navy grant.",
+      "zh": "六十年代尤因和希曾闹翻，尤因把她解雇了。她就在家里接着画，经费来自希曾的海军项目。"
+    },
+    {
+      "en": "Library of Congress staff sorting her collection relied on her memory: she could identify a sheet from a few coordinates or just its contour lines.",
+      "zh": "美国国会图书馆整理她捐赠的资料时，常常要靠她的记忆：只凭几个坐标，甚至只凭等高线，她就能认出是哪一张。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1920,
+      "en": "Born in Ypsilanti, Michigan",
+      "zh": "生于密歇根州伊普西兰蒂"
+    },
+    {
+      "year": 1943,
+      "en": "Graduates from Ohio University",
+      "zh": "俄亥俄大学毕业"
+    },
+    {
+      "year": 1948,
+      "en": "Joins Maurice Ewing's group at Columbia University",
+      "zh": "加入哥伦比亚大学尤因的团队"
+    },
+    {
+      "year": 1952,
+      "en": "Spots the rift valley in her North Atlantic profiles",
+      "zh": "在北大西洋剖面中发现裂谷"
+    },
+    {
+      "year": 1959,
+      "en": "First physiographic map of the North Atlantic floor, with Heezen and Ewing",
+      "zh": "与希曾、尤因发表第一张北大西洋海底地形图"
+    },
+    {
+      "year": 1977,
+      "en": "World Ocean Floor panorama published; Heezen dies",
+      "zh": "《世界海底全景图》出版；希曾去世"
+    },
+    {
+      "year": 1995,
+      "en": "Donates her map collection to the Library of Congress",
+      "zh": "把地图资料捐给美国国会图书馆"
+    },
+    {
+      "year": 2006,
+      "en": "Dies in Nyack, New York",
+      "zh": "在纽约州奈阿克去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1959,
+      "title": "The Floors of the Oceans: I. The North Atlantic",
+      "en": "With Heezen and Ewing, the first detailed bird's-eye view of an ocean floor, showing it was not flat but cut by ridges, rifts and canyons.",
+      "zh": "与希曾、尤因合作，首次详细呈现一片洋底的鸟瞰地形，显示洋底并不平坦，而是布满海岭、裂谷和峡谷。"
+    },
+    {
+      "year": 1977,
+      "title": "World Ocean Floor",
+      "en": "With Heezen, painted by Heinrich Berann, the first map of the whole ocean floor; it showed the mid-ocean ridge winding around the planet.",
+      "zh": "与希曾合作、由贝兰绘制的第一张全球海底图，呈现了环绕地球的大洋中脊。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I had a blank canvas to fill with extraordinary possibilities, a fascinating jigsaw puzzle to piece together",
+      "zh": "我面前是一张白画布，可以填进非凡的可能；也是一幅迷人的拼图，等着我拼起来。",
+      "source": "Oral history for Lamont-Doherty's 50th anniversary, 1999 (quoted in Lamont-Doherty's obituary, 2006)",
+      "url": "https://news.climate.columbia.edu/2006/08/24/remembered-marie-tharp-pioneering-mapmaker-of-the-ocean-floor"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Oral history interview with Marie Tharp",
+      "publisher": "American Institute of Physics, Niels Bohr Library & Archives",
+      "year": 1995,
+      "url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/22896-1",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Remembered: Marie Tharp, Pioneering Mapmaker of the Ocean Floor",
+      "publisher": "Lamont-Doherty Earth Observatory, Columbia University",
+      "year": 2006,
+      "url": "https://news.climate.columbia.edu/2006/08/24/remembered-marie-tharp-pioneering-mapmaker-of-the-ocean-floor",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Saluting Marie Tharp, the Trailblazing Scientist Whose Maps Shook the World",
+      "publisher": "Columbia Magazine",
+      "year": 2023,
+      "url": "https://magazine.columbia.edu/article/saluting-marie-tharp-trailblazing-scientist-whose-maps-shook-world",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Plumbing Depths to Reach New Heights",
+      "publisher": "Library of Congress Information Bulletin",
+      "year": 2002,
+      "url": "https://www.loc.gov/loc/lcib/0211/tharp.html",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "Tharp found the rift because she drew every profile by hand and compared them side by side, rather than leaving the plotting to someone else.",
+      "zh": "萨普能发现裂谷，是因为每条剖面都是她亲手画的，又把它们并排比较，而不是把标绘交给别人。"
+    },
+    {
+      "key": "persist-evidence",
+      "en": "When her colleague dismissed the rift, she kept it on the map; earthquake epicentres plotted later fell right inside her valley.",
+      "zh": "合作者否定裂谷时，她仍把它留在图上；后来标出的地震震中，恰好落在她画的谷里。"
+    }
+  ]
+}

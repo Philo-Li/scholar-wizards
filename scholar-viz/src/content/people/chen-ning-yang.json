@@ -1,0 +1,192 @@
+{
+  "slug": "chen-ning-yang",
+  "name": {
+    "en": "Chen-Ning Yang",
+    "zh": "杨振宁"
+  },
+  "wiki": {
+    "en": "Yang_Chen-Ning",
+    "zh": "杨振宁"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "themes": [
+    "chinese",
+    "partnerships"
+  ],
+  "reasons": [
+    "pioneer",
+    "crossing"
+  ],
+  "born": 1922,
+  "keyWork": {
+    "year": 1954,
+    "en": "Yang–Mills gauge theory, with Robert Mills",
+    "zh": "与米尔斯提出杨-米尔斯规范场论"
+  },
+  "why": {
+    "en": "In 1954 he and Robert Mills published a gauge theory that predicted massless particles nobody had seen; they published it anyway because the structure was beautiful, and two decades later it became the frame of the Standard Model. Two years after that, he and Tsung-Dao Lee pointed out that no one had ever tested whether the weak force respects mirror symmetry. It doesn't.",
+    "zh": "1954 年他和米尔斯写出一个规范场理论，理论里冒出的无质量粒子谁也没见过。他们觉得结构太美，还是发表了；二十年后，它成了标准模型的骨架。两年后，他和李政道指出：弱相互作用是否遵守左右对称，从来没有人检验过。吴健雄的实验证明，它不遵守。"
+  },
+  "summary": {
+    "en": "Yang was born in Hefei and grew up on the Tsinghua campus, where his father taught mathematics. He studied at the wartime National Southwestern Associated University in Kunming and went to the University of Chicago in 1946, finishing a PhD under Edward Teller in 1948. At the Institute for Advanced Study in Princeton he produced Yang–Mills theory with Mills and the parity paper with Lee, which won the 1957 Nobel Prize when he was 35. He later founded the Institute for Theoretical Physics at Stony Brook, found the Yang–Baxter equation, and from the late 1990s settled at Tsinghua. He died in Beijing in 2025, aged 103.",
+    "zh": "杨振宁生于合肥，在清华园长大，父亲杨武之是清华数学系教授。抗战时他在昆明的西南联大读书，1946 年到芝加哥大学，1948 年在泰勒指导下获博士学位。在普林斯顿高等研究院，他与米尔斯写出杨-米尔斯理论，与李政道写出宇称不守恒的论文，后者让他在 35 岁获得 1957 年诺贝尔物理学奖。此后他在石溪创办理论物理研究所，发现了杨-巴克斯特方程，九十年代末回到清华定居。2025 年在北京去世，享年 103 岁。"
+  },
+  "style": [
+    {
+      "en": "He first tried experimental physics in Samuel Allison's accelerator lab at Chicago and gave it up: \"I was clumsy in the laboratory, and all my fellow graduate students laughed at me,\" he told the Simons Foundation.",
+      "zh": "他在芝加哥先进了艾里逊的加速器实验室做实验，后来放弃了。他对西蒙斯基金会说：“我在实验室里笨手笨脚，同学们都笑我。”"
+    },
+    {
+      "en": "He took from Enrico Fermi the view that physics is built \"brick by brick, layer by layer,\" with abstractions coming after detailed groundwork, not before.",
+      "zh": "他从费米那里学到，物理要“一块砖一块砖、一层一层地”盖起来，抽象应当在扎实的细节之后，而不是之前。"
+    },
+    {
+      "en": "He published Yang–Mills theory even though it did not fit experiment, because he valued the beauty of its structure; he later called it his most important paper.",
+      "zh": "杨-米尔斯理论当时和实验对不上，他还是发表了，因为他看重这个结构的美。他后来一直认为这是自己最重要的论文。"
+    },
+    {
+      "en": "He took the English name Frank in homage to Benjamin Franklin.",
+      "zh": "他的英文名 Frank 取自本杰明·富兰克林。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1922,
+      "en": "Born in Hefei, Anhui",
+      "zh": "生于安徽合肥"
+    },
+    {
+      "year": 1938,
+      "en": "Enters National Southwestern Associated University in Kunming",
+      "zh": "考入西南联合大学"
+    },
+    {
+      "year": 1948,
+      "en": "PhD at the University of Chicago under Edward Teller",
+      "zh": "在芝加哥大学获博士学位，导师泰勒"
+    },
+    {
+      "year": 1949,
+      "en": "Joins the Institute for Advanced Study, Princeton",
+      "zh": "加入普林斯顿高等研究院"
+    },
+    {
+      "year": 1954,
+      "en": "Yang–Mills theory with Robert Mills",
+      "zh": "与米尔斯提出杨-米尔斯理论"
+    },
+    {
+      "year": 1957,
+      "en": "Nobel Prize in Physics with Tsung-Dao Lee",
+      "zh": "与李政道共获诺贝尔物理学奖"
+    },
+    {
+      "year": 1966,
+      "en": "Founds the Institute for Theoretical Physics at Stony Brook",
+      "zh": "到石溪创办理论物理研究所"
+    },
+    {
+      "year": 2025,
+      "en": "Dies in Beijing",
+      "zh": "在北京去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1954,
+      "title": "Conservation of Isotopic Spin and Isotopic Gauge Invariance",
+      "en": "With Mills, extended gauge symmetry to non-Abelian groups; this framework now underlies the Standard Model.",
+      "zh": "与米尔斯合作，把规范对称推广到非阿贝尔群，这一框架后来成为标准模型的基础。"
+    },
+    {
+      "year": 1956,
+      "title": "Question of Parity Conservation in Weak Interactions",
+      "en": "With Lee, showed parity conservation in weak interactions had never been tested and proposed experiments; Chien-Shiung Wu's test confirmed the violation within months.",
+      "zh": "与李政道合作，指出弱相互作用中的宇称守恒从未被检验过，并提出实验方案；几个月后吴健雄的实验证实了宇称不守恒。"
+    },
+    {
+      "year": 1967,
+      "title": "Yang–Baxter equation",
+      "en": "Found a key equation for exactly solvable one-dimensional many-body problems, which later opened work on quantum groups.",
+      "zh": "发现一维量子多体问题严格求解的关键方程，后来开辟了量子群等研究方向。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When young, the best thing that you can do is to launch yourself into a field that is just beginning.",
+      "zh": "年轻的时候，最好的选择是投身一个刚刚起步的领域。",
+      "source": "Interview with CERN Courier, 2007",
+      "url": "https://cerncourier.com/a/rooted-in-symmetry-yang-reflects-on-a-life-of-physics/"
+    },
+    {
+      "text": "I was clumsy in the laboratory, and all my fellow graduate students laughed at me",
+      "zh": "我在实验室里笨手笨脚，同学们都笑我。",
+      "source": "Simons Foundation Science Lives interview, 2011 (quoted by UChicago News)",
+      "url": "https://news.uchicago.edu/story/chen-ning-yang-world-renowned-physicist-and-nobel-laureate-1922-2025"
+    }
+  ],
+  "links": [
+    {
+      "kind": "video",
+      "title": "Science Lives: Physicist Chen-Ning Yang",
+      "publisher": "Simons Foundation",
+      "year": 2011,
+      "url": "https://simonsfoundation.org/2011/12/20/chen-ning-yang",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Rooted in symmetry: Yang reflects on a life of physics",
+      "publisher": "CERN Courier",
+      "year": 2007,
+      "url": "https://cerncourier.com/a/rooted-in-symmetry-yang-reflects-on-a-life-of-physics/",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "In Memoriam: Chen Ning Yang 杨振宁 (1922–2025)",
+      "publisher": "Institute for Advanced Study",
+      "year": 2025,
+      "url": "https://www.ias.edu/news/in-memoriam-chen-ning-yang",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "沉痛悼念深切缅怀杨振宁先生",
+      "publisher": "清华大学",
+      "year": 2025,
+      "url": "https://www.tsinghua.edu.cn/info/1173/121840.htm",
+      "lang": "zh"
+    },
+    {
+      "kind": "obituary",
+      "title": "Chen Ning Yang, PhD'48, world-renowned physicist and Nobel laureate, 1922-2025",
+      "publisher": "University of Chicago News",
+      "year": 2025,
+      "url": "https://news.uchicago.edu/story/chen-ning-yang-world-renowned-physicist-and-nobel-laureate-1922-2025",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Chen Ning Yang – Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 1957,
+      "url": "https://www.nobelprize.org/prizes/physics/1957/yang/biographical/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "leave-mainstream",
+      "en": "Yang and Lee questioned a symmetry everyone assumed, simply by asking whether anyone had actually checked it in weak decays.",
+      "zh": "杨振宁和李政道质疑了一条人人默认的对称性，办法只是问一句：在弱衰变里，真有人检验过吗？"
+    },
+    {
+      "key": "first-principles",
+      "en": "He followed symmetry as a guiding principle from his thesis onward, and was willing to publish a beautiful structure before experiment caught up.",
+      "zh": "从博士论文开始，他就把对称性当作指引；结构足够好时，他愿意在实验跟上之前先把它发表出来。"
+    }
+  ]
+}

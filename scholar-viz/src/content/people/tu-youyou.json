@@ -1,0 +1,192 @@
+{
+  "slug": "tu-youyou",
+  "name": {
+    "en": "Tu Youyou",
+    "zh": "屠呦呦"
+  },
+  "wiki": {
+    "en": "Tu_Youyou",
+    "zh": "屠呦呦"
+  },
+  "disciplines": [
+    "medicine",
+    "chemistry"
+  ],
+  "themes": [
+    "chinese",
+    "women",
+    "late"
+  ],
+  "reasons": [
+    "opening",
+    "path",
+    "timing"
+  ],
+  "born": 1930,
+  "keyWork": {
+    "year": 1971,
+    "en": "Low-temperature ether extract of qinghao (sample 191) that fully suppressed malaria parasites",
+    "zh": "低温乙醚提取的青蒿样品（191 号）对疟原虫抑制率达 100%"
+  },
+  "why": {
+    "en": "With no doctorate, no training abroad and no academy membership, she led a small team during the Cultural Revolution that found artemisinin by rereading a fourth-century medical text. The discovery was credited to a collective for decades; in 2015, at 84, she became the first scientist to win a Nobel Prize in science for work done in China.",
+    "zh": "她没有博士学位，没有留过学，也不是院士。文革期间，她带着一个小组从一本东晋医书里找到线索，发现了青蒿素。这项成果几十年里以集体名义署名，直到 2015 年，84 岁的她成为第一个凭在中国本土完成的工作获得诺贝尔科学奖的人。"
+  },
+  "summary": {
+    "en": "Tu was born in Ningbo in 1930. Tuberculosis at sixteen cost her two years of school and turned her toward medical research; she studied pharmacy at Peking University's medical school and in 1955 joined the newly founded Academy of Traditional Chinese Medicine in Beijing. In 1969 she was put in charge of the academy's group in Project 523, a secret national programme to find a malaria drug after thousands of synthetic compounds had failed. Her team collected more than 2,000 traditional recipes and tested extracts of over a hundred herbs; in October 1971, after redesigning the extraction to avoid heat, sample 191 cleared malaria parasites in mice. She took the extract herself before the first clinical trial in 1972, and artemisinin-based combination therapy is now the World Health Organization's first-line treatment for malaria.",
+    "zh": "屠呦呦 1930 年生于宁波。16 岁染上肺结核，休学两年，这段经历让她决定学医药。她在北京大学医学院读药学，1955 年分配到刚成立的北京中医研究院。1969 年，国家秘密抗疟项目“523 任务”已经筛选了几千种化合物，没有结果，她受命担任研究院课题组组长。课题组收集了两千多个方药，测试了一百多种草药的提取物。1971 年 10 月，她改用低温提取后，191 号样品对鼠疟原虫的抑制率达到 100%。1972 年临床试验前，她亲自试服提取物。如今，以青蒿素为基础的联合疗法是世界卫生组织推荐的一线抗疟方案。"
+  },
+  "style": [
+    {
+      "en": "In the first three months of the project she gathered over 2,000 herbal, animal and mineral prescriptions from old texts, folk recipes and interviews with practitioners, and condensed 640 of them into a brochure for other teams.",
+      "zh": "项目开始头三个月，她从古籍、民间方和老中医那里收集了两千多个草药、动物药和矿物药方子，整理出 640 个，编成小册子分给其他课题组。"
+    },
+    {
+      "en": "A line in Ge Hong's Handbook of Prescriptions for Emergencies, which said to soak qinghao and wring out the juice rather than boil it, made her suspect that heat destroyed the active ingredient.",
+      "zh": "葛洪《肘后备急方》里说青蒿要“以水二升渍，绞取汁”，而不是煎煮，她由此怀疑高温破坏了有效成分。"
+    },
+    {
+      "en": "With pharmaceutical plants shut, her team extracted the herb in household water vats; long exposure to solvents with poor ventilation gave her toxic hepatitis.",
+      "zh": "当时药厂大多停产，课题组用家用水缸提取青蒿。长期接触有机溶剂，通风又差，她得了中毒性肝炎。"
+    },
+    {
+      "en": "When animal tests gave conflicting toxicity results and the malaria season was ending, she asked to take the extract herself; she and two colleagues did so in July 1972.",
+      "zh": "动物毒性实验结果有矛盾，疟疾流行季又快过去，她主动要求试服。1972 年 7 月，她和两名组员服下了提取物。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1930,
+      "en": "Born in Ningbo, Zhejiang.",
+      "zh": "生于浙江宁波。"
+    },
+    {
+      "year": 1955,
+      "en": "Graduates in pharmacy from Beijing Medical College; joins the Academy of Traditional Chinese Medicine.",
+      "zh": "从北京医学院药学系毕业，分配到中医研究院。"
+    },
+    {
+      "year": 1969,
+      "en": "Appointed head of the academy's Project 523 antimalarial group.",
+      "zh": "受命担任研究院“523 任务”抗疟课题组组长。"
+    },
+    {
+      "year": 1971,
+      "en": "Sample 191, an ether extract of qinghao, shows 100% effectiveness against rodent malaria.",
+      "zh": "191 号青蒿乙醚提取物对鼠疟抑制率达 100%。"
+    },
+    {
+      "year": 1972,
+      "en": "Tests the extract on herself, then runs the first clinical trials; the team isolates artemisinin.",
+      "zh": "亲自试服后开展首批临床试验；课题组分离出青蒿素。"
+    },
+    {
+      "year": 2011,
+      "en": "Lasker-DeBakey Clinical Medical Research Award.",
+      "zh": "获拉斯克临床医学研究奖。"
+    },
+    {
+      "year": 2015,
+      "en": "Nobel Prize in Physiology or Medicine.",
+      "zh": "获诺贝尔生理学或医学奖。"
+    },
+    {
+      "year": 2019,
+      "en": "Awarded the Medal of the Republic.",
+      "zh": "被授予“共和国勋章”。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1971,
+      "title": "Sample 191: neutral ether extract of qinghao",
+      "en": "The extract that first fully suppressed malaria parasites in animals and set the path to artemisinin.",
+      "zh": "第一个在动物身上完全抑制疟原虫的提取物，由此通向青蒿素。"
+    },
+    {
+      "year": 2009,
+      "title": "青蒿及青蒿素类药物",
+      "en": "Her monograph on qinghao and artemisinin drugs, from the herb's history to chemistry and clinical use.",
+      "zh": "她的专著，从青蒿的药用历史讲到青蒿素类药物的化学和临床应用。"
+    },
+    {
+      "year": 2015,
+      "title": "Discovery of Artemisinin - A Gift from Traditional Chinese Medicine to the World",
+      "en": "Her Nobel lecture, an account of how classical texts and modern chemistry combined in the search.",
+      "zh": "她的诺贝尔演讲，讲古代医书和现代化学如何在这次寻药中结合起来。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "To expedite the safety evaluation, I asked to take the extracts voluntarily.",
+      "zh": "为了加快安全性评估，我主动要求试服提取物。",
+      "source": "Autobiography, nobelprize.org, 2015",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/"
+    },
+    {
+      "text": "不同品种的青蒿效果并不相同，而且只有青蒿叶子里才有青蒿素。因此只有找对了青蒿品种，选准了采收季节，才能从叶子里提取出青蒿素。",
+      "zh": "不同品种的青蒿效果并不相同，而且只有青蒿叶子里才有青蒿素。因此只有找对了青蒿品种，选准了采收季节，才能从叶子里提取出青蒿素。",
+      "source": "《环球人物》，2015",
+      "url": "https://paper.people.com.cn/hqrw/html/2015-10/16/content_1666491.htm"
+    }
+  ],
+  "links": [
+    {
+      "kind": "memoir",
+      "title": "Tu Youyou – Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 2015,
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "Tu Youyou – Nobel Lecture",
+      "publisher": "NobelPrize.org",
+      "year": 2015,
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/lecture/",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "屠呦呦，非常诺奖之路",
+      "publisher": "环球人物",
+      "year": 2015,
+      "url": "https://paper.people.com.cn/hqrw/html/2015-10/16/content_1666491.htm",
+      "lang": "zh"
+    },
+    {
+      "kind": "profile",
+      "title": "青青蒿草 拳拳报国——诺贝尔奖获得者屠呦呦",
+      "publisher": "新华网",
+      "year": 2021,
+      "url": "https://www.news.cn/tech/2021-03/22/c_1127241490.htm",
+      "lang": "zh"
+    },
+    {
+      "kind": "profile",
+      "title": "The Modest Nobel Laureate: Youyou Tu",
+      "publisher": "Lindau Nobel Laureate Meetings",
+      "year": 2015,
+      "url": "https://www.lindau-nobel.org/the-modest-nobel-laureate-youyou-tu/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Tu read an old recipe as a lab note: it said 'soak, don't boil', and she asked what that implied about the molecule. One changed variable, temperature, turned failure into a cure.",
+      "zh": "屠呦呦把一句古方当成实验记录来读：书上说要浸泡，不要煎煮，她就追问这对有效成分意味着什么。只改了一个变量，温度，失败就变成了药。"
+    },
+    {
+      "key": "cross-field",
+      "en": "She brought pharmaceutical chemistry to the literature of traditional medicine, treating each recipe as a hypothesis to test, not a tradition to accept.",
+      "zh": "她用药物化学的方法去读中医文献，把每个方子当作待检验的假设，而不是照单全收的传统。"
+    },
+    {
+      "key": "persist-evidence",
+      "en": "Through more than a hundred herbs and repeated failures, she kept going back to the texts instead of abandoning the approach.",
+      "zh": "试了一百多种草药，一次次失败，她没有换路子，而是回头再去翻医书。"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "jocelyn-bell-burnell",
+  "name": {
+    "en": "Jocelyn Bell Burnell",
+    "zh": "约瑟琳·贝尔·伯奈尔"
+  },
+  "wiki": {
+    "en": "Jocelyn_Bell_Burnell",
+    "zh": "约瑟琳·贝尔·伯奈尔"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "themes": [
+    "women",
+    "early"
+  ],
+  "reasons": [
+    "pioneer",
+    "integrity"
+  ],
+  "born": 1943,
+  "keyWork": {
+    "year": 1967,
+    "en": "Discovery of the first radio pulsars",
+    "zh": "发现第一批射电脉冲星"
+  },
+  "why": {
+    "en": "As a 24-year-old Cambridge PhD student she noticed a signal taking up a quarter inch of chart paper, about one part in ten million of her records, and refused to file it as interference. It was the first pulsar; the 1974 Nobel Prize went to her supervisor, and when she won a $3 million prize in 2018 she gave all of it away.",
+    "zh": "24 岁的剑桥博士生贝尔在记录纸上注意到一段只有四分之一英寸长的信号，大约占她全部记录的一千万分之一，她没有把它当作干扰放过。那是人类发现的第一颗脉冲星。1974 年的诺贝尔奖给了她的导师；2018 年她得到 300 万美元的奖金，一分不留全部捐了出去。"
+  },
+  "summary": {
+    "en": "Bell was born in Lurgan, Northern Ireland, and studied physics at the University of Glasgow. At Cambridge she helped build a radio telescope spread over an area the size of 57 tennis courts, then ran it and analysed its output by hand. In 1967 she found a pulsing source, then three more within two months; the discovery was published in Nature in 1968 with Antony Hewish as first author. The 1974 Nobel Prize in Physics went to Hewish and Martin Ryle. She went on to work in gamma-ray and X-ray astronomy, became a professor at the Open University, led the Royal Astronomical Society and the Institute of Physics, and in 2018 gave her Breakthrough Prize money to fund physics PhDs for under-represented students.",
+    "zh": "贝尔生于北爱尔兰的勒根，在格拉斯哥大学读物理。到剑桥后，她参与搭建了一台占地约 57 个网球场的射电望远镜，再亲手运行它、逐张分析记录纸。1967 年她发现一个脉冲源，两个月内又找到三个；成果 1968 年发表在《自然》上，第一作者是导师休伊什。1974 年诺贝尔物理学奖授予了休伊什和赖尔。她后来转做伽马射线和 X 射线天文，任英国开放大学教授，担任过英国皇家天文学会和英国物理学会会长。2018 年，她把突破奖奖金全部捐出，资助少数群体学生读物理博士。"
+  },
+  "style": [
+    {
+      "en": "She was convinced she was not clever enough for Cambridge and would be thrown out, so her policy was to work as hard as she could and understand exactly how the telescope worked. That thoroughness is why she noticed the anomaly.",
+      "zh": "她认定自己不够聪明，迟早会被剑桥赶走，于是给自己定的规矩是拼命干活，把望远镜的工作原理弄得清清楚楚。正是这份仔细，让她注意到了那段异常信号。"
+    },
+    {
+      "en": "She marked unrecognised features on the charts with a question mark or, as a joke, \"LGM\" for Little Green Men.",
+      "zh": "记录纸上认不出的信号，她会标一个问号，或者开玩笑地写上“LGM”，意思是“小绿人”。"
+    },
+    {
+      "en": "When the telescope lost gain in cold weather the night she chased the second pulsar, she got it working by \"flicking switches, swearing at it, breathing on it\" for the five minutes she needed.",
+      "zh": "追踪第二颗脉冲星的那个晚上，天冷导致望远镜增益下降。她靠“拨开关、骂它、对它哈气”让它正常工作了她需要的那五分钟。"
+    },
+    {
+      "en": "On the Nobel Prize she has said her contemporaries were more upset than she was, and that she was proud it was \"my stars\" that showed astrophysics could be good physics.",
+      "zh": "谈到诺贝尔奖，她说同辈人比她自己更生气；她自豪的是，让评委会相信天体物理里有好物理的，是“我的星星”。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1943,
+      "en": "Born in Lurgan, Northern Ireland",
+      "zh": "生于北爱尔兰勒根"
+    },
+    {
+      "year": 1965,
+      "en": "Graduates in physics from the University of Glasgow",
+      "zh": "格拉斯哥大学物理系毕业"
+    },
+    {
+      "year": 1967,
+      "en": "Observes the pulses of the first pulsar on 28 November",
+      "zh": "11 月 28 日记录到第一颗脉冲星的脉冲"
+    },
+    {
+      "year": 1968,
+      "en": "Discovery published in Nature",
+      "zh": "发现发表于《自然》"
+    },
+    {
+      "year": 1969,
+      "en": "PhD from the University of Cambridge",
+      "zh": "获剑桥大学博士学位"
+    },
+    {
+      "year": 1974,
+      "en": "Nobel Prize in Physics awarded to Hewish and Ryle",
+      "zh": "诺贝尔物理学奖授予休伊什和赖尔"
+    },
+    {
+      "year": 2018,
+      "en": "Special Breakthrough Prize in Fundamental Physics; donates the $3 million to the Institute of Physics",
+      "zh": "获基础物理学特别突破奖，把 300 万美元奖金捐给英国物理学会"
+    }
+  ],
+  "works": [
+    {
+      "year": 1968,
+      "title": "Observation of a Rapidly Pulsating Radio Source",
+      "en": "Announced the first pulsar, a new class of object later identified as a spinning neutron star.",
+      "zh": "宣布发现第一颗脉冲星，这类新天体后来被确认为高速自转的中子星。"
+    },
+    {
+      "year": 1977,
+      "title": "Little Green Men, White Dwarfs or Pulsars?",
+      "en": "Her after-dinner talk giving a first-hand account of how the discovery unfolded, chart by chart.",
+      "zh": "她的一篇餐后演讲，亲口讲述发现过程，一张记录纸接一张记录纸地还原。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "My policy was to work as hard as I could so that I'd know I'd done my best.",
+      "zh": "我的原则是尽全力干，这样我至少知道自己已经尽力了。",
+      "source": "Interview, University of Cambridge \"Journeys of Discovery\"",
+      "url": "https://www.cam.ac.uk/stories/journeysofdiscovery-pulsars"
+    },
+    {
+      "text": "here was I trying to get a Ph.D. out of a new technique, and some silly lot of little green men had to choose my aerial and my frequency to communicate with us.",
+      "zh": "我正想靠一项新技术拿个博士，偏偏有一帮傻乎乎的小绿人，挑中了我的天线和我的频率来跟我们通信。",
+      "source": "\"Little Green Men, White Dwarfs or Pulsars?\", after-dinner speech, Eighth Texas Symposium on Relativistic Astrophysics, 1977",
+      "url": "https://bigear.org/CSMO/HTML/CS01/cs01p16.htm"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Oral history interview with Jocelyn Bell Burnell",
+      "publisher": "American Institute of Physics, Niels Bohr Library & Archives",
+      "year": 2000,
+      "url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/31792",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Journeys of Discovery: Pulsars",
+      "publisher": "University of Cambridge",
+      "year": 2020,
+      "url": "https://www.cam.ac.uk/stories/journeysofdiscovery-pulsars",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "Little Green Men, White Dwarfs or Pulsars?",
+      "publisher": "Cosmic Search (reprint)",
+      "year": 1977,
+      "url": "https://bigear.org/CSMO/HTML/CS01/cs01p16.htm",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "In 1974, They Gave The Nobel To Her Supervisor. Now She's Won A $3 Million Prize",
+      "publisher": "NPR",
+      "year": 2018,
+      "url": "https://www.npr.org/2018/09/06/645257118",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Jocelyn Bell Burnell to support diversity in physics with $3m winnings from major prize",
+      "publisher": "Physics World",
+      "year": 2018,
+      "url": "https://physicsworld.com/a/jocelyn-bell-burnell-to-support-diversity-in-physics-with-3m-winnings-from-major-prize/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "craft",
+      "en": "She built the telescope, ran it and read every chart herself, so she knew its quirks well enough to spot a signal that did not belong.",
+      "zh": "望远镜是她搭的、她运行的，每张记录纸也是她自己看的，所以她熟悉它的每个毛病，才认得出不属于它的信号。"
+    },
+    {
+      "key": "curiosity",
+      "en": "Her thesis was about quasars. She still went back through old charts for a quarter inch of \"scruff\" that fit no known category.",
+      "zh": "她的论文题目是类星体，可她还是翻回旧记录，去追那四分之一英寸、哪一类都对不上的“杂波”。"
+    }
+  ]
+}

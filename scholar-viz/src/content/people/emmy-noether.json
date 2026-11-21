@@ -1,0 +1,159 @@
+{
+  "slug": "emmy-noether",
+  "name": {
+    "en": "Emmy Noether",
+    "zh": "埃米·诺特"
+  },
+  "wiki": {
+    "en": "Emmy_Noether",
+    "zh": "埃米·诺特"
+  },
+  "disciplines": [
+    "mathematics",
+    "physics"
+  ],
+  "themes": [
+    "women"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1882,
+  "keyWork": {
+    "year": 1918,
+    "en": "Noether's theorem linking symmetries and conservation laws",
+    "zh": "诺特定理：对称性与守恒律的对应"
+  },
+  "why": {
+    "en": "She proved in 1918 that every continuous symmetry of a physical system gives a conserved quantity, then rebuilt algebra around ideals and chain conditions. For years she taught at Göttingen without pay, with her courses announced under David Hilbert's name, because women could not habilitate.",
+    "zh": "1918 年，她证明物理系统的每一种连续对称性都对应一个守恒量；之后又以理想和链条件为中心重建了代数学。女性当时不能取得授课资格，她在哥廷根讲了好几年课，不拿工资，课程用希尔伯特的名义开出。"
+  },
+  "summary": {
+    "en": "Noether grew up in Erlangen, where her father Max Noether was a mathematics professor. Women could only sit in on lectures there, and she did so from 1900 before being allowed to enrol; she took her doctorate under Paul Gordan in 1907. She then worked unpaid at Erlangen until Hilbert and Felix Klein brought her to Göttingen in 1915, where she proved her theorem on symmetries and conservation laws. She was allowed to habilitate only in 1919. In the 1920s her abstract approach to rings and ideals made Göttingen the centre of modern algebra. Dismissed by the Nazis in 1933 as a Jew, she moved to Bryn Mawr College in the United States and died there in 1935 after surgery.",
+    "zh": "诺特在埃尔朗根长大，父亲马克斯·诺特是当地的数学教授。那时女性只能旁听，她 1900 年起旁听课程，后来才获准正式注册，1907 年在戈尔丹门下取得博士学位。此后她在埃尔朗根无薪工作多年，1915 年被希尔伯特和克莱因请到哥廷根，在那里证明了对称性与守恒律的定理。直到 1919 年，她才获准取得授课资格。20 年代，她对环和理想的抽象处理使哥廷根成为现代代数的中心。1933 年她因犹太身份被纳粹解职，去了美国布林莫尔学院，1935 年术后去世。"
+  },
+  "style": [
+    {
+      "en": "Her doctoral thesis was a huge computation listing 331 covariant forms. She later turned completely to the abstract, conceptual approach, crediting Ernst Fischer with the 'decisive impulse'.",
+      "zh": "她的博士论文是一项庞大的计算，列出了 331 个协变式。后来她彻底转向抽象的概念方法，并说是恩斯特·菲舍尔给了她“决定性的推动”。"
+    },
+    {
+      "en": "Much of her work appeared in papers written by colleagues and students rather than under her own name.",
+      "zh": "她的许多成果是以同事和学生的名义发表的，而不是署她自己的名字。"
+    },
+    {
+      "en": "After she was barred from the institute's lecture halls in 1933, she gathered her students in her own home, as Hermann Weyl recalled at her funeral.",
+      "zh": "外尔在她的葬礼上回忆，1933 年她被禁止使用研究所的教室后，就把学生召集到自己家里上课。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1882,
+      "en": "Born in Erlangen, Bavaria, on 23 March.",
+      "zh": "3 月 23 日生于巴伐利亚的埃尔朗根。"
+    },
+    {
+      "year": 1900,
+      "en": "Begins sitting in on lectures at the University of Erlangen, one of two women there.",
+      "zh": "开始在埃尔朗根大学旁听，是那里仅有的两名女生之一。"
+    },
+    {
+      "year": 1907,
+      "en": "Completes her doctorate under Paul Gordan.",
+      "zh": "在戈尔丹指导下获得博士学位。"
+    },
+    {
+      "year": 1915,
+      "en": "Invited to Göttingen by David Hilbert and Felix Klein.",
+      "zh": "受希尔伯特和克莱因邀请到哥廷根。"
+    },
+    {
+      "year": 1918,
+      "en": "Proves the theorem relating symmetries to conservation laws.",
+      "zh": "证明对称性与守恒律之间的定理。"
+    },
+    {
+      "year": 1919,
+      "en": "Granted habilitation and the title of Privatdozent.",
+      "zh": "获得授课资格，成为编外讲师。"
+    },
+    {
+      "year": 1933,
+      "en": "Dismissed from Göttingen under Nazi laws; moves to Bryn Mawr College.",
+      "zh": "依纳粹法令被哥廷根解职，转往布林莫尔学院。"
+    },
+    {
+      "year": 1935,
+      "en": "Dies at Bryn Mawr on 14 April.",
+      "zh": "4 月 14 日在布林莫尔去世。"
+    }
+  ],
+  "works": [
+    {
+      "year": 1918,
+      "title": "Invariante Variationsprobleme",
+      "en": "Showed that each continuous symmetry of an action corresponds to a conserved quantity; it underlies how physicists think about energy, momentum and charge.",
+      "zh": "证明作用量的每一种连续对称性都对应一个守恒量。物理学家理解能量、动量和电荷守恒，都以此为基础。"
+    },
+    {
+      "year": 1921,
+      "title": "Idealtheorie in Ringbereichen",
+      "en": "Gave the decomposition of ideals in commutative rings with the ascending chain condition, a foundation of modern ring theory.",
+      "zh": "在满足升链条件的交换环中给出理想的分解，是现代环论的基石之一。"
+    },
+    {
+      "year": 1932,
+      "title": "Beweis eines Hauptsatzes in der Theorie der Algebren (with R. Brauer and H. Hasse)",
+      "en": "A central theorem on simple algebras over number fields, part of her late work linking algebra and number theory.",
+      "zh": "关于数域上单代数的核心定理，是她晚年把代数和数论联系起来的代表工作。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    {
+      "kind": "profile",
+      "title": "Emmy Amalie Noether",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 2014,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Hermann Weyl's speech at Emmy Noether's funeral",
+      "publisher": "MacTutor History of Mathematics",
+      "year": 1935,
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Weyl_Noether/",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "The Late Emmy Noether (letter by Albert Einstein)",
+      "publisher": "The New York Times",
+      "year": 1935,
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Noether_Emmy_Einstein/",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Emmy Noether and Hermann Weyl (Peter Roquette)",
+      "publisher": "Universität Heidelberg",
+      "year": 2008,
+      "url": "https://www.mathi.uni-heidelberg.de/~roquette/weyl+noether.pdf",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "first-principles",
+      "en": "Noether replaced long calculations with a few structural ideas, such as chain conditions on ideals, that explained many results at once. Look for the property that makes the computation unnecessary.",
+      "zh": "诺特用几个结构性的概念（比如理想的链条件）取代冗长的计算，一下子解释了一大批结果。去找那个能让计算变得多余的性质。"
+    },
+    {
+      "key": "long-focus",
+      "en": "She kept doing research through years without pay or position. When the institution would not make room, she kept working and taught wherever she could.",
+      "zh": "多年没有工资、没有职位，她照样做研究。体制不给位置，她就继续做，在能讲课的地方讲课。"
+    }
+  ]
+}

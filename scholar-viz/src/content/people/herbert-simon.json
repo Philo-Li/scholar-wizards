@@ -1,0 +1,76 @@
+{
+  "slug": "herbert-simon",
+  "name": { "en": "Herbert A. Simon", "zh": "司马贺" },
+  "wiki": { "en": "Herbert_A._Simon", "zh": "司马贺" },
+  "disciplines": ["economics", "computer-science", "psychology"],
+  "themes": ["polymaths"],
+  "reasons": ["crossing", "pioneer"],
+  "born": 1916,
+  "keyWork": { "year": 1947, "en": "Administrative Behavior, the book that introduced bounded rationality in organisations", "zh": "《管理行为》，在组织研究中提出有限理性" },
+  "why": {
+    "en": "With a doctorate in political science, he won the Nobel Prize in economics, the Turing Award in computer science and the American Psychological Association's award for distinguished scientific contributions, all for one question: how people with limited information and time actually make decisions. In 1956, with Allen Newell and Cliff Shaw, he built one of the first programs to solve problems by heuristic search.",
+    "zh": "他的博士学位是政治学，却拿了诺贝尔经济学奖、计算机科学的图灵奖和美国心理学会杰出科学贡献奖，而这些奖针对的都是同一个问题：信息和时间都有限的人，实际上是怎样做决定的。1956 年，他与纽厄尔、肖一起写出了最早一批靠启发式搜索解题的程序。"
+  },
+  "summary": {
+    "en": "Simon was born in Milwaukee to an electrical engineer father and a pianist mother, and entered the University of Chicago in 1933 intending to become a mathematical social scientist. A term paper on municipal decision-making led to research jobs in city administration and to a Chicago doctorate, finished by mail while he ran a research group at Berkeley. In 1949 he went to the Carnegie Institute of Technology in Pittsburgh to help found its Graduate School of Industrial Administration, and stayed for the rest of his life. From the mid-1950s, with Allen Newell, he made computer simulation of human thinking his main work, helping to found artificial intelligence and cognitive science. He won the Nobel Prize in 1978 and died in Pittsburgh in 2001; in Chinese he is known as 司马贺.",
+    "zh": "司马贺本名赫伯特·西蒙，生于密尔沃基，父亲是电气工程师，母亲是钢琴家。1933 年他进入芝加哥大学，打算做一个用数学研究社会的学者。一篇研究市政决策的课程论文，让他后来做上了城市管理方面的研究工作，后来他在伯克利主持一个研究小组，同时通过邮寄参加考试、用业余时间写论文，拿下了芝加哥大学的博士学位。1949 年他到匹兹堡的卡内基理工学院参与创办工业管理研究生院，此后再没离开。20 世纪 50 年代中期起，他和纽厄尔把用计算机模拟人类思维当作主业，成为人工智能和认知科学的开创者之一。他于 1978 年获诺贝尔经济学奖，2001 年在匹兹堡去世。"
+  },
+  "style": [
+    {
+      "en": "He took his doctoral exams by mail and, in his own word, \"moonlighted\" his dissertation on administrative decision-making while directing a research group at Berkeley.",
+      "zh": "他的博士资格考试是通过邮寄完成的，关于行政决策的博士论文则是在伯克利主持研究小组期间，用他自己的话说，“兼职”写出来的。"
+    },
+    {
+      "en": "He kept up systematic self-study well into the 1940s, and worked through graduate-level physics to learn what a \"hard\" science was like from the inside; this left him with a lifelong side interest in axiomatising classical mechanics.",
+      "zh": "他的系统自学一直持续到 20 世纪 40 年代，还专门啃了研究生程度的物理，想从内部看看一门“硬”科学是什么样子，结果留下了一个终生的副业：给经典力学建立公理体系。"
+    },
+    {
+      "en": "He described his career as settled \"at least as much by drift as by choice\": an undergraduate field study for a term paper set the subject, organisational decision-making, that ran through everything he later did.",
+      "zh": "他说自己的职业道路“至少一半是漂过来的，不是选出来的”：本科时为一篇课程论文做的实地调查，定下了组织决策这个题目，此后他所有的研究都绕着它转。"
+    },
+    {
+      "en": "He and Allen Newell, whom he met at RAND in 1952, preferred to call their field \"complex information processing\" rather than artificial intelligence, and worked together closely for most of the 1960s.",
+      "zh": "他和 1952 年在兰德公司结识的纽厄尔，更愿意把自己的领域叫作“复杂信息处理”，而不是人工智能。两人在整个 60 年代的大部分时间里一直紧密合作。"
+    }
+  ],
+  "timeline": [
+    { "year": 1916, "en": "Born in Milwaukee, Wisconsin.", "zh": "生于威斯康星州密尔沃基。" },
+    { "year": 1943, "en": "Receives a PhD in political science from the University of Chicago.", "zh": "获芝加哥大学政治学博士学位。" },
+    { "year": 1947, "en": "Publishes Administrative Behavior.", "zh": "出版《管理行为》。" },
+    { "year": 1949, "en": "Moves to the Carnegie Institute of Technology in Pittsburgh.", "zh": "转到匹兹堡的卡内基理工学院。" },
+    { "year": 1956, "en": "With Newell and Shaw, presents a model of problem-solving by heuristic search, implemented as a computer program.", "zh": "与纽厄尔、肖提出基于启发式搜索的问题求解模型，并写成计算机程序。" },
+    { "year": 1975, "en": "Shares the Turing Award with Allen Newell.", "zh": "与纽厄尔分享图灵奖。" },
+    { "year": 1978, "en": "Receives the Nobel Memorial Prize in Economic Sciences.", "zh": "获诺贝尔经济学奖。" },
+    { "year": 2001, "en": "Dies in Pittsburgh.", "zh": "在匹兹堡去世。" }
+  ],
+  "works": [
+    { "year": 1947, "title": "Administrative Behavior", "en": "Argued that organisations should be studied through how their members actually decide under limits of knowledge and attention.", "zh": "主张从成员在知识和注意力有限的条件下实际怎样做决定入手来研究组织。" },
+    { "year": 1955, "title": "A Behavioral Model of Rational Choice", "en": "Proposed that decision-makers search for options that are good enough rather than optimal, the idea later called satisficing.", "zh": "提出决策者寻找的是“够好”而非最优的方案，也就是后来所说的“满意化”。" },
+    { "year": 1972, "title": "Human Problem Solving", "en": "With Newell, a large study modelling human thought as information processing, with some of the first production-system models.", "zh": "与纽厄尔合著，把人的思维当作信息处理来建模，书中有最早的一批产生式系统模型。" }
+  ],
+  "quotes": [
+    {
+      "text": "My career was settled at least as much by drift as by choice.",
+      "zh": "我的职业道路，至少一半是漂过来的，不是选出来的。",
+      "source": "Nobel autobiography, 1978",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/biographical/"
+    },
+    {
+      "text": "One of my few important decisions, and the best, was to persuade Dorothea Pye to marry me on Christmas Day, 1937.",
+      "zh": "我这辈子少有的几个重要决定里，最好的一个，是在 1937 年圣诞节说服多萝西娅·派伊嫁给我。",
+      "source": "Nobel autobiography, 1978",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "memoir", "title": "Herbert Simon – Biographical", "publisher": "NobelPrize.org", "year": 1978, "url": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/biographical/", "lang": "en" },
+    { "kind": "lecture", "title": "Rational Decision-Making in Business Organizations (Prize lecture)", "publisher": "NobelPrize.org", "year": 1978, "url": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/lecture/", "lang": "en" },
+    { "kind": "obituary", "title": "A Tribute to Herbert Simon: Biography", "publisher": "Carnegie Mellon University School of Computer Science", "year": 2001, "url": "https://www.cs.cmu.edu/simon/bio.html", "lang": "en" },
+    { "kind": "obituary", "title": "In Memoriam: Herbert A. Simon (1916-2001)", "publisher": "Association for Psychological Science", "year": 2001, "url": "https://www.psychologicalscience.org/observer/in-memoriam-herbert-a-simon-1916-2001", "lang": "en" },
+    { "kind": "profile", "title": "Computer Pioneers: Herbert A. Simon", "publisher": "IEEE Computer Society", "year": 1995, "url": "https://history.computer.org/pioneers/simon.html", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "long-focus", "en": "Simon kept one question, how people decide, for sixty years and followed it into whatever field could answer the next part.", "zh": "司马贺守着“人是怎么做决定的”这一个问题六十年，哪个学科能回答下一步，他就跟到哪个学科去。" },
+    { "key": "cross-field", "en": "He learned the tools of each field he entered, from econometrics to programming, well enough to be honoured by that field's own specialists.", "zh": "每进一个领域，他都把那里的工具学到家，从计量经济学到编程，最后都得到了该领域同行的认可。" }
+  ]
+}

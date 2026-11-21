@@ -1,0 +1,172 @@
+{
+  "slug": "lynn-margulis",
+  "name": {
+    "en": "Lynn Margulis",
+    "zh": "琳·马古利斯"
+  },
+  "wiki": {
+    "en": "Lynn_Margulis",
+    "zh": "琳·馬古利斯"
+  },
+  "disciplines": [
+    "biology"
+  ],
+  "themes": [
+    "vindicated",
+    "women"
+  ],
+  "reasons": [
+    "pioneer",
+    "integrity",
+    "timing"
+  ],
+  "born": 1938,
+  "keyWork": {
+    "year": 1967,
+    "en": "\"On the origin of mitosing cells\": mitochondria and chloroplasts descend from free-living bacteria",
+    "zh": "《论有丝分裂细胞的起源》：线粒体和叶绿体来自曾经独立生活的细菌"
+  },
+  "why": {
+    "en": "Some 15 journals rejected her paper arguing that mitochondria and chloroplasts were once free-living bacteria. Published in 1967 under the name Lynn Sagan, it was confirmed in the following decades by the discovery that these organelles carry their own bacterial-like DNA, and it is now in every biology textbook.",
+    "zh": "她提出线粒体和叶绿体原本是独立生活的细菌，这篇论文被大约 15 家期刊拒绝。1967 年它以“琳·萨根”的名字发表，此后几十年里，人们发现这些细胞器带着自己的、类似细菌的 DNA，证实了她的观点。如今这已写进每一本生物学教科书。"
+  },
+  "summary": {
+    "en": "Lynn Petra Alexander was born in Chicago and earned her bachelor's degree at the University of Chicago at 18, where she met the young astronomer Carl Sagan, whom she married. She took a master's degree at Wisconsin and a PhD at UC Berkeley in 1965. Building on largely forgotten proposals by the Russian biologist Konstantin Merezhkovsky, she argued that complex cells arose from mergers of bacteria, and set the case out at length in her 1970 book Origin of Eukaryotic Cells. She taught at Boston University for two decades, then at the University of Massachusetts Amherst, championed James Lovelock's Gaia hypothesis, and went on challenging neo-Darwinism for the rest of her life. She was elected to the National Academy of Sciences in 1983 and died in 2011.",
+    "zh": "琳·佩特拉·亚历山大生于芝加哥，18 岁从芝加哥大学本科毕业，在那里认识了年轻的天文学家卡尔·萨根，后来与他结婚。她在威斯康星大学拿到硕士，1965 年在加州大学伯克利分校拿到博士。俄国生物学家梅列日科夫斯基早年的设想几乎已被遗忘，她在此基础上提出复杂细胞起源于细菌之间的融合，并在 1970 年的专著《真核细胞的起源》中系统论证。她在波士顿大学任教二十年，后来转到马萨诸塞大学阿默斯特分校；她支持洛夫洛克的盖亚假说，一辈子都在挑战新达尔文主义。1983 年她当选美国国家科学院院士，2011 年去世。"
+  },
+  "style": [
+    {
+      "en": "Andrew Knoll's obituary in PNAS calls her \"a fountain of ideas—fertile, original, inspiring, contentious, and unedited\".",
+      "zh": "诺尔在《美国国家科学院院刊》上的讣告里说她是“思想的喷泉：丰沛、原创、激励人心、好争论，而且不加修剪”。"
+    },
+    {
+      "en": "She wrote several of her books with her son Dorion Sagan, including Microcosmos and Acquiring Genomes.",
+      "zh": "她的好几本书是和儿子多里昂·萨根合写的，包括《微观宇宙》和《获得基因组》。"
+    },
+    {
+      "en": "She described herself as an \"evolutionist\" and argued that natural selection \"eliminates and maybe maintains, but it doesn't create\"; she saw symbiosis as the main source of new species.",
+      "zh": "她自称“演化论者”，认为自然选择“会淘汰，也许会维持，但不会创造”；在她看来，新物种主要来自共生。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1938,
+      "en": "Born in Chicago",
+      "zh": "生于芝加哥"
+    },
+    {
+      "year": 1957,
+      "en": "Bachelor's degree, University of Chicago",
+      "zh": "从芝加哥大学本科毕业"
+    },
+    {
+      "year": 1965,
+      "en": "PhD, University of California, Berkeley",
+      "zh": "获加州大学伯克利分校博士学位"
+    },
+    {
+      "year": 1967,
+      "en": "Publishes \"On the origin of mitosing cells\" after some 15 rejections",
+      "zh": "被拒约 15 次后发表《论有丝分裂细胞的起源》"
+    },
+    {
+      "year": 1970,
+      "en": "Publishes Origin of Eukaryotic Cells",
+      "zh": "出版《真核细胞的起源》"
+    },
+    {
+      "year": 1983,
+      "en": "Elected to the National Academy of Sciences",
+      "zh": "当选美国国家科学院院士"
+    },
+    {
+      "year": 1988,
+      "en": "Moves from Boston University to the University of Massachusetts Amherst",
+      "zh": "从波士顿大学转到马萨诸塞大学阿默斯特分校"
+    },
+    {
+      "year": 2011,
+      "en": "Dies in Amherst, Massachusetts",
+      "zh": "在马萨诸塞州阿默斯特去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1967,
+      "title": "On the origin of mitosing cells",
+      "en": "Proposed that mitochondria, plastids and other cell parts began as bacteria living inside other cells.",
+      "zh": "提出线粒体、质体等细胞结构最初是住在其他细胞里的细菌。"
+    },
+    {
+      "year": 1970,
+      "title": "Origin of Eukaryotic Cells",
+      "en": "The book-length case for endosymbiosis, drawing together evidence from cell biology, biochemistry and geology.",
+      "zh": "以一本书的篇幅论证内共生学说，汇集了细胞生物学、生物化学和地质学的证据。"
+    },
+    {
+      "year": 1982,
+      "title": "Five Kingdoms: An Illustrated Guide to the Phyla of Life on Earth",
+      "en": "With Karlene Schwartz, a survey of all major groups of life, organised around the split between bacteria and everything else.",
+      "zh": "与施瓦茨合著，概览地球上所有主要生物类群，以细菌和其余生物的分野为纲。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I don't consider my ideas controversial. I consider them right.",
+      "zh": "我不认为我的观点有争议。我认为它们是对的。",
+      "source": "Interview with Dick Teresi, Discover Magazine, 2011",
+      "url": "https://www.discovermagazine.com/the-sciences/discover-interview-lynn-margulis-says-shes-not-controversial-shes-right"
+    },
+    {
+      "text": "Natural selection eliminates and maybe maintains, but it doesn't create.",
+      "zh": "自然选择会淘汰，也许会维持，但它不会创造。",
+      "source": "Interview with Dick Teresi, Discover Magazine, 2011",
+      "url": "https://www.discovermagazine.com/the-sciences/discover-interview-lynn-margulis-says-shes-not-controversial-shes-right"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Discover Interview: Lynn Margulis Says She's Not Controversial, She's Right",
+      "publisher": "Discover Magazine",
+      "year": 2011,
+      "url": "https://www.discovermagazine.com/the-sciences/discover-interview-lynn-margulis-says-shes-not-controversial-shes-right",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Lynn Margulis, 1938–2011",
+      "publisher": "PNAS",
+      "year": 2012,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268288",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Lynn Margulis (1938–2011)",
+      "publisher": "Nature",
+      "year": 2011,
+      "url": "https://www.nature.com/articles/480458a",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Cells within cells: The community reacts",
+      "publisher": "Understanding Science, UC Berkeley",
+      "url": "https://undsci.berkeley.edu/cells-within-cells-an-extraordinary-claim-with-extraordinary-evidence/the-community-reacts/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "She kept submitting a paper that fifteen journals had turned down, and then spent years assembling the evidence that won the argument.",
+      "zh": "被十五家期刊拒绝后她仍继续投稿，之后又花多年收集证据，最终赢下了这场争论。"
+    },
+    {
+      "key": "leave-mainstream",
+      "en": "She revived an idea that the field had dismissed, by putting cell biology, microbiology and the fossil record together.",
+      "zh": "她把细胞生物学、微生物学和化石记录放在一起，让一个早被学界抛弃的想法重新活了过来。"
+    }
+  ]
+}

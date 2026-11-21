@@ -1,0 +1,173 @@
+{
+  "slug": "jennifer-doudna",
+  "name": {
+    "en": "Jennifer Doudna",
+    "zh": "珍妮弗·道德纳"
+  },
+  "wiki": {
+    "en": "Jennifer_Doudna",
+    "zh": "珍妮弗·道德纳"
+  },
+  "disciplines": [
+    "chemistry",
+    "biology"
+  ],
+  "themes": [
+    "women",
+    "partnerships"
+  ],
+  "reasons": [
+    "pioneer"
+  ],
+  "born": 1964,
+  "keyWork": {
+    "year": 2012,
+    "en": "CRISPR-Cas9 as a programmable DNA-cutting tool, with Emmanuelle Charpentier",
+    "zh": "与沙尔庞捷一起把 CRISPR-Cas9 变成可编程的 DNA 剪刀"
+  },
+  "why": {
+    "en": "A high-school guidance counsellor told her not to major in chemistry. She spent two decades solving the structures of RNA molecules, then, after a coffee with Emmanuelle Charpentier at a 2011 meeting in Puerto Rico, showed with her in 2012 that a bacterial immune system could be reprogrammed to cut any DNA sequence.",
+    "zh": "高中升学顾问劝她别读化学。她花了二十年解析 RNA 分子的结构，2011 年在波多黎各的一次会议上和沙尔庞捷喝了一杯咖啡，2012 年两人一起证明，细菌的一套免疫系统可以被改造，去切割任意一段 DNA。"
+  },
+  "summary": {
+    "en": "Doudna was born in Washington, DC, and grew up in Hilo, Hawaii, where her family was one of the few white families in town. In sixth grade her father gave her The Double Helix. She studied chemistry at Pomona College, did her PhD at Harvard with Jack Szostak, and as a postdoc with Tom Cech at Colorado began crystallising RNA enzymes. At Yale in 1996 her group published the first detailed structure of a large RNA, a ribozyme domain. She moved to UC Berkeley in 2002, and the 2012 Science paper with Charpentier's group turned CRISPR-Cas9 into a genome-editing tool; the two shared the 2020 Nobel Prize in Chemistry.",
+    "zh": "道德纳生于华盛顿特区，在夏威夷希洛长大，她家是镇上少有的白人家庭。六年级时，父亲送了她一本《双螺旋》。她在波莫纳学院读化学，在哈佛大学跟绍斯塔克读博士，在科罗拉多大学跟切赫做博士后时开始结晶 RNA 酶。1996 年她在耶鲁的课题组发表了第一个大型 RNA 的精细结构，一个核酶结构域。2002 年她转到加州大学伯克利分校，2012 年与沙尔庞捷课题组合作在《科学》上发表论文，把 CRISPR-Cas9 变成了基因组编辑工具。两人分享了 2020 年诺贝尔化学奖。"
+  },
+  "style": [
+    {
+      "en": "Asked her greatest strength, she answered: \"probably my stubbornness. I get an idea in my mind and I don't want to give it up.\"",
+      "zh": "被问到最大的长处，她说：“大概是固执。一个想法进了脑子，我就不想放手。”"
+    },
+    {
+      "en": "She has said that what stood out about her adviser Jack Szostak was his ability to pick the right problems, and that her own CRISPR work grew out of the origin-of-life questions she took from his lab.",
+      "zh": "她说导师绍斯塔克最突出的本事是挑对问题，而她自己做 CRISPR，源头正是从他实验室带出来的生命起源问题。"
+    },
+    {
+      "en": "When she wondered whether to apply to Harvard for graduate school, her father told her, \"You'll certainly never get in if you don't apply.\" She applied and got in.",
+      "zh": "她犹豫要不要申请哈佛读研究生，父亲对她说：“你不申请，就肯定进不去。”她申请了，也被录取了。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1964,
+      "en": "Born in Washington, DC",
+      "zh": "生于华盛顿特区"
+    },
+    {
+      "year": 1985,
+      "en": "Graduates from Pomona College in chemistry",
+      "zh": "从波莫纳学院化学专业毕业"
+    },
+    {
+      "year": 1989,
+      "en": "PhD at Harvard with Jack Szostak",
+      "zh": "在哈佛大学跟随绍斯塔克获博士学位"
+    },
+    {
+      "year": 1994,
+      "en": "Joins the Yale faculty",
+      "zh": "成为耶鲁大学助理教授"
+    },
+    {
+      "year": 1996,
+      "en": "Publishes the crystal structure of a group I ribozyme domain",
+      "zh": "发表 I 类核酶结构域的晶体结构"
+    },
+    {
+      "year": 2002,
+      "en": "Moves to UC Berkeley",
+      "zh": "转到加州大学伯克利分校"
+    },
+    {
+      "year": 2012,
+      "en": "Publishes CRISPR-Cas9 genome editing with Charpentier in Science",
+      "zh": "与沙尔庞捷在《科学》发表 CRISPR-Cas9 基因编辑论文"
+    },
+    {
+      "year": 2020,
+      "en": "Shares the Nobel Prize in Chemistry with Charpentier",
+      "zh": "与沙尔庞捷分享诺贝尔化学奖"
+    }
+  ],
+  "works": [
+    {
+      "year": 1996,
+      "title": "Crystal Structure of a Group I Ribozyme Domain: Principles of RNA Packing",
+      "en": "The first detailed look at how a large RNA folds, showing RNA can pack into protein-like shapes.",
+      "zh": "第一次看清大型 RNA 如何折叠，说明 RNA 也能像蛋白质那样紧密堆积成形。"
+    },
+    {
+      "year": 2012,
+      "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "en": "Showed that Cas9, guided by an RNA that can be redesigned at will, cuts DNA at a chosen site; the start of CRISPR genome editing.",
+      "zh": "证明 Cas9 在一段可以随意设计的 RNA 引导下，能在指定位置切开 DNA，CRISPR 基因编辑由此开端。"
+    },
+    {
+      "year": 2017,
+      "title": "A Crack in Creation",
+      "en": "Her book with Samuel Sternberg on what gene editing makes possible and the ethical questions it raises.",
+      "zh": "她与斯滕伯格合著的书，讲基因编辑能做什么，以及它带来的伦理问题。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "No one can take away those moments in the lab when we saw something in nature that had never been seen before.",
+      "zh": "那些在实验室里看到自然界前所未见之物的时刻，谁也拿不走。",
+      "source": "Interview with Claudia Dreifus, The New York Review of Books, 2019",
+      "url": "https://www.nybooks.com/online/2019/01/24/the-joy-of-the-discovery-an-interview-with-jennifer-doudna/"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "'The Joy of the Discovery': An Interview with Jennifer Doudna",
+      "publisher": "The New York Review of Books",
+      "year": 2019,
+      "url": "https://www.nybooks.com/online/2019/01/24/the-joy-of-the-discovery-an-interview-with-jennifer-doudna/",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Strength in stubbornness: A 2020 Nobel winner reflects on her career",
+      "publisher": "National Geographic",
+      "year": 2020,
+      "url": "https://www.nationalgeographic.com/science/article/interview-jennifer-doudna-winner-of-nobel-prize-in-chemistry",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Interview: Jennifer Doudna",
+      "publisher": "Science History Institute (Distillations)",
+      "url": "https://www.sciencehistory.org/distillations/interview-jennifer-doudna",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Interview with Jennifer A. Doudna, February 2021",
+      "publisher": "NobelPrize.org",
+      "year": 2021,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/167713-jennifer-doudna-interview-february-2021",
+      "lang": "en"
+    },
+    {
+      "kind": "memoir",
+      "title": "Jennifer A. Doudna: Biographical",
+      "publisher": "NobelPrize.org",
+      "year": 2020,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/biographical/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "A conversation over coffee with a microbiologist working on a different bacterium led to the collaboration that produced CRISPR editing.",
+      "zh": "和一位研究另一种细菌的微生物学家喝了杯咖啡，促成了一次合作，CRISPR 基因编辑就从这次合作里诞生。"
+    },
+    {
+      "key": "curiosity",
+      "en": "She came to CRISPR through basic questions about how RNA works and how biology evolved, not by setting out to build a tool.",
+      "zh": "她走到 CRISPR，是因为好奇 RNA 怎样工作、生命怎样演化，而不是一开始就想造一个工具。"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "dan-shechtman",
+  "name": {
+    "en": "Dan Shechtman",
+    "zh": "丹·谢赫特曼"
+  },
+  "wiki": {
+    "en": "Dan_Shechtman",
+    "zh": "丹·谢赫特曼"
+  },
+  "disciplines": [
+    "chemistry"
+  ],
+  "themes": [
+    "vindicated",
+    "one-idea"
+  ],
+  "reasons": [
+    "pioneer",
+    "integrity",
+    "timing"
+  ],
+  "born": 1941,
+  "keyWork": {
+    "year": 1982,
+    "en": "Discovery of quasicrystals: tenfold diffraction in an aluminium-manganese alloy",
+    "zh": "发现准晶：铝锰合金里的十重衍射图样"
+  },
+  "why": {
+    "en": "On 8 April 1982 his electron microscope showed a diffraction pattern with tenfold symmetry, which textbooks said no crystal could have. His group leader called him a disgrace and asked him to leave, Linus Pauling mocked him for years, and in 2011 he won the Nobel Prize in Chemistry alone.",
+    "zh": "1982 年 4 月 8 日，他的电子显微镜里出现了十重对称的衍射图样，而教科书说任何晶体都不可能有这种对称。课题组负责人说他丢了整个组的脸，让他离开；鲍林嘲讽了他很多年。2011 年他独得诺贝尔化学奖。"
+  },
+  "summary": {
+    "en": "Shechtman was born in Tel Aviv and earned all three degrees at the Technion in Haifa, finishing a PhD in materials engineering in 1972. On sabbatical at the US National Bureau of Standards near Washington, he was studying rapidly cooled aluminium alloys when he saw the forbidden pattern. For two years journals and colleagues assumed he had made a mistake, most likely twinned crystals. In 1984 a short paper with Ilan Blech, Denis Gratias and John Cahn in Physical Review Letters set off a worldwide rush to reproduce the result. In 1992 the International Union of Crystallography changed its definition of a crystal to include such materials.",
+    "zh": "谢赫特曼生于特拉维夫，学士、硕士、博士都在海法的以色列理工学院完成，1972 年拿到材料工程博士。他在华盛顿附近的美国国家标准局做学术休假，研究快速冷却的铝合金时，看到了这个“不可能”的图样。此后两年，期刊和同行都认为他弄错了，多半是孪晶。1984 年他与布莱希、格拉蒂亚斯、卡恩在《物理评论快报》上发表了一篇短文，世界各地的实验室随即争相重复出这个结果。1992 年，国际晶体学联合会修改了晶体的定义，把这类材料包括进来。"
+  },
+  "style": [
+    {
+      "en": "When he saw the pattern he counted the spots, got ten, and counted again the other way. In his notebook, dated 8 April 1982, he wrote \"10 fold\" followed by question marks.",
+      "zh": "看到图样时，他数衍射斑点，数出十个，又倒着数了一遍。他在 1982 年 4 月 8 日的笔记本上写下“10 fold”，后面跟着几个问号。"
+    },
+    {
+      "en": "When a colleague handed him a crystallography textbook, he replied that he was a professor at the Technion and his material was not in the book; he asked critics to show him what was wrong rather than cite the book.",
+      "zh": "同事递给他一本晶体学教科书，他回答说自己是以色列理工学院的教授，他的材料不在书里；他要批评者指出错在哪里，而不是搬出书本。"
+    },
+    {
+      "en": "He later said that after a while he came to like the long fight with Linus Pauling, who argued until his death in 1994 that the patterns came from twinning.",
+      "zh": "他后来说，过了一阵子，他开始喜欢上和鲍林的这场论战。鲍林直到 1994 年去世，一直坚持这些图样来自孪晶。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1941,
+      "en": "Born in Tel Aviv",
+      "zh": "生于特拉维夫"
+    },
+    {
+      "year": 1966,
+      "en": "BSc in mechanical engineering, Technion",
+      "zh": "在以色列理工学院获机械工程学士"
+    },
+    {
+      "year": 1972,
+      "en": "PhD in materials engineering, Technion",
+      "zh": "在以色列理工学院获材料工程博士"
+    },
+    {
+      "year": 1982,
+      "en": "Sees tenfold diffraction at the National Bureau of Standards",
+      "zh": "在美国国家标准局观察到十重衍射"
+    },
+    {
+      "year": 1984,
+      "en": "Publishes the quasicrystal paper in Physical Review Letters",
+      "zh": "在《物理评论快报》发表准晶论文"
+    },
+    {
+      "year": 1992,
+      "en": "The International Union of Crystallography redefines \"crystal\"",
+      "zh": "国际晶体学联合会修改“晶体”的定义"
+    },
+    {
+      "year": 2011,
+      "en": "Sole winner of the Nobel Prize in Chemistry",
+      "zh": "独得诺贝尔化学奖"
+    }
+  ],
+  "works": [
+    {
+      "year": 1984,
+      "title": "Metallic Phase with Long-Range Orientational Order and No Translational Symmetry",
+      "en": "Reported a solid that is ordered but not periodic, overturning the 200-year-old rule that crystals must repeat.",
+      "zh": "报告了一种有序但不周期的固体，推翻了晶体必须周期重复的两百年定论。"
+    },
+    {
+      "year": 2011,
+      "title": "Quasi-Periodic Materials: A Paradigm Shift in Crystallography (Nobel Lecture)",
+      "en": "His own account of the discovery and the years of resistance that followed.",
+      "zh": "他亲自讲述这项发现，以及随后多年的质疑。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "And I counted, and there were 10 spots. And I said, 'No, cannot be!' And I counted the other way — 10 spots. This cannot be!",
+      "zh": "我数了一下，有十个点。我说：“不，不可能！”我又倒着数了一遍，还是十个点。这不可能！",
+      "source": "NPR, \"Nobel-Winning Chemist Fought For Acceptance\", 2011",
+      "url": "https://www.npr.org/2011/10/05/141087726/nobel-winning-chemist-fought-hard-for-acceptance"
+    },
+    {
+      "text": "He said, 'You are a disgrace to our group, and I cannot bear this disgrace.' And he asked me to leave the group. So I left the group. And he was a good friend of mine.",
+      "zh": "他说：“你让我们组丢脸，我受不了这种丢脸。”他让我离开课题组。我就离开了。他还是我的好朋友。",
+      "source": "NPR, \"Nobel-Winning Chemist Fought For Acceptance\", 2011",
+      "url": "https://www.npr.org/2011/10/05/141087726/nobel-winning-chemist-fought-hard-for-acceptance"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Nobel-Winning Chemist Fought For Acceptance",
+      "publisher": "NPR",
+      "year": 2011,
+      "url": "https://www.npr.org/2011/10/05/141087726/nobel-winning-chemist-fought-hard-for-acceptance",
+      "lang": "en"
+    },
+    {
+      "kind": "interview",
+      "title": "Dan Shechtman: “After a while I started to like that fight between me and Linus Pauling”",
+      "publisher": "Nordic Life Science",
+      "url": "https://nordiclifescience.org/dan-shechtman-after-a-while-i-started-to-like-that-fight-between-me-and-linus-pauling/",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "Nobel Laureate Dan Shechtman: Advice for Young Scientists",
+      "publisher": "APS News",
+      "year": 2017,
+      "url": "https://www.aps.org/apsnews/2017/03/nobel-laureate-dan-shechtman-advice-for-young-scientists",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Adversity, Quasicrystals and a Nobel: the Forbidden Fivefold Symmetry that Was",
+      "publisher": "Lindau Nobel Laureate Meetings",
+      "url": "https://www.lindau-nobel.org/blog-adversity-quasicrystals-and-a-nobel-the-forbidden-fivefold-symmetry-that-was/",
+      "lang": "en"
+    },
+    {
+      "kind": "lecture",
+      "title": "Dan Shechtman: Nobel Lecture",
+      "publisher": "NobelPrize.org",
+      "year": 2011,
+      "url": "https://www.nobelprize.org/prizes/chemistry/2011/shechtman/lecture/",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "He checked the result for two years, then held to it against his group leader and the most famous chemist alive.",
+      "zh": "他把结果反复核查了两年，然后顶住课题组负责人和当时最有名的化学家，坚持到底。"
+    },
+    {
+      "key": "leave-mainstream",
+      "en": "When the data disagreed with the textbook, he asked what was wrong with the data, not what the textbook said.",
+      "zh": "数据和教科书冲突时，他问的是数据哪里错了，而不是书上怎么写。"
+    }
+  ]
+}

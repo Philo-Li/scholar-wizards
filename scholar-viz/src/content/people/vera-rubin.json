@@ -1,0 +1,162 @@
+{
+  "slug": "vera-rubin",
+  "name": {
+    "en": "Vera Rubin",
+    "zh": "薇拉·鲁宾"
+  },
+  "wiki": {
+    "en": "Vera_Rubin",
+    "zh": "薇拉·魯賓"
+  },
+  "disciplines": [
+    "physics"
+  ],
+  "themes": [
+    "women",
+    "partnerships"
+  ],
+  "reasons": [
+    "pioneer",
+    "opening"
+  ],
+  "born": 1928,
+  "keyWork": {
+    "year": 1970,
+    "en": "Flat rotation curve of the Andromeda galaxy, with Kent Ford",
+    "zh": "与肯特·福特测出仙女座星系平坦的自转曲线"
+  },
+  "why": {
+    "en": "With Kent Ford's new image-tube spectrograph she measured how fast stars orbit at the edges of spiral galaxies. They did not slow down, and by the time 21 galaxies showed the same thing the conclusion was hard to avoid: most of the mass in a galaxy gives off no light.",
+    "zh": "她用肯特·福特新造的像管摄谱仪测量旋涡星系外缘恒星的转速，发现它们并没有像预期那样慢下来。等到 21 个星系都给出同样的结果，结论已经很难回避：星系的大部分质量不发光。"
+  },
+  "summary": {
+    "en": "Rubin was born in Philadelphia and was the only astronomy major in her class at Vassar. She took a master's at Cornell and a PhD at Georgetown in 1954, then spent a decade teaching, doing research and raising four children. In 1965 she walked into the Department of Terrestrial Magnetism at the Carnegie Institution and asked for a job; she became its first woman staff scientist. With Kent Ford she measured the rotation of Andromeda in 1970 and of dozens of spiral galaxies over the next decade, building the observational case for dark matter. She received the US National Medal of Science and the Gold Medal of the Royal Astronomical Society, and died in 2016 without a Nobel Prize.",
+    "zh": "鲁宾生于费城，在瓦萨学院读书时是班上唯一主修天文的学生。她在康奈尔大学读了硕士，1954 年在乔治城大学拿到博士学位，此后十年一边教书做研究，一边带四个孩子。1965 年她走进卡内基研究所地磁部，当面要一份工作，成了那里第一位女性研究员。1970 年她和福特测出仙女座星系的自转，之后十年又测了几十个旋涡星系，为暗物质攒下了观测证据。她获得过美国国家科学奖章和英国皇家天文学会金质奖章，2016 年去世，没有拿到诺贝尔奖。"
+  },
+  "style": [
+    {
+      "en": "She asked for her Carnegie job in person. Bernard Burke, she recalled, looked \"as surprised as if she'd asked him to marry her\"; director Merle Tuve had her explain her galaxy work at the lunchroom blackboard on the spot.",
+      "zh": "卡内基的工作是她当面要来的。她回忆说，伯纳德·伯克惊讶得“好像她向他求婚”；所长梅尔·图夫当场让她在午餐室的黑板前讲自己的星系研究。"
+    },
+    {
+      "en": "In 1965 she became the first woman officially invited to observe at Palomar. The only toilet said MEN, so she drew a figure in a skirt, taped it to the door and said, \"There you go; now you have a ladies' room.\"",
+      "zh": "1965 年她成为第一位获准在帕洛玛天文台观测的女性。那里唯一的厕所门上写着“男”，她剪了一个穿裙子的小人贴在门上，说：“好了，现在你们有女厕所了。”"
+    },
+    {
+      "en": "In 1964 she left her teaching job to have time for research, saying later that teaching, observing and four children were \"more than I wanted to handle.\"",
+      "zh": "1964 年她辞去教职，好腾出时间做研究。她后来说，又教书又观测还要带四个孩子，“比我想应付的要多”。"
+    },
+    {
+      "en": "She worked by accumulation: over her career she observed more than 200 galaxies, and the 1980 paper rested on 21 spiral galaxies all showing the same flat curve.",
+      "zh": "她靠一个一个地积累证据：一生观测了两百多个星系，1980 年那篇论文用的是 21 个旋涡星系，每一个的自转曲线都是平的。"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1928,
+      "en": "Born in Philadelphia, Pennsylvania",
+      "zh": "生于宾夕法尼亚州费城"
+    },
+    {
+      "year": 1948,
+      "en": "BA from Vassar College",
+      "zh": "瓦萨学院本科毕业"
+    },
+    {
+      "year": 1954,
+      "en": "PhD from Georgetown University",
+      "zh": "获乔治城大学博士学位"
+    },
+    {
+      "year": 1965,
+      "en": "Joins the Carnegie Institution's Department of Terrestrial Magnetism; first woman to observe officially at Palomar",
+      "zh": "进入卡内基研究所地磁部；成为第一位获准在帕洛玛天文台观测的女性"
+    },
+    {
+      "year": 1970,
+      "en": "Publishes the rotation curve of Andromeda with Kent Ford",
+      "zh": "与福特发表仙女座星系的自转曲线"
+    },
+    {
+      "year": 1980,
+      "en": "Paper on 21 spiral galaxies with flat rotation curves",
+      "zh": "发表 21 个旋涡星系自转曲线均为平坦的论文"
+    },
+    {
+      "year": 1993,
+      "en": "US National Medal of Science",
+      "zh": "获美国国家科学奖章"
+    },
+    {
+      "year": 2016,
+      "en": "Dies in Princeton, New Jersey",
+      "zh": "在新泽西州普林斯顿去世"
+    }
+  ],
+  "works": [
+    {
+      "year": 1970,
+      "title": "Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions",
+      "en": "With Ford, measured the rotation of Andromeda far from its centre and found the speeds did not fall off.",
+      "zh": "与福特合作，测到仙女座星系远离中心处的转速，发现速度并没有下降。"
+    },
+    {
+      "year": 1980,
+      "title": "Rotational properties of 21 Sc galaxies with a large range of luminosities and radii",
+      "en": "Showed flat rotation curves across 21 spiral galaxies, turning one odd result into a general pattern that pointed to dark matter.",
+      "zh": "在 21 个旋涡星系中都测到平坦的自转曲线，把一个怪结果变成普遍规律，指向暗物质。"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "By the end of the first night, we were puzzled by the shape of the rotation curve.",
+      "zh": "第一个晚上还没结束，我们就被自转曲线的形状弄糊涂了。",
+      "source": "Rubin, Physics Today, 2006 (quoted by Carnegie Science)",
+      "url": "https://carnegiescience.edu/news/vera-rubin-opening-doors-dark-matter-and-women-stem"
+    },
+    {
+      "text": "The conclusion is inescapable that non-luminous matter exists beyond the optical galaxy.",
+      "zh": "结论无法回避：在可见星系之外，存在不发光的物质。",
+      "source": "Rubin, Ford and Thonnard, Astrophysical Journal, 1980 (quoted by Carnegie Science)",
+      "url": "https://carnegiescience.edu/news/vera-rubin-opening-doors-dark-matter-and-women-stem"
+    }
+  ],
+  "links": [
+    {
+      "kind": "interview",
+      "title": "Oral history interview with Vera Rubin",
+      "publisher": "American Institute of Physics, Niels Bohr Library & Archives",
+      "year": 1995,
+      "url": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5920-1",
+      "lang": "en"
+    },
+    {
+      "kind": "profile",
+      "title": "Vera Rubin: Opening doors to dark matter and women in STEM",
+      "publisher": "Carnegie Science",
+      "year": 2024,
+      "url": "https://carnegiescience.edu/news/vera-rubin-opening-doors-dark-matter-and-women-stem",
+      "lang": "en"
+    },
+    {
+      "kind": "obituary",
+      "title": "Vera Rubin (1928–2016)",
+      "publisher": "Nature",
+      "year": 2017,
+      "url": "https://www.nature.com/articles/542032a",
+      "lang": "en"
+    }
+  ],
+  "lessons": [
+    {
+      "key": "persist-evidence",
+      "en": "Rubin did not argue for dark matter from one galaxy. She went back to the telescope for a decade until 21 galaxies said the same thing.",
+      "zh": "鲁宾没有拿一个星系就去论证暗物质。她又观测了十年，直到 21 个星系给出同样的答案。"
+    },
+    {
+      "key": "right-partner",
+      "en": "She paired her questions about galaxies with Kent Ford's new instrument, which cut exposure times tenfold and made the survey possible.",
+      "zh": "她把自己对星系的问题和福特的新仪器结合起来。那台摄谱仪把曝光时间缩短到十分之一，这项巡天才做得成。"
+    }
+  ]
+}

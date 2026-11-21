@@ -1,0 +1,74 @@
+{
+  "slug": "karl-weierstrass",
+  "name": { "en": "Karl Weierstrass", "zh": "卡尔·魏尔施特拉斯" },
+  "wiki": { "en": "Karl_Weierstrass", "zh": "卡尔·魏尔施特拉斯" },
+  "disciplines": ["mathematics"],
+  "themes": ["outsiders"],
+  "reasons": ["path", "pioneer"],
+  "born": 1815,
+  "keyWork": { "year": 1854, "en": "Zur Theorie der Abelschen Functionen", "zh": "《论阿贝尔函数理论》" },
+  "why": {
+    "en": "He left university without a degree after four years of fencing and drinking, then spent 14 years as a provincial schoolteacher who also taught calligraphy and gymnastics. A paper he sent to Crelle's Journal in 1854 earned him an honorary doctorate, and two years later he was in Berlin, where his lectures set the standard of rigour for analysis.",
+    "zh": "他在大学里击剑喝酒混了四年，没拿学位就离开了；随后在外省中学教了 14 年书，连书法和体操都得教。1854 年，他投给《克雷勒杂志》的一篇论文为他换来荣誉博士学位；两年后他到了柏林，他的讲课为分析学立下了严格性的标准。"
+  },
+  "summary": {
+    "en": "Weierstrass was born in Ostenfelde, Westphalia. His father sent him to Bonn to study law and finance, but he spent four years on student life and left without a degree, while reading Laplace and Jacobi on his own. After a short course at Münster under Christoph Gudermann he qualified as a teacher in 1841. From 1842 to 1856 he taught at schools in Deutsch Krone and Braunsberg, working on abelian functions at night with no library and no colleagues. His 1854 paper in Crelle's Journal made him known, and in 1856 he moved to Berlin. There he trained a generation of analysts, privately taught Sofia Kovalevskaya when women could not enrol, and in 1872 presented a continuous function that is nowhere differentiable. He died in Berlin in 1897.",
+    "zh": "魏尔施特拉斯生于威斯特法伦的奥斯滕费尔德。父亲送他去波恩学法律和财政，他却在学生生活里泡了四年，没拿学位就走了，倒是自己读了拉普拉斯和雅可比的书。之后他在明斯特跟古德曼短期学习，1841 年取得中学教师资格。1842 到 1856 年，他在德意志克罗内和布劳恩斯贝格的中学教书，晚上研究阿贝尔函数，身边既没有图书馆，也没有同行。1854 年发表在《克雷勒杂志》上的论文让他一举成名，1856 年他调到柏林。在柏林，他培养了一代分析学家，在女性不能入学的年代私下教过柯瓦列夫斯卡娅，1872 年又给出一个处处连续、处处不可导的函数。1897 年他在柏林去世。"
+  },
+  "style": [
+    {
+      "en": "As a schoolteacher he had, in his own later words, neither a colleague for mathematical discussion nor access to a mathematical library, and could not afford to exchange scientific letters.",
+      "zh": "他后来回忆中学教书的年月：没有能讨论数学的同事，接触不到数学图书馆，连和人通信讨论科学都负担不起。"
+    },
+    {
+      "en": "After a collapse in December 1861 he lectured sitting down while a student wrote on the blackboard for him.",
+      "zh": "1861 年 12 月病倒之后，他改成坐着讲课，由一名学生替他板书。"
+    },
+    {
+      "en": "He published little of his foundational work; much of his theory of analytic functions spread through his students' lecture notes.",
+      "zh": "他奠基性的工作很少正式发表，解析函数理论的大部分内容是靠学生的听课笔记流传开的。"
+    }
+  ],
+  "timeline": [
+    { "year": 1815, "en": "Born in Ostenfelde, Westphalia, on 31 October.", "zh": "10 月 31 日生于威斯特法伦的奥斯滕费尔德。" },
+    { "year": 1834, "en": "Enters the University of Bonn to study law and finance.", "zh": "进入波恩大学学习法律和财政。" },
+    { "year": 1841, "en": "Passes the teacher's examination after studying at Münster under Gudermann.", "zh": "在明斯特师从古德曼后，通过中学教师资格考试。" },
+    { "year": 1848, "en": "Moves to the Collegium Hoseanum in Braunsberg as a schoolteacher.", "zh": "调到布劳恩斯贝格的霍斯亚努姆中学任教。" },
+    { "year": 1854, "en": "Publishes on abelian functions in Crelle's Journal; Königsberg awards him an honorary doctorate.", "zh": "在《克雷勒杂志》发表阿贝尔函数论文，柯尼斯堡大学授予他荣誉博士学位。" },
+    { "year": 1856, "en": "Moves to Berlin.", "zh": "调往柏林。" },
+    { "year": 1870, "en": "Begins teaching Sofia Kovalevskaya privately.", "zh": "开始私下指导柯瓦列夫斯卡娅。" },
+    { "year": 1897, "en": "Dies in Berlin on 19 February.", "zh": "2 月 19 日在柏林去世。" }
+  ],
+  "works": [
+    {
+      "year": 1854,
+      "title": "Zur Theorie der Abelschen Functionen",
+      "en": "Represented abelian functions by convergent power series, and brought him out of obscurity.",
+      "zh": "用收敛幂级数表示阿贝尔函数，也让他从默默无闻中走了出来。"
+    },
+    {
+      "year": 1872,
+      "title": "Über continuirliche Functionen eines reellen Arguments, die für keinen Werth des letzteren einen bestimmten Differentialquotienten besitzen",
+      "en": "A function continuous everywhere and differentiable nowhere, which showed that intuition about curves could not replace proof.",
+      "zh": "一个处处连续、处处不可导的函数，表明关于曲线的直觉不能代替证明。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "profile", "title": "Karl Theodor Wilhelm Weierstrass", "publisher": "MacTutor History of Mathematics", "year": 1998, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/", "lang": "en" },
+    { "kind": "profile", "title": "Karl Weierstrass (Heinz Klaus Strick)", "publisher": "MacTutor History of Mathematics", "year": 2012, "url": "https://mathshistory.st-andrews.ac.uk/Strick/Weierstrass.pdf", "lang": "en" },
+    { "kind": "memoir", "title": "Weierstrass, Karl Theodor Wilhelm (Dictionary of Scientific Biography)", "publisher": "Encyclopedia.com", "year": 2008, "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/weierstrass-karl-theodor-wilhelm", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "long-focus",
+      "en": "Weierstrass worked on abelian functions for more than a decade at night, after full days of teaching. A day job does not have to end a research life.",
+      "zh": "魏尔施特拉斯白天教一整天课，晚上研究阿贝尔函数，坚持了十多年。有一份糊口的工作，并不意味着研究就此结束。"
+    },
+    {
+      "key": "communicate",
+      "en": "His influence came mostly through lectures, built step by step from definitions. Teaching a subject carefully can shape a field as much as papers do.",
+      "zh": "他的影响主要来自讲课：从定义出发，一步步搭起整个理论。把一门课认真讲好，对一个学科的塑造不亚于发表论文。"
+    }
+  ]
+}

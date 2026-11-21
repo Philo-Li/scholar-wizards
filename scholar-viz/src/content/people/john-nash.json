@@ -1,0 +1,76 @@
+{
+  "slug": "john-nash",
+  "name": { "en": "John Forbes Nash Jr.", "zh": "约翰·纳什" },
+  "wiki": { "en": "John_Forbes_Nash_Jr.", "zh": "约翰·福布斯·纳什" },
+  "disciplines": ["mathematics", "economics"],
+  "themes": ["early", "one-idea"],
+  "reasons": ["pioneer", "timing"],
+  "born": 1928,
+  "keyWork": { "year": 1950, "en": "Non-Cooperative Games, his 28-page doctoral thesis defining the Nash equilibrium", "zh": "博士论文《非合作博弈》，28 页，定义了纳什均衡" },
+  "why": {
+    "en": "At 21 he wrote a 28-page thesis defining the equilibrium now named after him, which departed from the line of von Neumann and Morgenstern; it won him the economics Nobel 44 years later, after some 25 years of schizophrenic illness. He also solved the embedding problem for Riemannian manifolds, work that brought him the Abel Prize in 2015.",
+    "zh": "他 21 岁写成一篇 28 页的博士论文，定义了如今以他命名的均衡，思路与冯·诺伊曼和摩根斯特恩的路线并不一致。44 年后，在经历了约 25 年的精神分裂症之后，这篇论文为他赢得诺贝尔经济学奖。他还解决了黎曼流形的嵌入问题，并因此在 2015 年获得阿贝尔奖。"
+  },
+  "summary": {
+    "en": "Nash grew up in Bluefield, West Virginia, a coal and railway town where, as he put it, one had to learn from the world's knowledge rather than from the local community. He moved from chemical engineering to chemistry to mathematics at the Carnegie Institute of Technology and went to Princeton as a graduate student in 1948. His thesis on non-cooperative games, accepted in 1950, became the basis of modern game theory; at MIT in the 1950s he proved the embedding theorem and results on partial differential equations. From 1959 he suffered from paranoid schizophrenia, was hospitalised repeatedly, and lived with delusional thinking for about 25 years before gradually recovering. He shared the 1994 Nobel Prize in economics with John Harsanyi and Reinhard Selten, received the Abel Prize with Louis Nirenberg in 2015, and was killed with his wife Alicia in a taxi crash on the New Jersey Turnpike days later.",
+    "zh": "纳什在西弗吉尼亚州布卢菲尔德长大，那是个靠铁路和煤矿兴起的小城，用他的话说，在那里只能向全世界的知识学习，而不是向身边的人学习。在卡内基理工学院，他从化学工程转到化学，又转到数学，1948 年到普林斯顿读研究生。1950 年通过的非合作博弈论文，成了现代博弈论的基础；50 年代在麻省理工学院，他又证明了嵌入定理和偏微分方程方面的结果。1959 年起他患上偏执型精神分裂症，多次被强制住院，在妄想中度过了约 25 年，才慢慢恢复。1994 年他与海萨尼、泽尔腾分享诺贝尔经济学奖，2015 年与尼伦伯格共获阿贝尔奖，几天后与妻子艾莉西亚在新泽西收费公路上的一场出租车事故中遇难。"
+  },
+  "style": [
+    {
+      "en": "At Princeton he largely avoided lectures; rather than learn mathematics \"second-hand\" from books either, he preferred to develop topics himself.",
+      "zh": "在普林斯顿，他基本不去听课，也不太从书本上学，不愿“二手”地学数学，而是自己把题目从头推出来。"
+    },
+    {
+      "en": "He left chemistry because quantitative analysis depended less on how well one could think than on how well one could handle a pipette and perform a titration.",
+      "zh": "他放弃化学，是因为定量分析拼的不是思考能力，而是会不会用移液管、做滴定。"
+    },
+    {
+      "en": "He picked problems by hearing they were open: as soon as he heard in conversation at MIT that isometric embedding was unsolved, he began to work on it.",
+      "zh": "他挑题目的方式是听说哪里没解决：在麻省理工学院一听人说起等距嵌入问题还悬着，他就动手做了。"
+    },
+    {
+      "en": "Expecting that his game theory might not be accepted as a mathematics thesis, he kept a fallback ready: a theorem on real algebraic manifolds that he later published separately.",
+      "zh": "他担心博弈论的工作不被数学系当作博士论文接受，就另外准备了一份后备：一个关于实代数流形的定理，后来单独发表。"
+    }
+  ],
+  "timeline": [
+    { "year": 1928, "en": "Born in Bluefield, West Virginia.", "zh": "生于西弗吉尼亚州布卢菲尔德。" },
+    { "year": 1948, "en": "Graduates from Carnegie Tech with a BS and MS in mathematics and enters Princeton.", "zh": "从卡内基理工学院毕业，获数学学士和硕士学位，进入普林斯顿大学。" },
+    { "year": 1950, "en": "Receives his PhD for the thesis Non-Cooperative Games.", "zh": "以论文《非合作博弈》获博士学位。" },
+    { "year": 1951, "en": "Joins the MIT mathematics faculty.", "zh": "进入麻省理工学院数学系任教。" },
+    { "year": 1959, "en": "Mental illness begins; he resigns from MIT.", "zh": "精神疾病发作，从麻省理工学院辞职。" },
+    { "year": 1994, "en": "Shares the Nobel Memorial Prize in Economic Sciences with Harsanyi and Selten.", "zh": "与海萨尼、泽尔腾分享诺贝尔经济学奖。" },
+    { "year": 2015, "en": "Receives the Abel Prize with Louis Nirenberg; dies in a car crash in New Jersey with his wife Alicia.", "zh": "与尼伦伯格共获阿贝尔奖；同年与妻子艾莉西亚在新泽西州车祸中遇难。" }
+  ],
+  "works": [
+    { "year": 1950, "title": "The Bargaining Problem", "en": "Gave an axiomatic solution to two-person bargaining, an idea he first had in an undergraduate economics course.", "zh": "给出了两人讨价还价问题的公理化解，这个想法最早来自他本科时选修的一门国际经济学课。" },
+    { "year": 1950, "title": "Non-Cooperative Games", "en": "Defined equilibrium for games with any number of players and proved it always exists in mixed strategies; the foundation of modern game theory.", "zh": "为任意人数的博弈定义了均衡，并证明在混合策略下它总是存在，是现代博弈论的基础。" },
+    { "year": 1956, "title": "The Imbedding Problem for Riemannian Manifolds", "en": "Proved that every Riemannian manifold can be isometrically embedded in some Euclidean space, a classical problem in geometry.", "zh": "证明了任何黎曼流形都能等距嵌入某个欧氏空间，解决了几何中的一个经典问题。" },
+    { "year": 1958, "title": "Continuity of Solutions of Parabolic and Elliptic Equations", "en": "Proved regularity for a class of partial differential equations, in parallel with Ennio De Giorgi.", "zh": "证明了一类偏微分方程解的正则性，与德乔治同时独立完成。" }
+  ],
+  "quotes": [
+    {
+      "text": "So, from the intellectual viewpoint, it offered the sort of challenge that one had to learn from the world’s knowledge rather than from the knowledge of the immediate community.",
+      "zh": "所以从求知的角度说，那里给人的挑战是：你只能向全世界的知识学习，而不能指望身边的人。",
+      "source": "Nobel autobiography, 1994 (on growing up in Bluefield)",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1994/nash/biographical/"
+    },
+    {
+      "text": "So as it happened, as soon as I heard in conversation at M.I.T. about the question of the embeddability being open I began to study it.",
+      "zh": "事情就是这样：我在麻省理工学院听人聊起嵌入性问题还没解决，马上就开始研究它。",
+      "source": "Nobel autobiography, 1994",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1994/nash/biographical/"
+    }
+  ],
+  "links": [
+    { "kind": "memoir", "title": "John F. Nash Jr. – Biographical", "publisher": "NobelPrize.org", "year": 1994, "url": "https://www.nobelprize.org/prizes/economic-sciences/1994/nash/biographical/", "lang": "en" },
+    { "kind": "interview", "title": "Interview with Dr. John Nash at the 1st Meeting of Laureates in Economic Sciences, Lindau", "publisher": "NobelPrize.org", "year": 2004, "url": "https://www.nobelprize.org/prizes/economic-sciences/1994/nash/interview/", "lang": "en" },
+    { "kind": "profile", "title": "John Forbes Nash", "publisher": "MacTutor History of Mathematics", "year": 2015, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Nash/", "lang": "en" },
+    { "kind": "obituary", "title": "John F. Nash Jr. *50", "publisher": "Princeton Alumni Weekly", "year": 2015, "url": "https://paw.princeton.edu/memorial/john-f-nash-jr-50", "lang": "en" },
+    { "kind": "archive", "title": "2015: John F. Nash and Louis Nirenberg", "publisher": "The Abel Prize", "year": 2015, "url": "https://abelprize.no/abel-prize-laureates/2015", "lang": "en" }
+  ],
+  "lessons": [
+    { "key": "important-problem", "en": "Nash went after problems people said were open and hard, and attacked them from scratch rather than from the literature.", "zh": "纳什专挑大家说没解决、也很难的问题，而且从头做起，不从文献出发。" },
+    { "key": "leave-mainstream", "en": "His thesis broke from the cooperative framework of von Neumann and Morgenstern, the authority of the day, and he submitted it anyway.", "zh": "他的论文偏离了当时权威冯·诺伊曼和摩根斯特恩的合作博弈框架，他照样把它交了上去。" }
+  ]
+}

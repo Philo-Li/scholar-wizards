@@ -1,0 +1,81 @@
+{
+  "slug": "paul-erdos",
+  "name": { "en": "Paul Erdős", "zh": "埃尔德什·帕尔" },
+  "wiki": { "en": "Paul_Erdős", "zh": "埃尔德什·帕尔" },
+  "disciplines": ["mathematics"],
+  "themes": ["own-terms", "partnerships"],
+  "reasons": ["path", "pioneer"],
+  "born": 1913,
+  "keyWork": { "year": 1959, "en": "On random graphs I (with Alfréd Rényi)", "zh": "《论随机图 I》（与雷尼合作）" },
+  "why": {
+    "en": "For decades Erdős had no home and no permanent job. He travelled from one mathematician's house to the next with a half-empty suitcase and wrote some 1,500 papers with more than 450 co-authors, records that no mathematician before him came close to.",
+    "zh": "几十年里，埃尔德什没有家，也没有固定职位。他提着半空的箱子，从一位数学家家里住到另一位家里，与 450 多位合作者写了约 1500 篇论文，这两项纪录此前没有数学家接近过。"
+  },
+  "summary": {
+    "en": "Erdős was born in Budapest to two mathematics teachers, who kept him at home for much of his schooling. At 20 he found an elementary proof of Chebyshev's theorem that there is always a prime between n and 2n. He earned his doctorate in 1934 and left Hungary, as a Jew, for a fellowship in Manchester, then went to Princeton in 1938. In 1954 he was refused re-entry to the United States and did not get a visa again until 1963; by then he had settled into a life of constant travel. He gave away most of his lecture fees as prizes for problems he posed. He died of a heart attack in 1996 while attending a conference in Warsaw.",
+    "zh": "埃尔德什生于布达佩斯，父母都是数学老师，他上学的大部分时间是在家里由父母教的。20 岁时，他为切比雪夫定理（n 与 2n 之间总有一个素数）找到了一个初等证明。1934 年他获得博士学位，因犹太身份离开匈牙利，去曼彻斯特做博士后，1938 年到普林斯顿。1954 年他被拒绝再入境美国，直到 1963 年才重新拿到签证；这时他已经过惯了四处漂泊的日子。他讲学挣来的钱，大多拿去给自己出的难题设奖金。1996 年，他在华沙开会时死于心脏病。"
+  },
+  "style": [
+    {
+      "en": "He shed the ordinary chores of life, from finding a place to live to driving, paying taxes and writing cheques. 'Property is nuisance,' he said; colleagues fed him, housed him and handled his money.",
+      "zh": "找房子、开车、报税、开支票，这些日常琐事他一概不管。他说：“财产是累赘。”同事们给他管饭、留宿，替他打理钱财。"
+    },
+    {
+      "en": "He spoke of a Great Book in the sky, kept by God, that holds the most elegant proof of every mathematical problem.",
+      "zh": "他常说天上有一本由上帝保管的大书，里面收着每个数学问题最漂亮的证明。"
+    },
+    {
+      "en": "He liked problems that were simple to state and hard to solve, and posted cash rewards for them, paid out of his own lecture fees.",
+      "zh": "他偏爱叙述简单、却极难解决的问题，还自掏讲学费为这些问题悬赏。"
+    }
+  ],
+  "timeline": [
+    { "year": 1913, "en": "Born in Budapest on 26 March.", "zh": "3 月 26 日生于布达佩斯。" },
+    { "year": 1932, "en": "Publishes his elementary proof of Chebyshev's theorem on primes between n and 2n.", "zh": "发表切比雪夫定理的初等证明。" },
+    { "year": 1934, "en": "Receives his doctorate in Budapest and leaves for a fellowship in Manchester.", "zh": "在布达佩斯获博士学位，赴曼彻斯特做博士后。" },
+    { "year": 1938, "en": "Moves to the Institute for Advanced Study in Princeton.", "zh": "到普林斯顿高等研究院。" },
+    { "year": 1949, "en": "Finds, with Atle Selberg, an elementary proof of the prime number theorem.", "zh": "与塞尔伯格分别给出素数定理的初等证明。" },
+    { "year": 1951, "en": "Receives the AMS Cole Prize in number theory.", "zh": "获美国数学会科尔数论奖。" },
+    { "year": 1983, "en": "Shares the Wolf Prize in Mathematics.", "zh": "获沃尔夫数学奖。" },
+    { "year": 1996, "en": "Dies in Warsaw on 20 September during a mathematics meeting.", "zh": "9 月 20 日在华沙参加学术会议期间去世。" }
+  ],
+  "works": [
+    {
+      "year": 1947,
+      "title": "Some remarks on the theory of graphs",
+      "en": "Proved a lower bound for Ramsey numbers by counting random colourings, the start of the probabilistic method.",
+      "zh": "通过对随机染色计数给出拉姆齐数的下界，概率方法由此开始。"
+    },
+    {
+      "year": 1949,
+      "title": "On a new method in elementary number theory which leads to an elementary proof of the prime number theorem",
+      "en": "An elementary proof of the prime number theorem, found alongside Atle Selberg, that showed complex analysis was not required.",
+      "zh": "与塞尔伯格同时给出素数定理的初等证明，表明这一定理并不非得用复分析。"
+    },
+    {
+      "year": 1959,
+      "title": "On random graphs I (with Alfréd Rényi)",
+      "en": "Founded the theory of random graphs, now a basic tool in combinatorics, computer science and network science.",
+      "zh": "开创了随机图理论，如今是组合数学、计算机科学和网络科学的基本工具。"
+    }
+  ],
+  "quotes": [],
+  "links": [
+    { "kind": "obituary", "title": "Paul Erdos, a Math Wayfarer at Field's Pinnacle, Dies at 83 (Gina Kolata)", "publisher": "The New York Times", "year": 1996, "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Erdos_NYTimes/", "lang": "en" },
+    { "kind": "obituary", "title": "Paul Erdos obituary", "publisher": "The Times", "year": 1996, "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Erdos/", "lang": "en" },
+    { "kind": "video", "title": "N Is a Number: A Portrait of Paul Erdős (George Paul Csicsery)", "publisher": "Zala Films", "year": 1993, "url": "https://zalafilms.com/films/nisabout.html", "lang": "en" },
+    { "kind": "profile", "title": "Paul Erdős", "publisher": "MacTutor History of Mathematics", "year": 2000, "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/", "lang": "en" }
+  ],
+  "lessons": [
+    {
+      "key": "right-partner",
+      "en": "Erdős brought problems to people and worked on them together in their homes. Collaborate widely, and bring a good question with you.",
+      "zh": "埃尔德什带着问题上门，在别人家里一起做。多和人合作，去的时候带上一个好问题。"
+    },
+    {
+      "key": "curiosity",
+      "en": "He cared most about problems that were easy to state and hard to crack, and put up prizes to get others thinking about them. Collect such problems and share them freely.",
+      "zh": "他最在意那些一句话就能说清、却很难攻破的问题，还设奖金吸引别人来想。收集这样的问题，并且大方地分享出去。"
+    }
+  ]
+}
